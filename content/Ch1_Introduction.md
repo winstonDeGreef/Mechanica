@@ -1,3 +1,10 @@
+---
+kernelspec:
+  name: python3
+  display_name: Python 3
+
+skip_execution: false
+---
 # From Geocentric to Heliocentric
 
 ## Geo-centric or Helios-centric?
