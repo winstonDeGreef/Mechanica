@@ -3,10 +3,13 @@
 ## Geo-centric or Helios-centric?
 Imagine that you have never heard of the modern concept of our solar system or about galaxies and all kind of other concepts of cosmology. So, picture yourself in the ancient days of the Greek, Babylonian, Egyptian or Chinese civilization. During the dark nights, when the sky was open, you would be staring at the unknown above you, trying to figure out what that is all about. What would your idea be? 
 
-| | |
-| --- | --- |
-|![Plato. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg), public domain.](images/Plato.jpg) |![Aristotle. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg), public domain.](images/Aristotle.jpg) |
+```{figure}
+:name: fig:Plato
 
+![Plato. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg), public domain.](images/Plato.jpg) 
+![Aristotle. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg), public domain.](images/Aristotle.jpg) 
+
+```
 Not surprising for a long time, people thought of the earth as a flat disk. It does look that way if you look around. The curvature is hardly felt and only seen when you are at a beach, looking over the ocean. Moreover, what would you guess from what you see: the sun and stars 'looping' in half a day from east to west. Every day in the same rhythm. I for myself, I wouldn't be surprised if I thought that the earth was the center of it all, with alle 'heavenly bodies' moving in big circular motion around us, here at earth. I probably, would not doubt the idea that the universe is eternal, never changing and working like a clock.
 
 And, I probably would also 'buy the idea' of the Greek philosophers, that the heavens are made of different spheres. The sphere and circle being the most perfectly symmetrical figures. For which it is easy to think in terms of eternal motion, clock work and divine origin. The great Greek thinkers ({numref}`fig:Plato`), Plato (~425 - 348/347 BC) and his pupil Aristotle (384-322 BC) wrote extensively about the universe: how it worked, how its ordening could be seen. The fundamental idea is that of the earth in the center of the universe and all other celestial bodies moving around the center in circles positioned on discrete, separate spheres.
