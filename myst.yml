@@ -1,0 +1,54 @@
+version: 1
+project:
+  title: Classical Mechanics & Special Relativity for Starters
+  authors:
+    - name: Robert F. Mudde
+  copyright: Delft University of Technology, CC BY 4.0
+  bibliography:
+    - MechaRela.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/MechaRela.pdf
+  jupyter: true
+  toc:
+    - file: index.md
+    - file: index2.md
+    - title: Preface
+      children:
+        - file: content\credits.md
+        - file: content\Preface.md
+    - title: MechaRela
+      children:
+        - file: content\Ch1_Introduction.md
+        - file: content\Ch2_NewtonsLaws.md
+        - file: content\Ch3_AnalyticalOrNumerical.md
+        - file: content\Ch4_WorkEnergy.md
+        # - file: content\Ch5_PotentialEnergy.md
+        # - file: content\Ch6_AngularMomentum.md
+        # - file: content\Ch7_ConservationEquations.md
+        # - file: content\Ch8_RutherfordAtom.md
+        # - file: content\Ch9_Oscillations.md
+        # - file: content\ChX0_Collisions.md
+        # - file: content\ChX1_TwoBody.md
+        # - file: content\ChX2_ManyBody.md
+        # - file: content\ChX3_RigidBodies.md
+        # - file: content\ChX4_NonInertialFrames.md
+        # - file: content\ChX5_CracksInMecha.md
+        # - file: content\ChX6_IntroSpecialRelativity.md
+        # - file: content\ChX7_SpecialRelaFirstImplications.md
+        # - file: content\ChX8_VelotransDoppler.md
+        # - file: content\ChX9_FourVectors.md
+        # - file: content\ChXX0_FourMomentum.md
+        # - file: content\ChXX1_RelDynColl.md
+        # - file: content\ChXX2_BeyondNewton.md
+
+site:
+  options:
+    logo: content/images/tudelft.png
+    favicon: content/images/favicon.ico
+    folders: true
+    hide_authors: true
+    enable_service_worker: false
+    execute_js: true
+  template: book-theme

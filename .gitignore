@@ -1,0 +1,5 @@
+# Ignore al built files & folders 
+_build
+
+# Ignore .DS_Store files
+.DS_Store
