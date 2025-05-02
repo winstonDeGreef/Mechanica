@@ -1,3 +1,10 @@
+---
+kernelspec:
+  name: python3
+  display_name: Python 3
+
+skip_execution: false
+---
 # Newton's Laws
 
 ## Newton's Three Laws
