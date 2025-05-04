@@ -53,9 +53,20 @@ $$x(t) = \frac{m v_0}{b} \left ( 1 - e^{-\frac{b}{m}t} \right ) $$
 
 If we inspect and assess our solution, we see: the particle slows down (as is to be expected with a frictional force acting on it) and eventually comes to a stand still. At that moment, the force has also decreased to zero, so the particle will stay put.
 
-## Numerical ##
-Of course, now that we have the analytical solution, there is nothing to add or gain from a numerical analysis. Nevertheless, it is instructive to see how we could have dealt with this problem using numerical techniques. One way of solving the problem is, to write a computer code (e.g. in python) the computes from time instant to time instant the force on the particle, and from that updates the velocity and subsequently the position.
+```{tip}
+DIRECTE LINK MAKEN MET ODE, EN CALCULUS BOEK / VIDEO
+```
 
+```{tip}
+plot van de oplossing
+```
+
+
+## Numerical ##
+Of course, now that we have the analytical solution, there is nothing to add or gain from a numerical analysis. Nevertheless, it is instructive to see how we could have dealt with this problem using numerical techniques. One way of solving the problem is, to write a computer code (e.g. in python) that computes from time instant to time instant the force on the particle, and from that updates the velocity and subsequently the position.
+```{tip}
+figuur van het iteratieve proces
+```
 Here is the approach.
 First, we rewrite the differential equation for $v$ into a finite difference equation. That is, we go back to how we came to the differential equation:
 
@@ -85,7 +96,7 @@ Here is a python code that gives the starting values for $x$ and $v$ for given v
 
 ```{code-cell} ipython3
 # HERE JUPYTER CODE
-
+# met slider die dt kleiner /groter maakt
 ```
 
 In the graph, we have plotted both the analytical solution and the numerical one. As can be seen, if we make $dt$ sufficiently small, the numerical solution can not be distinguished from the analytical one.

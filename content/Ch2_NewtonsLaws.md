@@ -573,6 +573,9 @@ $$ p_e + p_o = 0 \Rightarrow v_e = - \frac{m_o}{m_e} v_o = \frac{m_o}{m_e} \sqrt
 
 ````
 
+```{tip}
+hier h5p quizvraag: twee keer zo grote kracht, vs 2x zo grote tijd, welke is het eerst bij de finish.
+```
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ## Forces & Inertia
 Newton's laws introduce the concept of force. Forces have distinct features:
