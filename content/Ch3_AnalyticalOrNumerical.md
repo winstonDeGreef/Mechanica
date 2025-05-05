@@ -107,7 +107,7 @@ In the above, the friction force was proportional to the velocity. What if we ma
 ```{figure} images/HailStoneFriction.png
 ---
 name: fig:HailStoneFriction
-width: 70%
+width: 50%
 align: center
 --- 
 . 

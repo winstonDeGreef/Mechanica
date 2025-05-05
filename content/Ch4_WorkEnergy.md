@@ -6,7 +6,7 @@ Work and energy are two important concepts. Work is defined as 'force times path
 ```{figure} images/Work.jpg
 ---
 name: fig:Work.jpg
-width: 70%
+width: 40%
 align: center
 --- 
 Path of a particle.
@@ -38,7 +38,6 @@ Kinetic energy is defined and derived using the definition of work and Newton's 
 The following holds: if work is done on a particle, then its kinetic energy must change. And vice versa: if the kinetic energy of an object changes, then work must have been done on that particle. The following derivation shows this.
 
 $$
-
 W_{12} = \int_1^2 \vec{F} \cdot d\vec{r} = \int_1^2 \vec{F} \cdot \frac{d\vec{r}}{dt}dt = \int_1^2 \vec{F} \cdot \vec{v} dt \\
        = \int_1^2 m\frac{d\vec{v}}{dt} \cdot \vec{v} dt = m\int_1^2 \vec{v} \cdot d\vec{v} =m [\frac{1}{2}\vec{v}^2]_1^2 \\
        = \frac{1}{2}m\vec{v}_2^2-\frac{1}{2}m\vec{v}_1^2
