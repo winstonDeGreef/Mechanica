@@ -177,87 +177,10 @@ Note that in the above, we have used that according to the product rule: $\frac{
 PLAATS HIER EEN SIMULATIE VAN EEN DEELTJE MET CONSTANTE SNELHEID, CONSTANTE F EN STEEDS GROTER WORDENDE F, GEEF PYTHON SCRIPT
 ```
 
-```{code-cell} Python
-# Visualisation of rocket
-:tags: [hide-input]
-
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
-from IPython.display import HTML
-
-# Simulatieparameters
-dt = 0.05
-t_max = 10
-t_values = np.arange(0, t_max, dt)
-
-# Fysische parameters
-vx = 1.0         # constante snelheid in x-richting
-Fy = 1.0         # kracht in y-richting tijdens stuwfase
-m = 1.0          # massa
-ay = Fy / m      # versnelling tijdens stuwfase
-
-# Bereken posities
-x = vx * t_values
-y = np.zeros_like(t_values)
-
-# Fase-indices
-x_burn_start = 2.0
-x_burn_end = 4.0
-
-# Bepaal index van fases
-i_start = np.argmax(x >= x_burn_start)
-i_end = np.argmax(x >= x_burn_end)
-
-# Fase 1: voor stuwkracht (y = 0)
-# Fase 2: met constante versnelling in y
-for i in range(i_start, i_end):
-    t_burn = t_values[i] - t_values[i_start]
-    y[i] = 0.5 * ay * t_burn**2
-
-# Fase 3: na uitschakelen stuwraket → constante v_y
-# Laatste snelheid op x=4 gebruiken
-vy_final = ay * (t_values[i_end] - t_values[i_start])
-y0 = y[i_end]
-t0 = t_values[i_end]
-for i in range(i_end, len(t_values)):
-    y[i] = y0 + vy_final * (t_values[i] - t0)
-
-# Plot setup
-fig, ax = plt.subplots(figsize=(8, 4))
-ax.set_xlim(0, np.max(x)+1)
-ax.set_ylim(0, np.max(y)+1)
-ax.set_xlabel("x")
-ax.set_ylabel("y")
-ax.set_title("Raket met stuwfase tussen x=2 en x=4")
-
-# Raketpunt
-rocket, = ax.plot([], [], 'ro', markersize=10)
-trail, = ax.plot([], [], 'r-', lw=1)
-time_text = ax.text(0.98, 0.95, '', transform=ax.transAxes,
-                    ha='right', va='top', fontsize=12)
-
-# Init functie
-def init():
-    rocket.set_data([], [])
-    trail.set_data([], [])
-    time_text.set_text('')
-    return rocket, trail, time_text
-
-# Update per frame
-def update(frame):
-    rocket.set_data(x[frame], y[frame])
-    trail.set_data(x[:frame+1], y[:frame+1])
-    time_text.set_text(f"t = {t_values[frame]:.2f} s")
-    return rocket, trail, time_text
-
-# Animatie
-ani = FuncAnimation(fig, update, frames=len(t_values),
-                    init_func=init, interval=dt*1000, blit=True)
-
-plt.close()
-HTML(ani.to_jshtml())
+```{tip} Hier raket simulatie
 ```
+
+
 
 ## Exercises
 ```{exercise}

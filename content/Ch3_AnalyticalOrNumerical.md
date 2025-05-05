@@ -110,9 +110,9 @@ name: fig:HailStoneFriction
 width: 50%
 align: center
 --- 
-. 
+Force acting on a hailstone. 
 ```
-% figures need to have a caption to be crossreferenced so dot is used as caption
+
 
 There are three forces acting on the hail stone: gravity, $F_g = - mg = \rho_p V_p g$, buoyancy, $F_b = \rho_{air} V_p g$ and air friction. The latter can not be written down from a first-principles argument. We have to use here an empirical relation. We will use (taken the hail stone as a spherical particle with diameter $D$):
 
@@ -143,8 +143,9 @@ So, we have to deal with a much more complicated expression for the friction for
 
 Note, that for $Re<1$ the friction force tends to $F_f \propto -v$ as we had in the previous example. Therefor, we will compare our numerical solution with the analytic one that assumes that the friction force is proportional to $v$.
 
-
-% python code for calculating and plotting the velocity of a falling hail stone as a function of time (initially at rest) / comparison with no-friction case
+```{tip} Insert
+python code for calculating and plotting the velocity of a falling hail stone as a function of time (initially at rest) / comparison with no-friction case
+```
 
 ### Simulation of a falling hail stone: friction versus no friction with the surrounding air ###
 ```{code-cell} ipython3
