@@ -179,6 +179,8 @@ PLAATS HIER EEN SIMULATIE VAN EEN DEELTJE MET CONSTANTE SNELHEID, CONSTANTE F EN
 
 ```{code-cell} Python
 # Visualisation of rocket
+:tags: [hide-input]
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
