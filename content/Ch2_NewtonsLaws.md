@@ -185,6 +185,7 @@ PLAATS HIER EEN SIMULATIE VAN EEN DEELTJE MET CONSTANTE SNELHEID, CONSTANTE F EN
 ## Exercises
 ```{exercise}
 :label: 2.1
+:class: dropdown
 
 Consider a point particle of mass m, moving at a velocity $ v_0 $ along the x-axis. At $ t=0 $ a constant force acts on the particle in the negative x-direction. The force lasts for a small time interval $ \Delta t $.  
 
@@ -193,6 +194,7 @@ What is the strength of the force, if it brings the particle exactly to a zero-v
 
 ```{exercise}
 :label: 2.2
+:class: dropdown
 
 A particle of mass $m$ moves along the $x$-axis. At time $t=0$ it is at the origin with velocity $v_0$. For $t>0$, a constant force acts on the particle. This is a 1-dimensional problem.
 
@@ -203,6 +205,7 @@ A particle of mass $m$ moves along the $x$-axis. At time $t=0$ it is at the orig
 
 ```{exercise}
 :label: 2.3
+:class: dropdown
 
 A particle of mass $m$ moves along the $x$-axis. At time $t=0$ it is at the origin with velocity $v_0$. For $t>0$ the particle is subject to a force $F_0 \sin (2\pi f_0 t)$. This is a 1-dimensional problem.
 
@@ -214,6 +217,7 @@ A particle of mass $m$ moves along the $x$-axis. At time $t=0$ it is at the orig
 
 ```{exercise}
 :label: 2.4
+:class: dropdown
 
 A particle follows a straight path with a constant velocity. At $t=0$ the particle is at point A with coordinate $( 0, y_A)$, while at $t = t_1$ it is at B with coordinate $(x_B, 0)$. The coordinates are given in a Cartesian system. The problem is 2-dimensional.
 
@@ -227,6 +231,7 @@ Represent vectors in a Cartesian coordinate system using the unit vectors $\hat{
 
 ```{exercise}
 :label: 2.5
+:class: dropdown
 
 In Classical Mechanics we often use a coordinate system to describe motion of object. In this exercise, you will look at two Cartesian coordinate systems. System S has coordinates $(x, y)$ and corresponding unit vectors $\hat{x}$ and $\hat{y}$.  
 The second system, S', uses $(x', y')$ and corresponding unit vectors. The $x'$-axis makes an angle of $30^\circ$ with the $x$-axis (measured counter-clockwise).  
@@ -239,6 +244,7 @@ An object has, according to S, a velocity of $\vec{v} = 3 \hat{x} + 5 \hat{y}$.
 
 ```{exercise}
 :label: 2.6
+:class: dropdown
 
 According to your observations, a particle is located at position (1,0) (you use a Cartesian coordinate system). The particle has no velocity and no forces are acting on it.  
 Another observer, S', uses a Cartesian coordinate system described by $(x', y')$. You notice that her unit vectors rotate at a constant speed compared to your unit vectors: 
@@ -254,6 +260,7 @@ $$\hat{y}' =  -\sin(2\pi f t ) \hat{x} + \cos(2\pi f t ) \hat{y}$$
 
 ```{exercise}
 :label: 2.7
+:class: dropdown
 
 A particle of mass $m$ moves at a constant velocity $v_0$ over a friction less table. The direction it is moving in, is at $45^\circ$ with the positive $x$-axis. At some point in time, the particle experiences a force $\vec{F} = -b \vec{v}$ with $b>0$.  
 We call this time $t=0$ and take the position of the particle at that time as our origin.  
@@ -725,6 +732,7 @@ Here are some examples and exercises that deals with forces. Make sure you pract
 
 ````{exercise}
 :label: 2.8
+:class: dropdown
 
 Who is strongest? Two strong boys try to keep a rope straight by each pulling hard at one end. A not so strong third person is pulling in the middle of the rope, but at an angle of 90$^\circ$ to the rope. The two strong boys have the task to keep the deviation of the rope to a small value, set by you.
 
@@ -741,6 +749,7 @@ Interact with the widget about forces being vectors.
 
 ````{exercise}
 :label: 2.9
+:class: dropdown
 
 You drop a stone from a height of 50m the tower of the church. Calculate the velocity of the stone when it hits the ground (ignore friction). In the video (click on the image below) you will see on the left a quick and dirty solution, NOT using IDEA. The right hand side uses IDEA and Newton's $2^{nd}$ law.
 
@@ -751,7 +760,7 @@ You drop a stone from a height of 50m the tower of the church. Calculate the vel
 
 ```{exercise}
 :label: 210
-
+:class: dropdown
 
 <embed width = "100%" height = "400" frameborder="0" scrolling="yes" src="../_static/Widgets/MassHasInertia.html"> 
 
@@ -764,6 +773,7 @@ Inertia game. Mass has inertia; can you catch the red mass?
 
 ````{exercise}
 :label: 211
+:class: dropdown
 
 <embed width = "100%" height = "400" frameborder="0" scrolling="yes" src="../_static/Widgets/PointMassOnSlope.html"> 
 
@@ -777,6 +787,7 @@ Two point particles slide down a slope: one feels friction the other doesn't. Ca
 
 ```{exercise}
 :label: 2.12
+:class: dropdown
 
 <embed width = "100%" height = "400" frameborder="0" scrolling="yes" src="../_static/Widgets/ForceAndAcceleration1.html"> 
 
@@ -789,6 +800,7 @@ What kind of forces are acting?
 
 ```{exercise}
 :label: 2.13
+:class: dropdown
 
 <embed width = "100%" height = "400" frameborder="0" scrolling="yes" src="../_static/Widgets/ForceAndAcceleration2.html"> 
 
@@ -801,6 +813,7 @@ A particle pulled by another.
 
 ```{exercise}
 :label: 2.14
+:class: dropdown
 
 A point particle (mass $m$) is from position $z=0$ shot with a velocity $ v_0 $ straight upwards into the air. On this particle only gravity acts, i.e. friction with the air can be ignored. The acceleration of gravity, $g$, may be taken as a constant. 
 
@@ -841,6 +854,7 @@ The reason for this is:
 
 ```{exercise} Acceleration of Gravity
 :label: 2.15
+:class: dropdown
 
 * Find an object that you can safely drop from some height.
 * Drop the object from any (or several heights) and measure using a stop watch or you mobile the time from dropping to hitting the ground.
@@ -856,6 +870,7 @@ Hint: think about the effect of air resistance: is dropping from a small, a medi
 
 ```{exercise} Use numerical analysis to assess influence of air friction
 :label: 2.16 
+:class: dropdown
 
 If you want to learn also how to use numerical methods ... 
 
@@ -868,6 +883,7 @@ Write a computer program (e.g. in python) that calculates the motion of your obj
 
 ````{exercise} Forces on your bike
 :label: 2.17
+:class: dropdown
 
 ```{figure} images/BicycleRide.jpg
 ---
@@ -891,7 +907,7 @@ To check your thoughts: click [Riding a Bike](Solutions/RidingYourBike.pdf) .
 
 ````{exercise} Getting of the boat
 :label: 2.18
- 
+ :class: dropdown
 
 ```{figure} images/SteppingOfABoat.jpg
 ---
@@ -911,7 +927,7 @@ To check your thoughts: click [Stepping off the boat](Solutions/SteppingOffTheBo
 
 ````{exercise} Newton's Laws
 :label: 2.19
-   
+:class: dropdown   
 
 ```{figure} images/StampNewton.jpg
 ---
