@@ -35,7 +35,32 @@ IDEA
 We will practice this and we will see that it actually is a very relaxed way of working and thinking. We strongly recommend to apply this strategy for your homework and exams (even though it seems strange in the beginning).
 The first two steps (Interpret and Develop) typically take up most of the time spend on a problem.
 
+### Example
+
+::::{tab-set}
+
+:::{tab-item} Interpret
+First think about the problem. What does it mean? Usually, making a sketch helps. Actually  _always start with a sketch_;
+:::
+:::{tab-item} Develop
+Build a model, from coarse to fine, that is, first think in the governing phenomena and then subsequently put in more details. Work towards writing down the equation of motion and boundary conditions;
+:::
+:::{tab-item} Evaluate
+Solve your model, i.e. the equation of motion;
+:::
+:::{tab-item} Assess
+:::
+Check whether your answer makes any sense (e.g. units OK?).
+:::
+
+
+### Unit-analysis
+
+
 ## Demos
+```{tip}
+Onderstaande nodig? we bouwen een hoop ook zelf
+```
 
 Most pages contains some demos and examples. [My physics lab](https://www.myphysicslab.com/) website has many demos on a very diverse set of physics problems. Some we will link at the corresponding page. Visit the demos and play with them, try to understand what is happening and why, have fun!
 
