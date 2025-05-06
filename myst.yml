@@ -18,14 +18,14 @@ project:
       children:
         - file: content/credits.md
         - file: content/Preface.md
+        - file: content/test.ipynb
     - title: MechaRela
       children:
         - file: content/Ch1_Introduction.md
         #- file: content/Ch2_NewtonsLaws.md
         - file: content/Ch2_NewtonsLaws.ipynb
           children:
-            - file: content/CH2_ex.ipynb
-        - file: content/test.ipynb
+            - file: content/Ch2_ex.ipynb        
         - file: content/Ch3_AnalyticalOrNumerical.ipynb
         - file: content/Ch4_WorkEnergy.md
         # - file: content/Ch5_PotentialEnergy.md
