@@ -5,6 +5,7 @@ kernelspec:
 
 skip_execution: false
 ---
+
 # Newton's Laws
 
 ```{tip} To add

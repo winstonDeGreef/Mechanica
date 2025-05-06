@@ -21,7 +21,8 @@ project:
     - title: MechaRela
       children:
         - file: content/Ch1_Introduction.md
-        - file: content/Ch2_NewtonsLaws.md
+        #- file: content/Ch2_NewtonsLaws.md
+        - file: content/Ch2_NewtonsLaws.ipynb
         - file: content/test.ipynb
         - file: content/Ch3_AnalyticalOrNumerical.ipynb
         - file: content/Ch4_WorkEnergy.md
