@@ -538,7 +538,9 @@ A point particle (mass $m$) is dropped from rest at a height $h$ above the groun
 
 Let's do this one together. We follow the standard approach of IDEA: Interpret (and make your sketch!), develop (think 'model'), evaluate (solve your model) and assess (does it make any sense?).  
 
-**Interpret**
+::::{tab-set}
+
+:::{tab-item} Interpret
 
 First a sketch: draw what is needed, no more, no less. 
 
@@ -549,8 +551,9 @@ width: 20%
 align: center
 ---
 ```
+:::
 
-**Develop**
+:::{tab-item} Develop
 
 Actually this is half of the work, as when deciding what is needed we need to think what the problem really is. Above, is a sketch that could work. Both the object $m$ and the earth (mass $M$) are drawn schematically. On each of them acts a force, where we know that on $m$ standard gravity works. As a consequence of N3, a force equal in strength but opposite in direction acts on $M$.  
 Why do we draw forces? Well, the question mentions 'momentum the particle hits the ground'. Momentum and forces are coupled via N2.  
@@ -567,7 +570,9 @@ here for the second equality we used N3.
 
 For all practical purposes, the mass of the object is many orders of magnitude smaller than that of the earth. Hence, we can conclude that the acceleration of the earth is many orders of magnitude less than that of the object. The latter is of the order of $ g $, gravity's acceleration constant at the earth. Thus, the acceleration of the earth is next to zero and we can safely assume our lab system, that is connected to the earth, can be treated as an inertial system with, for us, zero velocity.
 
-**Evaluate**
+:::
+
+:::{tab-item} Evaluate
 
 The remainder is straightforward. Now we have an object, that moves under a constant force. So its velocity will increase linearly in time:
 
@@ -585,10 +590,11 @@ Solve for $z(T) = 0 $ and find $ T = \sqrt{\frac{2H}{g}} $. Substitute this into
 
 $$ p_e + p_o = 0 \Rightarrow v_e = - \frac{m_o}{m_e} v_o = \frac{m_o}{m_e} \sqrt{2gH} $$
 
-**Assess**
+:::{tab-item} Assess
 
 ... 
 
+:::
 ````
 
 ```{tip}
