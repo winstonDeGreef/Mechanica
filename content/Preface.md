@@ -56,6 +56,19 @@ Check whether your answer makes any sense (e.g. units OK?).
 
 ### Unit-analysis
 
+```{danger} Good Practice
+
+It is a good habit to make your mathematical steps small: one-by-one. Don't make big jumps or multiple steps in one step. If you make a mistake, it will be very hard to trace it back.
+Next: check constantly the dimensional correctness of your equations: that is easy to do and you will find the majorities of your mistakes.
+
+Finally, use letters to denote quantities, including $ \pi $.
+The reason for this is:
+
+  * letters have meaning and you can easily put dimensions to them;
+  * letters are more compact;
+  * your expressions usually become easier to read and characteristic features of the problem at hand can be recognized.
+
+```
 
 ## Demos
 ```{tip}
