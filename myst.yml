@@ -21,7 +21,7 @@ project:
         - file: content/Preface.md
         - file: content/test.ipynb
     - title: Mechanics
-      children:        
+      children:    
         - file: content/Ch0_Language.ipynb
         - file: content/Ch1_Introduction.md
         #- file: content/Ch2_NewtonsLaws.md
@@ -43,7 +43,8 @@ project:
         # - file: content/ChX4_NonInertialFrames.md
         # - file: content/ChX5_CracksInMecha.md
     - title: Special Relativity
-        # - file: content/ChX6_IntroSpecialRelativity.md
+      children:
+        - file: content/ChX6_IntroSpecialRelativity.md
         # - file: content/ChX7_SpecialRelaFirstImplications.md
         # - file: content/ChX8_VelotransDoppler.md
         # - file: content/ChX9_FourVectors.md
