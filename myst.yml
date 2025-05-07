@@ -11,6 +11,7 @@ project:
       template: plain_latex_book
       output: exports/MechaRela.pdf
   jupyter: true
+  
   toc:
     - file: index.md
     - file: index2.md
@@ -19,11 +20,12 @@ project:
         - file: content/credits.md
         - file: content/Preface.md
         - file: content/test.ipynb
-    - title: MechaRela
-      children:
-        - file: content/Ch_0_language.ipynb
+    - title: Mechanics
+      children:        
+        - file: content/Ch_0_Language.ipynb
         - file: content/Ch1_Introduction.md
         #- file: content/Ch2_NewtonsLaws.md
+        
         - file: content/Ch2_NewtonsLaws.ipynb
           children:
             - file: content/Ch2_ex.ipynb        
@@ -40,6 +42,7 @@ project:
         # - file: content/ChX3_RigidBodies.md
         # - file: content/ChX4_NonInertialFrames.md
         # - file: content/ChX5_CracksInMecha.md
+    - title: Special Relativity
         # - file: content/ChX6_IntroSpecialRelativity.md
         # - file: content/ChX7_SpecialRelaFirstImplications.md
         # - file: content/ChX8_VelotransDoppler.md
