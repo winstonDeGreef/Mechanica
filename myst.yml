@@ -23,6 +23,8 @@ project:
     - title: Mechanics
       children:    
         - file: content/Ch0_Language.ipynb
+          children:
+            - file: content/Ch0_ex.ipynb
         - file: content/Ch1_Introduction.md
         #- file: content/Ch2_NewtonsLaws.md
         
