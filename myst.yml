@@ -14,22 +14,18 @@ project:
   
   toc:
     - file: index.md
-    - file: Credits.md
-      children:
-        - file: content/credits.md
-        - file: content/Preface.md
+    - file: content/Credits.md      
     - title: Mechanics
       children:    
         - file: content/Ch0_Language.ipynb
           children:
             - file: content/Ch0_ex.ipynb
-        - file: content/Ch1_Introduction.md
+        #- file: content/Ch1_Introduction.md
         #- file: content/Ch2_NewtonsLaws.md
-        
         - file: content/Ch2_NewtonsLaws.ipynb
           children:
             - file: content/Ch2_ex.ipynb        
-        - file: content/Ch3_AnalyticalOrNumerical.ipynb
+        #- file: content/Ch3_AnalyticalOrNumerical.ipynb # 
         - file: content/Ch4_WorkEnergy.md
         # - file: content/Ch5_PotentialEnergy.md
         # - file: content/Ch6_AngularMomentum.md
