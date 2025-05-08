@@ -27,7 +27,11 @@ project:
             - file: content/Ch2_ex.ipynb        
         #- file: content/Ch3_AnalyticalOrNumerical.ipynb # 
         - file: content/Ch4_WorkEnergy.md
-        # - file: content/Ch5_PotentialEnergy.md
+          children:
+            - file: content/Ch4_ex.ipynb
+        - file: content/Ch5_PotentialEnergy.md
+          children:
+            - file: content/Ch5_ex.ipynb
         # - file: content/Ch6_AngularMomentum.md
         # - file: content/Ch7_ConservationEquations.md
         # - file: content/Ch8_RutherfordAtom.md
