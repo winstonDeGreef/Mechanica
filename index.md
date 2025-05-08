@@ -12,7 +12,7 @@ site:
 
 </div>
 
-```{figure} content/images/BoekOmslag.png
+```{figure} cover.gif
 :width: 80%
 :align: center
 :alt: Introducing Classical Mechanics & Special Relativity
