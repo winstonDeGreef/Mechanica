@@ -14,12 +14,10 @@ project:
   
   toc:
     - file: index.md
-    - file: index2.md
-    - title: Preface
+    - file: Credits.md
       children:
         - file: content/credits.md
         - file: content/Preface.md
-        - file: content/test.ipynb
     - title: Mechanics
       children:    
         - file: content/Ch0_Language.ipynb
@@ -47,12 +45,18 @@ project:
     - title: Special Relativity
       children:
         - file: content/ChX6_IntroSpecialRelativity.md
+        - file: content/test.ipynb
         # - file: content/ChX7_SpecialRelaFirstImplications.md
         # - file: content/ChX8_VelotransDoppler.md
         # - file: content/ChX9_FourVectors.md
         # - file: content/ChXX0_FourMomentum.md
         # - file: content/ChXX1_RelDynColl.md
         # - file: content/ChXX2_BeyondNewton.md
+    - title: For developers
+      children:
+        - file: content/Howtostart.md
+        - file: content/Cheatsheet.md
+        
 
 site:
   options:
@@ -62,4 +66,9 @@ site:
     hide_authors: true
     enable_service_worker: false
     execute_js: true
+
+  actions:
+    - title: Feedback
+      url: https://github.com/FreekPols/Mechanica/issues
+
   template: book-theme
