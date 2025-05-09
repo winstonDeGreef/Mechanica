@@ -73,11 +73,15 @@ $$
 $$
 ```
 
-```{exercise} Work in a force field
+````{exercise} Work in a force field
 :label: ex_workinF
 
 Now we consider a force field $\vec{F}(x,y)=(-y,x^2)=-y \hat{x} +x^2 \hat{y}$. We compute the work done over a path from the origin $(0,0)$ to $(1,0)$ and then to $(1,1)$ first along the $x$-axis and then parallel to the $y$-axis. 
+
+```{figure} images/force_field.png
+:width: 50%
 ```
+````
 
 ```{solution} ex_workinF
 :class: dropdown
