@@ -24,7 +24,10 @@ With this e-book our aim is to provide learning material that is:
 * Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
 * Dr. Freek Pols, Science & Engineering Education, Delft University of Technology
 
-
+## Exercises
+- exercises in the chapter, die moet je maken als check of je het hebt begrepen
+- exercises los om zelf te doen
+- spicy: &#127798; niveau 1 2 en 3
 
 ## About the authors
 

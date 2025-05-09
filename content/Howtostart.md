@@ -1,6 +1,6 @@
 # How to
 
-# Introductie
+## Introductie
 
 Welkom bij Jupyter Book! 
 
@@ -28,3 +28,9 @@ Wat er nu gebeurd is dat het boek opnieuw gemaakt wordt en via GitHub pages gepu
 ```{note}
 Goed om te weten... dit boek is gemaakt in [MyST](https://mystmd.org/guide) de meest recente versie van Jupyter Books.
 ```
+
+## Feedback / issue report / vragen
+Rechtsboven op de page staat een knop met feedback. Wanneer je daar op klikt kom je op de github van het boek. Je kunt een nieuwe issue aanmaken (groene knop, *New issue*). Daarmee kom je bij een formulier die vraagt om een titel, en een beschrijving van het probleem. Je kunt verder iemand aanwijzen (*assignees*) om het probleem te koppelen aan iemand die het waarschijnlijk kan oplossen. Daarnaast is er de mogelijkheid om een label er aan te hangen (bijv. bug / invalid / help wanted). 
+
+Wanneer je de issue hebt gerapporteerd (Create) belandt deze in de to-do list en wordt het issue opgepakt wanneer daar tijd voor is.
+ 
