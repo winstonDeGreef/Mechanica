@@ -52,6 +52,9 @@ project:
         # - file: content/ChXX0_FourMomentum.md
         # - file: content/ChXX1_RelDynColl.md
         # - file: content/ChXX2_BeyondNewton.md
+    - title: project
+      children:
+        - file: content/ChXX_Numerical analysis.ipynb
     - title: For developers
       children:
         - file: content/Howtostart.md
