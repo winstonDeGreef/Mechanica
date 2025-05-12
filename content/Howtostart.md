@@ -34,3 +34,4 @@ Rechtsboven op de page staat een knop met feedback. Wanneer je daar op klikt kom
 
 Wanneer je de issue hebt gerapporteerd (Create) belandt deze in de to-do list en wordt het issue opgepakt wanneer daar tijd voor is.
  
+Wil je tekeningen bij een specifiek onderwerp, tag dan Hanna. Beschrijf wat je voor tekening wilt, als dat onvoldoende helder is vanuit de vraagstelling zelf.

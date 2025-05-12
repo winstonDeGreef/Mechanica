@@ -1,6 +1,7 @@
 # Work & Energy
 
-## Work ##
+
+## Work
 Work and energy are two important concepts. Work is calculated as 'force times path', but we need a formal definition:
 
 if a point particle moves from $ \vec{r}$ to $ \vec{r} + d\vec{r}$ and during this interval a force $\vec{F} $ acts on the particle, then this force has performed an amount of work equal to:
@@ -92,8 +93,8 @@ $$
 	\begin{array}{rcl}
 	W &=& \int_{(0,0)}^{(1,0)} \vec{F}\cdot d\vec{r} + \int_{(1,0)}^{(1,1)} \vec{F}\cdot d\vec{r} \\
 	&=& \int_{(0,0)}^{(1,0)} F_x dx|_{y=0} + \int_{(1,0)}^{(1,1)} F_y dy|_{x=1}\\
-	&=&  \int_{(x=0)}^{(x=1)} -y\,dx|_{y=0} +   \int_{(y=0)}^{(y=1)} -x^2\,dy|_{x=1}\\
-	&=& -yx|_{x=0}^{x=1}|_{y=0} + -x^2y|_{y=0}^{y=1}|_{x=1} = -1
+	&=&  \int_{(x=0)}^{(x=1)} -y\,dx|_{y=0} +   \int_{(y=0)}^{(y=1)} x^2\,dy|_{x=1}\\
+	&=& -yx|_{x=0}^{x=1}|_{y=0} + x^2y|_{y=0}^{y=1}|_{x=1} = 1
 	\end{array}
 $$ 
 	
