@@ -59,6 +59,7 @@ project:
       children:
         - file: content/Howtostart.md
         - file: content/Cheatsheet.md
+        - file: content/test.ipynb
         
 
 site:
