@@ -18,7 +18,7 @@ $$
 Path of a particle.
 ```
 
-Note that this an inner product between two vectors, resulting in a scalar. In other words, work is a number, not a vector. It has no direction. That is one of the advantages over force.
+Note that this an inner product between two vectors, resulting in a scalar (See also the chapter on dot product [here](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html)). In other words, work is a number, not a vector. It has no direction. That is one of the advantages over force.
 
 $$
 dW = \vec{F} \cdot d\vec{r} = F_x dx + F_y dy + F_z dz
