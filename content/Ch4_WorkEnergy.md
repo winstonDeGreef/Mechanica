@@ -131,7 +131,7 @@ $$
 	\end{array}
 $$
 	 	
-The work done is the same over this path too. This could be coincidence or the case for *any* path. You will learn how to check this in the next chapter on potential energy. 
+The work done is not the same over this path. This is already obvious from the graph showing the path and the force field: the second path clearly moves against the force, where the first is moving with direction of the force. 
 ```
 
 ```{tip} Reminder of path/line integral from Analysis
