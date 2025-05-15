@@ -11,8 +11,11 @@ project:
     - MechaRela.bib
   exports:
     - format: pdf
-      template: plain_latex_book
+      template: ./template
       output: exports/MechaRela.pdf
+      id: output-pdf
+  downloads:
+    - id: output-pdf
   jupyter: true
   
   toc:
