@@ -2,9 +2,9 @@
 
 
 ## Work
-Work and energy are two important concepts. Work is calculated as 'force times path', but we need a formal definition:
+Work and energy are two important concepts. Work is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path'. However, we need a formal definition:
 
-if a point particle moves from $ \vec{r}$ to $ \vec{r} + d\vec{r}$ and during this interval a force $\vec{F} $ acts on the particle, then this force has performed an amount of work equal to:
+*if a point particle moves from $ \vec{r}$ to $ \vec{r} + d\vec{r}$ and during this interval a force $\vec{F} $ acts on the particle, then this force has performed an amount of work equal to:*
 
 $$        
 dW = \vec{F} \cdot d\vec{r}
@@ -18,7 +18,7 @@ $$
 Path of a particle.
 ```
 
-Note that this an inner product between two vectors, resulting in a scalar (See also the chapter on dot product [here](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html)). In other words, work is a number, not a vector. It has no direction. That is one of the advantages over force.
+Note that this an *{abbr}`inner product (a mathematical operation that takes two vectors and returns a scalar, measuring how much one vector extends in the direction of the other)`* between two vectors, resulting in a *{abbr}`scalar (a quantity that has only magnitude and no direction,)`* . In other words, work is a number, not a vector. It has no direction. That is one of the advantages over force.
 
 $$
 dW = \vec{F} \cdot d\vec{r} = F_x dx + F_y dy + F_z dz
@@ -32,6 +32,9 @@ $$
 
 Keep in mind: in general the work depends on the starting point 1, the end point 2 and on the trajectory. Different trajectories from 1 to 2 may lead to different amounts of work.
 
+```{tip}
+See also the chapter in the [linear algebra book on the inner product](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html))
+```
 ## Kinetic Energy ##
 Kinetic energy is defined and derived using the definition of work and Newton's $ 2^{nd} $ Law.
 
@@ -73,6 +76,26 @@ $$
 	W = \int_{Delft}^{Rott} F_x dx + F_y dy + F_z dz = \int F_x dx|_{y=0,z=1} = \int 0\, dx = 0
 $$
 ```
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+```{exercise} Compressing a spring [^TI]
+:label: ex_ch4_spring
+You're compressing an uncompressed spring with spring constant $k$ over a distance $x$. How much work do you need to do? 
+```
+
+[^TI]: Exercise from Idema, T. (2023). Introduction to particle and continuum mechanics. https://doi.org/10.59490/tb.81
+
+
+
+```{solution} ex_ch4_spring
+:class: dropdown
+
+$$ W = \int_{x_1}^{x_2} F \mathrm{d}x = \int_{0}^{x} kx \mathrm{d}x = \frac{1}{2}kx^2$$
+
+```
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ````{exercise} Work in a force field
 :label: ex_workinF
