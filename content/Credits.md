@@ -8,7 +8,7 @@ abstract: This book provides an introduction for freshman students into the worl
 
 # About this book
 
-Classical mechanics is the starting point of physics. Over the centuries, via <a href="https://en.wikipedia.org/wiki/Isaac_Newton">Newton's</a> three fundamental laws formulated around 1687, we have built a solid framework describing the material world around us. On these pages, you will find a text book with animations, demos and exercises for studying introductory classical mechanics. Moreover, we will consider the first steps of <a href="https://en.wikipedia.org/wiki/Albert_Einstein">Einstein's</a> Special Theory of Relativity published 1905.
+Classical mechanics is the starting point of physics. Over the centuries, via [Newton's](https://en.wikipedia.org/wiki/Isaac_Newton) three fundamental laws formulated around 1687, we have built a solid framework describing the material world around us. On these pages, you will find a text book with animations, demos and exercises for studying introductory classical mechanics. Moreover, we will consider the first steps of [Einstein's](https://en.wikipedia.org/wiki/Albert_Einstein) Special Theory of Relativity published 1905.
 
 This material is made to support first year students from the BSc Applied Physics at Delft University of Technology during their course *Classical Mechanics and Relativity Theory*, MechaRela for short. But, of course, anybody interested in Classical Mechanics and Special Relativity is more than welcome to use this book.
 
@@ -25,9 +25,11 @@ With this e-book our aim is to provide learning material that is:
 * Dr. Freek Pols, Science & Engineering Education, Delft University of Technology
 
 ## Exercises
-- exercises in the chapter, die moet je maken als check of je het hebt begrepen
-- exercises los om zelf te doen
-- spicy: &#127798; niveau 1 2 en 3
+
+Each chapter includes a variety of exercises tailored to the material. We distinguish between exercises embedded within the instructional text and those presented on separate pages. The in-text exercises should be completed while reading, as they offer immediate feedback on whether the concepts and mathematics are understood. The separate exercise sets are intended for practice after reading the text and attending the lectures.
+
+To indicate the level of difficulty, each exercise is marked with 1, 2, or 3 &#127798;
+
 
 ## About the authors
 

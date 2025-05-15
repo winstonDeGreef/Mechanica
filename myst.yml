@@ -1,5 +1,8 @@
 version: 1
 project:
+  plugins:
+    - plugins/pdf_exercise.mjs
+    
   title: Classical Mechanics & Special Relativity for Starters
   authors:
     - name: Robert F. Mudde
