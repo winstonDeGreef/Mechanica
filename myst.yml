@@ -38,7 +38,7 @@ project:
         - file: content/Ch5_PotentialEnergy.md
           children:
             - file: content/Ch5_ex.ipynb
-        # - file: content/Ch6_AngularMomentum.md
+        - file: content/Ch6_AngularMomentum.md
         # - file: content/Ch7_ConservationEquations.md
         # - file: content/Ch8_RutherfordAtom.md
         # - file: content/Ch9_Oscillations.md
