@@ -39,3 +39,12 @@ Wil je tekeningen bij een specifiek onderwerp, tag dan Hanna. Beschrijf wat je v
 ## Opzetten van een lokale server
 
 Om direct te output van de wijzigingen te zien (lokaal), open je via de terminal de folder en typ je `myst start`. Op dat moment worden de boeken geconverteerd naar een website, welke lokaal te zien is. Het adres wordt gegeven in de terminal, veelal is dat: `http://localhost:3000`. Via een webbrowser kan dit adres gekopieerd worden. Wanneer je een bestand opslaat, wordt deze binnen ~5 s zichtbaar.
+
+## Werken met GIT
+VOor je start:  
+VSC - git pull
+
+Als je klaar bent:  
+comment toevoegen (samenvatting)
+en commit & push
+
