@@ -1,6 +1,6 @@
-# Oscillations # 
+# Oscillations 
 
-## Periodic Motion ##
+## Periodic Motion
 There are many, many examples of periodic systems. We see them in physics, like the orbit of planets around their star. We find them in biology, in chemistry, in economics. They show up in daily life: the day-night rhythm, the tides, children on a swing, your heart-beat. Periodic motions are by definition motions that repeat themselves after a fixed period of time, usually called 'the period'.
 
 A specific class of periodic motion is formed by the oscillations. All oscillations are period, but not all periodic motion is an oscillation. An oscillation is moving back and forth around an equilibrium position. They are often caused by the presence of restoring forces: forces that try to push the system towards the equilibrium position. A form of inertia causes the system to overshoot. The restoring force reverses in direction to push the system after the overshoot back.
@@ -8,19 +8,17 @@ A specific class of periodic motion is formed by the oscillations. All oscillati
 A few simple examples will illustrate the above.
 The merry go round is a periodic motion, but not an oscillation.
 
-```{figure} images/MerryGoRound2.jpg
----
-name: fig:HaMerryGoRound.jpg
-width: 320px
-align: center
---- 
+```{figure} images/MerryGoRound2.jpg:name: fig:HaMerryGoRound.jpg
+:width: 320px
+:align: center
+ 
 Spinning carousel. By Oxana Mayer, from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spinning_around_-_geograph.org.uk_-_404365.jpg), licensed under CC BY-SA 2.0.
 ```
 
 The seats go round in a circular, periodic motion but there is no back & forth.
 This is in contrast to a swing. That is also a periodic motion, but it has the back and forth as well as a restoring force, which in this case is gravity.
 
-#### Rabbits and Foxes ####
+#### Rabbits and Foxes
 As an example of a dynamic system that is periodic, we will take a look at the so-called predator-prey systems. These are well-known in biology and provide an interesting case. The idea is simple: the populations of rabbits growth as they multiply quickly. The idea in the prey-predator model is that growth rate is proportional to the population itself. For the rabbits that means that the derivative of the population of rabbits (with respect to time) is positive. If there are no foxes, the rabbit population will grow exponentially. Of course, in the real world that doesn't happen as sooner or later, the rabbits will ran out of food, resulting in starvation. However, we will assume here, that food is not limiting: but the number of foxes is. They stop the rabbit population from unbounded increasing. The more rabbits there are, the easier the foxes find food and the more foxes will survive childhood. A simple model reads as follows:
 
 $$\begin{split}
@@ -33,33 +31,31 @@ here $r$ and $f$ represent the rabbit and fox population, resp. $\lambda_r$ is t
 This is clearly a coupled and dynamic system. It is non-linear due to the product $r \cdot f$, making it much more difficult to solve analytically then linear versions. In literature, this kind of system is known as Lotka-Volterra or prey-predator models. Below is a plot of the numerical solution of the rabbit and fox population (for $( \lambda_r, \mu_r,\lambda_f, mu_f) = (0.2, 0.03, 0.1, 0.01) $ and initial conditions ($r_0$, $f_0$) = (80, 2)).
 
 ```{figure} images/RabbitsAndFoxes.png
----
-name: fig:RabbitsAndFoxes.png
-width: 400px
-align: center
---- 
+:name: fig:RabbitsAndFoxes.png
+:width: 400px
+:align: center
+ 
 Periodic time evolution of the population of rabbits and foxes.
 ```
+
 The solution is periodic. This can be illustrated better by plotting $f$ against $r$. The animation below shows this (this kind of plot is called a phase plot). 
 
 ```{figure} images/rf_animation.gif
----
-name: fig:rf_animation.gif
-width: 400px
-align: center
---- 
+:name: fig:rf_animation.gif
+:width: 400px
+:align: center
+ 
 Phase plot of the rabbit-fox prey-predator model. The red dot shows the population at different times. Note that the number of rabbits quickly increases when there are very few foxes. However, at some point the number of foxes also goes up and soon the start reducing the rabbits, while increasing in numbers themselves. That is not sustainable and when the number of rabbits is brought down substantially, als the number of foxes decreases, until both are almost extinct and the cycle repeats.
 ```
 
-#### Wilberforce Oscillator ####
+#### Wilberforce Oscillator
 As a second example we look at the Wilberforce pendulum. This is a spring, suspended vertically, to which a weight is fixed at the free end. The weight can go up and down but also rotate in a horizontal plane. A sketch is given below. 
 
 ```{figure} images/WilberforceSketch.png
----
-name: fig:WilberforceSketch.png
-width: 150px
-align: center
---- 
+:name: fig:WilberforceSketch.png
+:width: 150px
+:align: center
+ 
 Wilberforce pendulum.
 ```
 
@@ -90,11 +86,10 @@ We could use a simple numerical scheme like we have employed in Chapter 3. In th
 
 
 ```{figure} images/WilberforceEuler.png
----
-name: fig:WilberforceEuler.png
-width: 450px
-align: center
---- 
+:name: fig:WilberforceEuler.png
+:width: 450px
+:align: center
+ 
 Numerical solution of the Wilberforce pendulum using a (too) simple numerical method.
 ```
 
@@ -104,11 +99,10 @@ But there is something really disturbing: the amplitude of our oscillation is in
 
 
 ```{figure} images/WilberforceHigherOrder.png
----
-name: fig:WilberforceHigherOrder.png
-width: 450px
-align: center
---- 
+:name: fig:WilberforceHigherOrder.png
+:width: 450px
+:align: center
+ 
 Numerical solution of the Wilberforce pendulum using a higher-order numerical method.
 ```
 
@@ -117,11 +111,10 @@ Now the amplitude of the oscillations stays nicely constant, obeying conservatio
 In the figure below a small animation can be seen: the marker in both graphs shows $z$ and $\theta$ at the same time instant.
 
 ```{figure} images/Wilberforce_animation.gif
----
-name: fig:Wilberforce_animation.gif
-width: 450px
-align: center
---- 
+:name: fig:Wilberforce_animation.gif
+:width: 450px
+:align: center
+ 
 Animation of the Wilberforce pendulum using a higher-order numerical method.
 ```
 
@@ -130,7 +123,7 @@ The Wilberforce pendulum is clearly periodic. Moreover, it is an oscillation as 
 But, it does give us a <b>big warning</b>: (numerical) solutions always have to be <b>assessed</b> against the features and principles of the problem at hand. In this case, our first numerical solution could not be right: <b>it violated energy conservation</b>. We were able, right from the start, to formulate the problem in terms of energy. SInce we only had kinetic energy and potential energy we <b>knew up front</b> that the motion must be bounded! <br>
 That is why, we need a thorough understanding of physics. It is not sufficient to have the equations and put them in a 'solver'. It is the job of a physicist to understand and assess models, outcomes, etc against the laws of physics. Hence, we will dive into oscillations, starting from the beginning. 
 
-## Harmonic Oscillation - archetype: Mass-Spring ##
+## Harmonic Oscillation - archetype: Mass-Spring
 The archetype of an oscillation is the mass-spring system. It is the simplest version (simpler than the pendulum as we will see). And it can be recognized in many systems. We consider the following: a mass is attached to a spring. The other end of the spring is fixed. The mass can only move in one direction: the $x$-direction. The spring has a natural or rest length $l_0$. That is the length of the sphere if no force is acting on it. It we pull the spring, it will exert a force that is proportional to the increase in length. Moreover, it is pointing in the direction opposite to the lengthening. In formula:
 
 $$F_v = - k (l - l_0 ) = -k \Delta l $$
@@ -138,11 +131,10 @@ $$F_v = - k (l - l_0 ) = -k \Delta l $$
 This is shown in the figure below.
 
 ```{figure} images/MassSpring.png
----
-name: fig:MassSpring.png
-width: 150px
-align: center
---- 
+:name: fig:MassSpring.png
+:width: 150px
+:align: center
+ 
 Mass-spring system: archetype of a (harmonic) oscillation.
 ```
 
@@ -193,7 +185,7 @@ x(0) = \Delta x \rightarrow B \cos 0 = \Delta x
 
 A system is called a harmonic oscillator if and only if it obeys $m\ddot{x} + kx = 0$. You will find them in almost every branch of science and engineering. The reason why will become apparent in a moment.
 
-### Potential energy of a spring ###
+### Potential energy of a spring
 In the above, we have formulated the mass-spring system in Newton's second law. We can, however, also cast it in the form of energy. The force of the spring is conservative. We can easily prove this by finding the associated potential energy: $F_v = -\frac{dV}{dx}$. <br>
 Since $F_v = -kx$ we need to find a function $V(x)$ that satisfies $\frac{dV}{dx} = kx$. Let's do it:
 
@@ -210,7 +202,7 @@ $$ \frac{1}{2}mv^2 + \frac{1}{2}kx^2 = E_0 $$
 
 So, an other way of stating what a harmonic oscillator is: it is a system that obeys the above energy equation.
 
-## Behavior around an equilibrium point and harmonic oscillators ##
+## Behavior around an equilibrium point and harmonic oscillators
 Now we will go back to paragraph 5.5.1, where we discussed the Taylor series expansion of the function $f(x)$: 
 
  $$
@@ -241,16 +233,15 @@ The harmonic oscillator!!!
 No wonder we find harmonic oscillators 'everywhere'. Any system that has a stable equilibrium point with a positive second derivative of its potential will start to oscillated as a harmonic one if we push it a little bit out of its equilibrium position. Doesn't matter how $V(x)$ exactly is. It doesn't have to be quadratic in $x$. But it will be pretty close to that, if we stay close enough to the equilibrium point. Hence, any small natural kick, any small amount noise will push a system out of its stable equilibrium point into an harmonic oscillating motion with a given, natural frequency given by $\omega_0^2 = \frac{\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0}}{m}$.
 <br><br>
 
-## Examples of Harmonic Oscillators ##
-### Torsion Pendulum ###
+## Examples of Harmonic Oscillators
+### Torsion Pendulum
 We take a straight metal wire. Suspend one end at the ceiling and attach a disc of radius $R$ and mass $m$ at the other end.
 
 ```{figure} images/TorsionPendulum.png
----
-name: fig:TorsionPenduluming.png
-width: 150px
-align: center
---- 
+:name: fig:TorsionPenduluming.png
+:width: 150px
+:align: center
+ 
 Torsion Pendulum.
 ```
 
@@ -278,15 +269,14 @@ with $\omega \equiv \frac{d\theta}{dt}$, the angular velocity.
 <br>
 
 
-### L-C circuit ###
+### L-C circuit
 In Electronics alternating current (AC) circuits are building blocks of many complex systems. One of these is the L-C circuit, in which an inductor, $L$, and a capacitor, $C$, are in series coupled. See {numref}`fig:LCcircuit.png`.
 
 ```{figure} images/LCcircuit.png
----
-name: fig:LCcircuit.png
-width: 150px
-align: center
---- 
+:name: fig:LCcircuit.png
+:width: 150px
+:align: center
+ 
 L-C circuit.
 ```
 
@@ -306,25 +296,23 @@ L \frac{d^2 I}{dt^2} + \frac{1}{C}I &= 0 \Rightarrow \\
 As we see, this LC-circuit will start to oscillate. In the animation below the current through the circuit and the voltage across the inductor are shown for $C = 1 \mu F$ and $L = 1 \mu H$.
 
 ```{figure} images/LC_animation.gif
----
-name: fig:LC_animation.gif
-width: 400px
-align: center
---- 
+:name: fig:LC_animation.gif
+:width: 400px
+:align: center
+ 
 Harmonic oscillation of an LC-circuit.
 ```
 
 <br>
 
-### Musical Instruments ##
+### Musical Instruments
 Musical instruments produce sound waves. In many cases they do that via vibrations of strings, like the guitar, the violin, harp or piano. The strings of these instruments are displaced out of their equilibrium position. Due to the tension in these strings, there is a restoring force that is proportional to the displacement. Consequently, the string will start to oscillate in an harmonic way. 
 
 ```{figure} images/VibratingString.png
----
-name: fig:VibratingString.png
-width: 300px
-align: center
---- 
+:name: fig:VibratingString.png
+:width: 300px
+:align: center
+ 
 Vibrating string.
 ```
 
@@ -339,31 +327,29 @@ with $\mu$ the mass of the string per unit length, i.e. $\mu = \frac{m}{L}$ and 
 The above equation is called the wave equation and although it looks and is much more complicated than the mass-spring harmonic equation, it has quite some resemblances. For instance, the frequency with which the string will oscillate is given by multiples of the so-called ground-frequency,  $f_0 = \frac{1}{2L} \sqrt{\frac{T}{\mu}}$ with $L$ the length of the string. Moreover, each point of the string will oscillate in a $\sin$ and $\cos$ way. The string has the tendency to vibrate in a sinusoidal way: both in space and time. Standing waves will form on the string, with a frequency that is an integer multiple of the ground-frequency.
 
 ```{figure} images/String_animation.gif
----
-name: fig:String_animation.gif
-width: 400px
-align: center
---- 
+:name: fig:String_animation.gif
+:width: 400px
+:align: center
+ 
 Fundamental modes of a vibrating string.
 ```
 
 Not only strings, but also beams will exhibit this behavior, well-known example: a tuning fork.
 
-## The pendulum ##
+## The pendulum
 Another example of oscillatory motion is the pendulum. In its most simple for it is a point-mass $m$, attached to a massless rod of length $L$. The rod is fixed to a pivotal point that allows it to swing freely.
 
 ```{figure} images/Pendulum.png
----
-name: fig:Pendulum.png
-width: 200px
-align: center
---- 
+:name: fig:Pendulum.png
+:width: 200px
+:align: center
+ 
 Sketch of a pendulum by Huygens (public domain).
 ```
 
 On the mass, gravity is acting vertically downwards. Also the rod exerts a force on the mass. This force is always parallel to the rod and points to the pivotal point. It is the response of the rod to the component of gravity  parallel to the rod (the dark blue arrow in {numref}`fig:Pendulum.png`). It is good to realize, that this force makes sure that the distance from $m$ to the pivotal point is always $L$. In other words, this force is a consequence of the fixed length $L$ of the rod. It is the physics translation of the constraint: $L$ is constant.
 
-### N2 for the pendulum: Equation of motion via N2 ###
+### N2 for the pendulum: Equation of motion via N2
 We will set up Newton's second Law for $m$. 
 
 $$ m\frac{d\vec{v}}{dt} = -mg\hat{z} + \vec{F}_t $$
@@ -399,7 +385,7 @@ $$ \omega_{pendulum}  = \sqrt{\frac{g}{L}}$$
 
 Further, note that under this assumption, the period of the pendulum does not depend on the amplitude of the oscillation. That was already noted by Galileo Galileï. 
 
-### N2 for the pendulum: Equation of motion via Angular Momentum ###
+### N2 for the pendulum: Equation of motion via Angular Momentum
 Before we continue with the analysis of the pendulum, we will derive the equation of motion also via angular momentum considerations. On $m$ gravity exerts a torque: $\Gamma = \vec{r} \times \vec{F}_g$ It has a magnitude $-Lmg \sin \phi$ and points into the screen. The angular momentum of $m$ is given by $\vec{L} = \vec{r} \times \vec{p}$. This has magnitude $ mL^2\frac{d\phi}{dt}$ and also points into the screen.
 
 Thus N2 for angular momentum gives us:
@@ -409,7 +395,7 @@ $$ \frac{d\vec{L}}{dt} = \vec{\Gamma} \Rightarrow mL^2\frac{d^2\phi}{dt^2} = -Lm
 Thus, angular momentum leads to the same equation of motion.
 
 
-### The Pendulum via energy conservation ###
+### The Pendulum via energy conservation
 Alternatively, we can also use energy conservation to derive the equation governing the motion of the pendulum. There are, as discussed above, two forces acting on $m$. The first one is gravity, which is a conservative force with associated potential energy. We can write for this case $V_g = mgz$, taking $V_g (z=0) = 0$. 
 
 The second one is the force from the rod. But this one always acts perpendicular to the motion of $m$. Hence, it does not do any work and, thus, we don't need to worry about an associated potential.
@@ -421,11 +407,10 @@ $$ \frac{1}{2}mv^2 + mgz = E_0 $$
 To solve this, we change from $z$ to $\phi$. $z$ is, in terms of $\phi$: $L - L\cos\phi$, see {numref}`fig:PendulumEnergy.png`.
 
 ```{figure} images/PendulumEnergy.png
----
-name: fig:PendulumEnergy.png
-width: 250px
-align: center
---- 
+:name: fig:PendulumEnergy.png
+:width: 250px
+:align: center
+ 
 Potential energy of a pendulum.
 ```
 
@@ -447,7 +432,7 @@ mL \frac{d\phi}{dt} \frac{d}{dt} \left ( L \frac{d\phi}{dt} \right ) + mgL \sin 
 
 And we have recovered the same equation of motion.
 
-### Pendulum for not so small angles ###
+### Pendulum for not so small angles
 In the above we have frequently used the approximation $\sin \phi \approx \phi $ for $\phi \ll 1$. What about the general case? Then we need to solve 
 
 $$ \begin{split}
@@ -462,11 +447,10 @@ The animation shows: a green mass, that is the pendulum with a (fixed) small amp
 The red mass, on the other hand obeys the equation of motion of the pendulum leaving the term with $\sin \phi$. It is clear that the real pendulum (i.e. the red one) does not have the same frequency as the others. Moreover, its time trace (left part of the figure) is clearly not a true sinus.
 
 ```{figure} images/Pendulum_animation.gif
----
-name: fig:Pendulum_animation.gif
-width: 600px
-align: center
---- 
+:name: fig:Pendulum_animation.gif
+:width: 600px
+:align: center
+ 
 Animation of the pendulum: red is the true pendulum, blue the small angle approximation applied to a large angle case and green the small angle approximation for a small angle.
 ```
 
@@ -614,11 +598,10 @@ Further, note that the first part (with $A$) has an exponent that is closer to z
 In the figure below, an example of case 1 and case 3 is shown together with the solution of case 2. We see, that case 2 is the one that decays fastest: it has the highest damping coefficient in its exponent. This is called critical damping. If you need to dampen unwanted oscillations: make sure you tune your damping parameter b such that $b^2 - 4mk = 0$.
 
 ```{figure} images/DampedOscillatorPlot.png
----
-name: fig:DampedOscillatorPlot.png
-width: 400px
-align: center
---- 
+:name: fig:DampedOscillatorPlot.png
+:width: 400px
+:align: center
+ 
 Different cases for the damped harmonic oscillator.
 ```
 
@@ -634,11 +617,10 @@ $$
 and see how it evolves as a function of the damping $b$ in the complex plane.
 
 ```{figure} images/polezero.png
----
-name: fig:polezero.png
-width: 400px
-align: center
---- 
+:name: fig:polezero.png
+:width: 400px
+:align: center
+ 
 Evolution of $\lambda$ as a function of $b$ in the complex plane.
 ```
 
@@ -697,11 +679,10 @@ In this course we mostly only consider one oscillator, but of course there could
 
 
 ```{figure} images/coupled_huygens.jpg
----
-name: fig:coupled_huygens.jpg
-width: 300px
-align: center
---- 
+:name: fig:coupled_huygens.jpg
+:width: 300px
+:align: center
+ 
 Huygens experiment of weakly coupled pendula.
 ```
 
@@ -758,11 +739,10 @@ $$
 
 
 ```{figure} images/ElectronBlueSky.png
----
-name: fig:ElectronBlueSky.png
-width: 150px
-align: center
---- 
+:name: fig:ElectronBlueSky.png
+:width: 150px
+:align: center
+ 
 Simple model of electron-light scattering.
 ```
 
@@ -797,7 +777,7 @@ Of course the harmonic potential is only a first order approximation around an e
 
 The bridge in Rotterdam, but also others, suffer from long cables that the wind can put into resonance. Their motion then generates acoustic waves in the audible spectrum. <a href="https://singingbridgesmusic.bandcamp.com/track/erasmus-bridge-rotterdam">Listen here</a> to the sound of the cables starting from 1:00 on the website for singing bridges! 
 
-## Waves and oscillations ##
+## Waves and oscillations
 In the previous sections, we talked about oscillations of individual particles. Oscillations can also occur in a more collective mode. And there are plenty of examples: take for instance a violin or piano string. It is in essence an elastic string suspended between two fixed points. The string is under tension, that is: its natural length is (slightly) less than the distance between the two end points. As a consequence, equilibrium position of the string is a straight line and when brought out of equilibrium there is a net restoring force much like for the mass-spring system.
 
 However, there are at least two important differences: (1) the restoring force is the net result from pulling on a small part of the string by its neighbor parts; (2) the entire string can oscillate in a direction perpendicular to the equilibrium position of the string, making the problem multi-dimensional.
@@ -808,11 +788,10 @@ In the figure below, a part of the string is drawn with special attention to a s
 
 
 ```{figure} images/TensionString.png
----
-name: fig:TensionString.png
-width: 350px
-align: center
---- 
+:name: fig:TensionString.png
+:width: 350px
+:align: center
+ 
 Forces on a small part of a string; inset shows an exaggeration of the vertical components of the forces.
 ```
 
@@ -922,20 +901,19 @@ In the figure below, a wave is shown that starts as seemingly one hump. But it a
 Moreover, the rope has a fixed end at the left and a free one at the right. Notice the difference in reflection of the waves at both ends.
 
 ```{figure} images/OscillatingRope.gif
----
-name: fig:OscillatingRope.gif
-width: 350px
-align: center
---- 
+:name: fig:OscillatingRope.gif
+:width: 350px
+:align: center
+ 
 Forces on a small part of a string; inset shows an exaggeration of the vertical components of the forces.
 ```
 
-### Wave characteristics ###
+### Wave characteristics
 Waves are omnipresent. We find them in musical instruments e.g. the violin but also in flutes where the wave is directly in the air in the instrument. We have them in water and air: waves on the oceans, waves when we speak. There are waves in solid materials for instance after an earthquake. We use waves in telecommunication.
 
 Why are waves so generally found? They are the analogue of the harmonic oscillator. And thus, many systems in that are brought a bit out of equilibrium will try to go back to equilibrium, over shoot it and end up in a wavy motion.
 
-#### Wave Length ####
+#### Wave Length
 Waves are often sinusoidal and if not, via Fourier Analysis they can be decomposed of a set of sinusoidal waves that built together the pattern we observe.
 
 A sinusoidal wave is of the form
@@ -962,18 +940,17 @@ On the other hand: for a fixed position $x$ the point at $x$ oscillates with a f
 
 $$\lambda \cdot f = \mathsf{v}$$
 
-### Standing waves versus traveling waves###
+### Standing waves versus traveling waves
 If we look at the motion of the string on a violin closely, we will not see traveling waves running from one side of the string to the other. Instead, we see all parts of the string moving up and down collectively: they have formed a standing wave. that is a wave that does not travel, but has a fixed, stationary shape whose amplitude various with time. 
 
 For a string with two ends fixed like on a piano or violin, the string can only show standing waves that 'fit'. These standing waves are sinusoidal and their wave length should be such that the beginning and end of the string don't oscillate. In the figure below four possibilities are shown.
 
 
 ```{figure} images/String_animation.gif
----
-name: fig:String_animation.gif
-width: 350px
-align: center
---- 
+:name: fig:String_animation.gif
+:width: 350px
+:align: center
+ 
 Standing waves in a string.
 ```
 
@@ -985,7 +962,7 @@ Further we see that the smaller the wavelength, the faster the oscillation. This
 
 The traveling waves had as mathematical form $\sin \left (x - \mathsf{v} t \right )$. The standing waves take forms like $\sin \frac{x}{\lambda} \cdot \sin ( 2\pi ft)$. You will learn much more about this in e.g. Fourier Analysis classes.
 
-### Water waves and Sound waves ###
+### Water waves and Sound waves
 It is not necessary that a wave is caused by a tension in the material that tries to restore the equilibrium position. The restoring force can be of a different nature. A well know example is the water waves that we see on lakes and seas. Here gravity is the restoring force: it tries to pull a crest down and push a through up. The water inertia causes overshoot resulting in oscillations, that we call waves. In dealing with waves, we usually don't use the frequency $f$, but instead the angular velocity $\omega = 2 \pi f$. Similarly, frequently the wave length $\lambda$ is replaced by the wavenumber $k \equiv \frac{2\pi}{\lambda}$. Note that these two quantities are also related to each other by the speed of the waves: $\lambda \cdot f = \frac{2\pi}{\lambda} \frac{\omega}{2\pi} = \frac{\omega}{k} = \mathsf{v}$. 
 
 For water waves (with large wave length) the angular momentum and the wave number are coupled to the depth, $h$, of the water:
@@ -1002,9 +979,9 @@ For sound waves it is the pressure that is the restoring force. The 'crest' is c
 
 Here are some exercises that deals with oscillations. Make sure you practice IDEA.
 
-```{exercise-start}
+```{exercise}
 :label: 9.1
-```
+
 A massless spring (spring constant $k$) is suspended from the ceiling. The spring has an unstretched length $l_0$. At the other end is a point particle (mass $m$).
 
 * Make a sketch of the situation and define your coordinate system.
@@ -1015,32 +992,29 @@ A massless spring (spring constant $k$) is suspended from the ceiling. The sprin
 
 * Solve it for the initial condition that at $t=0$ the mass $m$ is at the equilibrium position and has a velocity $v_0$.
 
-```{exercise-end}
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 9.2
-```
+
 Same question, but now two springs are used. Spring 1 has spring constant $k$; spring 2 has $2k$. Both have the same unstretched length $l_0$.
 
 * The two springs are used in parallel, i.e., both are connected to the ceiling, and $m$ is at the joint other end of the springs.
 
 * Both springs are in series, i.e., spring 1 is suspended from the ceiling, and the other one is attached to the free. The particle is fixed to the free end of the second spring.
 
-```{exercise-end}
 ```
 
-```{exercise-start}
+````{exercise}
 :label: 9.3
-```
+
 A mass $m$ is attached to two springs. The other ends of the springs are fixed and can not move. The distance between these point is $2l_0$. The mass can move only in the horizontal direction and there is no gravity. See the figure below for a sketch. 
 
 ```{figure} images/TwoHorSprings1.png
----
-name: fig:TwoHorSprings1.png
-width: 150px
-align: center
---- 
+:name: fig:TwoHorSprings1.png
+:width: 150px
+:align: center
+ 
 
 ```
 The springs are identical: both have rest length $l_0$ and spring constant $k$. Based on symmetry, we take the origin in the center of the figure.
@@ -1053,19 +1027,17 @@ We are going to repeat the same analysis as in the previous exercises.
 * Solve it for the initial condition that at $t=0$ the mass $m$ is at the equilibrium position and has a velocity $v_0$.
 
 
-```{exercise-end}
-```
+````
 
-```{exercise-start}
+````{exercise}
 :label: 9.4
-```
+
 The same as above, but now the length between the two point where the spring are attached to is $l_0$ instead of $2l_0$.
 ```{figure} images/TwoHorSprings2.png
----
-name: fig:TwoHorSprings2.png
-width: 150px
-align: center
---- 
+:name: fig:TwoHorSprings2.png
+:width: 150px
+:align: center
+ 
 
 ```
 Note: in the figure $k, l_0$ denotes the characteristics of the springs. 
@@ -1076,24 +1048,21 @@ Note: in the figure $k, l_0$ denotes the characteristics of the springs.
 * Solve it for the initial condition that at $t=0$ the mass $m$ is at the equilibrium position and has a velocity $v_0$.
 
 
-```{exercise-end}
-```
+````
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-### Answers ###
+### Answers
 
-```{solution-start} 9.1
+````{solution} 9.1
 :class: dropdown
-```
 
 Sketch; $z=0$ is when the mass is $l_0$ below the ceiling.
 
 ```{figure} images/HangendeVeer1.png
----
-name: fig:HangendeVeer1.png
-width: 150px
-align: center
---- 
+:name: fig:HangendeVeer1.png
+:width: 150px
+:align: center
+ 
 
 ```
 Equilibrium position of the mass $m$: 
@@ -1131,22 +1100,19 @@ $$v(0) = v_0 \rightarrow v_0 = \omega_0 B \rightarrow B=\frac{v_0}{\omega_0}$$
 Thus, the solution is
 
 $$ z(t) = -\frac{mg}{k} + \frac{v_0}{\omega_0} \sin \omega_o t$$
-```{solution-end}
-```
+````
 
 
-```{solution-start} 9.2
+````{solution} 9.2
 :class: dropdown
-```
 
 Sketch; $z=0$ is when the mass is at $l_0$ below the ceiling. Now we have 2 springs, one with spring constant $k_1$, the other with $k_2$. Both have the same rest length $l_0$
 
 ```{figure} images/HangendeVeer2.png
----
-name: fig:HangendeVeer2.png
-width: 150px
-align: center
---- 
+:name: fig:HangendeVeer2.png
+:width: 150px
+:align: center
+ 
 
 ```
 Equilibrium position of the mass $m$: 
@@ -1171,20 +1137,17 @@ $$ z(t) = -\frac{mg}{k_{tot}} + \frac{v_0}{\omega_0} \sin \omega_o t$$
 
 with $ \omega_0^2 = \frac{k_{tot}}{m}$
 
-```{solution-end}
-```
+````
 
 
-```{solution-start} 9.3
+````{solution} 9.3
 :class: dropdown
-```
 
 ```{figure} images/TwoHorSprings1Sol.png
----
-name: fig:TwoHorSprings1Sol.png
-width: 200px
-align: center
---- 
+:name: fig:TwoHorSprings1Sol.png
+:width: 200px
+:align: center
+ 
 
 ```
 
@@ -1216,19 +1179,16 @@ General solution $x(t) = A \sin \omega_0 t + B \cos \omega_0 t$ with $\omega_0^2
 
 Like in the previous exercises, it is now a matter of specifying the initial conditions and finding $A$ and $B$.
 
-```{solution-end}
-```
+````
 
-```{solution-start} 9.4
+````{solution} 9.4
 :class: dropdown
-```
 
 ```{figure} images/TwoHorSprings2Sol.png
----
-name: fig:TwoHorSprings2Sol.png
-width: 200px
-align: center
---- 
+:name: fig:TwoHorSprings2Sol.png
+:width: 200px
+:align: center
+ 
 
 ```
 
@@ -1253,15 +1213,15 @@ Equation of motion for $m$: set up N2
 $$m\frac{dv}{dt} = -kx - kx = -2kx$$
 
 Thus we conclude, $k_{tot} = 2k$, which is identical to the previous exercise! 
+````
 
 ## Do it yourself
 
 ```{figure} images/MassSpringDIY.png
----
-name: fig:MassSpringDIY.jpg
-width: 400px
-align: center
---- 
+:name: fig:MassSpringDIY.jpg
+:width: 400px
+:align: center
+ 
 From Wikimedia Commons: [bands](https://commons.wikimedia.org/wiki/File:Rubber_bands_20210918_142044.jpg), CC-SA 4.0; [apple](https://commons.wikimedia.org/wiki/File:Red_Apple.jpg), CC-BY 2.0, ; [phone](https://commons.wikimedia.org/wiki/File:IPhone_Dynamic_Island.jpg), PD; [ruler](https://commons.wikimedia.org/wiki/File:Ruler_illustration.svg), CC-BY 4.0.
 ```
 

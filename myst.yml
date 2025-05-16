@@ -2,6 +2,7 @@ version: 1
 project:
   plugins:
     - plugins/pdf_exercise.mjs
+    - plugins/experiment.mjs
     
   title: Classical Mechanics & Special Relativity for Starters
   authors:

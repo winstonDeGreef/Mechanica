@@ -321,7 +321,7 @@ Velocity of a hail stone falling from 1km height taking air friction into accoun
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ## Exercises ##
 
-```{exercise-start}
+```{exercise}
 :label: 31
 ```
 
@@ -334,10 +334,9 @@ Write a simulation that determines the position of the particle as a function of
 
 Inspect what happens for initial values of the velocity around 2 m/s. Any clue what this means? If not: don't worry. You will get the 'tools' when we discuss work and energy.
 
-```{exercise-end}
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 32
 ```
 In the examples so far, we looked at 1-dimensional problems, for instance, the falling hail stone. Given the expression for the drag force with the algebraic formula for the drag coefficient, an analytical approach could be tried, although a numerical one turned out to be straightforward. This changes, when we deal with a 2-dimensional trajectory.
@@ -395,10 +394,9 @@ width: 70%
 align: center
 --- 
 ```
-```{exercise-end}
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 33
 ```
 
@@ -431,7 +429,6 @@ width: 70%
 align: center
 --- 
 ```
-```{exercise-end}
 ```
 
 

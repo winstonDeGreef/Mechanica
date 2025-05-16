@@ -467,7 +467,7 @@ where we have used: $t=0 \rightarrow \vec{p}=0 \rightarrow \vec{l}=0 \Rightarrow
 
 ```
 
-````{solution-start} 7.2
+````{solution} 7.2
 :class: dropdown
 
 We can follow the same procedure as in exercise (6.1). But now, the outcome of the $x$-component of N2 changes.
@@ -510,7 +510,7 @@ Thus, the angular momentum still points in the negative $z$-direction but increa
 
 ````
 
-```{solution-start} 7.3
+```{solution} 7.3
 :class: dropdown
 
 We can take the situation of exercise 6.1, but shift our origin such that at $t=0 \rightarrow x=0$. Now the particle will fall along the $y$-axis. It has its momentum also in the $y$-direction and consequently $\vec{l} = \vec{r} \times \vec{p} =0$ and stays zero!

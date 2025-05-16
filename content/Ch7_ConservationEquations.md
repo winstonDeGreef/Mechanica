@@ -1,4 +1,4 @@
-# Conservation Laws / Galilean Transformation #
+# Conservation Laws / Galilean Transformation
 
 In the previous chapters, we have seen that from Newton's three laws, we can obtain conservation laws. That means, under certain conditions (depending on the law), a specific quantity can not change.
 
@@ -66,11 +66,10 @@ What is it and how do we know? To answer this question we have to resort to Emmy
 
 
 ```{figure} images/EmmyNoether.png
----
-name: fig:EmmyNoether.png
-width: 320px
-align: center
---- 
+:name: fig:EmmyNoether.png
+:width: 320px
+:align: center
+ 
 Amalie Emmy Noether (1882-1935). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Noether.jpg), public domain.
 ```
 
@@ -98,11 +97,10 @@ An important requirement of any physical law is that it looks the same for all i
 
 
 ```{figure} images/GTsystem.png
----
-name: fig:GTsystem.png
-width: 320px
-align: center
---- 
+:name: fig:GTsystem.png
+:width: 320px
+:align: center
+ 
 
 ```
 
@@ -111,7 +109,7 @@ S' rightfully concludes, based on Newton's 1$^{st}$ law that no force is acting 
 To make the above loose statements more precise. We have two coordinates systems CS and CS'. The transformation between both is given by a translation of the origin of S' with respect to that of S.
 
 
-### Communication Protocol ###
+### Communication Protocol
 We need to have a recipe, a protocol that translates information from $S'$ to $S$ and vice versa.
 
 This protocol is called the *Galilean Transformation* between two inertial frames, $S$ and $S'$. 
@@ -120,11 +118,10 @@ According to observer $S$, $S'$ is moving at a constant velocity $V$. Both obser
 
 
 ```{figure} images/GalileiTransformation.jpg
----
-name: fig:GalileiTransformation.jpg
-width: 320px
-align: center
---- 
+:name: fig:GalileiTransformation.jpg
+:width: 320px
+:align: center
+ 
 Two inertial observers S and S' and their coordinate systems.
 ```
 
@@ -181,11 +178,10 @@ If you let a <span style="color:green">smaller</span> and a <span style="color:b
 
 
 ```{figure} images/superballs.png
----
-name: fig:superballs.png
-width: 450px
-align: center
---- 
+:name: fig:superballs.png
+:width: 450px
+:align: center
+ 
 Bouncing balls.
 ```
 
@@ -200,11 +196,10 @@ To explain this we use the Galilean Transformation (GT).
 The smaller ball has now velocity $3\vec{v}$ instead of $\vec{v}$ if you drop it without the larger ball. NB: If you would use three balls instead of two, the third ball would have a velocity of $7\vec{v}$ using the same reasoning as above. 
 
 ```{figure} images/Superball_animation.gif
----
-name: fig:Superball_animation.gif
-width: 450px
-align: center
---- 
+:name: fig:Superball_animation.gif
+:width: 450px
+:align: center
+ 
 Bouncing of three (super)balls.
 ```
 
@@ -241,11 +236,10 @@ Consider yourself biking at a constant velocity on an unlikely day with zero win
 $$ F_f \propto v_b^2 $$
 
 ```{figure} images/Fietser.jpg
----
-name: fig:Fietser.jpg
-width: 300px
-align: center
---- 
+:name: fig:Fietser.jpg
+:width: 300px
+:align: center
+ 
 Air resistance on cyclist.
 ```   
 
@@ -262,11 +256,10 @@ $$ F_f \propto (v_b - v_{air} )^2 $$
 Riding a bike while it rains. You have done this 100s of times. Your front gets soaked, while the backside of your coat stays dry. Or if you have a passenger on your carrier he/she will not get wet, while you take all the water. From a GT to the reference frame of the biker it is obvious  why this is the case. The rain is not falling straight from the sky, but at an angle towards him. 
 
 ```{figure} images/RainBike.png
----
-name: fig:RainBike.png
-width: 400px
-align: center
---- 
+:name: fig:RainBike.png
+:width: 400px
+:align: center
+ 
 Riding a bike in the rain.
 ```   
 
@@ -282,81 +275,74 @@ Notice, that both S and S' are inertial observers. That is, they keep their velo
 What would Galilei say?
 
 ```{figure} images/BallAgainstWall_animation.gif
----
-name: fig:BallAgainstWall_animation.gif
-width: 400px
-align: center
---- 
+:name: fig:BallAgainstWall_animation.gif
+:width: 400px
+:align: center
+ 
 Ball bouncing at a wall.
 ```  
 
 ## Exercise
 
-```{exercise-start}
+````{exercise}
 :label: 8.1
-```
+
 A train is passing a station at a constant velocity $V$. At the platform, an observer $S$ sees that in the middle of the train (train length $2L$), at $t=0$ an object is released with a constant velocity $u$. The object moves towards the back of the train and, at some point in time, will hit the back.
 
 ```{figure} images/TrainAndObject1.png
----
-name: fig:TrainAndObject1.png
-width: 350px
-align: center
---- 
+:name: fig:TrainAndObject1.png
+:width: 350px
+:align: center
+ 
 ```  
 
 Inside the train, observer $S'$ sees the same phenomenon. Show that both find the same time for the object hitting the back of the train.
-```{exercise-end}
-```
+````
 
-```{exercise-start}
+````{exercise}
 :label: 8.2
-```
+
 A point particle of mass $m$ is sitting on a horizontal frictionless table. Gravity is acting in the vertical downward direction. <br>
 According to your observation, $m$ has zero velocity. But you see the table moving at a velocity $-v$ in the negative $x$-direction. The table doesn't stay flat, but has a bump of height $H$. What will happen to $m$?
 
 ```{figure} images/TableWithBump1.png
----
-name: fig:TableWithBump1.png
-width: 350px
-align: center
---- 
+:name: fig:TableWithBump1.png
+:width: 350px
+:align: center
+ 
 ```  
 
-```{exercise-end}
-```
+````
 
 
-```{exercise-start}
+```{exercise}
 :label: 8.3
-```
+
 Finally, it is winter. And this time, there is lots of fresh snow! You get engaged in a great snowball fight. Your opponent has run out of 'ammunition' and runs away. She is at a distance $L = 2m$ when she starts running at a speed of 5m/s. You throw your last snowball at her at a speed of 10m/s. <br>
 Determine when and where the snowball hits her. Do that three times:
-<ol>
-<li>Your perspective;</li>
-<li>Your opponent's perspective;</li>
-<li>The snowballs perspective.</li>
-</ol>
+
+- Your perspective;
+- Your opponent's perspective;
+- The snowballs perspective.
+
 Next, use the Galilei transformation and show that you could have used your perspective and GT to find the data for the other two perspectives.
 
-```{exercise-end}
 ```
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-### Answers ###
+### Answers
 
-```{solution-start} 8.1
+````{solution} 8.1
 :class: dropdown
-```
+
 First we make a new sketch, now showing the two observers $S$ and $S'$ and their axis. We have made the velocity of the object red, the color of $S$. And we have given the coordinates of the front and back of the train in green as these are specified according to $S'$. We do this, as it is is crucial to realize that we have 'mixed' information.<br>
 
 ```{figure} images/TrainAndObject2.png
----
-name: fig:TrainAndObject2.png
-width: 350px
-align: center
---- 
+:name: fig:TrainAndObject2.png
+:width: 350px
+:align: center
+ 
 ```  
 The velocity of the object is $u$ according to $S$. The observer in the train, $S'$, sees a different velocity. <br>
 The observer in the train will denote the position of the front of the train by $x_f' = L$ and of the back $x_b' = -L$. Both are, according to $S'$, fixed values. But $S$ will se that differently.
@@ -379,22 +365,20 @@ $$ T' = \frac{L}{-u'} = \frac{L}{V-u} = T $$
 Thus, indeed both observers see the collision at the same moment.
 
 Sneak Preview: much to our surprise, when we enter the world of Special Relativity, this will no longer be the case!
-```{solution-end}
-```
+````
 
-```{solution-start} 8.2
+````{solution} 8.2
 :class: dropdown
-```
+
 The particle will 'collide' with the bump. This might cause the particle to start moving to the left. How to analyse this situation?
 
 Perhaps it is easier when we view this from the point of view of an observer moving with the table.
 
 ```{figure} images/TableWithBump2.png
----
-name: fig:TableWithBump2.png
-width: 350px
-align: center
---- 
+:name: fig:TableWithBump2.png
+:width: 350px
+:align: center
+ 
 ```  
 
 Now we have a situation of a particle moving over a friction less table with velocity $v$. If we use conservation of energy, we can write down:
@@ -411,21 +395,19 @@ The final possibility is $\frac{1}{2}mv^2 = mgH$. In that case the particle will
 
 N.B. We have assumed that the bump is not too steep, because in such a case the particle will have a real collision with the bump. Think, for instance, of the bump as a sudden step. Then no matter how fast the particle is moving, it will not end up on the step, but bounce back.
 
-```{solution-end}
-```
+````
 
 
-```{solution-start} 8.3
+````{solution} 8.3
 :class: dropdown
-```
+
 First, a sketch:
 
 ```{figure} images/SnowBall.png
----
-name: fig:SnowBall.png
-width: 300px
-align: center
---- 
+:name: fig:SnowBall.png
+:width: 300px
+:align: center
+ 
 ```  
 It is a 1-dimensional problem, so an $x$-axis will do. We denote the velocity of your opponent (as seen by you) by $v_o$ and of the snowball $v_s$. The inertial system of you is $S$ and you are sitting in the origin $\mathcal{O}$. Similarly, you opponents inertial system is $S'$ with origin $\mathcal{O'}$ and finally the snowball has inertial system $S"$ and the snowball sits in the origin $\mathcal{O"}$.
 
@@ -473,5 +455,4 @@ x" &= x - v_s t \\
 t" &= t
 \end{split}$$
 Thus: $x"_h = x_h - v_s t_h = 0$ and we get $(x"_h,t"_h) = (0m, 0.4s)$
-```{solution-end}
-```
+````
