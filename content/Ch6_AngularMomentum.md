@@ -20,6 +20,7 @@ This is, of course, too sloppy for physicists. We need strict, formal definition
 ```{admonition} torque
 
 $$\vec{\Gamma} \equiv \vec{r} \times \vec{F}$$
+
 ```
 
 That is: torque (or krachtmoment in Dutch) is the outer product of 'arm' as a vector(!) and the force. We notice a few peculiarities.
@@ -547,7 +548,7 @@ The planetary motion is an example of using the concept of central forces. It is
 Before we embark at the problem of the earth moving under the influence of the sun's gravity, we will go back in time a little bit. 
 
 ````{note} Intermezzo: Tycho Brahe & Johannes Kepler
-note
+:class: dropdown
 
 We find ourselves back in the Late Renaissance, that is around 1550-1600 AD. In Europe, the first signs of the scientific revolution can be found. Copernicus proposed his heliocentric view of the solar system. Galilei used his telescope to study the planets and found further evidence for the heliocentric idea. In Denmark, Tycho Brahe (1546-1601) made astronomical observations with data of unprecedented precision. He did so without the telescope as the first records of telescopes date back to around 1608 AD. 
 
@@ -585,12 +586,13 @@ Kepler's work was not immediately recognized. On the contrary, Galilei completel
 ````
 
 Kepler has formulated three laws that describe features of the orbits of the planets around the sun.
-**
-<ol type="1">
-<li>The orbit of a planet is an ellipse with the Sun at one of the two focal points.</li>
-<li>A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time (Law of Equal Areas).
 
- ```{figure} images/Perkenwet.png
+
+1. The orbit of a planet is an ellipse with the Sun at one of the two focal points.
+1. A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time (Law of Equal Areas).
+1. The square of a planet's orbital period is proportional to the cube of the length of the semi-major axis of its orbit.</li>
+
+```{figure} images/Perkenwet.png
 :name: fig:Perkenwet.png
 :width: 350px
 :align: center
@@ -598,16 +600,9 @@ Kepler has formulated three laws that describe features of the orbits of the pla
 Kepler's 2nd Law of Equal Area.
 ```
 
-</li>
-<li>The square of a planet's orbital period is proportional to the cube of the length of the semi-major axis of its orbit.</li>
-</ol>
-**
-
-<div align="center" style="font-size: 14px">
-
 $$ \frac{T_A^2}{R_A^3} = \frac{T_B^2}{R_B^3}= const $$
 
-</div>
+
 
 It is important to realize, that Kepler came to his laws by -what we would now call- curve fitting. That is, he was looking for a generic description of the orbits of planets that would match the Brahe data. He abandoned the Copernicus idea of circles with epi-circles with the sun in the center of the orbit. Instead he arrived at ellipses with the sun out of the center, in one of the focal points of the ellipse. 
 
@@ -765,7 +760,7 @@ $$ U_{eff} = \frac{l^2}{2mr^2} - -G\frac{mM}{r} $$
 
 We see, that the energy can not be just any value: the kinetic energy of our quasi-one-dimensional particle ($\frac{1}{2}m\dot{r}^2$) can not be negative and the total potential energy has, according to {numref}`fig:KeplerEnergy.png` a clear minimum. The total energy can not be below this minimum. On the other hand: there is no maximum.    
 
-**Case 1: **$U_{eff} = minimal$
+**Case 1:** $U_{eff} = minimal$
 
 Suppose, we would prepare the system such that its total energy was equal to the minimum of the black line, i.e. of the total potential energy. Then, of course, via the arguments we have given above this is only possible if the kinetic energy is zero. 
 
@@ -785,7 +780,7 @@ $$
 
 Thus, if a planet orbits its sun such that its (pseudo-)potential $U_{eff} = minimum$, then its orbit is a circle of radius $r_0$ that corresponds to the minimum in $U_{eff}$ and the planet has a velocity that is constant in magnitude $v = \frac{l}{mr_0}$.
 
-**Case 2: **$U_{eff, min} < E_{tot} < 0$
+**Case 2:** $U_{eff, min} < E_{tot} < 0$
 
 Next, we consider a case where the total energy of the planet has a value between the minimum of the curve of the effective potential and 0. Call the value of the energy $E_2$.
 
@@ -806,7 +801,7 @@ N.B. Do realize, that the velocity is for this case not a constant. We already h
 
 Thus, if the planet is closer to $r_a$ it moves faster than close to $r_b$. But it can not escape from $r_a < r(t) < r_b$.
 
-**Case 3: **$E_{tot} > 0$
+**Case 3:** $E_{tot} > 0$
 
 Finally, we take the case that the total energy of the planet is positive, say a value of $E_3$ in {numref}`fig:KeplerEnergy3.png`. Now we see that the planet can approach the sun, but not closer than a distance $r=r_c$. The planet is attracted to the sun, but after reaching the closest distance $r=r_c$ it will move away and eventually reach infinity. Again note: at $r=r_c$, the planet does have a non-zero velocity.
 
@@ -851,7 +846,7 @@ and
 
 $$ \alpha \equiv \frac{l^2}{2GMm^2} $$
 
-This type of curve is know as the conic sections. That is, they can be found by intersecting a cone with a plane. See the animation below, where a plane is at various positions and at various angles intesecting a cone.
+This type of curve is know as the conic sections. That is, they can be found by intersecting a cone with a plane. See the animation below, where a plane is at various positions and at various angles intersecting a cone.
 
 
 ```{figure} images/conic_sections_small.gif
@@ -916,7 +911,6 @@ One of the best visible comets is Haley's comet. However, its orbital period is 
 
 
 ```{figure} images/Halley's_Comet_animation.gif
-
 :name: fig:Halley's_Comet_animation.gif
 :width: 400px
 :align: center
@@ -960,9 +954,9 @@ If we plot the same speed versus distance curve not for the planets in our solar
 From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rotation_curve_of_the_Milky_Way.png), licensed under CC-SA 3.0.
 ```
 
-This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of <a href="https://en.wikipedia.org/wiki/Dark_matter"><em>dark matter</em></a> and an <a href="https://en.wikipedia.org/wiki/Alternatives_to_general_relativity"><em>alternative formulation</em></a> for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of [measurement](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics) in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
+This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of [dark matter](https://en.wikipedia.org/wiki/Dark_matter) and an [alternative formulation](https://en.wikipedia.org/wiki/Alternatives_to_general_relativity) for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of [measurement](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics) in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
 
 The majority of all matter in the universe is believed to be *dark*. And we have no clue what it could be! Most scientist even think it must be [non-baryonic](https://en.wikipedia.org/wiki/Baryon), that is, other stuff than our well-known protons or neutrons. It remains most confusing.
 
-The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but [parsec](https://en.wikipedia.org/wiki/Parsec) [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13}$ km). Note: stars visible to the eye are typically not more than a few hundred parsec away. The milkyway is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the milky way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 
+The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but [parsec](https://en.wikipedia.org/wiki/Parsec) [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13}$ km). Note: stars visible to the eye are typically not more than a few hundred parsec away. The Milky Way is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the milky way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 
 
