@@ -1,5 +1,5 @@
 ---
-title: Introducing Classical Mechanics & Special Relativity
+title: Classical Mechanics & Special Relativity for Beginners
 site:
   hide_title_block: true
 
@@ -70,4 +70,4 @@ The bar on the right of this page opens [Hypothesis](https://web.hypothes.is/), 
 
 
 ## How to cite this book
-R.F. Mudde & B. Rieger, *Introducing Classical Mechanics & Special Relativity*, TU Delft Open, 2025, [LINK DOI]
+R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics & Special Relativity for Beginners*, <!--TU Delft Open, 2025, [LINK DOI]-->
