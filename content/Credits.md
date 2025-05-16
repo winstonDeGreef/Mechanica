@@ -32,6 +32,8 @@ With this e-book our aim is to provide learning material that is:
 * Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
 * Dr. Freek Pols, Science & Engineering Education, Delft University of Technology
 
+Special thanks to Hanna den Hartog for (re)making most of the drawings.
+
 ## Exercises
 
 Each chapter includes a variety of exercises tailored to the material. We distinguish between exercises embedded within the instructional text and those presented on separate pages. The in-text exercises should be completed while reading, as they offer immediate feedback on whether the concepts and mathematics are understood. The separate exercise sets are intended for practice after reading the text and attending the lectures.
