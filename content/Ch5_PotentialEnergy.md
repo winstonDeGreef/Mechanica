@@ -1,6 +1,6 @@
 # Potential Energy
 
-## Conservative force ##
+## Conservative force
 
 Work done on $m$ by $F$ during motion from 1 to 2 over a prescribed trajectory, is defined as:
 $$

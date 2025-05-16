@@ -1,6 +1,5 @@
 # Work & Energy
 
-
 ## Work
 Work and energy are two important concepts. Work is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path'. However, we need a formal definition:
 
@@ -35,7 +34,7 @@ Keep in mind: in general the work depends on the starting point 1, the end point
 ```{tip}
 See also the chapter in the [linear algebra book on the inner product](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html))
 ```
-## Kinetic Energy ##
+## Kinetic Energy
 Kinetic energy is defined and derived using the definition of work and Newton's $ 2^{nd} $ Law.
 
 The following holds: if work is done on a particle, then its kinetic energy must change. And vice versa: if the kinetic energy of an object changes, then work must have been done on that particle. The following derivation shows this.
@@ -169,3 +168,19 @@ $$
 $$
 ```
 
+## Gravitational potential energy
+Let's consider an object close to the surface of any planet, where the acceleration due to gravity can be described by $F_g=mg$. Raising the object to a height $H$ requires us to do work:
+
+$$W = \int_0^H F dx = \int_0^H -m g dx = -m g H$$
+
+Note that there is a minus sign, we have done work against the gravitational force. As energy is a {abbr}`conservative quantity (A quantity that remains constant within an isolated system, regardless of the processes occurring within it)`, the object has the 'gained' some energy. We call this potential energy, more particular in this case gravitational potential energy. 
+
+When the object is released from that height $H$, this gravitational potential energy is converted to kinetic energy. The gravitational force does work on the object:
+
+$$W = = \int_H^0 F dx = \int_H^0 m g dx = m g H = \Delta E_{kin}$$
+
+From this, it follow that the object will reach a velocity of $v=\sqrt{2gH}$.
+
+```{exercise} Potential & kinetic energy
+Proof that the velocity of an object released from a height $H$ will reach the velocity $v=\sqrt{2gH}$.
+```
