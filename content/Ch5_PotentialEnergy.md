@@ -9,9 +9,9 @@ $$
 
 In general, the amount of work depends on the path followed. That is, the work done when going from $ \vec{r}_1 $ to $ vec{r}_2 $ over the red path in the figure below, will be different when going from  $ \vec{r}_1 $ to $ \vec{r}_2 $ over the blue path. Work depends on the specific trajectory followed.
 
-```{figure} images/Path12.jpg
+```{figure} images/Path12.png
 ---
-name: fig:Path12.jpg
+name: fig:Path12.png
 width: 70%
 align: center
 ---
@@ -52,20 +52,20 @@ In words: the integral of the force over a closed path equals the surface integr
 
 Consider a closed curve in the $xy$-plane. We would like to calculate the work done when going around this curve. In other words: what is $\oint \vec{F} \cdot d\vec{r}$ if we move along this curve?<br>
 
-We can visualize what we need to do: we cut the curve in small part; compute $\vec{F} \cdot d\vec{r}$ for each part (i.e. the red, green, blue, etc. in fig.(\ref{Stokes2.jpg}) and sum these to get the total along the curve. If we make the parts infinitesimally small, we go from a (Riemann) sum to an integral. 
+We can visualize what we need to do: we cut the curve in small part; compute $\vec{F} \cdot d\vec{r}$ for each part (i.e. the red, green, blue, etc. in fig.(\ref{Stokes2.png}) and sum these to get the total along the curve. If we make the parts infinitesimally small, we go from a (Riemann) sum to an integral. 
 
-```{figure} images/Stokes2.jpg
+```{figure} images/Stokes2.png
 ---
-name: fig:Stokes2.jpg
+name: fig:Stokes2.png
 width: 70% 
 align: center
 --- 
 Closed path on a grid.
 ```
 
-We are going to compute much more: take a look at {numref}`fig:Stokes2.jpg`. We have put a grid in the $xy$-plane over a closed curve $\Gamma$. Hence, the interior of our curve is fool op squares. We are not only computing the parts along the curve, but also along the sides of alle curves. This will sound like way too much work, but we will see that it actually is a very good idea.
+We are going to compute much more: take a look at {numref}`fig:Stokes2.png`. We have put a grid in the $xy$-plane over a closed curve $\Gamma$. Hence, the interior of our curve is fool op squares. We are not only computing the parts along the curve, but also along the sides of alle curves. This will sound like way too much work, but we will see that it actually is a very good idea.
 
-See {numref}`fig:Stokes2.jpg`: we calculate $\oint \vec{F} \cdot d\vec{r}$ counter clockwise for the green square. Than we have at least the green part of our $\oint \vec{F} \cdot d\vec{r}$ done in the right direction. Hence, we compute $\int \vec{F} \cdot d\vec{r}$ along the right side of the green square. We do that from bottom to top as we go counter clockwise along the green square. Let's call that $\int_g \vec{F} \cdot d\vec{r}$.<br>
+See {numref}`fig:Stokes2.png`: we calculate $\oint \vec{F} \cdot d\vec{r}$ counter clockwise for the green square. Than we have at least the green part of our $\oint \vec{F} \cdot d\vec{r}$ done in the right direction. Hence, we compute $\int \vec{F} \cdot d\vec{r}$ along the right side of the green square. We do that from bottom to top as we go counter clockwise along the green square. Let's call that $\int_g \vec{F} \cdot d\vec{r}$.<br>
 
 Then we move to the blue square and repeat in counter clockwise direction our calculation. But this means that we compute along the left side of blue the square from top to bottom. We will call this $\int_b \vec{F} \cdot d\vec{r}$.<br>
 
@@ -125,9 +125,9 @@ Second note of warning: the representation of the nabla-operator does change qui
 
 Suppose we need to calculate the integral of the vectorfield $\vec{F}(x,y) = y \hat{x} - x \hat{y}$ over the closed curve formed by a square from $(0,0)$ to $(1,0)$, $(1,1)$, $(0,1)$ and back to $(0,0)$.
 
-```{figure} images/StokesTheoremExample.jpg
+```{figure} images/StokesTheoremExample.png
 ---
-name: fig:StokesTheoremExample.jpg
+name: fig:StokesTheoremExample.png
 width: 70%
 align: center
 ---
@@ -282,9 +282,9 @@ $$
  
 Luckily, the definition of potential energy is such that these rules are easy to visualize in 1D and remember, see fig.(?.?).
 
-```{figure} images/PotentialStableUnstable.jpg
+```{figure} images/PotentialStableUnstable.png
 ---
-name: fig:PotentialStableUnstable.jpg
+name: fig:PotentialStableUnstable.png
 width: 70%
 align: center
 ---
