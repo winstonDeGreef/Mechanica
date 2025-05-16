@@ -39,11 +39,8 @@ project:
           children:
             - file: content/Ch5_ex.ipynb
         - file: content/Ch6_AngularMomentum.md
-<<<<<<< HEAD
-        # - file: content/Ch7_ConservationEquations.md
-=======
         - file: content/Ch7_ConservationEquations.md
->>>>>>> 68e79752bbf85fa6cdb0e6ca45326627b9969a5a
+
         # - file: content/Ch8_RutherfordAtom.md
         - file: content/Ch8_Oscillations.md
         # - file: content/ChX0_Collisions.md
