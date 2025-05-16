@@ -11,23 +11,21 @@ From experience we know that if we want to unscrew a bottle, lift a heavy object
 
 Lifting is easier using leverage.
 ```
-With a relatively small force $F_S$, we can lift the side of a heavy object. The key concept to use here is torque, which in words is loosely formulated: apply the force using a long arm and the force seems to be magnified. The torque is then force multiplied by arm: $\Gamma = F \, times \, arm$ 
+
+With a relatively small force $F_S$, we can lift the side of a heavy object. The key concept to use here is torque, which in words is loosely formulated: apply the force using a long arm and the force seems to be magnified. The torque is then force multiplied by arm: $\Gamma = F \times arm$ 
 
 This is, of course, too sloppy for physicists. We need strict, formal definitions. So, we put the above into a mathematical definition.
 
-<b style="color:blue; font-size:large">**
-```{admonition} <b style="color:blue; font-size:large">torque**
 
-<font size="4">
+```{admonition} torque
 
 $$\vec{\Gamma} \equiv \vec{r} \times \vec{F}$$
-</font>
-**
 ```
- That is: torque (or krachtmoment in Dutch) is the outer product of 'arm' as a vector(!) and the force. We notice a few peculiarities.
- 1. like force, torque is a vector. That is: it has a magnitude and a direction. In principle: three components.
- 1. its direction is perpendicular to the force vector $\vec{F}$ *and* perpendicular to the arm $\vec{r}$.
- 1. the arm is not a number: it is a vector!
+
+That is: torque (or krachtmoment in Dutch) is the outer product of 'arm' as a vector(!) and the force. We notice a few peculiarities.
+1. like force, torque is a vector. That is: it has a magnitude and a direction. In principle: three components.
+1. its direction is perpendicular to the force vector $\vec{F}$ *and* perpendicular to the arm $\vec{r}$.
+1. the arm is not a number: it is a vector!
 
 We further know from experience that we can balance torques, like we can balance forces. Rephrased: the net effect of more than one force is found by adding all the forces (as vectors!) and using the net force in Newtons second law: $m\vec{a} = \sum \vec{F}_i = \vec{F}_{net}$. From Newtons first law, we immediately infer: if $\sum \vec{F}_i = \vec{F}_{net}=0$ then the object moves at constant velocity. We can move with the object at this speed and conclude that it from this perspective has zero velocity: it doesn't move, i.e. it is in equilibrium.
 
@@ -371,7 +369,6 @@ As seen in class, we have a student sitting on a chair that can rotate (swivel c
 
 	
 ```{figure} images/studentwheel.png
-
 :name: fig:studentwheel.png
 :width: 200px
 :align: center
@@ -385,39 +382,34 @@ Once the student starts to spin the wheel while sitting on the chair, the studen
 
 ## Exercises
 ````{exercise} 7.1
-:label: 71
+:label: ex_71
 
 A point particle (mass $m$) is initially located at position $P=(x_0,H,0)$. At $t = 0$, it is released from rest and falls in a force field of constant acceleration $\vec{a}=(0,-a,0)$ that acts on the mass. 
 	
 ```{figure} images/Fallingm.png
-
 :name: fig:Fallingm.png
 :width: 150px
 :align: center
 
-
+some caption
 ```
 
 Analyze what happens to the angular momentum of $m$.
-
 ````
 
 ```{exercise} 7.2
-:label: 72
+:label: ex_72
 
 The same question, but now the particle has an initial velocity $\vec{v} = (v_0 ,0,0)$.
-
 ```
 
 ```{exercise} 7.3
-:label: 73
+:label: ex_73
 
 Similar situation: can you find an example of a falling object for which the angular momentum stays constant? Ignore friction with the air. 
-
-
 ```
 
-```{solution} 7.1
+```{solution} ex_71
 :class: dropdown
 
 The particle falls under a force that points in the negaive $y$-direction. As a consequence, it will start moving vertically downwards:
@@ -467,7 +459,7 @@ where we have used: $t=0 \rightarrow \vec{p}=0 \rightarrow \vec{l}=0 \Rightarrow
 
 ```
 
-````{solution-start} 7.2
+````{solution} ex_72
 :class: dropdown
 
 We can follow the same procedure as in exercise (6.1). But now, the outcome of the $x$-component of N2 changes.
@@ -499,22 +491,18 @@ Thus, the angular momentum still points in the negative $z$-direction but increa
 
 	
 ```{figure} images/Fallingm2.png
-
 :name: fig:Fallingm2.png
 :width: 150px
 :align: center
 
-
+some caption
 ```
-
-
 ````
 
-```{solution-start} 7.3
+```{solution} ex_73
 :class: dropdown
 
 We can take the situation of exercise 6.1, but shift our origin such that at $t=0 \rightarrow x=0$. Now the particle will fall along the $y$-axis. It has its momentum also in the $y$-direction and consequently $\vec{l} = \vec{r} \times \vec{p} =0$ and stays zero!
-
 ```
 
 ## Central Forces
@@ -871,7 +859,7 @@ This type of curve is know as the conic sections. That is, they can be found by 
 :width: 550px
 :align: center
 
-Conic sections   animation created by <a href="https://www.saravanderwerf.com/conics-gifs-why-gifs-are-my-new-addiction/">Sara van der Werf</a>
+Conic sections   animation created by [Sara van der Werf](https://www.saravanderwerf.com/conics-gifs-why-gifs-are-my-new-addiction/)
 ``` 
 
 Note that in the definition of $e$, the total energy of the system plays a role. This energy can be negative (see {numref}`fig:KeplerEnergy.png`). The minimum value of the effective potential energy is easily computed. It is $U_{eff, min} = -\frac{1}{2} \frac{(GmM)^2m}{l^2}$ and is realized when the planet is at a distance $r = \frac{l^2}{GMm^2}$. For this case we have $e = 0$ and the planet is moving in a circle around the sun, as we already argued above.
@@ -960,7 +948,7 @@ Indeed if we measure the speed of the planets in the solar system this predictio
 From [LibreTexts Physics](https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Big_Ideas_in_Cosmology_%28Coble_et_al.%29/08%3A_Dark_Matter/8.02%3A_Velocities_Mass_and_Gravity-_the_Solar_System), licensed under CC BY-NC-SA 4.0.
 ```
 
-The distance is measured in <a href="https://en.wikipedia.org/wiki/Astronomical_unit">Astronomical Units [AU]</a>, the distance from the earth to the sun (about 8.3 light minutes). Note that the earth is moving with an unbelievable 30 km/s, that is $10^5$ km/h! Do you notice any of that? We will use this motion later with the Michelson-Morley experiment.
+The distance is measured in [Astronomical Units [AU]](https://en.wikipedia.org/wiki/Astronomical_unit), the distance from the earth to the sun (about 8.3 light minutes). Note that the earth is moving with an unbelievable 30 km/s, that is $10^5$ km/h! Do you notice any of that? We will use this motion later with the Michelson-Morley experiment.
 
 If we plot the same speed versus distance curve not for the planets in our solar system, but for stars orbiting the center of our galaxy, the milky way, then the picture looks very different. The far away stars orbit at a much higher speed than expected and the form of the found curve does not match $\propto r^{-1/2}$. 
 
@@ -972,9 +960,9 @@ If we plot the same speed versus distance curve not for the planets in our solar
 From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rotation_curve_of_the_Milky_Way.png), licensed under CC-SA 3.0.
 ```
 
-This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of <a href="https://en.wikipedia.org/wiki/Dark_matter"><em>dark matter</em></a> and an <a href="https://en.wikipedia.org/wiki/Alternatives_to_general_relativity"><em>alternative formulation</em></a> for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of <a href="https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics">measurement</a> in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
+This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of <a href="https://en.wikipedia.org/wiki/Dark_matter"><em>dark matter</em></a> and an <a href="https://en.wikipedia.org/wiki/Alternatives_to_general_relativity"><em>alternative formulation</em></a> for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of [measurement](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics) in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
 
-The majority of all matter in the universe is believed to be *dark*. And we have no clue what it could be! Most scientist even think it must be <a href="https://en.wikipedia.org/wiki/Baryon">non-baryonic</a>, that is, other stuff than our well-known protons or neutrons. It remains most confusing.
+The majority of all matter in the universe is believed to be *dark*. And we have no clue what it could be! Most scientist even think it must be [non-baryonic](https://en.wikipedia.org/wiki/Baryon), that is, other stuff than our well-known protons or neutrons. It remains most confusing.
 
-The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but <a href="https://en.wikipedia.org/wiki/Parsec">parsec</a> [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13}$ km). Note: stars visible to the eye are typically not more than a few hundred parsec away. The milkyway is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the milky way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 
+The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but [parsec](https://en.wikipedia.org/wiki/Parsec) [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13}$ km). Note: stars visible to the eye are typically not more than a few hundred parsec away. The milkyway is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the milky way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 
 
