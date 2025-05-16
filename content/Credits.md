@@ -1,10 +1,18 @@
 ---
-title: Introducing Classical Mechanics & Special Relativity
+title: Classical Mechanics & Special Relativity for Beginners
 site:
   hide_title_block: true
 
 abstract: This book provides an introduction for freshman students into the world of classical mechanics and special relativity theory. Much of physics is build on the basic ideas from classical mechanics. Hence an early introduction to the topic can be beneficial for new students. However, at the start of studying physics, lots of the required math is not available yet. That means that all kind of concepts that are very useful can not be invoked in the lectures and teaching. That does not have to be a disadvantage. It can also be used to help the students by introducing some math and coupling it directly to the physics, making more clear why mathematics should be studied and what its 'practical use' is. With this book, we aim to introduce new students directly at the start of their studies into the world of physics, more specifically the world of Newton, Galilei and many others who laid the foundation of physics. We aim to help students getting a good understanding of the theory, i.e. the framework of physics. What is 'work' and why do we use it? Why is kinetic energy $\frac{1}{2}mv^2$ and not $\frac{1}{3}mv^2$ or $\frac{1}{2}mv^3$? Both 3's are fundamentally wrong, but what is behind it?
 ---
+
+```{warning}
+Under construction
+
+aanpassen zodat duidelijk is dat boek gebaseerd is op ander boek. waar de verschillen liggen etc.
+
+```
+
 
 # About this book
 
@@ -35,8 +43,9 @@ To indicate the level of difficulty, each exercise is marked with 1, 2, or 3 &#1
 
 | | |
 | --- | --- |
-| ![](images/RFMudde.jpg)| Robert Mudde is Distinghuised Professor of Science Education at the faculty of Applied Sciences of <a href="http://www.tudelft.nl/">Delft University of Technology</a> in The Netherlands. |
-| ![](images/BRieger.png) | Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of <a href="http://www.tudelft.nl/">Delft University of Technology</a> in The Netherlands.  |
+| ![](images/RFMudde.jpg)| Robert Mudde is Distinghuised Professor of Science Education at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands. |
+| ![](images/BRieger.png) | Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.  |
+| ![](images/Freek.jpg) | Freek Pols is an assistant professor in the [Science & Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands. |
 
 ## Software and license
 This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right.
@@ -61,4 +70,4 @@ The bar on the right of this page opens [Hypothesis](https://web.hypothes.is/), 
 
 
 ## How to cite this book
-R.F. Mudde & B. Rieger, *Introducing Classical Mechanics & Special Relativity*, TU Delft Open, 2025, [LINK DOI]
+R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics & Special Relativity for Beginners*, <!--TU Delft Open, 2025, [LINK DOI]-->
