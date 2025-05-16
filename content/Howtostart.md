@@ -35,3 +35,7 @@ Rechtsboven op de page staat een knop met feedback. Wanneer je daar op klikt kom
 Wanneer je de issue hebt gerapporteerd (Create) belandt deze in de to-do list en wordt het issue opgepakt wanneer daar tijd voor is.
  
 Wil je tekeningen bij een specifiek onderwerp, tag dan Hanna. Beschrijf wat je voor tekening wilt, als dat onvoldoende helder is vanuit de vraagstelling zelf.
+
+## Opzetten van een lokale server
+
+Om direct te output van de wijzigingen te zien (lokaal), open je via de terminal de folder en typ je `myst start`. Op dat moment worden de boeken geconverteerd naar een website, welke lokaal te zien is. Het adres wordt gegeven in de terminal, veelal is dat: `http://localhost:3000`. Via een webbrowser kan dit adres gekopieerd worden. Wanneer je een bestand opslaat, wordt deze binnen ~5 s zichtbaar.
