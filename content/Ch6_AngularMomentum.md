@@ -11,7 +11,7 @@ From experience we know that if we want to unscrew a bottle, lift a heavy object
 Lifting is easier using leverage.
 ```
 
-With a relatively small force $F_S$, we can lift the side of a heavy object. The key concept to use here is torque, which in words is loosely formulated: apply the force using a long arm and the force seems to be magnified. The torque is then force multiplied by arm: $\Gamma = F \, times \, arm$ 
+With a relatively small force $F_S$, we can lift the side of a heavy object. The key concept to use here is torque, which in words is loosely formulated: apply the force using a long arm and the force seems to be magnified. The torque is then force multiplied by arm: $\Gamma = F \, \text{times} \, arm$ 
 
 This is, of course, too sloppy for physicists. We need strict, formal definitions. So, we put the above into a mathematical definition.
 
@@ -41,28 +41,27 @@ Let's consider a simple example (simple in the sense that we are all familiar wi
 :width: 200px
 :align: center
 
-Some caption
+An adult (left) and a child (right) on a seesaw. 
 ```
 
 It is obvious that the adult -seesawing with the child- should sit much closer to the pivot point than the child. That is: we assume that the mass of the adult is greater than that of the child.
 
-Let's turn this picture in on that has the essence and some of the physics quantities we need and draw a free body diagram.
-
+Let's turn this picture into one that captures the essence and includes the necessary physical quantities, and then draw a free-body diagram.
 
 ```{figure} images/SeeSaw2.png
 :name: fig:SeeSaw2.png
 :width: 300px
 :align: center
 
-Some caption
+Free-body diagram of the seesaw and the masses.
 ```
 
 What did we **draw**?  
-1) the force of gravity acting on the two masses $M$ and $m$. That is obvious: without forces nothing will happen and there is nothing to be analyzed.  
-2) the 'reaction forces' from the seesaw on both masses. Why? If the seesaw is in equilibrium, then each of the masses is in equilibrium and the sum of forces on each mass must be zero.  
-3) the distance of each of the masses to the pivot point. Why? Leverage! The heavy $M$ must be closer to the pivot point the get equilibrium.  
-4) an origin $O$. Why? We need a point to measure the 'arm', 'leverage', from.   
-5) the $z$-coordinate. Why? We deal with forces in the vertical direction. Hence a coordinate, a direction that we all use, is handy.
+1) The force of gravity acting on the two masses $M$ and $m$. That is obvious: without forces nothing will happen and there is nothing to be analyzed.  
+2) The 'reaction forces' from the seesaw on both masses. Why? If the seesaw is in equilibrium, then each of the masses is in equilibrium and the sum of forces on each mass must be zero.  
+3) The distance of each of the masses to the pivot point. Why? Leverage! The heavy $M$ must be closer to the pivot point the get equilibrium.  
+4) An origin $O$. Why? We need a point to measure the 'arm', 'leverage', from.   
+5) The $z$-coordinate. Why? We deal with forces in the vertical direction. Hence a coordinate, a direction that we all use, is handy.
 
 **Analysis**  
 Time for a first analysis: what keeps this seesaw in equilibrium?  
@@ -77,7 +76,7 @@ Let's redraw, now concentrating on the forces on the seesaw.
 :width: 300px
 :align: center
 
-Some caption
+Free-body diagram of the seesaw.
 ```
 
 **Analysis part 2**  
@@ -125,7 +124,7 @@ No, it wouldn't! Let's just do it and recalculate. In the figure below, we have 
 :width: 300px
 :align: center
 
-Some caption
+Free-body diagram with the origin located at the seesaw's end.
 ```
 
 We still have that the sum of forces is zero. But what about the sum of torques? Obviously, the choice of the origin can not affect the seesaw: it is still in balance, regardless of our choice of the origin. Let's see if that is correct:
@@ -344,7 +343,7 @@ As seen in class: one person throws a basketball to another via a bounce on the 
 :width: 250px
 :align: center
 
-Bouncing basketball
+A bouncing basketball.
 ```
 
 When the ball hits the ground a friction force is acting on the ball. This force will apply a torque on the ball. The friction is directed opposite to the direction of motion. The arm $\vec{r}$ from the center of the ball to where the force is acting, is downwards. Using the right-hand rule we find that the torque is pointing in the plane of the screen, and thus the rotation is clockwise (forwards spin).
@@ -358,12 +357,11 @@ As seen in class, we have a student sitting on a chair that can rotate (swivel c
 
 	
 ```{figure} images/studentwheel.png
-
 :name: fig:studentwheel.png
 :width: 200px
 :align: center
 
-Student with a rotating wheel
+Student with a rotating wheel on a swivel chair.
 ```
 
 Once the student starts to spin the wheel while sitting on the chair, the student  will start to rotate in the opposite direction (with smaller angular velocity, later on we will see why their speeds are different). There is no external force on the student + wheel. Consequently, the total angular momentum mst stay constant. But the student exerts an angular momentum on the wheel, causing it to rotate. But at the same time, due to action = - reaction, the wheel exerts also a torque on the student. But in the opposite direction. Thus, to compensate the angular momentum pointing up (counter clockwise rotation), an angular momentum pointing down (clockwise rotation) of the same magnitude must occur, keeping the total angular momentum of student + wheel constant.
@@ -377,7 +375,6 @@ Once the student starts to spin the wheel while sitting on the chair, the studen
 A point particle (mass $m$) is initially located at position $P=(x_0,H,0)$. At $t = 0$, it is released from rest and falls in a force field of constant acceleration $\vec{a}=(0,-a,0)$ that acts on the mass. 
 	
 ```{figure} images/Fallingm.png
-
 :name: fig:Fallingm.png
 :width: 150px
 :align: center
@@ -389,14 +386,14 @@ Analyze what happens to the angular momentum of $m$.
 
 ````
 
-```{exercise} 7.2
+```{exercise} 72
 :label: 72
 
 The same question, but now the particle has an initial velocity $\vec{v} = (v_0 ,0,0)$.
 
 ```
 
-```{exercise} 7.3
+```{exercise} 73
 :label: 73
 
 Similar situation: can you find an example of a falling object for which the angular momentum stays constant? Ignore friction with the air. 
