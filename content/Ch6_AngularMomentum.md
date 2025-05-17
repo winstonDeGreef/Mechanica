@@ -3,7 +3,6 @@
 ## Torque & Angular Momentum
 From experience we know that if we want to unscrew a bottle, lift a heavy object on one side, try to unscrew a screw, we better use 'leverage'.
 
-
 ```{figure} images/Leverage.png
 :name: fig:Leverage.png
 :width: 300px
@@ -11,23 +10,21 @@ From experience we know that if we want to unscrew a bottle, lift a heavy object
 
 Lifting is easier using leverage.
 ```
+
 With a relatively small force $F_S$, we can lift the side of a heavy object. The key concept to use here is torque, which in words is loosely formulated: apply the force using a long arm and the force seems to be magnified. The torque is then force multiplied by arm: $\Gamma = F \, times \, arm$ 
 
 This is, of course, too sloppy for physicists. We need strict, formal definitions. So, we put the above into a mathematical definition.
 
-<b style="color:blue; font-size:large">**
-```{admonition} <b style="color:blue; font-size:large">torque**
-
-<font size="4">
+```{important} torque
 
 $$\vec{\Gamma} \equiv \vec{r} \times \vec{F}$$
-</font>
-**
+
 ```
- That is: torque (or krachtmoment in Dutch) is the outer product of 'arm' as a vector(!) and the force. We notice a few peculiarities.
- 1. like force, torque is a vector. That is: it has a magnitude and a direction. In principle: three components.
- 1. its direction is perpendicular to the force vector $\vec{F}$ *and* perpendicular to the arm $\vec{r}$.
- 1. the arm is not a number: it is a vector!
+
+That is: torque (or krachtmoment in Dutch) is the outer product of 'arm' as a vector(!) and the force. We notice a few peculiarities.
+1. like force, torque is a vector. That is: it has a magnitude and a direction. In principle: three components.
+1. its direction is perpendicular to the force vector $\vec{F}$ *and* perpendicular to the arm $\vec{r}$.
+1. the arm is not a number: it is a vector!
 
 We further know from experience that we can balance torques, like we can balance forces. Rephrased: the net effect of more than one force is found by adding all the forces (as vectors!) and using the net force in Newtons second law: $m\vec{a} = \sum \vec{F}_i = \vec{F}_{net}$. From Newtons first law, we immediately infer: if $\sum \vec{F}_i = \vec{F}_{net}=0$ then the object moves at constant velocity. We can move with the object at this speed and conclude that it from this perspective has zero velocity: it doesn't move, i.e. it is in equilibrium.
 
@@ -35,10 +32,9 @@ The same hols for torque: we can work with the sum of all torques that act on an
 
 However, there is a catch: using torques requires that we are much more explicit and precise about the choice of our origin. Why? The reason is in the 'arm'. That is only defined if we provide an origin. 
 
-
 ### The seesaw and torque ###
-Let's consider a simple example (simple in the sense that we are all familiar with it): the seesaw.
 
+Let's consider a simple example (simple in the sense that we are all familiar with it): the seesaw.
 
 ```{figure} images/SeeSaw1.png
 :name: fig:SeeSaw1.png
@@ -120,6 +116,7 @@ $$ \sum \vec{\Gamma}_i = 0 \Rightarrow mlg = MLg \rightarrow \frac{m}{M} = \frac
 A result we expected: the greater mass should be closer to the pivot point.
 
 ### Different origin
+
 So far, so good. But what if we had chosen the origin not at the pivot point, but somewhere to the left? Then all 'arm' will change length. And all torques will be different. Wouldn't that make $\sum \vec{\Gamma}_i \neq 0$?  
 No, it wouldn't! Let's just do it and recalculate. In the figure below, we have moved the origin to the left end of the seesaw. The distance from the heavy mass to the origin is $\Lambda$ (green arrow).
 
@@ -151,16 +148,12 @@ $$ \begin{split}
 
 Which is exactly the same expression as we found before. So, indeed, the choice of the origin doesn't matter.
 
-<b style="color:blue; font-size:large">Conclusion  
+**Conclusion**
 
-<font size="4">
 For equilibrium we need that the sum of torques is zero: 
 
 $$\sum_i \vec{\Gamma}_i = 0$$
 
-</font>
-
-**
 
 ## Angular Momentum
 
@@ -170,7 +163,7 @@ We know that the seesaw will rotate and in order to balance it, we have to shift
 
 In which direction will it rotate? 
 
-Before answering: first we need to think about <b style="color:blue"> *direction of rotation***. Does it have direction and if so: how do we make clear what that is?
+Before answering: first we need to think about **direction of rotation**. Does it have direction and if so: how do we make clear what that is?
 
 Again the seesaw will give guidance. Suppose we remove the smaller mass all together. Then, it is obvious: the 'heavy' left side will rotate to the ground and the light right side upwards. From the point of view we are standing: the seesaw will rotate counter clockwise. 
 
@@ -191,14 +184,10 @@ Which of the two is 'strongest' determines the direction of rotation: if $MgL > 
 
 The quantity that goes with this, is the angular momentum. It is defined as 
 
-<b style="color:blue; font-size:large">**
-```{admonition} <b style="color:blue; font-size:large">angular momentum**
-
-<font size="4">
+```{important} angular momentum
 
 $$\vec{l} \equiv \vec{r} \times \vec{p}$$
-</font>
-**
+
 ```
 
 Note that it is a cross product as well. Hence it is a vector itself. Further note that $\vec{r} \times \vec{p} \neq \vec{p} \times \vec{r}$. The order matters! First $\vec{r}$ then $\vec{p}$. If you do it the other way around, you unwillingly have introduced a minus sign that should not be there.  
@@ -229,14 +218,11 @@ $$
 
 Thus, we find a general law for the angular momentum:
 
-<b style="color:blue; font-size:large">**
-```{admonition} <b style="color:blue; font-size:large">N2 for angular momentum**
 
-<font size="4">
+```{important} N2 for angular momentum
 
 $$\frac{d \vec{l}}{dt} = \vec{r} \times \vec{F}$$
-</font>
-**
+
 ```
 
 Again, note that the right hand side is a cross product, so the order does matter.
@@ -258,7 +244,7 @@ where the force is replaced by the torque and the linear momentum by the angular
 NB: Note that the torque and angular moment change if we choose a different origin as this changes the value of $\vec{r}$.
 
 ````{note} Intermezzo: cross product
-
+:class: dropdown
 Here is some recap for the cross product. See also the [wiki](https://en.wikipedia.org/wiki/Cross_product) page.
 A cross product of two vectors $\vec{a}$ and $\vec{b}$ is defined as
 
@@ -276,9 +262,7 @@ Here $\theta$ is the angle between $\vec{a}$ and $\vec{b}$, and $\hat{n}$ is a u
 Right hand rule for cross products. Adapted from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Magnetic_field_element_%28Biot-Savart_Law%29_PRIME.svg), licensed under CC-BY-SA 4.0.
 ```
 
-
 From the definition it is clear that $\| \vec{a}\times\vec{b}\|$ is the area of the parallelogram spanned by $\vec{a},\vec{b}$.
-
 
 ```{figure} images/area_cross.png
 :name: fig:area_cross.png
@@ -300,7 +284,10 @@ $$
 $$
 
 How to *remember* this rule for the cross product in Cartesian or polar coordinates see [here](potential_energy#worked-example).
+
+```{warning}
 *****ik kan deze file niet vinden ****
+```
 
 The formula can be derived from the cross product for orthonormal basis vectors, e.g. $\hat{x},\hat{y},\hat{z}$
 
@@ -545,6 +532,7 @@ Imagine a particle that moves under the influence of a central force. At some po
 A little time later, say $\Delta t$ later, both position and momentum will have changed. Since the force is central, the force is also in the plane defined by the initial position and momentum. Thus the change of momentum is in that plane as well: $\vec{p} (t + \Delta t) = \vec{p} (t) + \vec{F} \Delta t$. The right hand side is completely in our plane. And thus, the new momentum is also in the plane. But that means that the velocity is also in the same plane. An thus the new position $\vec{r} (t + \Delta t) = \vec{r}(t) + \frac{\vec{p}}{m} \Delta t$ must be in the same plane as well. We can repeat this argument for the next time and thus see, that both momentum and position can not get out of the plane. This is, of course, fully in agreement with the fact that $\vec{l} = const$ for a central force.
 
 ## Central forces: conservative or not?
+
 We can further restrict our class of central forces:
 
 $$ \text{  if  } \vec{F}(\vec{r}) = f(r) \hat{r} \text{  then F is central and conservative} $$
@@ -556,10 +544,11 @@ Both the concept of central forces and potential energy play a pivotal role in u
 The planetary motion is an example of using the concept of central forces. It is, however, also an example in its own right. Using his new theory, Newton was able to prove that the motion of the earth around the sun is an ellipsoidal one. It helped changing the way we viewed the world from geo-centric to helio-centric.
 
 ### Keppler's Laws
+
 Before we embark at the problem of the earth moving under the influence of the sun's gravity, we will go back in time a little bit. 
 
 ````{note} Intermezzo: Tycho Brahe & Johannes Kepler
-note
+:class: dropdown
 
 We find ourselves back in the Late Renaissance, that is around 1550-1600 AD. In Europe, the first signs of the scientific revolution can be found. Copernicus proposed his heliocentric view of the solar system. Galilei used his telescope to study the planets and found further evidence for the heliocentric idea. In Denmark, Tycho Brahe (1546-1601) made astronomical observations with data of unprecedented precision. He did so without the telescope as the first records of telescopes date back to around 1608 AD. 
 
@@ -615,11 +604,8 @@ Kepler's 2nd Law of Equal Area.
 </ol>
 **
 
-<div align="center" style="font-size: 14px">
-
 $$ \frac{T_A^2}{R_A^3} = \frac{T_B^2}{R_B^3}= const $$
 
-</div>
 
 It is important to realize, that Kepler came to his laws by -what we would now call- curve fitting. That is, he was looking for a generic description of the orbits of planets that would match the Brahe data. He abandoned the Copernicus idea of circles with epi-circles with the sun in the center of the orbit. Instead he arrived at ellipses with the sun out of the center, in one of the focal points of the ellipse. 
 
@@ -628,6 +614,7 @@ But, there was no scientific theory backing this up. It is purely 'data-fitting'
 Kepler had formulated his laws by 1619 AD. It would take another 60 years before Isaac Newton showed that these laws are actually imbedded in his first principle approach: all that is needed is Newton's second law and his Gravitational Law.  
 
 ## Newton's theory and Kepler's Laws
+
 The planets move under the influence of the gravitational force between them and the sun. We start with inspecting and classifying the force of gravity. Newton had formulated the Law of gravity: two objects of mass $m_1$ and $m_2$, respectively, exert a force on each other that is inversely proportional to the square of the distance between the two masses and is always attractive. In a mathematical equation, we can make this more precise:
 
 $$ \vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2} \hat{r}_{12} $$
@@ -657,12 +644,14 @@ $$ \vec{F}(\vec{r}) = - G \frac{mM}{r^2}\hat{r} $$
 with $M$ the mass of the sun and $m$ that of the planet. $r$ is now the distance from the planet to the origin and $\hat{r}$ the unit vector pointing from the origin to the planet.
 
 **First observation** The force is central!  
-** First conclusion** Then the angular momentum of the planet is conserved (is a constant during the motion of the planet) and the motion is in a plane, i.e. we deal with a 2-dimensional problem!
+
+**First conclusion** Then the angular momentum of the planet is conserved (is a constant during the motion of the planet) and the motion is in a plane, i.e. we deal with a 2-dimensional problem!
 
 **Second Observation** The force is of the form $\vec{F}({\vec{r}}) = f(r) \hat{r}$  
-** Second conclusion** Thus, we do know that a potential energy can be associated with it. It is a conservative force. This also implies that the mechanical energy of the planet, that is the sum of kinetic en potential energy, is a constant over time. In other words, there is no frictional force and the motion can continue forever. This seems to be inline with our observation of the universe: the time scales are so large that friction must be small.
+**Second conclusion** Thus, we do know that a potential energy can be associated with it. It is a conservative force. This also implies that the mechanical energy of the planet, that is the sum of kinetic en potential energy, is a constant over time. In other words, there is no frictional force and the motion can continue forever. This seems to be inline with our observation of the universe: the time scales are so large that friction must be small.
 
 ### Constant Angular Momentum: Equal Area Law
+
 The first clue towards the Kepler Laws comes from angular momentum. Let's consider the earth-sun system (ignoring all other planets in our solar system). As we saw above, gravity with the sun pinned in the origin, is a central force and thus
 
 $$\frac{d\vec{l}}{dt} = \vec{r} \times \left ( -G\frac{mM}{r^2} \frac{\vec{r}}{r} \right ) = 0$$
@@ -708,15 +697,14 @@ We can set the constant $C$ to zero at some point in time $t_0$ and start counti
 
 
 ### Newton's theory and Kepler's Laws - part 2
+
 We have:
-<ol>
-<li> The sun is replaced by a force field originating at the origin. This force field is a central force. 
-<ul>
-    <li>Thus, the angular momentum is conserved.</li>
-    <li> The orbit is in a plane: we deal with a 2-dimensional problem.</li>
-</ul></li>
-<li> The force is conserved: a potential exists.</li>
-</ol>
+
+- The sun is replaced by a force field originating at the origin. This force field is a central force. 
+    1. Thus, the angular momentum is conserved.
+    1. The orbit is in a plane: we deal with a 2-dimensional problem.
+- The force is conserved: a potential exists.
+
 
 Based on these, we will derive Kepler's laws only using Newtonian Mechanics. This is easiest in polar coordinates $(r, \phi )$. However, in this course we do not deal with these coordinates. We will thus give a coarse overview of the steps that should be taken.
 
@@ -777,7 +765,8 @@ $$ U_{eff} = \frac{l^2}{2mr^2} - -G\frac{mM}{r} $$
 
 We see, that the energy can not be just any value: the kinetic energy of our quasi-one-dimensional particle ($\frac{1}{2}m\dot{r}^2$) can not be negative and the total potential energy has, according to {numref}`fig:KeplerEnergy.png` a clear minimum. The total energy can not be below this minimum. On the other hand: there is no maximum.    
 
-**Case 1: **$U_{eff} = minimal$
+::::{tab-set}
+:::{tab} Case 1: $U_{eff} = minimal$
 
 Suppose, we would prepare the system such that its total energy was equal to the minimum of the black line, i.e. of the total potential energy. Then, of course, via the arguments we have given above this is only possible if the kinetic energy is zero. 
 
@@ -797,13 +786,15 @@ $$
 
 Thus, if a planet orbits its sun such that its (pseudo-)potential $U_{eff} = minimum$, then its orbit is a circle of radius $r_0$ that corresponds to the minimum in $U_{eff}$ and the planet has a velocity that is constant in magnitude $v = \frac{l}{mr_0}$.
 
-**Case 2: **$U_{eff, min} < E_{tot} < 0$
+:::
+
+:::{tab} Case 2: $U_{eff, min} < E_{tot} < 0$
 
 Next, we consider a case where the total energy of the planet has a value between the minimum of the curve of the effective potential and 0. Call the value of the energy $E_2$.
 
 From {numref}`fig:KeplerEnergy2.png` we see that the planet will now be confined to an area where the effective potential is either equal to or smaller than this particular value $E_2$ 
 
- ```{figure} images/KeplerEnergy2.png
+```{figure} images/KeplerEnergy2.png
 :name: fig:KeplerEnergy2.png
 :width: 550px
 :align: center
@@ -818,7 +809,9 @@ N.B. Do realize, that the velocity is for this case not a constant. We already h
 
 Thus, if the planet is closer to $r_a$ it moves faster than close to $r_b$. But it can not escape from $r_a < r(t) < r_b$.
 
-**Case 3: **$E_{tot} > 0$
+:::
+
+:::{tab} Case 3: $E_{tot} > 0$
 
 Finally, we take the case that the total energy of the planet is positive, say a value of $E_3$ in {numref}`fig:KeplerEnergy3.png`. Now we see that the planet can approach the sun, but not closer than a distance $r=r_c$. The planet is attracted to the sun, but after reaching the closest distance $r=r_c$ it will move away and eventually reach infinity. Again note: at $r=r_c$, the planet does have a non-zero velocity.
 
@@ -829,16 +822,17 @@ Finally, we take the case that the total energy of the planet is positive, say a
 
 Total energy larger than 0.
 ```
+:::
+::::
 
 ### Ellipsoidal orbits
+
 We are left with the task of showing that planets 'circle' the sun in an ellipse. From the above, we now know that this must mean that the total energy is smaller than zero: $E<0$.
 We will not go over the details of the derivation, but leave that for another course.
 
 The outcome of the analysis would be the following expression for the orbit in case of an ellipse:
 
 $$ \frac{(x+ea)^2}{a^2} + \frac{y^2}{b^2} = 1 $$
-
-  
 
 ```{figure} images/KeplerEllips.png
 :name: fig:KeplerEllips.png
@@ -871,7 +865,7 @@ This type of curve is know as the conic sections. That is, they can be found by 
 :width: 550px
 :align: center
 
-Conic sections   animation created by <a href="https://www.saravanderwerf.com/conics-gifs-why-gifs-are-my-new-addiction/">Sara van der Werf</a>
+Conic sections   animation created by [Sara van der Werf](https://www.saravanderwerf.com/conics-gifs-why-gifs-are-my-new-addiction/)
 ``` 
 
 Note that in the definition of $e$, the total energy of the system plays a role. This energy can be negative (see {numref}`fig:KeplerEnergy.png`). The minimum value of the effective potential energy is easily computed. It is $U_{eff, min} = -\frac{1}{2} \frac{(GmM)^2m}{l^2}$ and is realized when the planet is at a distance $r = \frac{l^2}{GMm^2}$. For this case we have $e = 0$ and the planet is moving in a circle around the sun, as we already argued above.
@@ -890,6 +884,7 @@ This holds for our solar system, but for any other star with planets as well. Re
 
 
 ### Kepler 3
+
 We are left with proving Kepler's third law:
 
 $$ \frac{T_A^2}{R_A^3} = \frac{T_B^2}{R_B^3}= const $$
@@ -960,7 +955,7 @@ Indeed if we measure the speed of the planets in the solar system this predictio
 From [LibreTexts Physics](https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Big_Ideas_in_Cosmology_%28Coble_et_al.%29/08%3A_Dark_Matter/8.02%3A_Velocities_Mass_and_Gravity-_the_Solar_System), licensed under CC BY-NC-SA 4.0.
 ```
 
-The distance is measured in <a href="https://en.wikipedia.org/wiki/Astronomical_unit">Astronomical Units [AU]</a>, the distance from the earth to the sun (about 8.3 light minutes). Note that the earth is moving with an unbelievable 30 km/s, that is $10^5$ km/h! Do you notice any of that? We will use this motion later with the Michelson-Morley experiment.
+The distance is measured in [Astronomical Units [AU]](https://en.wikipedia.org/wiki/Astronomical_unit), the distance from the earth to the sun (about 8.3 light minutes). Note that the earth is moving with an unbelievable 30 km/s, that is $10^5$ km/h! Do you notice any of that? We will use this motion later with the Michelson-Morley experiment.
 
 If we plot the same speed versus distance curve not for the planets in our solar system, but for stars orbiting the center of our galaxy, the milky way, then the picture looks very different. The far away stars orbit at a much higher speed than expected and the form of the found curve does not match $\propto r^{-1/2}$. 
 
@@ -972,8 +967,8 @@ If we plot the same speed versus distance curve not for the planets in our solar
 From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rotation_curve_of_the_Milky_Way.png), licensed under CC-SA 3.0.
 ```
 
-This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of <a href="https://en.wikipedia.org/wiki/Dark_matter"><em>dark matter</em></a> and an <a href="https://en.wikipedia.org/wiki/Alternatives_to_general_relativity"><em>alternative formulation</em></a> for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of <a href="https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics">measurement</a> in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
+This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of <a href="https://en.wikipedia.org/wiki/Dark_matter"><em>dark matter</em></a> and an <a href="https://en.wikipedia.org/wiki/Alternatives_to_general_relativity"><em>alternative formulation</em></a> for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of [measurement](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics) in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
 
-The majority of all matter in the universe is believed to be *dark*. And we have no clue what it could be! Most scientist even think it must be <a href="https://en.wikipedia.org/wiki/Baryon">non-baryonic</a>, that is, other stuff than our well-known protons or neutrons. It remains most confusing.
+The majority of all matter in the universe is believed to be *dark*. And we have no clue what it could be! Most scientist even think it must be [non-baryonic](https://en.wikipedia.org/wiki/Baryon), that is, other stuff than our well-known protons or neutrons. It remains most confusing.
 
-The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but <a href="https://en.wikipedia.org/wiki/Parsec">parsec</a> [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13}$ km). Note: stars visible to the eye are typically not more than a few hundred parsec away. The milkyway is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the milky way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 
+The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but [parsec](https://en.wikipedia.org/wiki/Parsec) [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13}$ km). Note: stars visible to the eye are typically not more than a few hundred parsec away. The Milky Way is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the Milky Way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 

@@ -8,7 +8,8 @@ A specific class of periodic motion is formed by the oscillations. All oscillati
 A few simple examples will illustrate the above.
 The merry go round is a periodic motion, but not an oscillation.
 
-```{figure} images/MerryGoRound2.jpg:name: fig:HaMerryGoRound.jpg
+```{figure} images/MerryGoRound2.jpg
+:name: fig:HaMerryGoRound.jpg
 :width: 320px
 :align: center
  
@@ -61,12 +62,12 @@ Wilberforce pendulum.
 
 Image that we pull $m$ a little down and let go. The spring will try to restore the position of the mass to the equilibrium position it was in prior to us pulling $m$ down. Consequently, $m$ will start oscillating in the vertical direction. However, something peculiar happens: the mass $m$ also starts to rotate (around the vertical axis). And also this rotation turns out to be a back and forth oscillation. But that is not all: the two oscillations are coupled: they feed each other. If the vertical oscillation is at a maximum amplitude, the rotational motion is almost zero and vice-versa.
 
-Click <a href="https://www.youtube.com/watch?v=WKySfr0e6P8" ><b>Wilberforce</b></a> to see a youtube video of this oscillator.<br>
+Click [Wilberforce](https://www.youtube.com/watch?v=WKySfr0e6P8) to see a youtube video of this oscillator.  
 
-The system can be modeled with simple means. We will just postulate them. Later on, we will see where the terms come from.<br>
-First, we note that the mass has kinetic energy, in two forms: due to the vertical motion ($\frac{1}{2}m\dot{z}^2$) and due to the rotational motion ($\frac{1}{2}I\dot{\theta}^2$). Don't worry about the exact meaning for now.<br>
-Second, the mass has potential energy. We will ignore gravity (and pretend we do this experiment ins SpaceLab). A potential energy is associated with the vertical motion and is the spring energy: $V_z = \frac{1}{2}kz^2$, with $z$ the vertical position of the mass with respect to the equilibrium position, which we took as $z=0$. $k$ is the spring constant and represents the strength of the spring. We will come back to this later.<br>
-Then, we have potential energy associated with the rotation: $V_\theta = \frac{1}{2} \delta \theta^2$. $\theta$ represent the rotation angle, where we have taken $\theta = 0$ in the equilibrium position. $\delta$ is the torsional spring constant: it represents how strongly the spring tries to push back against rotation.<br>
+The system can be modeled with simple means. We will just postulate them. Later on, we will see where the terms come from.  
+First, we note that the mass has kinetic energy, in two forms: due to the vertical motion ($\frac{1}{2}m\dot{z}^2$) and due to the rotational motion ($\frac{1}{2}I\dot{\theta}^2$). Don't worry about the exact meaning for now.  
+Second, the mass has potential energy. We will ignore gravity (and pretend we do this experiment ins SpaceLab). A potential energy is associated with the vertical motion and is the spring energy: $V_z = \frac{1}{2}kz^2$, with $z$ the vertical position of the mass with respect to the equilibrium position, which we took as $z=0$. $k$ is the spring constant and represents the strength of the spring. We will come back to this later.  
+Then, we have potential energy associated with the rotation: $V_\theta = \frac{1}{2} \delta \theta^2$. $\theta$ represent the rotation angle, where we have taken $\theta = 0$ in the equilibrium position. $\delta$ is the torsional spring constant: it represents how strongly the spring tries to push back against rotation.  
 Finally, the vertical position and the rotation influence each other. That can be understood by realizing that if you shorten the spring, the spring material has to go somewhere. It can not only change its vertical length as that would mean that the total length of the spring would reduce. But that would compress the spring material and that is not possible for solid material (unless you apply incredibly large forces). The spring just increases its number of windings a bit. But that implies rotation. Similarly, if we only rotate the spring, it will try to adjust its length. As a consequence, there is also a potential energy involved in the influencing of $z$ and $\theta$ of each other. It can be modeled as $V_{z\theta} = \epsilon z \theta$.
 
 If we ignore friction, then we have a system that can be described in terms of energy:
@@ -120,7 +121,7 @@ Animation of the Wilberforce pendulum using a higher-order numerical method.
 
 The Wilberforce pendulum is clearly periodic. Moreover, it is an oscillation as there is back and forth motion around an equilibrium.
 
-But, it does give us a <b>big warning</b>: (numerical) solutions always have to be <b>assessed</b> against the features and principles of the problem at hand. In this case, our first numerical solution could not be right: <b>it violated energy conservation</b>. We were able, right from the start, to formulate the problem in terms of energy. SInce we only had kinetic energy and potential energy we <b>knew up front</b> that the motion must be bounded! <br>
+But, it does give us a **big warning**: (numerical) solutions always have to be **assessed** against the features and principles of the problem at hand. In this case, our first numerical solution could not be right: **it violated energy conservation**. We were able, right from the start, to formulate the problem in terms of energy. SInce we only had kinetic energy and potential energy we **knew up front** that the motion must be bounded!   
 That is why, we need a thorough understanding of physics. It is not sufficient to have the equations and put them in a 'solver'. It is the job of a physicist to understand and assess models, outcomes, etc against the laws of physics. Hence, we will dive into oscillations, starting from the beginning. 
 
 ## Harmonic Oscillation - archetype: Mass-Spring
@@ -157,14 +158,14 @@ To solve this, we need two initial condition. Let's take $t=0: x(0) = x_0, v(0) 
 $$ m\ddot{x} + kx = 0 \Leftrightarrow x(t) = A \sin \omega_0 t + B \cos \omega_0 t$$
 
 </hr>
-</div><br>
+</div>  
 
 If we insert the solution, we find 
 <div style = "background-color: rgb(235,235,235); border: solid black; font-size: 21px">
 
 $$\omega_0^2 = \frac{k}{m} $$
 
-</div><br>
+</div>  
 
 This is called the natural frequency of the oscillator. Note, that it does not depend on the initial conditions. No matter what, the mass will always oscillate with this frequency.
 
@@ -186,12 +187,12 @@ x(0) = \Delta x \rightarrow B \cos 0 = \Delta x
 A system is called a harmonic oscillator if and only if it obeys $m\ddot{x} + kx = 0$. You will find them in almost every branch of science and engineering. The reason why will become apparent in a moment.
 
 ### Potential energy of a spring
-In the above, we have formulated the mass-spring system in Newton's second law. We can, however, also cast it in the form of energy. The force of the spring is conservative. We can easily prove this by finding the associated potential energy: $F_v = -\frac{dV}{dx}$. <br>
+In the above, we have formulated the mass-spring system in Newton's second law. We can, however, also cast it in the form of energy. The force of the spring is conservative. We can easily prove this by finding the associated potential energy: $F_v = -\frac{dV}{dx}$.   
 Since $F_v = -kx$ we need to find a function $V(x)$ that satisfies $\frac{dV}{dx} = kx$. Let's do it:
 
 $$ \frac{dV}{dx} = kx \Rightarrow V(x) = \frac{1}{2} x^2 + C $$
 
-We have the freedom to decide ourselves where we want the potential energy to be zero. Note: $V$ is quadratic.<br> 
+We have the freedom to decide ourselves where we want the potential energy to be zero. Note: $V$ is quadratic.   
 It does make sense, to set the minimum of the potential energy such that if the mass is at the equilibrium position, the potential energy is zero, that is - take $C=0$:
 
 $$ V(x) = \frac{1}{2}kx^2 $$
@@ -205,23 +206,23 @@ So, an other way of stating what a harmonic oscillator is: it is a system that o
 ## Behavior around an equilibrium point and harmonic oscillators
 Now we will go back to paragraph 5.5.1, where we discussed the Taylor series expansion of the function $f(x)$: 
 
- $$
- f(x) \approx f(x_0) + f'(x_0) (x-x_0 ) + \frac{1}{2} f''(x_0) (x-x_0)^2 + \mathcal{O}(x^3)
- $$
+$$
+f(x) \approx f(x_0) + f'(x_0) (x-x_0 ) + \frac{1}{2} f''(x_0) (x-x_0)^2 + \mathcal{O}(x^3)
+$$
 
- We will apply it to a potential energy $V(x)$ of some system. We assume that the system has a stable equilibrium point at $x=x_0$, that is $\left [ \frac{dV}{dx} \right ]_{x=x_0} = 0$
- and $\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0} > 0$.<br>
- Thus, we can expand the potential as follows:
+We will apply it to a potential energy $V(x)$ of some system. We assume that the system has a stable equilibrium point at $x=x_0$, that is $\left [ \frac{dV}{dx} \right ]_{x=x_0} = 0$
+and $\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0} > 0$.  
+Thus, we can expand the potential as follows:
 
- $$
- V(x) \approx V(x_0) +\frac{1}{2} \underbrace{\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0}}_{=k} (x-x_0 )^2 + \mathcal{O} \left [ (x-x_0 )^3 \right ]
- $$
+$$
+V(x) \approx V(x_0) +\frac{1}{2} \underbrace{\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0}}_{=k} (x-x_0 )^2 + \mathcal{O} \left [ (x-x_0 )^3 \right ]
+$$
 
- If we plug this in, in the energy equation and cut off after the quadratic term, we find 
+If we plug this in, in the energy equation and cut off after the quadratic term, we find 
 
- $$\frac{1}{2}mv^2 + V(x_0) +\frac{1}{2} \underbrace{\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0}}_{=k} (x-x_0 )^2 = E_0 $$
+$$\frac{1}{2}mv^2 + V(x_0) +\frac{1}{2} \underbrace{\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0}}_{=k} (x-x_0 )^2 = E_0 $$
 
- or shortened by the abbreviation $\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0} = k$
+or shortened by the abbreviation $\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0} = k$
 
 $$\frac{1}{2}mv^2 + V(x_0) +\frac{1}{2}k ((x-x_0)^2 = E_0$$
 
@@ -231,7 +232,7 @@ $$ \frac{1}{2}m\dot{s}^2 + \frac{1}{2}ks^2 = C $$
 
 The harmonic oscillator!!! 
 No wonder we find harmonic oscillators 'everywhere'. Any system that has a stable equilibrium point with a positive second derivative of its potential will start to oscillated as a harmonic one if we push it a little bit out of its equilibrium position. Doesn't matter how $V(x)$ exactly is. It doesn't have to be quadratic in $x$. But it will be pretty close to that, if we stay close enough to the equilibrium point. Hence, any small natural kick, any small amount noise will push a system out of its stable equilibrium point into an harmonic oscillating motion with a given, natural frequency given by $\omega_0^2 = \frac{\left [ \frac{d^2V}{dx^2} \right ]_{x=x_0}}{m}$.
-<br><br>
+    
 
 ## Examples of Harmonic Oscillators
 ### Torsion Pendulum
@@ -253,12 +254,7 @@ $$ I \frac{d^2\theta}{dt^2} = - k_t \theta $$
 
 In this equation, $I = \frac{1}{2}mR^2$ is the moment of inertia of the disc  and $k_t$ is the torsion constant of the wire. Don't worry about the exact meaning of the terms in the equation. For now, we focus on the equation itself:
 
-<div style = "background-color: rgb(235,235,235)">
-
 $$ I \frac{d^2\theta}{dt^2} + k_t \theta = 0 \Rightarrow \theta (t) = A \sin \omega_0 t + B \cos \omega_0 t$$
-
-</hr>
-</div>
 
 The torsion pendulum is a harmonic oscillator, 
 $\omega_0^2 = \frac{k_t}{I}$, completely analogous to the archetype, mass-spring. Obviously, we thus can also write this in terms of energy: 
@@ -266,7 +262,7 @@ $\omega_0^2 = \frac{k_t}{I}$, completely analogous to the archetype, mass-spring
 $$ \frac{1}{2} I \omega^2 + \frac{1}{2}k_t \theta^2 = E_0 $$
 
 with $\omega \equiv \frac{d\theta}{dt}$, the angular velocity.
-<br>
+  
 
 
 ### L-C circuit
@@ -303,9 +299,10 @@ As we see, this LC-circuit will start to oscillate. In the animation below the c
 Harmonic oscillation of an LC-circuit.
 ```
 
-<br>
+  
 
 ### Musical Instruments
+
 Musical instruments produce sound waves. In many cases they do that via vibrations of strings, like the guitar, the violin, harp or piano. The strings of these instruments are displaced out of their equilibrium position. Due to the tension in these strings, there is a restoring force that is proportional to the displacement. Consequently, the string will start to oscillate in an harmonic way. 
 
 ```{figure} images/VibratingString.png
@@ -337,6 +334,7 @@ Fundamental modes of a vibrating string.
 Not only strings, but also beams will exhibit this behavior, well-known example: a tuning fork.
 
 ## The pendulum
+
 Another example of oscillatory motion is the pendulum. In its most simple for it is a point-mass $m$, attached to a massless rod of length $L$. The rod is fixed to a pivotal point that allows it to swing freely.
 
 ```{figure} images/Pendulum.png
@@ -350,6 +348,7 @@ Sketch of a pendulum by Huygens (public domain).
 On the mass, gravity is acting vertically downwards. Also the rod exerts a force on the mass. This force is always parallel to the rod and points to the pivotal point. It is the response of the rod to the component of gravity  parallel to the rod (the dark blue arrow in {numref}`fig:Pendulum.png`). It is good to realize, that this force makes sure that the distance from $m$ to the pivotal point is always $L$. In other words, this force is a consequence of the fixed length $L$ of the rod. It is the physics translation of the constraint: $L$ is constant.
 
 ### N2 for the pendulum: Equation of motion via N2
+
 We will set up Newton's second Law for $m$. 
 
 $$ m\frac{d\vec{v}}{dt} = -mg\hat{z} + \vec{F}_t $$
@@ -386,6 +385,7 @@ $$ \omega_{pendulum}  = \sqrt{\frac{g}{L}}$$
 Further, note that under this assumption, the period of the pendulum does not depend on the amplitude of the oscillation. That was already noted by Galileo Galileï. 
 
 ### N2 for the pendulum: Equation of motion via Angular Momentum
+
 Before we continue with the analysis of the pendulum, we will derive the equation of motion also via angular momentum considerations. On $m$ gravity exerts a torque: $\Gamma = \vec{r} \times \vec{F}_g$ It has a magnitude $-Lmg \sin \phi$ and points into the screen. The angular momentum of $m$ is given by $\vec{L} = \vec{r} \times \vec{p}$. This has magnitude $ mL^2\frac{d\phi}{dt}$ and also points into the screen.
 
 Thus N2 for angular momentum gives us:
@@ -396,6 +396,7 @@ Thus, angular momentum leads to the same equation of motion.
 
 
 ### The Pendulum via energy conservation
+
 Alternatively, we can also use energy conservation to derive the equation governing the motion of the pendulum. There are, as discussed above, two forces acting on $m$. The first one is gravity, which is a conservative force with associated potential energy. We can write for this case $V_g = mgz$, taking $V_g (z=0) = 0$. 
 
 The second one is the force from the rod. But this one always acts perpendicular to the motion of $m$. Hence, it does not do any work and, thus, we don't need to worry about an associated potential.
@@ -433,6 +434,7 @@ mL \frac{d\phi}{dt} \frac{d}{dt} \left ( L \frac{d\phi}{dt} \right ) + mgL \sin 
 And we have recovered the same equation of motion.
 
 ### Pendulum for not so small angles
+
 In the above we have frequently used the approximation $\sin \phi \approx \phi $ for $\phi \ll 1$. What about the general case? Then we need to solve 
 
 $$ \begin{split}
@@ -456,9 +458,12 @@ Animation of the pendulum: red is the true pendulum, blue the small angle approx
 
 In the widget below, you can vary the initial angle and observe that indeed for a small angle the red mass and the other two follow the same trajectory. But if you increase the initial angle, the red mass behaves differently: it oscillates slower and the time trace of angle as a function of time is no longer sinusoidal.
 
-<embed width = "100%" height = "500" frameborder="0" scrolling="yes" src="../_static/Widgets/PendulumWidget.html"> 
 
-[Or open the widget full screen](../_static/Widgets/PendulumWidget.html)
+```{warning}
+<!-- <embed width = "100%" height = "500" frameborder="0" scrolling="yes" src="../_static/Widgets/PendulumWidget.html"> 
+
+[Or open the widget full screen](../_static/Widgets/PendulumWidget.html) -->
+```
 
 ## The damped harmonic oscillator ##
 In the above, no friction of any form has been considered. However, in many practical cases friction will be present. For moving objects friction frequently depends on the velocity: the higher the velocity, the higher the frictional force. We will here consider the simplest version: a friction force that is directly proportional to the velocity: $F_f = -b v$ with $b$ a positive constant. Thus, we need to add an additional force to our harmonic oscillator:
@@ -472,8 +477,7 @@ $$ m\ddot{x} + b \dot{x} + kx = 0 $$
 To solve this equation, it is easier not to try to look directly for sinus and cosins, but use the complex notation. 
 
 
-```{admonition} Intermezzo: complex exponential and sin, cos 
-:class: note
+```{note} Intermezzo: complex exponential and sin, cos 
 
 In the 18$^{th}$ century, the study of complex numbers, i.e. $i = \sqrt{-1}$, revealed a surprising connection between the exponential function and trigonometry. It was Leonhard Euler (1707-1783) who derived:
 
@@ -550,7 +554,8 @@ $$
 
 We will investigate various cases.
 
-<b>Case 1</b> $D = b^2 - 4mk \lt 0$
+::::{tab-set}
+:::{tab} **Case 1** $D = b^2 - 4mk \lt 0$
 
 In this case, the square root in $\lambda$ is imaginary and we can write it as $i\sqrt{4mk - b^2}$. This gives us for the two possibilities of $\lambda$
 
@@ -572,9 +577,9 @@ with \\
 $$
 
 Conclusion: the damped oscillator oscillates with a smaller frequency than the undamped one and it amplitude decreases over time. The later is of course to be expected due to friction: sooner or later friction has dissipated all the kinetic \& potential energy.
+:::
 
-
-<b>Case 2</b> $D = b^2 - 4mk = 0$
+:::{tab} **Case 2** $D = b^2 - 4mk = 0$
 For this specific combination of $b, k, m$ we see that the frequency of the oscillation is 0. In other words, the systems does not perform oscillations. Furthermore, our two values of $\lambda$ are now equal. Consequently the general solution that we presented is no longer complete (we now only have one integration constant, or only one independent function if you prefer.) We need a second one and that turns out to be of the form $t e^{\lambda t}$. You can verify that by substituting it in the equation of motion for the damped case.
 
 Thus we have know:
@@ -584,8 +589,9 @@ $$ D = b^2 - 4mk = 0 \Rightarrow \\
 x(t) = \left ( A + B t \right ) e^{-\frac{b}{2m} t}
 $$
 
+:::
 
-<b>Case 3</b> $D = b^2 - 4mk \gt 0$
+:::{tab} **Case 3** $D = b^2 - 4mk \gt 0$
 Again, there is no imaginary part in $\lambda$, so no oscillations. But we do have two different values for $\lambda$ and thus our original general solution is still valid:
 
 $$ x(t) = A e^{\frac{-b + \sqrt{b^2 - 4mk}}{2m}t} + Be^{\frac{-b - \sqrt{b^2 - 4mk}}{2m}t}
@@ -604,7 +610,8 @@ In the figure below, an example of case 1 and case 3 is shown together with the 
  
 Different cases for the damped harmonic oscillator.
 ```
-
+:::
+::::
 
 ### Evolution of the damping
 
@@ -690,7 +697,10 @@ There are 2 pendula suspended from a common connection, which rests on two chair
 
 The video below shows a modern day version of this phenomena. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DD7YDyF6dUk?si=Zt65wJNNQCosMU5n" title="Weakly coupled metronomes." frameborder="0" allowfullscreen></iframe>
+```{iframe} https://www.youtube.com/embed/DD7YDyF6dUk?si=Zt65wJNNQCosMU5n"
+
+Weakly coupled metronomes.
+```
 
 
 
@@ -700,29 +710,32 @@ Here the pendula are coupled via the ground. This influence is called *weak coup
 
 1. Example of resonance: sound waves are exciting a glass. By changing the frequency of the sound waves to the resonance frequency, the glass starts oscillating with increasing amplitude until it finally breaks.
 
-
-<video controls muted="true" loop="true" width="90%">
+```{warning}
+<!-- <video controls muted="true" loop="true" width="90%">
     <source src="../_static/Movies/Resonance_GlassDestroyedbySound.mp4" type="video/mp4">
-</video>
+</video> -->
+```
 
 2. Driven harmonic oscillator with damping.
 
-<embed width = "100%" height = "500" frameborder="0" scrolling="yes" src="../_static/Widgets/DrivenOscillator.html"> 
+```{warning}
+<!-- <embed width = "100%" height = "500" frameborder="0" scrolling="yes" src="../_static/Widgets/DrivenOscillator.html"> 
 
-<a href="../_static/Widgets/DrivenOscillator.html">Or open the widget full screen</a>
-
+<a href="../_static/Widgets/DrivenOscillator.html">Or open the widget full screen</a> -->
+```
 
 3. 1940: the Tacoma Narrows Bridge in the state Washington on the West coast of the USA is brought into resonance by the wind. The end result: click the movie to see it yourself.
 
-<video controls muted="true" loop="true" width="90%">
+```{warning}
+<!-- <video controls muted="true" loop="true" width="90%">
     <source src="../_static/Movies/tacoma_narrows1.mp4" type="video/mp4">
-</video>
-
+</video> -->
+```
 
 4. Breaking a HDD hard disk with a song of Janet Jackson
 
-Read <a href="https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994?WT.mc_id=onedevquestion-c9-raymond">here</a> about this truly amazing piece of applied physics on a blog of Microsoft developer Raimond Chen.
-<br><br>
+Read [here](https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994?WT.mc_id=onedevquestion-c9-raymond) about this truly amazing piece of applied physics on a blog of Microsoft developer Raimond Chen.
+    
 
 5. The blue sky: Rayleigh scattering 
 	
@@ -752,7 +765,7 @@ $$
 \ddot{x} + \omega_0^2 x = \frac{e}{m} E_0 \sin \omega t
 $$
 
-We recognise this as the forced harmonic oscillator with solution
+We recognize this as the forced harmonic oscillator with solution
 
 $$
 x(t) = c_1 \sin \omega_0 t + c_2 \cos \omega_0 t + \frac{e E_0}{m} \frac{\sin \omega t}{\omega_0^2 - \omega^2}
@@ -771,13 +784,14 @@ As the eigen frequency $\omega_0$ of the electrons in oxygen and nitrogen is muc
 	
 6. Second-harmonic generation 
 	
-Of course the harmonic potential is only a first order approximation around an equilibrium. An example, for a non-linear force or anharmonic potential effect, is the generation of <a href="https://en.wikipedia.org/wiki/Second-harmonic_generation">second-harmonic generation</a>. If you shine high intensity light onto the electrons of a molecule, they are pushed out of equilibrium further and if the governing potential is anharmonic, the electric field response will not only include the incoming frequency $\omega$ but also *higher harmonics* $2\omega, 3\omega,\dots$, but with much lower intensity. That the emitted frequencies are occurring in integer multiple of the incident frequency can be understood either from quantization of light into photons (and the conservation of energy) or from Fourier analysis of the periodic motion of the electron.
+Of course the harmonic potential is only a first order approximation around an equilibrium. An example, for a non-linear force or anharmonic potential effect, is the generation of [second-harmonic generation](https://en.wikipedia.org/wiki/Second-harmonic_generation). If you shine high intensity light onto the electrons of a molecule, they are pushed out of equilibrium further and if the governing potential is anharmonic, the electric field response will not only include the incoming frequency $\omega$ but also *higher harmonics* $2\omega, 3\omega,\dots$, but with much lower intensity. That the emitted frequencies are occurring in integer multiple of the incident frequency can be understood either from quantization of light into photons (and the conservation of energy) or from Fourier analysis of the periodic motion of the electron.
 
 7. Erasmus Bridge & singing cables. 
 
-The bridge in Rotterdam, but also others, suffer from long cables that the wind can put into resonance. Their motion then generates acoustic waves in the audible spectrum. <a href="https://singingbridgesmusic.bandcamp.com/track/erasmus-bridge-rotterdam">Listen here</a> to the sound of the cables starting from 1:00 on the website for singing bridges! 
+The bridge in Rotterdam, but also others, suffer from long cables that the wind can put into resonance. Their motion then generates acoustic waves in the audible spectrum. [Listen here](https://singingbridgesmusic.bandcamp.com/track/erasmus-bridge-rotterdam) to the sound of the cables starting from 1:00 on the website for singing bridges! 
 
 ## Waves and oscillations
+
 In the previous sections, we talked about oscillations of individual particles. Oscillations can also occur in a more collective mode. And there are plenty of examples: take for instance a violin or piano string. It is in essence an elastic string suspended between two fixed points. The string is under tension, that is: its natural length is (slightly) less than the distance between the two end points. As a consequence, equilibrium position of the string is a straight line and when brought out of equilibrium there is a net restoring force much like for the mass-spring system.
 
 However, there are at least two important differences: (1) the restoring force is the net result from pulling on a small part of the string by its neighbor parts; (2) the entire string can oscillate in a direction perpendicular to the equilibrium position of the string, making the problem multi-dimensional.
@@ -857,8 +871,7 @@ if $y(x,t)$ is such that it only depends on $x \pm \mathsf{v}t$, that is $y(x,t)
 
 This is straightforward to prove: given $y(x,t) = y(x-\mathsf{v}t)$ then call $s \equiv $
 
-$$ \frac{\partial y}{\partial t} = \frac{dy}{ds} \underbrace{\frac{\partial s}{\partial t}}_{=\mathsf{-v}}
-$$
+$$ \frac{\partial y}{\partial t} = \frac{dy}{ds} \underbrace{\frac{\partial s}{\partial t}}_{=\mathsf{-v}}$$
 
 Note the meaning of $\partial t$: differentiate $s = x - \mathsf{v}t$ as if $x$ is a constant, not depending on $t$.
 
@@ -909,11 +922,13 @@ Forces on a small part of a string; inset shows an exaggeration of the vertical 
 ```
 
 ### Wave characteristics
+
 Waves are omnipresent. We find them in musical instruments e.g. the violin but also in flutes where the wave is directly in the air in the instrument. We have them in water and air: waves on the oceans, waves when we speak. There are waves in solid materials for instance after an earthquake. We use waves in telecommunication.
 
 Why are waves so generally found? They are the analogue of the harmonic oscillator. And thus, many systems in that are brought a bit out of equilibrium will try to go back to equilibrium, over shoot it and end up in a wavy motion.
 
 #### Wave Length
+
 Waves are often sinusoidal and if not, via Fourier Analysis they can be decomposed of a set of sinusoidal waves that built together the pattern we observe.
 
 A sinusoidal wave is of the form
@@ -941,13 +956,13 @@ On the other hand: for a fixed position $x$ the point at $x$ oscillates with a f
 $$\lambda \cdot f = \mathsf{v}$$
 
 ### Standing waves versus traveling waves
+
 If we look at the motion of the string on a violin closely, we will not see traveling waves running from one side of the string to the other. Instead, we see all parts of the string moving up and down collectively: they have formed a standing wave. that is a wave that does not travel, but has a fixed, stationary shape whose amplitude various with time. 
 
 For a string with two ends fixed like on a piano or violin, the string can only show standing waves that 'fit'. These standing waves are sinusoidal and their wave length should be such that the beginning and end of the string don't oscillate. In the figure below four possibilities are shown.
 
 
 ```{figure} images/String_animation.gif
-:name: fig:String_animation.gif
 :width: 350px
 :align: center
  
@@ -963,6 +978,7 @@ Further we see that the smaller the wavelength, the faster the oscillation. This
 The traveling waves had as mathematical form $\sin \left (x - \mathsf{v} t \right )$. The standing waves take forms like $\sin \frac{x}{\lambda} \cdot \sin ( 2\pi ft)$. You will learn much more about this in e.g. Fourier Analysis classes.
 
 ### Water waves and Sound waves
+
 It is not necessary that a wave is caused by a tension in the material that tries to restore the equilibrium position. The restoring force can be of a different nature. A well know example is the water waves that we see on lakes and seas. Here gravity is the restoring force: it tries to pull a crest down and push a through up. The water inertia causes overshoot resulting in oscillations, that we call waves. In dealing with waves, we usually don't use the frequency $f$, but instead the angular velocity $\omega = 2 \pi f$. Similarly, frequently the wave length $\lambda$ is replaced by the wavenumber $k \equiv \frac{2\pi}{\lambda}$. Note that these two quantities are also related to each other by the speed of the waves: $\lambda \cdot f = \frac{2\pi}{\lambda} \frac{\omega}{2\pi} = \frac{\omega}{k} = \mathsf{v}$. 
 
 For water waves (with large wave length) the angular momentum and the wave number are coupled to the depth, $h$, of the water:
@@ -975,264 +991,3 @@ Sound waves are another type of waves that occur frequently. The can exist in so
 
 For sound waves it is the pressure that is the restoring force. The 'crest' is compressed material, the 'through' is an expansion part. newton was intrigued by sound waves and provided a theory for them. He found that the speed of sound in air, according to his theory, was about 290 m/s. In reality it is some 340 m/s. Newton was well aware of the mismatch. But he couldn't find a good explanation. It took another 100 years for Pierre Laplace corrected Newton's work and arrived at the correct answer. Newton did not know that sound is connected to adiabatic compression. He couldn't as the entire concept was not know. Laplace realized that Newton basically had made an isothermal solution and corrected this.
 
-## Exercises
-
-Here are some exercises that deals with oscillations. Make sure you practice IDEA.
-
-```{exercise}
-:label: 9.1
-
-A massless spring (spring constant $k$) is suspended from the ceiling. The spring has an unstretched length $l_0$. At the other end is a point particle (mass $m$).
-
-* Make a sketch of the situation and define your coordinate system.
-
-* Find the equilibrium position of the mass $m$.
-
-* Set up the equation of motion for $m$.
-
-* Solve it for the initial condition that at $t=0$ the mass $m$ is at the equilibrium position and has a velocity $v_0$.
-
-```
-
-```{exercise}
-:label: 9.2
-
-Same question, but now two springs are used. Spring 1 has spring constant $k$; spring 2 has $2k$. Both have the same unstretched length $l_0$.
-
-* The two springs are used in parallel, i.e., both are connected to the ceiling, and $m$ is at the joint other end of the springs.
-
-* Both springs are in series, i.e., spring 1 is suspended from the ceiling, and the other one is attached to the free. The particle is fixed to the free end of the second spring.
-
-```
-
-````{exercise}
-:label: 9.3
-
-A mass $m$ is attached to two springs. The other ends of the springs are fixed and can not move. The distance between these point is $2l_0$. The mass can move only in the horizontal direction and there is no gravity. See the figure below for a sketch. 
-
-```{figure} images/TwoHorSprings1.png
-:name: fig:TwoHorSprings1.png
-:width: 150px
-:align: center
- 
-
-```
-The springs are identical: both have rest length $l_0$ and spring constant $k$. Based on symmetry, we take the origin in the center of the figure.
-
-We are going to repeat the same analysis as in the previous exercises.
-
-* Make a sketch of the situation and define your coordinate system.
-* Find the equilibrium position of the mass $m$.
-* Set up the equation of motion for $m$.
-* Solve it for the initial condition that at $t=0$ the mass $m$ is at the equilibrium position and has a velocity $v_0$.
-
-
-````
-
-````{exercise}
-:label: 9.4
-
-The same as above, but now the length between the two point where the spring are attached to is $l_0$ instead of $2l_0$.
-```{figure} images/TwoHorSprings2.png
-:name: fig:TwoHorSprings2.png
-:width: 150px
-:align: center
- 
-
-```
-Note: in the figure $k, l_0$ denotes the characteristics of the springs. 
-
-* Make a sketch of the situation and define your coordinate system.
-* Find the equilibrium position of the mass $m$.
-* Set up the equation of motion for $m$.
-* Solve it for the initial condition that at $t=0$ the mass $m$ is at the equilibrium position and has a velocity $v_0$.
-
-
-````
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-### Answers
-
-````{solution} 9.1
-:class: dropdown
-
-Sketch; $z=0$ is when the mass is $l_0$ below the ceiling.
-
-```{figure} images/HangendeVeer1.png
-:name: fig:HangendeVeer1.png
-:width: 150px
-:align: center
- 
-
-```
-Equilibrium position of the mass $m$: 
-
-$$\sum F = 0 \rightarrow F_v - mg = 0$$
-
-Force of the spring: $F_v = -k(l-l_0) = -kz$. Thus
-
-$$-kz_{eq} - mg = 0 \rightarrow z_{eq} = - \frac{mg}{k}$$
-
-Equation of motion for $m$: set up N2
-
-$$m\frac{dv}{dt} = -kz -mg$$
-
-
-Solution with $z(0) = z_{eq}$ and $v(0) = v_0$:
-
-homogeneous part of the equation: $m\frac{dv}{dt} + kz=0$
-
-$$z_{hom}(t) = A \cos \omega_0 t + B \sin \omega_0 t $$
-
-with $\omega_0^2 = \frac{k}{m}$
-
-special solution: $z_s = - \frac{mg}{k}$
-
-general solution:
-
-$$z(t) = z_{hom}(t) + z_s(t) = z_{hom}(t) = A \cos \omega_0 t + B \sin \omega_0 t - \frac{mg}{k}$$
-
-initial conditions: 
-$$z(0) = z_{eq} = - \frac{mg}{k} \rightarrow A=0$$
-and
-$$v(0) = v_0 \rightarrow v_0 = \omega_0 B \rightarrow B=\frac{v_0}{\omega_0}$$
-
-Thus, the solution is
-
-$$ z(t) = -\frac{mg}{k} + \frac{v_0}{\omega_0} \sin \omega_o t$$
-````
-
-
-````{solution} 9.2
-:class: dropdown
-
-Sketch; $z=0$ is when the mass is at $l_0$ below the ceiling. Now we have 2 springs, one with spring constant $k_1$, the other with $k_2$. Both have the same rest length $l_0$
-
-```{figure} images/HangendeVeer2.png
-:name: fig:HangendeVeer2.png
-:width: 150px
-:align: center
- 
-
-```
-Equilibrium position of the mass $m$: 
-
-$$\sum F = 0 \rightarrow F_{v1} + F_{v2} - mg = 0$$
-
-Forces of the springs: $F_{v1} = -k_1(l-l_0) = -k_1 z$ and $F_{v2} = -k_2(l-l_0) = -k_2 z$. Thus
-
-$$-k_1 z_{eq} - k_2 z_{eq} - mg = 0 \rightarrow z_{eq} = - \frac{mg}{k_1 +k_2}$$
-
-Equation of motion for $m$: set up N2
-
-$$m\frac{dv}{dt} = -(k_1 + k_2) z -mg$$
-
-Thus we conclude, that the exercise is basically the same: all we have to do is replace $k$ by $K_{tot} = k_1 + k_2$
-
-$$m\frac{dv}{dt} = -k_{tot} z -mg$$
-
-The solution with $z(0) = z_{eq}$ and $v(0) = v_0$ is thus
-
-$$ z(t) = -\frac{mg}{k_{tot}} + \frac{v_0}{\omega_0} \sin \omega_o t$$
-
-with $ \omega_0^2 = \frac{k_{tot}}{m}$
-
-````
-
-
-````{solution} 9.3
-:class: dropdown
-
-```{figure} images/TwoHorSprings1Sol.png
-:name: fig:TwoHorSprings1Sol.png
-:width: 200px
-:align: center
- 
-
-```
-
-Again, we have two springs acting on the mass. However, they are no on opposite sides. We expect on symmetry arguments that the equilibrium will be in the middle, i.e at $x=0$.
-
-If the mass is positioned to the right of $x=0$, spring 1 is extended beyond its rest length and will pull in the negative $x$-direction:
-
-$$F_{v1} = -k(l-l_0) = -kx$$
-
-Spring 2 will than be shorter than its rest length and will push to the negative $x$-direction:
-
-$$F_{v2} = k(l-L_0) = -kx$$
-
-Thus, equilibrium is reached when
-
-$$\sum F = F_{v1} + F_{v2} = 0 \rightarrow -2kx=0 \rightarrow x_{eq}=0$$
-
-as we anticipated.
-
-Equation of motion for $m$: set up N2
-
-$$m\frac{dv}{dt} = -kx - kx = -2kx$$
-
-Thus we conclude, that the exercise is basically the same: all we have to do is replace $k$ by $k_{tot} = 2k$
-
-$$m\frac{dv}{dt} = -2kx$$
-
-General solution $x(t) = A \sin \omega_0 t + B \cos \omega_0 t$ with $\omega_0^2 = \frac{2k}{m}$.
-
-Like in the previous exercises, it is now a matter of specifying the initial conditions and finding $A$ and $B$.
-
-````
-
-````{solution} 9.4
-:class: dropdown
-
-```{figure} images/TwoHorSprings2Sol.png
-:name: fig:TwoHorSprings2Sol.png
-:width: 200px
-:align: center
- 
-
-```
-
-Again, we have two springs acting on the mass. Now they don't fit both with their rest length. The will be compressed and try to lengthen. However, based on symmetry we still do expect that $x=0$ is the equilibrium position.
-
-If the mass is positioned to the right of $x=0$, spring 1 stille too short and will push to the right:
-
-$$F_{v1} = -k(l-l_0) = -k \left (\frac{l_0}{2} + x -l_0 \right ) = k \left ( \frac{l_0}{2} - x \right )$$
-
-Spring 2 will than be even shorter and will push to the negative $x$-direction:
-
-$$F_{v2} = k \left (\frac{l_0}{2}-x-l_0 \right ) = -k \left (\frac{l_0}{2} + x \right )$$
-
-Thus, equilibrium is reached when
-
-$$\sum F = F_{v1} + F_{v2} = 0 \rightarrow k \left ( \frac{l_0}{2} - x \right ) -k \left (\frac{l_0}{2} + x \right ) = -2kx =0 \rightarrow x_{eq}=0$$
-
-as we anticipated.
-
-Equation of motion for $m$: set up N2
-
-$$m\frac{dv}{dt} = -kx - kx = -2kx$$
-
-Thus we conclude, $k_{tot} = 2k$, which is identical to the previous exercise! 
-````
-
-## Do it yourself
-
-```{figure} images/MassSpringDIY.png
-:name: fig:MassSpringDIY.jpg
-:width: 400px
-:align: center
- 
-From Wikimedia Commons: [bands](https://commons.wikimedia.org/wiki/File:Rubber_bands_20210918_142044.jpg), CC-SA 4.0; [apple](https://commons.wikimedia.org/wiki/File:Red_Apple.jpg), CC-BY 2.0, ; [phone](https://commons.wikimedia.org/wiki/File:IPhone_Dynamic_Island.jpg), PD; [ruler](https://commons.wikimedia.org/wiki/File:Ruler_illustration.svg), CC-BY 4.0.
-```
-
-
-Find a rubber band and use nothing but a mass (that you are not allowed to weigh) that you can tie one way or the other to the spring, a ruler, and the stopwatch/clock on your mobile.
-
-Set up an experiment to find the mass $m$, the spring constant $k$, and the damping coefficient $b$.
-
-Don't forget to make a physics analysis first, a plan of how to find both $m$ and $k$.
-
-## Jupyter labs
-
-1. Mass-spring system
-	[Exercise4.ipynb](resources/ClassicalMechanicsSpecialRelativity-Ex4.ipynb)
