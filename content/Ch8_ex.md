@@ -239,7 +239,15 @@ $$m\frac{dv}{dt} = -kx - kx = -2kx$$
 Thus we conclude, $k_{tot} = 2k$, which is identical to the previous exercise! 
 ````
 
-## Do it yourself
+
+````{experiment} Mass spring
+Find a rubber band and use nothing but a mass (that you are not allowed to weigh) that you can tie one way or the other to the spring, a ruler, and the stopwatch/clock on your mobile.
+
+Set up an experiment to find the mass $m$, the spring constant $k$, and the damping coefficient $b$.
+
+Don't forget to make a physics analysis first, a plan of how to find both $m$ and $k$.
+
+![From Wikimedia Commons: [bands](https://commons.wikimedia.org/wiki/File:Rubber_bands_20210918_142044.jpg), CC-SA 4.0; [apple](https://commons.wikimedia.org/wiki/File:Red_Apple.jpg), CC-BY 2.0, ; [phone](https://commons.wikimedia.org/wiki/File:IPhone_Dynamic_Island.jpg), PD; [ruler](https://commons.wikimedia.org/wiki/File:Ruler_illustration.svg), CC-BY 4.0.](images/MassSpringDIY.png)
 
 ```{figure} images/MassSpringDIY.png
 :name: fig:MassSpringDIY.jpg
@@ -249,12 +257,20 @@ Thus we conclude, $k_{tot} = 2k$, which is identical to the previous exercise!
 From Wikimedia Commons: [bands](https://commons.wikimedia.org/wiki/File:Rubber_bands_20210918_142044.jpg), CC-SA 4.0; [apple](https://commons.wikimedia.org/wiki/File:Red_Apple.jpg), CC-BY 2.0, ; [phone](https://commons.wikimedia.org/wiki/File:IPhone_Dynamic_Island.jpg), PD; [ruler](https://commons.wikimedia.org/wiki/File:Ruler_illustration.svg), CC-BY 4.0.
 ```
 
+````
+
+```{error} 🧪 Mass spring
+:icon: false
 
 Find a rubber band and use nothing but a mass (that you are not allowed to weigh) that you can tie one way or the other to the spring, a ruler, and the stopwatch/clock on your mobile.
 
 Set up an experiment to find the mass $m$, the spring constant $k$, and the damping coefficient $b$.
 
 Don't forget to make a physics analysis first, a plan of how to find both $m$ and $k$.
+
+![From Wikimedia Commons: [bands](https://commons.wikimedia.org/wiki/File:Rubber_bands_20210918_142044.jpg), CC-SA 4.0; [apple](https://commons.wikimedia.org/wiki/File:Red_Apple.jpg), CC-BY 2.0, ; [phone](https://commons.wikimedia.org/wiki/File:IPhone_Dynamic_Island.jpg), PD; [ruler](https://commons.wikimedia.org/wiki/File:Ruler_illustration.svg), CC-BY 4.0.](images/MassSpringDIY.png)
+```
+
 
 ## Jupyter labs
 

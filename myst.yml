@@ -3,10 +3,11 @@ project:
   plugins:
     - plugins/pdf_exercise.mjs
     - plugins/experiment.mjs
+  github: https://github.com/FreekPols/Mechanica
     
   title: Classical Mechanics & Special Relativity for Starters
   authors:
-    - name: Robert F. Mudde
+    - name: Robert F. Mudde     
   copyright: Delft University of Technology, CC BY 4.0
   bibliography:
     - MechaRela.bib
@@ -26,13 +27,10 @@ project:
       children:    
         - file: content/Ch0_Language.ipynb
           children:
-            - file: content/Ch0_ex.ipynb
-        #- file: content/Ch1_Introduction.md
-        #- file: content/Ch2_NewtonsLaws.md
+            - file: content/Ch0_ex.ipynb        
         - file: content/Ch2_NewtonsLaws.ipynb
           children:
-            - file: content/Ch2_ex.ipynb        
-        #- file: content/Ch3_AnalyticalOrNumerical.ipynb # 
+            - file: content/Ch2_ex.ipynb            
         - file: content/Ch4_WorkEnergy.md
           children:
             - file: content/Ch4_ex.ipynb
@@ -40,33 +38,23 @@ project:
           children:
             - file: content/Ch5_ex.ipynb
         - file: content/Ch6_AngularMomentum.md
+          children:
+            - file: content/Ch6_ex.md
         - file: content/Ch7_ConservationEquations.md
           children:
             - file: content/Ch7_ex.md
-
-        # - file: content/Ch8_RutherfordAtom.md
         - file: content/Ch8_Oscillations.md
           children:
             - file: content/Ch8_ex.md
-        # - file: content/ChX0_Collisions.md
-        # - file: content/ChX1_TwoBody.md
-        # - file: content/ChX2_ManyBody.md
-        # - file: content/ChX3_RigidBodies.md
-        # - file: content/ChX4_NonInertialFrames.md
-        # - file: content/ChX5_CracksInMecha.md
+
     - title: Special Relativity
       children:        
-        - file: content/Special.md
-        
-        # - file: content/ChX7_SpecialRelaFirstImplications.md
-        # - file: content/ChX8_VelotransDoppler.md
-        # - file: content/ChX9_FourVectors.md
-        # - file: content/ChXX0_FourMomentum.md
-        # - file: content/ChXX1_RelDynColl.md
-        # - file: content/ChXX2_BeyondNewton.md
+        - file: content/Special.md        
+
     - title: Project
       children:
         - file: content/ChXX_Numerical analysis.ipynb
+
     - title: For developers
       children:
         - file: content/Howtostart.md
