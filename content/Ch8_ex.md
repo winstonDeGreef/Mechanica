@@ -247,11 +247,10 @@ Set up an experiment to find the mass $m$, the spring constant $k$, and the damp
 
 Don't forget to make a physics analysis first, a plan of how to find both $m$ and $k$.
 
-![From Wikimedia Commons: [bands](https://commons.wikimedia.org/wiki/File:Rubber_bands_20210918_142044.jpg), CC-SA 4.0; [apple](https://commons.wikimedia.org/wiki/File:Red_Apple.jpg), CC-BY 2.0, ; [phone](https://commons.wikimedia.org/wiki/File:IPhone_Dynamic_Island.jpg), PD; [ruler](https://commons.wikimedia.org/wiki/File:Ruler_illustration.svg), CC-BY 4.0.](images/MassSpringDIY.png)
 
 ```{figure} images/MassSpringDIY.png
 :name: fig:MassSpringDIY.jpg
-:width: 400px
+:width: 50%
 :align: center
  
 From Wikimedia Commons: [bands](https://commons.wikimedia.org/wiki/File:Rubber_bands_20210918_142044.jpg), CC-SA 4.0; [apple](https://commons.wikimedia.org/wiki/File:Red_Apple.jpg), CC-BY 2.0, ; [phone](https://commons.wikimedia.org/wiki/File:IPhone_Dynamic_Island.jpg), PD; [ruler](https://commons.wikimedia.org/wiki/File:Ruler_illustration.svg), CC-BY 4.0.
