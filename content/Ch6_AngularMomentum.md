@@ -766,7 +766,7 @@ $$ U_{eff} = \frac{l^2}{2mr^2} - -G\frac{mM}{r} $$
 We see, that the energy can not be just any value: the kinetic energy of our quasi-one-dimensional particle ($\frac{1}{2}m\dot{r}^2$) can not be negative and the total potential energy has, according to {numref}`fig:KeplerEnergy.png` a clear minimum. The total energy can not be below this minimum. On the other hand: there is no maximum.    
 
 ::::{tab-set}
-:::{tab} Case 1: $U_{eff} = minimal$
+:::{tab-item} Case 1: $U_{eff} = minimal$
 
 Suppose, we would prepare the system such that its total energy was equal to the minimum of the black line, i.e. of the total potential energy. Then, of course, via the arguments we have given above this is only possible if the kinetic energy is zero. 
 
@@ -788,7 +788,7 @@ Thus, if a planet orbits its sun such that its (pseudo-)potential $U_{eff} = min
 
 :::
 
-:::{tab} Case 2: $U_{eff, min} < E_{tot} < 0$
+:::{tab-item} Case 2: $U_{eff, min} < E_{tot} < 0$
 
 Next, we consider a case where the total energy of the planet has a value between the minimum of the curve of the effective potential and 0. Call the value of the energy $E_2$.
 
@@ -811,7 +811,7 @@ Thus, if the planet is closer to $r_a$ it moves faster than close to $r_b$. But 
 
 :::
 
-:::{tab} Case 3: $E_{tot} > 0$
+:::{tab-item} Case 3: $E_{tot} > 0$
 
 Finally, we take the case that the total energy of the planet is positive, say a value of $E_3$ in {numref}`fig:KeplerEnergy3.png`. Now we see that the planet can approach the sun, but not closer than a distance $r=r_c$. The planet is attracted to the sun, but after reaching the closest distance $r=r_c$ it will move away and eventually reach infinity. Again note: at $r=r_c$, the planet does have a non-zero velocity.
 

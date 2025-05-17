@@ -1,12 +1,13 @@
 # Oscillations 
 
 ## Periodic Motion
-There are many, many examples of periodic systems. We see them in physics, like the orbit of planets around their star. We find them in biology, in chemistry, in economics. They show up in daily life: the day-night rhythm, the tides, children on a swing, your heart-beat. Periodic motions are by definition motions that repeat themselves after a fixed period of time, usually called 'the period'.
 
-A specific class of periodic motion is formed by the oscillations. All oscillations are period, but not all periodic motion is an oscillation. An oscillation is moving back and forth around an equilibrium position. They are often caused by the presence of restoring forces: forces that try to push the system towards the equilibrium position. A form of inertia causes the system to overshoot. The restoring force reverses in direction to push the system after the overshoot back.
+There are many, many examples of periodic systems. We see them in physics, like the orbit of planets around their star. We find them in biology (like the predator-prey systems), in chemistry (oscillating reactions like the [Belousov-Zhabotinsky reaction](https://en.wikipedia.org/wiki/Belousov%E2%80%93Zhabotinsky_reaction)), and in economics (like demand-supply fluctuations). They show up in daily life: the day-night rhythm, the tides, children on a swing, your heart-beat. Periodic motions are by definition motions that repeat themselves after a fixed period of time, usually called 'the period'.
 
-A few simple examples will illustrate the above.
-The merry go round is a periodic motion, but not an oscillation.
+A specific class of periodic motion is known as oscillatory motion, or simply oscillations. All oscillations are periodic, but not all periodic motions are oscillations. An oscillation involves movement back and forth around an equilibrium position. It is typically caused by a restoring force: a force that acts to return the system to equilibrium (in case of the mass spring system: $\vec{F}=-k\vec{u}$). However, due to inertia, the system overshoots this position. The restoring force then reverses direction, pushing the system back again, leading to continued oscillation.
+
+A few simple examples will illustrate the above. For instance, the merry-go-round ({numref}`fig:HaMerryGoRound.jpg`) is a periodic motion, but not an oscillation. The seats go round in a circular, periodic motion but there is no back & forth.
+This is in contrast to a swing. That is also a periodic motion, but it has the back and forth as well as a restoring force, which in this case is gravity.
 
 ```{figure} images/MerryGoRound2.jpg
 :name: fig:HaMerryGoRound.jpg
@@ -16,10 +17,8 @@ The merry go round is a periodic motion, but not an oscillation.
 Spinning carousel. By Oxana Mayer, from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spinning_around_-_geograph.org.uk_-_404365.jpg), licensed under CC BY-SA 2.0.
 ```
 
-The seats go round in a circular, periodic motion but there is no back & forth.
-This is in contrast to a swing. That is also a periodic motion, but it has the back and forth as well as a restoring force, which in this case is gravity.
+### Rabbits and Foxes
 
-#### Rabbits and Foxes
 As an example of a dynamic system that is periodic, we will take a look at the so-called predator-prey systems. These are well-known in biology and provide an interesting case. The idea is simple: the populations of rabbits growth as they multiply quickly. The idea in the prey-predator model is that growth rate is proportional to the population itself. For the rabbits that means that the derivative of the population of rabbits (with respect to time) is positive. If there are no foxes, the rabbit population will grow exponentially. Of course, in the real world that doesn't happen as sooner or later, the rabbits will ran out of food, resulting in starvation. However, we will assume here, that food is not limiting: but the number of foxes is. They stop the rabbit population from unbounded increasing. The more rabbits there are, the easier the foxes find food and the more foxes will survive childhood. A simple model reads as follows:
 
 $$\begin{split}
@@ -478,6 +477,7 @@ To solve this equation, it is easier not to try to look directly for sinus and c
 
 
 ```{note} Intermezzo: complex exponential and sin, cos 
+:class: dropdown
 
 In the 18$^{th}$ century, the study of complex numbers, i.e. $i = \sqrt{-1}$, revealed a surprising connection between the exponential function and trigonometry. It was Leonhard Euler (1707-1783) who derived:
 
@@ -555,7 +555,7 @@ $$
 We will investigate various cases.
 
 ::::{tab-set}
-:::{tab} **Case 1** $D = b^2 - 4mk \lt 0$
+:::{tab-item} **Case 1** $D = b^2 - 4mk \lt 0$
 
 In this case, the square root in $\lambda$ is imaginary and we can write it as $i\sqrt{4mk - b^2}$. This gives us for the two possibilities of $\lambda$
 
@@ -579,7 +579,7 @@ $$
 Conclusion: the damped oscillator oscillates with a smaller frequency than the undamped one and it amplitude decreases over time. The later is of course to be expected due to friction: sooner or later friction has dissipated all the kinetic \& potential energy.
 :::
 
-:::{tab} **Case 2** $D = b^2 - 4mk = 0$
+:::{tab-item} **Case 2** $D = b^2 - 4mk = 0$
 For this specific combination of $b, k, m$ we see that the frequency of the oscillation is 0. In other words, the systems does not perform oscillations. Furthermore, our two values of $\lambda$ are now equal. Consequently the general solution that we presented is no longer complete (we now only have one integration constant, or only one independent function if you prefer.) We need a second one and that turns out to be of the form $t e^{\lambda t}$. You can verify that by substituting it in the equation of motion for the damped case.
 
 Thus we have know:
@@ -591,7 +591,7 @@ $$
 
 :::
 
-:::{tab} **Case 3** $D = b^2 - 4mk \gt 0$
+:::{tab-item} **Case 3** $D = b^2 - 4mk \gt 0$
 Again, there is no imaginary part in $\lambda$, so no oscillations. But we do have two different values for $\lambda$ and thus our original general solution is still valid:
 
 $$ x(t) = A e^{\frac{-b + \sqrt{b^2 - 4mk}}{2m}t} + Be^{\frac{-b - \sqrt{b^2 - 4mk}}{2m}t}
