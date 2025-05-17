@@ -6,8 +6,11 @@ There are many, many examples of periodic systems. We see them in physics, like 
 
 A specific class of periodic motion is known as oscillatory motion, or simply oscillations. All oscillations are periodic, but not all periodic motions are oscillations. An oscillation involves movement back and forth around an equilibrium position. It is typically caused by a restoring force: a force that acts to return the system to equilibrium (in case of the mass spring system: $\vec{F}=-k\vec{u}$). However, due to inertia, the system overshoots this position. The restoring force then reverses direction, pushing the system back again, leading to continued oscillation.
 
-A few simple examples will illustrate the above. For instance, the merry-go-round ({numref}`fig:HaMerryGoRound.jpg`) is a periodic motion, but not an oscillation. The seats go round in a circular, periodic motion but there is no back & forth.
-This is in contrast to a swing. That is also a periodic motion, but it has the back and forth as well as a restoring force, which in this case is gravity.
+A few simple examples will illustrate the above. 
+
+### The merry-go-round
+
+The merry-go-round ({numref}`fig:HaMerryGoRound.jpg`) is a periodic motion, but not an oscillation. The seats go round in a circular, periodic motion but there is no back & forth. This is in contrast to a swing. That is also a periodic motion, but it has the back and forth as well as a restoring force, which in this case is gravity.
 
 ```{figure} images/MerryGoRound2.jpg
 :name: fig:HaMerryGoRound.jpg
@@ -15,6 +18,10 @@ This is in contrast to a swing. That is also a periodic motion, but it has the b
 :align: center
  
 Spinning carousel. By Oxana Mayer, from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spinning_around_-_geograph.org.uk_-_404365.jpg), licensed under CC BY-SA 2.0.
+```
+
+```{warning}
+Extension of the physics of the merry go round needed. 
 ```
 
 ### Rabbits and Foxes

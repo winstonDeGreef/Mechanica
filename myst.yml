@@ -3,14 +3,15 @@ project:
   plugins:
     - plugins/pdf_exercise.mjs
     - plugins/experiment.mjs
-  github: https://github.com/FreekPols/Mechanica
+  
     
   title: Classical Mechanics & Special Relativity for Starters
   authors:
     - name: Robert F. Mudde     
+  github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY 4.0
-  bibliography:
-    - MechaRela.bib
+  # bibliography:
+  #   - MechaRela.bib
   exports:
     - format: pdf
       template: ./template
@@ -53,7 +54,7 @@ project:
 
     - title: Project
       children:
-        - file: content/ChXX_Numerical analysis.ipynb
+        - file: content/project/Numerical analysis.ipynb
 
     - title: For developers
       children:

@@ -404,7 +404,7 @@ Similar situation: can you find an example of a falling object for which the ang
 
 ```
 
-```{solution} 7.1
+```{solution} 71
 :class: dropdown
 
 The particle falls under a force that points in the negaive $y$-direction. As a consequence, it will start moving vertically downwards:
@@ -454,7 +454,7 @@ where we have used: $t=0 \rightarrow \vec{p}=0 \rightarrow \vec{l}=0 \Rightarrow
 
 ```
 
-````{solution} 7.2
+````{solution} 72
 :class: dropdown
 
 We can follow the same procedure as in exercise (6.1). But now, the outcome of the $x$-component of N2 changes.
@@ -497,7 +497,7 @@ Thus, the angular momentum still points in the negative $z$-direction but increa
 
 ````
 
-```{solution} 7.3
+```{solution} 73
 :class: dropdown
 
 We can take the situation of exercise 6.1, but shift our origin such that at $t=0 \rightarrow x=0$. Now the particle will fall along the $y$-axis. It has its momentum also in the $y$-direction and consequently $\vec{l} = \vec{r} \times \vec{p} =0$ and stays zero!

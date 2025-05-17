@@ -146,17 +146,4 @@ In 1610 Galilei was observing Jupiter and found that it had not one but four moo
 
 In 1992 pope John Paul II acknowledged that the church had made a mistake in condemning Galileo. The pope apologized and publicly announced that Galilei was right there was no reason to doubt Galilei's faith in God.
 
-## Isaac Newton
-At the end of the year of Galilei's death, Isaac Newton was born in Woolsthorpe-by-Colsterworth in England. He is regarded as the founder of classical mechanics and with that he can be seen as the father of physics. 
-
-```{figure} images/Newton.jpg
----
-name: fig:Newton
-width: 70%
-align: center
----
-Isaac Newton (1642-1727). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689.jpg), public domain.
-```
-
-In 1661, he started studying at Trinity College, Cambridge. In 1665, the university temporarily closed due to an outbreak of the plague. Newton returned to his home and started working on some of his breakthroughs in calculus, optics and gravitation. Newton's list of discoveries is unsurpassed. He invented calculus (at about the same time and independent of Leibniz). Newton is known for 'the binomium of Newton', the the cooling law of Newton. He proposed that light is made of particles. And he formulated his law of gravity. Finally, he postulated his three laws that started classical mechanics and worked on several ideas towards energy and work. Much of our concepts in physics are based on the early ideas and their subsequent development in classical mechanics. The laws and rules apply to virtually all daily life physical phenomena and only do they require adaptation when we go the very small scale or extreme velocities and cosmology. In what follows, we will follow his footsteps, but in a modern way that we owe to many physicist and mathematicians that over the years shaped the theory of classical mechanics in a much more comprehensive form. We do not only stand on shoulders of giants, we stand on a platform carried by many.
 
