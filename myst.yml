@@ -71,6 +71,7 @@ site:
     hide_authors: true
     enable_service_worker: false
     execute_js: true
+    style: ./style/custom.css
 
   actions:
     - title: Feedback
