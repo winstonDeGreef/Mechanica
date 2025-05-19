@@ -689,7 +689,7 @@ We will not use this method to measure mass. We came to the conclusion that we c
 
 Now that we know how to determine mass, we also have solved the problem of measuring force. We just measure the mass and the acceleration of an object and from N2 we can find the force. This allows us to develop 'force measuring equipment' that we can calibrate using the method discussed above. 
  
-```{note} Intermezzo: kilogram, unit of mass
+```{intermezzo} Intermezzo: kilogram, unit of mass
 In 1795 it was decided that 1 gram is the mass of 1 cm$^3$ of water at its melting point. Later on, the kilogram became the unit for mass. In 1799, the *kilogramme des Archives* was made, being from then on the prototype of the unit of mass. It has a mass equal to that of 1 liter of water at 4$^\circ$C (when water has its maximum density).
 
 In recent years, it became clear that using such a standard kilogram does not allow for high precision: the mass of the standard kilogram was, measured over a long time, changing. Not by much (on the order of 50 micrograms), but sufficient to hamper high precision measurements and setting of other standards. In modern physics, the kilogram is now defined in terms of Planck's constant. As Planck's constant has been set (in 2019) at exactly $ h = 6.62607015 \cdot10^{-34} \text{kg}\cdot \text{m}^2 \cdot \text{s}^{-1} $, the kilogram is now defined via $h$, the meter and second. 

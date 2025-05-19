@@ -242,7 +242,7 @@ where the force is replaced by the torque and the linear momentum by the angular
 
 NB: Note that the torque and angular moment change if we choose a different origin as this changes the value of $\vec{r}$.
 
-````{note} Intermezzo: cross product
+````{intermezzo} Intermezzo: cross product
 :class: dropdown
 Here is some recap for the cross product. See also the [wiki](https://en.wikipedia.org/wiki/Cross_product) page.
 A cross product of two vectors $\vec{a}$ and $\vec{b}$ is defined as
@@ -544,7 +544,7 @@ The planetary motion is an example of using the concept of central forces. It is
 
 Before we embark at the problem of the earth moving under the influence of the sun's gravity, we will go back in time a little bit. 
 
-````{note} Intermezzo: Tycho Brahe & Johannes Kepler
+````{intermezzo} Intermezzo: Tycho Brahe & Johannes Kepler
 :class: dropdown
 
 We find ourselves back in the Late Renaissance, that is around 1550-1600 AD. In Europe, the first signs of the scientific revolution can be found. Copernicus proposed his heliocentric view of the solar system. Galilei used his telescope to study the planets and found further evidence for the heliocentric idea. In Denmark, Tycho Brahe (1546-1601) made astronomical observations with data of unprecedented precision. He did so without the telescope as the first records of telescopes date back to around 1608 AD. 

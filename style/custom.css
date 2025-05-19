@@ -40,3 +40,42 @@ aside.admonition-experiment > div:first-child > div:first-child {
   margin-right: 0.5em;
 }
 
+
+
+/* ADMONITION INTERMEZZO */
+/* Parent */
+aside.admonition-intermezzo {
+  border-color: rgb(162, 0, 255) !important; 
+  background-color: rgb(255, 255, 255); 
+} 
+
+/* Title */
+aside.admonition-intermezzo > div:first-child {
+  background-color: rgb(218, 154, 255);  
+}
+
+/* Icon */
+aside.admonition-intermezzo > div:first-child::before {
+  content: "📖";
+  /* add padding left so it is not directly on the side*/
+  padding-left: 0.2em;
+  margin-left: 0.5em;
+}
+
+aside.admonition-intermezzo > div:first-child > div:first-child {
+  background-color: rgb(218, 154, 255); /* changes header color of text part
+  margin-left: 0 !important; /* voorkomt dubbele margin */
+}
+
+.admonition-intermezzo .admonition-title-intermezzo {
+  background-color: black; /* Change header background color */
+  color: #FFFFFF; /* Change header text color */
+}
+
+/* Custom icon using ::before pseudo-element */
+.admonition-intermezzo .admonition-title-intermezzo::before {
+  content: "📖"; /* Use an emoji or */
+  content: "f518"; /* Use a FontAwesome icon code */
+  font-family: "Font Awesome 5 Free"; /* If using FontAwesome */
+  margin-right: 0.5em;
+}
