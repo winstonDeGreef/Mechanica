@@ -62,3 +62,19 @@ Ben je klaar, dan commit & push je de wijzigingen naar de repository. Vergeet ni
 
 Aan het eind doe je een gitpush, de wijzigingen worden doorgestuurd naar de repository.
 ```
+
+## Admonitions
+Er zijn diverse admonitions mogelijk: danger / tips / exercises.
+
+Het is ook mogelijk om eigen admonitions te maken. Voor nu zijn er: intermezzo en experiment.
+
+```{intermezzo} Ik ben een intermezzo
+Hier dan tekst.
+```
+
+```{experiment} Wil je een experiment doen?
+Altijd.
+```
+
+Is er behoeft aan meer admonition types, laat het weten via een issue!
+
