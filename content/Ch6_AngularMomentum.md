@@ -192,7 +192,7 @@ $$\vec{l} \equiv \vec{r} \times \vec{p}$$
 Note that it is a cross product as well. Hence it is a vector itself. Further note that $\vec{r} \times \vec{p} \neq \vec{p} \times \vec{r}$. The order matters! First $\vec{r}$ then $\vec{p}$. If you do it the other way around, you unwillingly have introduced a minus sign that should not be there.  
 Furthermore, note that since $\vec{l} \equiv \vec{r} \times \vec{p}$, $\vec{l}$ is perpendicular to the plane formed by $\vec{r}$ and $\vec{p}$.
 
-```{figure} images/AngularMomentum.jpg
+```{figure} images/AngularMomentum.png
 :name: fig:AngularMomentum.jpg
 :width: 250px
 :align: center
