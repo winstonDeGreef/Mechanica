@@ -193,7 +193,7 @@ Note that it is a cross product as well. Hence it is a vector itself. Further no
 Furthermore, note that since $\vec{l} \equiv \vec{r} \times \vec{p}$, $\vec{l}$ is perpendicular to the plane formed by $\vec{r}$ and $\vec{p}$.
 
 ```{figure} images/AngularMomentum.png
-:name: fig:AngularMomentum.jpg
+:name: fig:AngularMomentum.png
 :width: 250px
 :align: center
 
@@ -302,10 +302,10 @@ Notice the cyclic structure of the equations.
 
 ````
 
-It is a common mistake to identify angular momentum with rotational motion. That is not correct. A particle that travels in a straight line will, in general, also have a non-zero angular momentum. See {numref}`fig:AngularMomentumFreeParticle.jpg`. Here we look at a free particle: there are no forces working on it. So it travels in a straight line, with constant momentum. 
+It is a common mistake to identify angular momentum with rotational motion. That is not correct. A particle that travels in a straight line will, in general, also have a non-zero angular momentum. See {numref}`fig:AngularMomentumFreeParticle.png`. Here we look at a free particle: there are no forces working on it. So it travels in a straight line, with constant momentum. 
 
-```{figure} images/AngularMomentumFreeParticle.jpg
-:name: fig:AngularMomentumFreeParticle.jpg
+```{figure} images/AngularMomentumFreeParticle.png
+:name: fig:AngularMomentumFreeParticle.png
 :width: 250px
 :align: center
 
@@ -320,10 +320,10 @@ $$
 $$
 
 Clearly, the angular momentum of a free particle is constant. Moreover, the momentum of a free particle is also constant. But what about the position vector: isn't that changing over time and eventually becomes very, very long? Why does that not change $\vec{r} \times \vec{p}$?     
-Take a look at {numref}`fig:ConstantAngularMomentum.jpg`. We have chosen the $xy$-plane such that both $\vec{r}$ and $\vec{p}$ are in it. Furthermore, we have taken it such that $\vec{p}$ is parallel to the $x$-axis.
+Take a look at {numref}`fig:ConstantAngularMomentum.png`. We have chosen the $xy$-plane such that both $\vec{r}$ and $\vec{p}$ are in it. Furthermore, we have taken it such that $\vec{p}$ is parallel to the $x$-axis.
 
-```{figure} images/ConstantAngularMomentum.jpg
-:name: fig:ConstantAngularMomentum.jpg
+```{figure} images/ConstantAngularMomentum.png
+:name: fig:ConstantAngularMomentum.png
 :width: 250px
 :align: center
 
