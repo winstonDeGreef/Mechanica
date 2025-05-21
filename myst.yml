@@ -48,6 +48,7 @@ project:
         - file: content/Ch8_Oscillations.md
           children:
             - file: content/Ch8_ex.md
+        - file: content/Ch9_Collisions.md
 
     - title: Special Relativity
       children:        
