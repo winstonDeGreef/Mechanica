@@ -305,39 +305,11 @@ As we see, this LC-circuit will start to oscillate. In the animation below the c
 Harmonic oscillation of an LC-circuit.
 ```
 
-  
-
 ### Musical Instruments
 
 Musical instruments produce sound waves. In many cases they do that via vibrations of strings, like the guitar, the violin, harp or piano. The strings of these instruments are displaced out of their equilibrium position. Due to the tension in these strings, there is a restoring force that is proportional to the displacement. Consequently, the string will start to oscillate in an harmonic way. 
 
-```{figure} images/VibratingString.png
-:name: fig:VibratingString.png
-:width: 300px
-:align: center
- 
-Vibrating string.
-```
-
-If we call the coordinate along the string $x$, then the displacement of the string with respect to its equilibrium $y$ is a function of $x$: $y = y(x)$. Obviously, the displacement is also a function of time, so we need to consider $y(x,t)$ making it a much more complicated problem than our mass-spring.
-
-We will not go into the details, but be satisfied with postulating the equation of motion of the string:
-
-$$ \mu \frac{\partial^2 y}{\partial t^2} = T \frac{\partial^2 y}{\partial x^2}$$
-
-with $\mu$ the mass of the string per unit length, i.e. $\mu = \frac{m}{L}$ and $T$ the tension in the string.
-
-The above equation is called the wave equation and although it looks and is much more complicated than the mass-spring harmonic equation, it has quite some resemblances. For instance, the frequency with which the string will oscillate is given by multiples of the so-called ground-frequency,  $f_0 = \frac{1}{2L} \sqrt{\frac{T}{\mu}}$ with $L$ the length of the string. Moreover, each point of the string will oscillate in a $\sin$ and $\cos$ way. The string has the tendency to vibrate in a sinusoidal way: both in space and time. Standing waves will form on the string, with a frequency that is an integer multiple of the ground-frequency.
-
-```{figure} images/String_animation.gif
-:name: fig:String_animation.gif
-:width: 400px
-:align: center
- 
-Fundamental modes of a vibrating string.
-```
-
-Not only strings, but also beams will exhibit this behavior, well-known example: a tuning fork.
+Not only strings, but also beams will exhibit this behavior, well-known example: a tuning fork. We will come back to waves at the end of this chapter.
 
 ## The pendulum
 
