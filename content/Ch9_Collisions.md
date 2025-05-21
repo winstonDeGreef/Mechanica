@@ -9,8 +9,8 @@ Secondly, we assume that this force works over a small distance only. Or re-phra
 
 ```{figure} images/collision.png
 :name: fig:collision.png
-:width: 320px
-:align: center
+::width: 320px
+::align: center
 
 Collision of two particles.
 ```
@@ -38,11 +38,10 @@ Here we explain how to compute the velocities after the collision, given the ini
 
 
 ```{figure} images/collision2.png
----
-name: fig:collision2.png
-width: 320px
-align: center
---- 
+:name: fig:collision2.png
+:width: 320px
+:align: center
+ 
 Example of a 1D elastic collision.
 ```
 
@@ -105,11 +104,10 @@ Consider now a 2D elastic collision such that the two particles collide in the o
 
 
 ```{figure} images/2Dcollision1.png
----
-name: fig:2Dcollision1.png
-width: 250px
-align: center
---- 
+:name: fig:2Dcollision1.png
+:width: 250px
+:align: center
+ 
 Example of a 2D elastic collision.
 ```
 
@@ -137,22 +135,20 @@ $$
 The red particle now has velocity $(-2v,v)$. The problem is still 2D.
 
 ```{figure} images/2Dcollision2.png
----
-name: fig:2Dcollision2.png
-width: 250px
-align: center
---- 
+:name: fig:2Dcollision2.png
+:width: 250px
+:align: center
+ 
 Applying the Galilean Transformation.
 ```
 
 Next, we can rotate the coordinate system, to obtain a 1D head-on collision that we can solve as above. 
 
 ```{figure} images/2Dcollision3.png
----
-name: fig:2Dcollision3.png
-width: 250px
-align: center
---- 
+:name: fig:2Dcollision3.png
+:width: 250px
+:align: center
+ 
 Rotating the coordinate system.
 ```
 
@@ -187,11 +183,10 @@ $$
 Instead of working in the lab frame we can use the CM frame. A sketch of the coordinates and vectors is given in the figure below.
 
 ```{figure} images/CMsketch.png
----
-name: fig:CMsketch.png
-width: 250px
-align: center
---- 
+:name: fig:CMsketch.png
+:width: 250px
+:align: center
+ 
 Center of mass.
 ```
 
@@ -210,11 +205,10 @@ This means the momenta of both particles are *always* equal in magnitude and opp
 
 
 ```{figure} images/CMmomentum.png
----
-name: fig:CMmomentum.png
-width: 320px
-align: center
---- 
+:name: fig:CMmomentum.png
+:width: 320px
+:align: center
+ 
 Collision in center of mass frame.
 ```
 
@@ -238,80 +232,85 @@ For $e=0$ the collision is fully inelastic, for $e=1$ it is fully elastic.
 
 ## Examples
 
-### Newton's Cradle ###
+### Newton's Cradle
 Click on the image below for a video on Newton's cradle (gives you also the possibility to 'play' with different numerical solvers, from (too) simple to advanced).
 
 <a href="https://www.myphysicslab.com/engine2D/newtons-cradle-en.html">
 
 ```{figure} images/newtonCrad.jpg
----
-name: fig:newtonCrad.jpg
-width: 320px
-align: center
---- 
+:name: fig:newtonCrad.jpg
+:width: 320px
+:align: center
+ 
 
 ```
 </a>
 
-### Colliding Superballs ###
-Watch this video on bouncing superballs. We discussed this problem in chapter ??.
+````{exercise} Colliding Superballs
+Watch this video on bouncing superballs. We discussed this problem in [this chapter](./Ch7_ConservationEquations.md).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2UHS883_P60?si=KYY0YWHbW-a3UqwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```{iframe} https://www.youtube.com/embed/2UHS883_P60?si=KYY0YWHbW-a3UqwU
+```
 
 
 ```{figure} images/SuperBall_animation.gif
----
-name: fig:SuperBall_animation.gif
-width: 320px
-align: center
---- 
-
+:name: fig:SuperBall_animation.gif
+:width: 320px
+:align: center
+ 
 ```
 
-<b>Question</b>
-
-Do you agree with the explanation in the movie?<br>
+Do you agree with the explanation in the movie?
 
 We seem to violate the conservation of kinetic energy: there is much more kinetic energy after the collision than before! Can you figure out what is happening?
 
-Hint: Look carefully at the bouncing of the blue ball with the earth. Is it really true that the velocity after bouncing is $v$ and that the earth does not move? Probably not, as this violates conservation of momentum!
+```{tip} 
+Look carefully at the bouncing of the blue ball with the earth. Is it really true that the velocity after bouncing is $v$ and that the earth does not move? Probably not, as this violates conservation of momentum!
+```
+````
 
-### Elastic Collision ###
+### Elastic Collision
 
-#### 1D elastic collision ####
+#### 1D elastic collision
 Consider two particles, $m_1$ and $m_2$, moving along the $x$-axis. The two particles will elastically collide. We set mass 2 at a value of 1 (kg) and vary $m_1$. 
 In the widget below, you can change the value of $m_1$ and of the velocities of both particles before the collision.
 
 Solve the collision by using conservation of momentum and kinetic energy and compare your results with those of the widget.
 
+```{warning}
 here python code for jpnb: 1DelasticCollision.py
+```
 
-
-#### 2D elastic collision ####
+#### 2D elastic collision
 Next, we consider an elastic collision between $m_1$ and $m_2$, but now in a 2-dimensional setting.
 
 In the widget below, the situation is animated. You can change the values of the initial velocity and masses. Can you (qualitatively) predict the outcome of the collision for a given set os parameters?
 
+```{warning}
 here python code for jpnb: 2DElasticCollision.py
+```
 
-### Inelastic Collision ###
+### Inelastic Collision
 PArticle $m_1$ is moving over the $x$-axis with unit velocity. Simultaneously, particle $m_2$ is moving over the $y$-axis also with unit velocity. Both particles will collide in the origin. The collision is inelastic with restitution coefficient $e$.
 
-The widget below shows the trajectories of the particles and gives the velooities after the collision. Moreover, als the angle of the trajectories after the collision with the $x$-axis is given.
+The widget below shows the trajectories of the particles and gives the velocities after the collision. Moreover, als the angle of the trajectories after the collision with the $x$-axis is given.
 
+```{warning}
 here python code for jpnb: 2DCollision.py
+```
 
 Can you solve this problem for a few values of the restitution coefficient? The 'easy ones' are for $e=0$.
 
 
-```{important} Example 9.1 Completely inelastic collision
+```{exercise} Completely inelastic collision
+:label: ex_91
 
 Consider a particle with mass $M$ being at rest in your frame of reference. A second particle of mass $m$ comes in over the negative $x$-direction with velocity $v$. The collision is completely inelastic.
 
 Find the velocities after the collision.
 ```
 
-````{tip} Solution 9.1
+```{solution} ex_91
 :class: dropdown
 Given: the collision is completely inelastic. That means $e=0$ or in words: after the collision the two particles stick together and move as one particle. Thus, we have only one unknown velocity after the collision.
 
@@ -324,30 +323,27 @@ $$\begin{split}
 
 \end{split}$$
 
-````
+```
 
 
 ## Exercises
 
 Here are some exercises that deals with oscillations. Make sure you practice IDEA.
 
-```{exercise-start}
+```{exercise}
 :label: 9.1
 
 
 A particle of mass $3m$ and velocity $2v$ will collide with a particle of mass $2m$ and velocity $-3v$. The problem is 1-dimensional.
-<ol>
-<li>The collision is elastic. Find the velocities of the masses after the collision.</li>
-<li>The collision is completely inelastic. Find the velocities of the masses after the collision.</li>
-<li>The restitution coefficient is: e=1/5. Find the velocities of the masses after the collision.</li>
-</ol>
 
+- The collision is elastic. Find the velocities of the masses after the collision.
+- The collision is completely inelastic. Find the velocities of the masses after the collision.
+- The restitution coefficient is: e=1/5. Find the velocities of the masses after the collision.
 ```
 
 
 ```{exercise}
 :label: 9.2
-
 
 A particle of mass $2m$ moves over the x-axis with velocity $v$. It will collide with a particle of mass $m$ that moves over the y-axis also with velocity $v$. The collision is completely inelastic.
 
@@ -359,7 +355,6 @@ Find the velocity of the particles after the collision and calculate the loss of
 ```{exercise}
 :label: 9.3
 
-
 A tennis ball is dropped from a height of 1m (with zero initial velocity) on the tennis court. The restitution coefficient is $\frac{1}{2}\sqrt{2}$. After how many bounces does the tennis ball no longer reach a height of 0.25m. Friction with the air can be ignored.
 
 ```
@@ -368,36 +363,31 @@ A tennis ball is dropped from a height of 1m (with zero initial velocity) on the
 ```{exercise}
 :label: 9.4
 
-
 In Hollywood films often one of the persons is shot. That person (whether dead, wounded or 'just fine' for the hero) is blown of its feet and may fly a meter or more backwards.
 
 The shooter, however, does not fly or fall backwards.
 
-a) Show that if the victim moves backwards significantly, then the shooter shoot do at least the same.
-b) A bullet weighs several grams and may have a velocity of several hundred m/s. Estimate what the backward velocity of a victim is. For comparison: when we walk, our velocity is 1 to 2 m/s. Conclusion?
+1. Show that if the victim moves backwards significantly, then the shooter shoot do at least the same.
+1. A bullet weighs several grams and may have a velocity of several hundred m/s. Estimate what the backward velocity of a victim is. For comparison: when we walk, our velocity is 1 to 2 m/s. Conclusion?
 
 
 ```
 
-### Answers ###
+### Answers
 
 ```{solution} 9.1
 :class: dropdown
 
-
-<ol>
-<li>3m has velocity -2v and 2m has velocity 3v</li>
-<li>Both particles have zero velocity.</li>
-<li>3m has velocity -2/5 v and 2m has velocity 3/5 v.</li>
-</ol>
-
+- $3m$ has velocity $-2v$ and $2m$ has velocity $3v$
+- Both particles have zero velocity.
+- $3m$ has velocity $-2/5 v$ and $2m$ has velocity $3/5 v$.
 ```
 
 ```{solution-start} 9.2
 :class: dropdown
 
-
 $$\vec{v}_{after} = \frac{2}{3}v \hat{x} + \frac{1}{3}v \hat{y}$$
+
 $$\Delta E_{kin} = -\frac{2}{3}mv^2$$
 
 ```
@@ -407,8 +397,6 @@ $$\Delta E_{kin} = -\frac{2}{3}mv^2$$
 
 
 After each bounce, the tennis ball reaches half of the height it had before the bounce. Thus after two bounces, the ball reaches 25cm and with the third bounce only 12.5cm.
-
-
 ```
 
 
@@ -416,7 +404,7 @@ After each bounce, the tennis ball reaches half of the height it had before the 
 :class: dropdown
 
 
-a)  We can consider the shooting as a collision. Bullets don't bounce back, they penetrate a body. So the victim 'gains' maximum momentum if the bullet stays in the body. Then according to conservation of momentum, we have for this inelastic collision:
+1. We can consider the shooting as a collision. Bullets don't bounce back, they penetrate a body. So the victim 'gains' maximum momentum if the bullet stays in the body. Then according to conservation of momentum, we have for this inelastic collision:
 
 $$m_b v_b + M_v \cdot 0 = \left ( m_b + M_v \right ) U$$
 
@@ -434,27 +422,30 @@ $$U_s = -\frac{m_b}{M_s} v_b$$
 
 Conclusion: as the mass of the bullet is negligible compared to that of a person both shooter and victim have similar velocities. As their mass is comparable, it is clear: from a physics point of view, if the victim is blown backward, than also the shooter is.
 
-b) From the above we get, using $m_b \approx 10 \cdot 10^{-3}$kg, $v_b \approx 500$m/s and $M_v \approx 70$kg:
+1. From the above we get, using $m_b \approx 10 \cdot 10^{-3}$kg, $v_b \approx 500$m/s and $M_v \approx 70$kg:
 
 $$U_v = \frac{m_b}{m_b + M_v} v_b \approx 7 cm/s$$
 
-That is much too little to 'knock' someone over. Hollywood is good at 'dramtic effects', not so good at physics.
+That is much too little to 'knock' someone over. Hollywood is good at 'dramatic effects', not so good at physics.
 
 ```
 
 
 ````{experiment} restitution coefficient
 Is the restitution coefficient of a bouncing tennis ball a constant or does it depend on the velocity at bouncing?
-You can 'easily' find out yourself. What you need is a tennis ball, a ruler (e.g. from IKEA) and your mobile.
+You can 'easily' find out yourself. What you need is a tennis ball, and your mobile with the [phyphox app](https://phyphox.org).
 
-Experiment: drop a tennis ball with zero initial velocity from various height, $H$. Record with the camera of your mobile making sure the ruler is visible in the images. Read out the height before and after the bounce and compute the restitution coefficient $e$. Plot $e$ as a function $H$ and you will have answered the above question.
+Experiment: drop a tennis ball with zero initial velocity from various height, $H$. Use the acoustic chronometer to measure the time between multiple bounces.
+
+1. Show that the relation between height and time between two bounces is equal to $s=\frac{1}{8}gt^2$
+1. Use your recordings to compute the height as function of number of bounces and compute the restitution coefficient $e$. 
+1. Plot $e$ as a function $H$ and you will have answered the above question.
 
 ```{figure} images/DroppingTennisBall2.png
----
-name: fig:DroppingTennisBall2.png
-width: 200px
-align: center
---- 
+:name: fig:DroppingTennisBall2.png
+:width: 200px
+:align: center
+ 
 
 ```
 ````

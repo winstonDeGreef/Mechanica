@@ -1,14 +1,13 @@
-# Two Body Problem: Kepler revisited #
+# Two Body Problem: Kepler revisited
 
 Newton must have realized that his analysis of the Kepler laws was not 100% correct. After all, the sun is not fixed in space and even though its mass is much larger than any of the planets revolving it, it will have to move under the influence of the gravitational force by the planets. Take for example, the sun and earth as our system. By the account of Newton's third law, the Earth exerts also a force on the Sun. Therefore, the Sun has to move as well; thus, we must revisit the Earth-Sun analysis and incorporate that the Sun isn't fixed in space.  
 
 
 ```{figure} images/TwoParticles.jpg
----
-name: fig:TwoParticles
-width: 250px
-align: center
----
+:name: fig:TwoParticles
+:width: 250px
+:align: center
+
 Two-particle system, with an action/reaction pair of forces.
 ```
 
@@ -68,11 +67,10 @@ We have a few arguments:
 Where, in general is the position $\vec{R}$? <br> That can be easily seen from the figure below.
 
 ```{figure} images/CM_r1r2.png
----
-name: fig:TCM_r1r2.png
-width: 350px
-align: center
----
+:name: fig:TCM_r1r2.png
+:width: 350px
+:align: center
+
 Center of Mass and relative coordinates.
 ```
 
@@ -215,11 +213,10 @@ Thus, if we have solved the motion of the reduced particle, then we can quickly 
 
 
 ```{figure} images/KeplerRevisited.jpg
----
-name: fig:KeplerRevisited.jpg
-width: 350px
-align: center
----
+:name: fig:KeplerRevisited.jpg
+:width: 350px
+:align: center
+
 Kepler revisited.
 ```
 
@@ -242,11 +239,10 @@ Everything else remains the same: the force is still central and conservative, e
 
 
 ```{figure} images/EarthSunCoG.jpg
----
-name: fig:EarthSunCoG.jpg
-width: 250px
-align: center
----
+:name: fig:EarthSunCoG.jpg
+:width: 250px
+:align: center
+
 Position of CM in the sun-earth system.
 ```
 
@@ -259,44 +255,42 @@ $$
 R = \frac{m_s x_s + m_e x_e }{m_s + m_e} = x_s + \frac{m_e}{m_s + m_e} (x_e - x_s)\approx x_s + 450km
 $$
 
-In other words: the Sun and Earth rotate in an ellipsoidal trajectory around the center of mass that is 450 km out of the center of the Sun. Compare that to the radius of the Sun itself: $R_s = 7 \cdot 10^5$ km. No wonder Kepler didn't notice. The common CM and rotation point is called <a href="https://en.wikipedia.org/wiki/Barycenter">Barycenter</a> in astronomy.
+In other words: the Sun and Earth rotate in an ellipsoidal trajectory around the center of mass that is 450 km out of the center of the Sun. Compare that to the radius of the Sun itself: $R_s = 7 \cdot 10^5$ km. No wonder Kepler didn't notice. The common CM and rotation point is called [Barycenter](https://en.wikipedia.org/wiki/Barycenter) in astronomy.
 
 ### Exoplanets
 
-However, in modern times, this slight motion of stars is a way of trying to find orbiting planets around distant stars. Due to this small ellipsoidal trajectory, sometimes a star moves away from us, and sometimes it comes towards us. This moving away and towards us changes the apparent color of the light emission of molecules or atoms  by the [Doppler effect](doppler.md). This is a periodic motion, which lasts a 'year' of that solar system. Astronomers started looking out for periodic changes in the apparent color of the light of stars. One can also look for periodic changes in the brightness of a star (which is much, much harder than looking at spectral shifts of the light). If a planet is directly between the star and us, the intensity of the starlight decreases a bit. And they found one, and another one, and more and hundreds... Currently, more than <a href="https://exoplanets.nasa.gov/">5,000 exoplanets</a> have been found.
+However, in modern times, this slight motion of stars is a way of trying to find orbiting planets around distant stars. Due to this small ellipsoidal trajectory, sometimes a star moves away from us, and sometimes it comes towards us. This moving away and towards us changes the apparent color of the light emission of molecules or atoms  by the [Doppler effect](doppler.md). This is a periodic motion, which lasts a 'year' of that solar system. Astronomers started looking out for periodic changes in the apparent color of the light of stars. One can also look for periodic changes in the brightness of a star (which is much, much harder than looking at spectral shifts of the light). If a planet is directly between the star and us, the intensity of the starlight decreases a bit. And they found one, and another one, and more and hundreds... Currently, more than [5,000 exoplanets](https://exoplanets.nasa.gov/) have been found.
 
-* Changing color of star light due to a period motion induced by a planet orbiting the star (<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/1">movie from NASA </a>).
+* Changing color of star light due to a period motion induced by a planet orbiting the star ([movie from NASA ](https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/1)).
 
 <a href="movies/RadialVelocity.mp4">
 
 ```{figure} images/RadialVelocity.png
----
-name: fig:RadialVelocity.jpg
-width: 350px
-align: center
----
+:name: fig:RadialVelocity.jpg
+:width: 350px
+:align: center
+
 Finding planets via periodic changes in the velocity of a star (from NASA).
 ```
 </a>
 
 
-* Changing intensity of star light due to a period passage of a planet orbiting the star (<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/2">(movie from NASA</a>).
+* Changing intensity of star light due to a period passage of a planet orbiting the star ([(movie from NASA](https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/2)).
 
 
 <a href="movies/TransientMethodSinglePlanet.mp4">
 
 ```{figure} images/TransientMethodSinglePlanet.png
----
-name: fig:RadialVelocity.jpg
-width: 350px
-align: center
----
+:name: fig:RadialVelocity.jpg
+:width: 350px
+:align: center
+
 Finding planets via a periodic change in intensity of a star (from NASA).
 ```
 </a>
 
 
-* Changing intensity of star light due to a period passage of more than one planet orbiting the star (<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/2">movie from NASA</a>).
+* Changing intensity of star light due to a period passage of more than one planet orbiting the star ([movie from NASA](https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/2)).
 
 <a href="movies/TransientMethodMultiplePlanets.mp4">
  <!-- linking movies this way does not work in Jupyter Book-->
@@ -304,19 +298,18 @@ Finding planets via a periodic change in intensity of a star (from NASA).
  <!-- movies are also not in the movies folder -->
 
 ```{figure} images/TransientMethodMultiplePlanets.png
----
-name: fig:RadialVelocity.jpg
-width: 350px
-align: center
----
+:name: fig:RadialVelocity.jpg
+:width: 350px
+:align: center
+
 Finding multiple planets via a change in intensity of a star (from NASA).
 ```
 </a>
 
 
-### Exercises ###
+### Exercises
 
-```{exercise-start}
+```{exercise}
 :label: 10.1
 ```
 In the table below, the mass and distance from the sun of the planets in our solar system are given (in terms of the earth mass and distance from the earth to the sun). Compute for each planet-sun pair the distance from the center of mass to the center of the sun.
@@ -351,10 +344,9 @@ Given: distance CM to center of sun for the earth-sun system is 450km.
         </tr>
 </table>
 
-```{exercise-end}
-```
+```{exercise}
 
-```{exercise-start}
+```{exercise}
 :label: 10.2
 ```
 
@@ -364,10 +356,9 @@ Two particles $m_1 = m$ and $m_2 = 2m$ are traveling both along the $x$-axis. At
 * Find the position of the center of mass for $t>0$.
 
 
-```{exercise-end}
-```
+```{exercise}
 
-```{exercise-start}
+```{exercise}
 :label: 10.3
 ```
 
@@ -376,10 +367,9 @@ Two particles $m_1$ = 3kg and $m_2$ = 2kg are connected via a massless rod of le
 * Find the position of the center of mass of the system, measured from $m_1$
 * Calculate the reduced mass of the two-particle system.
 
-```{exercise-end}
-```
+```{exercise}
 
-```{exercise-start}
+```{exercise}
 :label: 10.4
 ```
 
@@ -389,10 +379,9 @@ Two bumper cars are approaching each other in a straight line. The two cars will
 * What is the reduced mass of the system?
 * Transform the velocities of both carts to the center-of-mass frame.
 
-```{exercise-end}
-```
+```{exercise}
 
-```{exercise-start}
+```{exercise}
 :label: 10.5
 ```
 Two carts on a frictionless track move toward each other:
@@ -404,12 +393,11 @@ Cart 2: mass $m_2$ = 3kg, velocity $v_2$ = -2m/s
 * What is the total kinetic energy in the center-of-mass frame?
 * Verify that the CM frame kinetic energy equals the kinetic energy due to relative motion using the reduced mass.
 
-```{exercise-end}
-```
+```{exercise}
 
-### Answers ###
+### Answers
 
-```{solution-start} 10.1
+```{solution} 10.1
 :class: dropdown
 ```
 
@@ -443,10 +431,9 @@ Cart 2: mass $m_2$ = 3kg, velocity $v_2$ = -2m/s
         </tr>
 </table>
 
-```{solution-end}
-```
+```{solution}
 
-```{solution-start} 10.2
+```{solution} 10.2
 :class: dropdown
 ```
 We set up the equation of motion for the particles:
@@ -475,10 +462,9 @@ This gives
 
 $$R(t) = \frac{1}{3}x_{10} + \frac{2}{3}x_{20} + v_0 t + \frac{F_e}{3m} t^2$$
 
-```{solution-end}
-```
+```{solution}
 
-```{solution-start} 10.3
+```{solution} 10.3
 :class: dropdown
 ```
 The center of mass of two point masses is on the line connecting $m_1$ and $m_2$. We denote this line as the $x$-axis, with $m_1$ as the origin.
@@ -491,10 +477,9 @@ $$x_{cm} = \frac{m_1 x_1 + m_2 x_2}{m_1 + m_2} = 0.2m$$
 
 $$\mu \equiv \frac{m_1 m_2}{m_1 + m_2} = \frac{6}{5} kg$$
 
-```{solution-end}
-```
+```{solution}
 
-```{solution-start} 10.4
+```{solution} 10.4
 :class: dropdown
 ```
 This is a 1-dimensional problem.
@@ -514,10 +499,9 @@ v_1' & = v_1 - V_{cm} = 7.2m/s \\
 v_2' & = v_2 - V_{cm} = -4.8m/s
 \end{split}$$
 
-```{solution-end}
-```
+```{solution}
 
-```{solution-start} 10.5
+```{solution} 10.5
 :class: dropdown
 ```
 Cart 1: mass $m_1$ = 2kg, velocity $v_1$ = 4m/s <br>
@@ -559,12 +543,11 @@ $$ E_{kin, rel} \equiv \frac{1}{2} \mu v_{rel}^2 = 21.6J $$
 
 as we expected.
 
-```{solution-end}
-```
+```{solution}
 
-## Rutherford & the atom ##
+## Rutherford & the atom
 
-### Atomic theory ###
+### Atomic theory
 The idea that matter is made of atoms is old. However, the notion of atoms as we have now is relatively young. 
 
 In the ancient Greek world, it was as early as the fifth century B.C. that Leucippus and later one of his pupils Democritus proposed that the world, i.e. matter, is made up of tiny, indivisible particles -which he called atoms, derived from the Greek word 'atomos', which means uncuttable. These particles float in a vacuum, that was called void by Democritus. We currently have a view that is remarkably close, but at the same time quite different from these first ideas.
@@ -585,22 +568,20 @@ Stable vortices have the shape of rings with no beginning or end. In air they ar
 <td>
 
 ```{figure} images/VortexKnots.png
----
-name: fig:VortexKnots.png
-width: 350px
-align: center
----
+:name: fig:VortexKnots.png
+:width: 350px
+:align: center
+
 Various vortex knots, each represents another element. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_for_unknot.svg), public domain.
 ```
 </td>
 <td>
 
 ```{figure} images/LordKelvin.jpg
----
-name: fig:LordKelvin.jpg
-width: 150px
-align: center
----
+:name: fig:LordKelvin.jpg
+:width: 150px
+:align: center
+
 Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.
 ```
 
@@ -613,22 +594,20 @@ At the end of the nineteenth century, in 1897, Joseph John Thomson discovered th
 <td>
 
 ```{figure} images/PlumPuddingModel.png
----
-name: fig:PlumPuddingModel.png
-width: 150px
-align: center
----
+:name: fig:PlumPuddingModel.png
+:width: 150px
+:align: center
+
 Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
 ```
 </td>
 <td>
 
 ```{figure} images/JJThomson.jpg
----
-name: fig:JJThomson.jpg
-width: 150px
-align: center
----
+:name: fig:JJThomson.jpg
+:width: 150px
+:align: center
+
 Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.
 ```
 
@@ -638,8 +617,8 @@ Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikime
 The model did not hold very long as we will see in the next paragraph. Nevertheless, it marks the start of physicist becoming really interested in an atom theory.
 
 
-### Rutherford's scattering experiment  ###
-#### Introduction ####
+### Rutherford's scattering experiment
+#### Introduction
 
 <table style="border:0 ">
 <td width="500px">
@@ -648,11 +627,10 @@ The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-
 <td>
 
 ```{figure} images/Mariecurie.jpg
----
-name: fig:MarieCurie.jpg
-width: 200px
-align: center
----
+:name: fig:MarieCurie.jpg
+:width: 200px
+:align: center
+
 Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
 ```
 
@@ -661,7 +639,7 @@ Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/
 
 Rutherford in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the alpha particles. Moreover, he could show that the alpha particles were He-nuclei with a positive charge of 2e. In 1917 he showed that Nitrogen could become Oxygen by bombarding it with the alpha particles. This was the first time that someone succeeded in artificially changing one element into another.
 
-#### Scattering at a gold foil ####
+#### Scattering at a gold foil
 As mentioned Rutherford is responsible for overthrowing the plum pudding model and replacing it by our modern view: an atom is made of a tiny, positively charged nucleus with the electrons orbiting around it. 
 
 The start was formed by Rutherford's observation that some of the alpha-particles were deflected by a thin metal sheet in front of his alpha-counter. This puzzled him as the plum pudding model could not explain this. Hence, Rutherford, Geiger and Marsden set up an experiment in which they led the alpha particles scatter at a very thin gold foil. 
@@ -673,22 +651,20 @@ The Source would emit $\alpha$-particles through a small diaphragm onto the gold
 <td>
 
 ```{figure} images/RutherfordExperimentalSetup.png
----
-name: fig:RutherfordExperimentalSetup.png
-width: 250px
-align: center
----
+:name: fig:RutherfordExperimentalSetup.png
+:width: 250px
+:align: center
+
 Experimental Setup of $\alpha$-scattering at a gold foil.
 ```
 </td>
 <td>
 
 ```{figure} images/ErnestRutherford.jpg
----
-name: fig:ErnestRutherford.jpg
-width: 150px
-align: center
----
+:name: fig:ErnestRutherford.jpg
+:width: 150px
+:align: center
+
 Ernest Rutherford (1871-1937). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg), public domain.
 ```
 
@@ -723,11 +699,10 @@ The deflection of the particle is biggest if the Coulomb force is perpendicular 
 $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
 ```{figure} images/RutherfordDeltaP.png
----
-name: fig:RutherfordDeltaP.png
-width: 250px
-align: center
----
+:name: fig:RutherfordDeltaP.png
+:width: 250px
+:align: center
+
 Relation of angle of deflection and change in momentum.
 ```
 $$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \text{ if } \phi \ll 1$$
@@ -757,23 +732,22 @@ They redid the calculation, but now with $r_0$ as a free parameter to be backed 
 Conclusion: the atom has a nucleus that is much smaller than the size of the atom that contains all positive charge. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
 
 ```{figure} images/RutherfordAtom.png
----
-name: fig:RutherfordAtom.png
-width: 200px
-align: center
----
+:name: fig:RutherfordAtom.png
+:width: 200px
+:align: center
+
 Rutherford's model of an atom.
 ```
 This new model would spark a whole new set of questions, setting up one of the biggest changes in physics: Quantum Theory.
 
-#### Collapse of matter? ####
+#### Collapse of matter?
 An immediate consequence of this new view on atoms and matter came from the analogy with Newton's work on the solar system and the Kepler Laws. In the case of the sun and planets, the interaction force is gravity: $\vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2}\hat{r_{12}}$. When dealing with a nucleus with its orbiting electrons the interaction force is the Coulomb force: $ \vec{F}_C = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r_{12}^2}\hat{r_{12}} $.
 
 As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance from the two interacting particles the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
 
 Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of Electro-Magnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electro-magnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know, that the idea of an atom being a miniature solar system is wrong. But out of questions and dilemma's as these grew very quickly quantum mechanics opening a whole new world and a completely different picture of things at the small scales. A world with new rules and new consequences, where our intuition based on daily life and large scale structures composed of many, many atoms fails.
 
-#### Scattering Theory  ####
+#### Scattering Theory
 The work of Rutherford and co-workers forms the start of a new branch of physics: nuclear physics. By using radiation in the form of X-rays (i.e. high energy photons) and electrons or protons, physicists are able to probe the internal properties of molecules, atom, nuclei and even elementary particles (or at least, what we once thought were elementary particles).
 
 The idea is to send high energy particles towards the object of investigation and look at the scattering that is a consequence of the interaction between the object and the incoming particles. The internal structure of the object dictates the scattering. Thus, by measuring the scattering features and back tracing the underlying physical interaction can be found.
@@ -781,22 +755,20 @@ The idea is to send high energy particles towards the object of investigation an
 It is done with facilities of a very large scale to research particles at the smallest scales. For instance, in CERN researchers accelerate particles (protons, electrons, etc) to velocities almost the speed of light. Then, they let these particles collide, that is undergo interactions involving enormous amounts of energy, and measure the fragments and all kind of exotic particles that result from these collisions. 
 
 ```{figure} images/AirPictureOfCERN.jpg
----
-name: fig:RutAirPictureOfCER.png
-width: 350px
-align: center
----
+:name: fig:RutAirPictureOfCER.png
+:width: 350px
+:align: center
+
 Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](josefrancisco.org), licensed under CC-BY 4.0.
 ```
 
 The principles used in scattering can be illustrated by revisiting Rutherford's experiment. 
 
 ```{figure} images/ScatteringPrinciple.png
----
-name: fig:ScatteringPrinciple.png
-width: 350px
-align: center
----
+:name: fig:ScatteringPrinciple.png
+:width: 350px
+:align: center
+
 Scattering of an incoming particle at a fixed source.
 ```
 
@@ -804,18 +776,17 @@ Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a 
 
 
 ```{figure} images/Scattering2D3D.png
----
-name: fig:Scattering2D3D.png
-width: 450px
-align: center
----
+:name: fig:Scattering2D3D.png
+:width: 450px
+:align: center
+
 left: scattering in 2D, right: scattering in 3D.
 ```
 
 In fig.(7.8) scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2d equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3d it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
 
 
-## Three body Problem ###
+## Three body Problem
 
 Now that we have reduced a two-particle system to a single particle problem, the question arises: can we repeat this 'trick' and turn a three-body problem in a two body problem, that in its turn can be reduced to a single particle problem?
 
@@ -826,12 +797,11 @@ The three body problem is an old one. Already Newton himself worked on it. Its i
 The king of Sweden, Oscar II, announced, as celebration of his 60$^{th}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
 
 ```{figure} images/HenriPoincare.jpg
----
-name: fig:20SolutionsThreeBodyProblem.gif
-width: 250px
-align: center
----
-<a href="https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9"> Click here for the Wikipedia page of Poincaré.</a>
+:name: fig:20SolutionsThreeBodyProblem.gif
+:width: 250px
+:align: center
+
+[ Click here for the Wikipedia page of Poincaré.](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9)
 ```
 
 He showed that it was impossible to find such a solution as he reached the conclusion that the three body problem showed chaotic features. It led Poincaré to develop a whole new field: dynamic systems and what we call now *deterministic chaos*.  
@@ -841,29 +811,27 @@ The work of Poincaré was the trigger of yet another 'revolution' in our underst
 It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the movie below 20 solutions are given. Notice that they all have a high degree of symmetry. 
 
 ```{figure} images/20SolutionsThreeBodyProblem.gif
----
-name: fig:20SolutionsThreeBodyProblem.gif
-width: 350px
-align: center
----
-<a href="https://upload.wikimedia.org/wikipedia/commons/5/5a/5_4_800_36_downscaled.gif">Click here to see some exact solutions of the three body problem</a> (By Perosello - Uploaded by Author, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133294338).
+:name: fig:20SolutionsThreeBodyProblem.gif
+:width: 350px
+:align: center
+
+[Click here to see some exact solutions of the three body problem](https://upload.wikimedia.org/wikipedia/commons/5/5a/5_4_800_36_downscaled.gif) (By Perosello - Uploaded by Author, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133294338).
 ```
 
 
-### Alpha Centauri A, Alpha Centauri B and Alpha Centauri C ###
+### Alpha Centauri A, Alpha Centauri B and Alpha Centauri C
 The three body problem can also be studied by numerical means. As the equations of motion are easily set up and put into a computer code, this allows us to investigate for instance the three stars of the Alpha Centauri system: Alpha Centauri A, Alpha Centauri B and Alpha Centauri C. This system is a little over 4 million light years away from us: these stars are our closest (star) neighbors. Although they form a three body system, it is stable due to the much smaller mass op Alpha Centauri C compared to the other two. Alpha Centauri A and Alpha Centauri B are of similar mass, that is 1.1 and 0.9 the mass of our sun, respectively. Alpha Centauri C, on the other hand has a mass of only 0.12 of that of the sun.
 
-<a href="https://towardsdatascience.com/modelling-the-three-body-problem-in-classical-mechanics-using-python-9dc270ad7767">Gaurav Deshmukh</a> has written a nice python-based web-page on this system. Below we show some examples of the simulations, that you can do yourself with the code given by Deshmukh.
+[Gaurav Deshmukh](https://towardsdatascience.com/modelling-the-three-body-problem-in-classical-mechanics-using-python-9dc270ad7767) has written a nice python-based web-page on this system. Below we show some examples of the simulations, that you can do yourself with the code given by Deshmukh.
 
 
 First, we ignore Alpha Centauri C and used that A and B have about the same mass. The two stars start rotating around each other in ellipsoidal orbits, as we already know from the two body problem.
 
 ```{figure} images/TwoBody_animation.gif
----
-name: fig:TwoBody_animation.gif
-width: 320px
-align: center
---- 
+:name: fig:TwoBody_animation.gif
+:width: 320px
+:align: center
+ 
 Alpha Centauri A and B circling each other.
 ```
 
@@ -872,21 +840,19 @@ Then, we add third small one object (not Centauri C, but one with a much smaller
 $m_C$ tries to orbit its closest star, but at some point comes under the influence of the second star and gets 'tossed around'.
 
 ```{figure} images/ThreeBody_animation_long.gif
----
-name: fig:ThreeBody_animation_long.gif
-width: 320px
-align: center
---- 
+:name: fig:ThreeBody_animation_long.gif
+:width: 320px
+:align: center
+ 
 Alpha Centauri A and B circling each other with a third object.
 ```
 If we let the simulations run for a much longer time, we see that at some point the conditions for our small star are such that it is 'shot' into space and disappears for ever.
 
 ```{figure} images/ThreeBody_animation_long.png
----
-name: fig:ThreeBody_animation_long.png
-width: 320px
-align: center
---- 
+:name: fig:ThreeBody_animation_long.png
+:width: 320px
+:align: center
+ 
 Alpha Centauri A and B circling each other with a third object. The third 'planet' is finally escaping into space.
 ```
 
