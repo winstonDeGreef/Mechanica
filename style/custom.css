@@ -96,7 +96,8 @@ aside.admonition-example > div:first-child {
 
 /* Icon */
 aside.admonition-example > div:first-child::before {
-  content: "📖";
+  content: "??!!";
+  color:rgb(12, 35, 64)
   /* add padding left so it is not directly on the side*/
   padding-left: 0.2em;
   margin-left: 0.5em;

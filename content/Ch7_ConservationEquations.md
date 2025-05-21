@@ -58,7 +58,7 @@ Within the world of Classical Mechanics, mass is also a conserved quantity. What
 
 Moreover, Albert Einstein showed that mass and energy are equivalent - expressed via his famous equation $E = mc^2$. His theory of Relativity showed us that in collisions at extreme velocities mass is not conserved: it can both be created or disappear. Rephrased: it is actually part of the energy conservation, mass is in that context just a form of energy.
 
-````{admonition} Emmy Noether, symmetries and conservation laws 
+````{intermezzo} Emmy Noether, symmetries and conservation laws 
 
 We discussed the conservation laws as consequences of Newton's Laws. That in itself is ok. However, there is a deeper understanding of nature that leads to these conservation laws. And from the conservation laws we can go to Newton's Laws, thus 'reversing the derivations' and starting from this new, different way of looking at nature. 
 
