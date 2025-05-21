@@ -103,7 +103,7 @@ In retrospect: of course this must be one of the solutions to the problem. We ha
 Consider now a 2D elastic collision such that the two particles collide in the origin.
 
 
-```{figure} images/2Dcollision1.png
+```{figure} images/collision.png
 :name: fig:2Dcollision1.png
 :width: 250px
 :align: center
@@ -134,7 +134,7 @@ $$
 
 The red particle now has velocity $(-2v,v)$. The problem is still 2D.
 
-```{figure} images/2Dcollision2.png
+```{figure} images/collision2.png
 :name: fig:2Dcollision2.png
 :width: 250px
 :align: center
@@ -144,7 +144,7 @@ Applying the Galilean Transformation.
 
 Next, we can rotate the coordinate system, to obtain a 1D head-on collision that we can solve as above. 
 
-```{figure} images/2Dcollision3.png
+```{figure} images/collision2D.png
 :name: fig:2Dcollision3.png
 :width: 250px
 :align: center

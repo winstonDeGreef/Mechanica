@@ -10,11 +10,10 @@ $$
 In general, the amount of work depends on the path followed. That is, the work done when going from $ \vec{r}_1 $ to $ vec{r}_2 $ over the red path in the figure below, will be different when going from  $ \vec{r}_1 $ to $ \vec{r}_2 $ over the blue path. Work depends on the specific trajectory followed.
 
 ```{figure} images/Path12.png
----
-name: fig:Path12.png
-width: 70%
-align: center
----
+:name: fig:Path12.png
+:width: 50%
+:align: center
+
 Two different paths.
 ```
 
@@ -27,15 +26,14 @@ However, there is a certain class of forces for which the path does not matter, 
 \text{conservative force } \Leftrightarrow \oint \vec{F} \cdot d\vec{r} = 0 \text{ for }\textbf{ALL}\text{ closed paths}                                          
 ```
 
-## Stokes' Theorem ##
+## Stokes' Theorem
 It was George Stokes who proved an important theorem, that we will use to turn the concept of conservative forces into a new and important concept.
 
 ```{figure} images/GeorgeStokes.jpg
----
-name: fig:GeorgeStokes.jpg
-width: 70%
-align: center
----
+:name: fig:GeorgeStokes.jpg
+:width: 50%
+:align: center
+
 Sir George Stokes (1819-1903). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ggstokes.jpg), public domain.
 ```
 
@@ -47,19 +45,16 @@ $$
 
 In words: the integral of the force over a closed path equals the surface integral of the curl of that force. The surface being 'cut out' by the close path. The term $\vec{\nabla} \times \vec{F}$ is called the curl of $F$: it is a vector. The meaning of it and some words on the theorem are given below.
 
-````{admonition} Intermezzo: intuitive proof of Stokes' Theorem 
-:class: note
-
+````{Intermezzo} Intermezzo: intuitive proof of Stokes' Theorem 
 Consider a closed curve in the $xy$-plane. We would like to calculate the work done when going around this curve. In other words: what is $\oint \vec{F} \cdot d\vec{r}$ if we move along this curve?<br>
 
 We can visualize what we need to do: we cut the curve in small part; compute $\vec{F} \cdot d\vec{r}$ for each part (i.e. the red, green, blue, etc. in fig.(\ref{Stokes2.png}) and sum these to get the total along the curve. If we make the parts infinitesimally small, we go from a (Riemann) sum to an integral. 
 
 ```{figure} images/Stokes2.png
----
-name: fig:Stokes2.png
-width: 70% 
-align: center
---- 
+:name: fig:Stokes2.png
+:width: 70% 
+:align: center
+ 
 Closed path on a grid.
 ```
 
@@ -120,17 +115,16 @@ Note of warning: do be careful with the nabla-operator. It is not a standard vec
 Second note of warning: the representation of the nabla-operator does change quite a bit when using other coordinate systems like cylindrical or spherical. For instance, in cylindrical coordinates it is <b><em>not</em></b> equal to $\left ( \begin{matrix} \frac{\partial}{\partial r} \\ \frac{\partial}{\partial \phi} \\ \frac{\partial}{\partial z} \end{matrix} \right )$. This can be easily seen as both $r, z$ have units length, i.e. meters, but $\phi$ has no units.
 ````
 
-````{admonition} Example 5.1
+````{example} 5.1
 :class: important
 
 Suppose we need to calculate the integral of the vectorfield $\vec{F}(x,y) = y \hat{x} - x \hat{y}$ over the closed curve formed by a square from $(0,0)$ to $(1,0)$, $(1,1)$, $(0,1)$ and back to $(0,0)$.
 
 ```{figure} images/StokesTheoremExample.png
----
-name: fig:StokesTheoremExample.png
-width: 70%
-align: center
----
+:name: fig:StokesTheoremExample.png
+:width: 70%
+:align: center
+
 Integrating along the unit square.
 ```
 
@@ -283,11 +277,10 @@ $$
 Luckily, the definition of potential energy is such that these rules are easy to visualize in 1D and remember, see fig.(?.?).
 
 ```{figure} images/PotentialStableUnstable.png
----
-name: fig:PotentialStableUnstable.png
-width: 70%
-align: center
----
+:name: fig:PotentialStableUnstable.png
+:width: 70%
+:align: center
+
 Stable and unstable position of a particle in a potential.
 ```
 

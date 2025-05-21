@@ -227,9 +227,8 @@ $$ v' = \frac{\frac{m}{M}-1}{\frac{m}{M}+1} v $$
 
 For $M \gg m$ you indeed see $v'=-v$. Thus the smaller ball will have a smaller velocity than reasoned above *and* the larger ball with also have a smaller velocity (in the experiment you can clearly notice that it does not fly as high as when it drops without the small ball on top). In real life, the balls also deform which makes the collision inelastic.
 
-## Examples ##
-````{admonition} Example 8.1
-:class: important
+## Examples
+````{example} 8.1
 
 Consider yourself biking at a constant velocity on an unlikely day with zero wind. Still, you experience a frictional force from the air, with the following observation: the faster you bike, the larger this force. An experimentalist is trying to measure the friction force of the air and relate it to your velocity. She finds that, by and large, these forces turn out to scale with the square of your velocity $v_b$
 
@@ -250,8 +249,7 @@ You quickly realize that a proper description of the air friction must depend on
 $$ F_f \propto (v_b - v_{air} )^2 $$
 ````
 
-````{admonition} Example 8.2
-:class: important
+````{example} 8.2
 
 Riding a bike while it rains. You have done this 100s of times. Your front gets soaked, while the backside of your coat stays dry. Or if you have a passenger on your carrier he/she will not get wet, while you take all the water. From a GT to the reference frame of the biker it is obvious  why this is the case. The rain is not falling straight from the sky, but at an angle towards him. 
 

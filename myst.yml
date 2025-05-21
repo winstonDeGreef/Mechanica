@@ -4,6 +4,7 @@ project:
     - plugins/pdf_exercise.mjs
     - plugins/experiment.mjs
     - plugins/intermezzo.mjs
+    - plugins/example.mjs
   
     
   title: Classical Mechanics & Special Relativity for Starters

@@ -32,7 +32,7 @@ $$
 Keep in mind: in general the work depends on the starting point 1, the end point 2 and on the trajectory. Different trajectories from 1 to 2 may lead to different amounts of work.
 
 ```{tip}
-See also the chapter in the [linear algebra book on the inner product](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html))
+See also the chapter in the [linear algebra book on the inner product](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html)
 ```
 ## Kinetic Energy
 Kinetic energy is defined and derived using the definition of work and Newton's $ 2^{nd} $ Law.

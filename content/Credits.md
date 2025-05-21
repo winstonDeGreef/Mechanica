@@ -26,6 +26,22 @@ With this e-book our aim is to provide learning material that is:
 * easy to modify and thus improve over the years
 * interactive, provide additional demos and exercises next to the lectures
 
+```{exercise}
+Info about exercise
+```
+
+```{intermezzo} Intermezzo
+Info about Intermezzo
+```
+
+```{experiment} Some experiment
+Info about experiment
+```
+
+```{example} Some example
+Info about example
+```
+
 ## Authors
 
 * Prof.Dr. Robert F. Mudde, Department of Chemical Engineering, Delft University of Technology
