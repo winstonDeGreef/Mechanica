@@ -1,6 +1,6 @@
-# Collisions # 
+# Collisions
 
-## What is it? ##
+## What is it?
 In daily life we do understand what a collision is: the bumping of two objects into each other. 
 
 From a physics point of view, we see it slightly different. The objects don't have to touch. It is sufficient if they undergo a mutual interaction 'with a beginning and an end'. What do we mean by this? Firstly, the mutual interaction means that the objects interact with each other through a mutual force, i.e. a force (pair) that obeys Newton's third law.  
@@ -8,11 +8,10 @@ From a physics point of view, we see it slightly different. The objects don't ha
 Secondly, we assume that this force works over a small distance only. Or re-phrased we will only consider the situation before the objects feel the force and compare that to after they have felt it. We don't bother about the details of the motion of the objects during their interaction. Hence, when we depict a collision, we usually draw the situation before the collision, then some kind of 'comic way' of showing the collision and finally we draw the outcome of the collision, so after the interaction. In many cases, people leave the middle part out of their drawing.
 
 ```{figure} images/collision.png
----
-name: fig:collision.png
-width: 320px
-align: center
---- 
+:name: fig:collision.png
+:width: 320px
+:align: center
+
 Collision of two particles.
 ```
 
@@ -328,13 +327,13 @@ $$\begin{split}
 ````
 
 
-## Exercises ##
+## Exercises
 
 Here are some exercises that deals with oscillations. Make sure you practice IDEA.
 
 ```{exercise-start}
 :label: 9.1
-```
+
 
 A particle of mass $3m$ and velocity $2v$ will collide with a particle of mass $2m$ and velocity $-3v$. The problem is 1-dimensional.
 <ol>
@@ -343,35 +342,32 @@ A particle of mass $3m$ and velocity $2v$ will collide with a particle of mass $
 <li>The restitution coefficient is: e=1/5. Find the velocities of the masses after the collision.</li>
 </ol>
 
-```{exercise-end}
 ```
 
 
-```{exercise-start}
+```{exercise}
 :label: 9.2
-```
+
 
 A particle of mass $2m$ moves over the x-axis with velocity $v$. It will collide with a particle of mass $m$ that moves over the y-axis also with velocity $v$. The collision is completely inelastic.
 
 Find the velocity of the particles after the collision and calculate the loss of kinetic energy.
 
-```{exercise-end}
 ```
 
 
-```{exercise-start}
+```{exercise}
 :label: 9.3
-```
+
 
 A tennis ball is dropped from a height of 1m (with zero initial velocity) on the tennis court. The restitution coefficient is $\frac{1}{2}\sqrt{2}$. After how many bounces does the tennis ball no longer reach a height of 0.25m. Friction with the air can be ignored.
 
-```{exercise-end}
 ```
 
 
-```{exercise-start}
+```{exercise}
 :label: 9.4
-```
+
 
 In Hollywood films often one of the persons is shot. That person (whether dead, wounded or 'just fine' for the hero) is blown of its feet and may fly a meter or more backwards.
 
@@ -380,14 +376,14 @@ The shooter, however, does not fly or fall backwards.
 a) Show that if the victim moves backwards significantly, then the shooter shoot do at least the same.
 b) A bullet weighs several grams and may have a velocity of several hundred m/s. Estimate what the backward velocity of a victim is. For comparison: when we walk, our velocity is 1 to 2 m/s. Conclusion?
 
-```{exercise-end}
+
 ```
 
 ### Answers ###
 
-```{solution-start} 9.1
+```{solution} 9.1
 :class: dropdown
-```
+
 
 <ol>
 <li>3m has velocity -2v and 2m has velocity 3v</li>
@@ -395,32 +391,30 @@ b) A bullet weighs several grams and may have a velocity of several hundred m/s.
 <li>3m has velocity -2/5 v and 2m has velocity 3/5 v.</li>
 </ol>
 
-```{solution-end}
 ```
 
 ```{solution-start} 9.2
 :class: dropdown
-```
+
 
 $$\vec{v}_{after} = \frac{2}{3}v \hat{x} + \frac{1}{3}v \hat{y}$$
 $$\Delta E_{kin} = -\frac{2}{3}mv^2$$
 
-```{solution-end}
 ```
 
 ```{solution-start} 9.3
 :class: dropdown
-```
+
 
 After each bounce, the tennis ball reaches half of the height it had before the bounce. Thus after two bounces, the ball reaches 25cm and with the third bounce only 12.5cm.
 
-```{solution-end}
+
 ```
 
 
-```{solution-start} 9.4
+```{solution} 9.4
 :class: dropdown
-```
+
 
 a)  We can consider the shooting as a collision. Bullets don't bounce back, they penetrate a body. So the victim 'gains' maximum momentum if the bullet stays in the body. Then according to conservation of momentum, we have for this inelastic collision:
 
@@ -446,11 +440,10 @@ $$U_v = \frac{m_b}{m_b + M_v} v_b \approx 7 cm/s$$
 
 That is much too little to 'knock' someone over. Hollywood is good at 'dramtic effects', not so good at physics.
 
-```{solution-end}
 ```
 
 
-## Do it yourself
+````{experiment} restitution coefficient
 Is the restitution coefficient of a bouncing tennis ball a constant or does it depend on the velocity at bouncing?
 You can 'easily' find out yourself. What you need is a tennis ball, a ruler (e.g. from IKEA) and your mobile.
 
@@ -464,3 +457,4 @@ align: center
 --- 
 
 ```
+````
