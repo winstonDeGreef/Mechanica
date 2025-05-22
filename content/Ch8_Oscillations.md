@@ -456,7 +456,6 @@ To solve this equation, it is easier not to try to look directly for sinus and c
 
 
 ```{intermezzo} Intermezzo: complex exponential and sin, cos 
-:class: dropdown
 
 In the 18$^{th}$ century, the study of complex numbers, i.e. $i = \sqrt{-1}$, revealed a surprising connection between the exponential function and trigonometry. It was Leonhard Euler (1707-1783) who derived:
 

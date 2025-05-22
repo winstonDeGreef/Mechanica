@@ -15,10 +15,10 @@ const example = {
     let title = data.arg.trim();
     let body = data.body.trim();
 
-    console.log("[example plugin] ", data.arg, data.body);
-    console.log("[example plugin] ", ctx.parseMyst(body));
-    console.log("[example plugin] ", ctx.parseMyst(body)["children"]);
-    console.log("[example plugin] ", ctx.parseMyst(body)["children"][0]);
+    // console.log("[example plugin] ", data.arg, data.body);
+    // console.log("[example plugin] ", ctx.parseMyst(body));
+    // console.log("[example plugin] ", ctx.parseMyst(body)["children"]);
+    // console.log("[example plugin] ", ctx.parseMyst(body)["children"][0]);
 
 
 
