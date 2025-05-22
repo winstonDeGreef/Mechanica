@@ -37,25 +37,25 @@ project:
           children:
             - file: content/Ch2_ex.ipynb
 
-        # - file: content/Ch4_WorkEnergy.ipynb
-        #   children:
-        #     - file: content/Ch4_ex.ipynb
+        - file: content/Ch4_WorkEnergy.ipynb
+          children:
+            - file: content/Ch4_ex.ipynb
 
-        # - file: content/Ch6_AngularMomentum.ipynb
-        #   children:
-        #     - file: content/Ch6_ex.ipynb
+        - file: content/Ch6_AngularMomentum.ipynb
+          children:
+            - file: content/Ch6_ex.ipynb
 
-        # - file: content/Ch7_ConservationEquations.md
-        #   children:
-        #     - file: content/Ch7_ex.md
+        - file: content/Ch7_ConservationEquations.md
+          children:
+            - file: content/Ch7_ex.md
 
-        # - file: content/Ch8_Oscillations.md
-        #   children:
-        #     - file: content/Ch8_ex.md
+        - file: content/Ch8_Oscillations.md
+          children:
+            - file: content/Ch8_ex.md
             
-        # - file: content/Ch9_Collisions.md
+        - file: content/Ch9_Collisions.md
         
-        # - file: content/ChX0_TwoBody.md
+        - file: content/ChX0_TwoBody.md
 
     - title: Special Relativity
       children:        

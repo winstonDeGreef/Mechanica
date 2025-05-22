@@ -2,7 +2,7 @@
 
 Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kleine stukjes 'code'. Die tekst is vervolgens snel te exporteren naar allerlei andere formats zoals pdf, word, html etc.
 
-```{figure} ../../images/MyST.PNG
+```{figure} ../images/MyST.PNG
 :width:80%
 
 Een Jupyter Book gemaakt met MyST vraagt een collectie van markdown en jupyter notebooks die vervolgens geëxporteerd kunnen worden naar pdf, html maar ook word.
@@ -350,3 +350,14 @@ De embedded YT filmpjes worden niet opgenomen in de pdf. Een oplossing zou bijv.
 :::
 ::::
 
+## Replacing
+
+To find and replace all HTML anchor tags like:  
+<a href="https://en.wikipedia.org/wiki/Parsec">parsec</a>  
+with Markdown-style links like:  
+[parsec](https://en.wikipedia.org/wiki/Parsec)  
+You can use regular expressions in Visual Studio Code's Find and Replace:  
+**FIND**  
+`<a\s+href="([^"]+)">([^<]+)<\/a>`  
+**REPLACE**  
+`[$2]($1)`

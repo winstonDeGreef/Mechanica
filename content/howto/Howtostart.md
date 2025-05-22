@@ -76,14 +76,9 @@ Hier dan tekst.
 Altijd.
 ```
 
+```{example} Ik ben een example
+Genoeg voorbeelden
+```
+
 Is er behoeft aan meer admonition types, laat het weten via een issue!
 
-## Replacing
-
-To find and replace all HTML anchor tags like:  
-<a href="https://en.wikipedia.org/wiki/Parsec">parsec</a>  
-with Markdown-style links like:  
-[parsec](https://en.wikipedia.org/wiki/Parsec)  
-You can use regular expressions in Visual Studio Code's Find and Replace:  
-`<a\s+href="([^"]+)">([^<]+)<\/a>`  
-`[$2]($1)`
