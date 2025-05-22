@@ -56,7 +56,7 @@ project:
         - file: content/Ch9_Collisions.md
         
         - file: content/ChX0_TwoBody.md
-        - file: content/ChX1_ManyBody.md
+    #    - file: content/ChX1_ManyBody.md
 
     - title: Special Relativity
       children:        
