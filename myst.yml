@@ -58,6 +58,8 @@ project:
         - file: content/ChX0_TwoBody.md
         - file: content/ChX1_ManyBody.md
 
+        - file: content/ChX2_CracksInMecha.md
+
     - title: Special Relativity
       children:        
         - file: content/Special.md        
