@@ -311,7 +311,7 @@ Finding multiple planets via a change in intensity of a star (from NASA).
 
 ```{exercise}
 :label: 10.1
-```
+
 In the table below, the mass and distance from the sun of the planets in our solar system are given (in terms of the earth mass and distance from the earth to the sun). Compute for each planet-sun pair the distance from the center of mass to the center of the sun.
 Given: distance CM to center of sun for the earth-sun system is 450km.
 <table align="center">
@@ -344,11 +344,12 @@ Given: distance CM to center of sun for the earth-sun system is 450km.
         </tr>
 </table>
 
-```{exercise}
+
+```
 
 ```{exercise}
 :label: 10.2
-```
+
 
 Two particles $m_1 = m$ and $m_2 = 2m$ are traveling both along the $x$-axis. At $t=0$ the particles have both velocity $v_0>0$. Their positions at $t=0$ are $x_1(0) = x_{10}$ and $x_2(0) = x_{20}$ with $x_{10}<x_{20}$.  They repel each other with a force $F_r = \frac{k}{(x_2-x_1)^2}$. Moreover, a constant external force $F_e$ is acting on them. The problem is 1-dimensional.
 
@@ -356,22 +357,22 @@ Two particles $m_1 = m$ and $m_2 = 2m$ are traveling both along the $x$-axis. At
 * Find the position of the center of mass for $t>0$.
 
 
-```{exercise}
+```
 
 ```{exercise}
 :label: 10.3
-```
+
 
 Two particles $m_1$ = 3kg and $m_2$ = 2kg are connected via a massless rod of length $L$=50cm.
 
 * Find the position of the center of mass of the system, measured from $m_1$
 * Calculate the reduced mass of the two-particle system.
 
-```{exercise}
+```
 
 ```{exercise}
 :label: 10.4
-```
+
 
 Two bumper cars are approaching each other in a straight line. The two cars will collide head-on. The mass of car 1 (including the driver) is 200 kg, that of car 2 300kg. Car 1 has a velocity of 8m/s; car 2 of -4m/s.
 
@@ -379,11 +380,11 @@ Two bumper cars are approaching each other in a straight line. The two cars will
 * What is the reduced mass of the system?
 * Transform the velocities of both carts to the center-of-mass frame.
 
-```{exercise}
+```
 
 ```{exercise}
 :label: 10.5
-```
+
 Two carts on a frictionless track move toward each other:
 
 Cart 1: mass $m_1$ = 2kg, velocity $v_1$ = 4m/s <br>
@@ -393,13 +394,12 @@ Cart 2: mass $m_2$ = 3kg, velocity $v_2$ = -2m/s
 * What is the total kinetic energy in the center-of-mass frame?
 * Verify that the CM frame kinetic energy equals the kinetic energy due to relative motion using the reduced mass.
 
-```{exercise}
+```
 
 ### Answers
 
 ```{solution} 10.1
 :class: dropdown
-```
 
 <table align="center">
         <tr>
@@ -431,11 +431,11 @@ Cart 2: mass $m_2$ = 3kg, velocity $v_2$ = -2m/s
         </tr>
 </table>
 
-```{solution}
+```
 
 ```{solution} 10.2
 :class: dropdown
-```
+
 We set up the equation of motion for the particles:
 
 $$\begin{split}
@@ -462,11 +462,11 @@ This gives
 
 $$R(t) = \frac{1}{3}x_{10} + \frac{2}{3}x_{20} + v_0 t + \frac{F_e}{3m} t^2$$
 
-```{solution}
+```
 
 ```{solution} 10.3
 :class: dropdown
-```
+
 The center of mass of two point masses is on the line connecting $m_1$ and $m_2$. We denote this line as the $x$-axis, with $m_1$ as the origin.
 
 * The center of mass is than given by (with $m_1$ = 3kg, $m_2$ = 2kg, $x_1$=0 and $x_2 = x_1 + L$ = 0.5m):
@@ -477,11 +477,11 @@ $$x_{cm} = \frac{m_1 x_1 + m_2 x_2}{m_1 + m_2} = 0.2m$$
 
 $$\mu \equiv \frac{m_1 m_2}{m_1 + m_2} = \frac{6}{5} kg$$
 
-```{solution}
+```
 
 ```{solution} 10.4
 :class: dropdown
-```
+
 This is a 1-dimensional problem.
 
 * The velocity of the center of mass is:
@@ -499,11 +499,11 @@ v_1' & = v_1 - V_{cm} = 7.2m/s \\
 v_2' & = v_2 - V_{cm} = -4.8m/s
 \end{split}$$
 
-```{solution}
+```
 
 ```{solution} 10.5
 :class: dropdown
-```
+
 Cart 1: mass $m_1$ = 2kg, velocity $v_1$ = 4m/s <br>
 Cart 2: mass $m_2$ = 3kg, velocity $v_2$ = -2m/s 
 * The total kinetic energy in the lab frame is
@@ -543,7 +543,7 @@ $$ E_{kin, rel} \equiv \frac{1}{2} \mu v_{rel}^2 = 21.6J $$
 
 as we expected.
 
-```{solution}
+```
 
 ## Rutherford & the atom
 
