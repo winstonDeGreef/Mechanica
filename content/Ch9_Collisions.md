@@ -522,7 +522,7 @@ The shooter, however, does not fly or fall backwards.
 - $3m$ has velocity $-2/5 v$ and $2m$ has velocity $3/5 v$.
 ```
 
-```{solution-start} 9.2
+```{solution} 9.2
 :class: dropdown
 
 $$\vec{v}_{after} = \frac{2}{3}v \hat{x} + \frac{1}{3}v \hat{y}$$
@@ -531,7 +531,7 @@ $$\Delta E_{kin} = -\frac{2}{3}mv^2$$
 
 ```
 
-```{solution-start} 9.3
+```{solution} 9.3
 :class: dropdown
 
 

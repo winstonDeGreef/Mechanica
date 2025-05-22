@@ -9,11 +9,11 @@ Welkom bij Jupyter Book!
 * Als je toegang hebt, kun je aan de slag met een eigen hoofdstuk maken of een bestaand hoofdstuk editen. De repo waar je toegang toe krijgt (voor dit specifieke boek) vind je [hier](https://github.com/FreekPols/Mechanica).
 * Ga naar de folder *content* en klik op *Add file* en *Create a new file*, zie hieronder.
 
-![](images/newpage.png)
+![](../images/newpage.png)
 
 * Geef je file een naam met als extensie *.md* bijv. *Freek.md*
 
-![](images/naambestand.PNG)
+![](../images/naambestand.PNG)
 
 * In die file kun je jouw inhoud stoppen / ontwikkelen. 
 * Maak een hoofdstuk titel (# Mijn eerste titel) en een section titel (## Mijn eerste sectie). 
@@ -47,7 +47,7 @@ Werken met Git heeft het voordeel dat je goed kunt samenwerken. Via de repositor
 
 Bij starten van nieuwe edits doe je een git pull, zie {numref}`fig_gitpull`.
 
-```{figure} images/gitpull.png
+```{figure} ../images/gitpull.png
 :width: 80%
 :label: fig_gitpull
 
@@ -56,7 +56,7 @@ Bij de start doe je een pull.
 
 Ben je klaar, dan commit & push je de wijzigingen naar de repository. Vergeet niet een samenvatting van de wijzigingen toe te voegen! Tussendoor kun je ook een push doen, om bijv. het resultaat online te bekijken.
 
-```{figure} images/gitpush.png
+```{figure} ../images/gitpush.png
 :width: 80%
 :label: fig_gitpush
 
@@ -78,3 +78,12 @@ Altijd.
 
 Is er behoeft aan meer admonition types, laat het weten via een issue!
 
+## Replacing
+
+To find and replace all HTML anchor tags like:  
+<a href="https://en.wikipedia.org/wiki/Parsec">parsec</a>  
+with Markdown-style links like:  
+[parsec](https://en.wikipedia.org/wiki/Parsec)  
+You can use regular expressions in Visual Studio Code's Find and Replace:  
+`<a\s+href="([^"]+)">([^<]+)<\/a>`  
+`[$2]($1)`

@@ -26,31 +26,36 @@ project:
   toc:
     - file: index.md
     - file: content/Credits.md      
+      title: Introduction
     - title: Mechanics
       children:    
         - file: content/Ch0_Language.ipynb
           children:
             - file: content/Ch0_ex.ipynb        
+
         - file: content/Ch2_NewtonsLaws.ipynb
           children:
-            - file: content/Ch2_ex.ipynb            
-        - file: content/Ch4_WorkEnergy.md
-          children:
-            - file: content/Ch4_ex.ipynb
-        - file: content/Ch5_PotentialEnergy.md
-          children:
-            - file: content/Ch5_ex.ipynb
-        - file: content/Ch6_AngularMomentum.md
-          children:
-            - file: content/Ch6_ex.md
-        - file: content/Ch7_ConservationEquations.md
-          children:
-            - file: content/Ch7_ex.md
-        - file: content/Ch8_Oscillations.md
-          children:
-            - file: content/Ch8_ex.md
-        - file: content/Ch9_Collisions.md
-        - file: content/ChX0_TwoBody.md
+            - file: content/Ch2_ex.ipynb
+
+        # - file: content/Ch4_WorkEnergy.ipynb
+        #   children:
+        #     - file: content/Ch4_ex.ipynb
+
+        # - file: content/Ch6_AngularMomentum.ipynb
+        #   children:
+        #     - file: content/Ch6_ex.ipynb
+
+        # - file: content/Ch7_ConservationEquations.md
+        #   children:
+        #     - file: content/Ch7_ex.md
+
+        # - file: content/Ch8_Oscillations.md
+        #   children:
+        #     - file: content/Ch8_ex.md
+            
+        # - file: content/Ch9_Collisions.md
+        
+        # - file: content/ChX0_TwoBody.md
 
     - title: Special Relativity
       children:        
@@ -62,9 +67,9 @@ project:
 
     - title: For developers
       children:
-        - file: content/Howtostart.md
-        - file: content/Cheatsheet.md
-        - file: content/test.ipynb
+        - file: content/howto/Howtostart.md
+        - file: content/howto/Cheatsheet.md
+        - file: content/howto/test.ipynb
         
 
 site:

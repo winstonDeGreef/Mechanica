@@ -2,7 +2,7 @@
 
 Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kleine stukjes 'code'. Die tekst is vervolgens snel te exporteren naar allerlei andere formats zoals pdf, word, html etc.
 
-```{figure} images/MyST.PNG
+```{figure} ../../images/MyST.PNG
 :width:80%
 
 Een Jupyter Book gemaakt met MyST vraagt een collectie van markdown en jupyter notebooks die vervolgens geëxporteerd kunnen worden naar pdf, html maar ook word.
