@@ -62,12 +62,33 @@ Special thanks to Hanna den Hartog for (re)making most of the drawings.
 
 
 ### About the authors
+`````{aside}
+````{figure}
+```{figure} images/RFMudde.jpg
+:width: 40%
 
-| | |
-| --- | --- |
-| ![](images/RFMudde.jpg)| Robert Mudde is Distinghuised Professor of Science Education at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands. |
-| ![](images/BRieger.png) | Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.  |
-| ![](images/Freek.jpg) | Freek Pols is an assistant professor in the [Science & Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands. |
+``` 
+
+```{figure} images/BRieger.png
+:width: 40%
+
+``` 
+```{figure} images/Freek.jpg
+:width: 40%
+
+``` 
+
+```` 
+`````
+Robert Mudde is Distinguished Professor of Science Education at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+
+Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+
+Freek Pols is an assistant professor in the [Science & Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+
+
+
+
 
 
 
