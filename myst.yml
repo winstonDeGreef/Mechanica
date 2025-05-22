@@ -26,7 +26,8 @@ project:
   toc:
     - file: index.md
     - file: content/Credits.md      
-      title: Introduction
+      
+
     - title: Mechanics
       children:    
         - file: content/Ch0_Language.ipynb
