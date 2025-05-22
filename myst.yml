@@ -61,7 +61,7 @@ project:
     - title: Special Relativity
       children:        
         - file: content/Special.md        
-        - file: content/ChX2_CrackInMecha.md
+        - file: content/ChX2_CracksInMecha.md
 
     - title: Project
       children:
