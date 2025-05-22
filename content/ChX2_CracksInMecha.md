@@ -83,7 +83,7 @@ In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a n
     </tr>
 </table></center>
 
-As we see, for the noble gases it is quite ok (at $T=293K$!), but not so for the diatomic gases.
+As we see, for the noble gases it is quite ok (at $T=293\text{K}$!), but not so for the diatomic gases.
 
 For really high temperatures (~2000K) for both $O_2$ and $H_2$ $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66!
 
