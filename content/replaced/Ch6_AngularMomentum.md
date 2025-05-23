@@ -944,7 +944,7 @@ T^2 &= \frac{4\pi^2}{GM}a^3\\
 
 Indeed if we measure the speed of the planets in the solar system this prediction holds, the velocity drops with the distance from the sun as $\propto r^{-1/2}$ (see figure). As $M$ we use the mass of the sun here.
 
-```{figure} images/orbitalspeed.jpg
+```{figure} images/orbitalspeed.png
 :name: fig:orbitalspeed.png
 :width: 450px
 :align: center
