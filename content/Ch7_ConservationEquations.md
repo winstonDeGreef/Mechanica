@@ -117,8 +117,8 @@ This protocol is called the *Galilean Transformation* between two inertial frame
 According to observer $S$, $S'$ is moving at a constant velocity $V$. Both observers have chosen their coordinate system such that $x$ and $x'$ are parallel. Moreover, at $t=t'=0$, the origins $O$ and $O'$ coincide. The picture below illustrates this.
 
 
-```{figure} images/GalileiTransformation.jpg
-:name: fig:GalileiTransformation.jpg
+```{figure} images/GalileiTransformation.png
+:name: fig:GalileiTransformation.png
 :width: 320px
 :align: center
  
