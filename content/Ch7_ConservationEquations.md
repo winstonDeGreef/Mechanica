@@ -234,8 +234,8 @@ Consider yourself biking at a constant velocity on an unlikely day with zero win
 
 $$ F_f \propto v_b^2 $$
 
-```{figure} images/Fietser.jpg
-:name: fig:Fietser.jpg
+```{figure} images/Fietser.png
+:name: fig:Fietser.png
 :width: 300px
 :align: center
  
