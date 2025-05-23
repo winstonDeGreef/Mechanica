@@ -13,13 +13,21 @@ project:
   copyright: Delft University of Technology, CC BY 4.0
 
   exports:
+    - format: typst # typst 
+      output: exports/document_typst.pdf
+      template: lapreprint-typst
+      id: output-typst
+
     - format: pdf
       template: ./template
       output: exports/MechaRela.pdf
       id: output-pdf
+
   downloads:
+    - id: output-typst
     - id: output-pdf
-  jupyter:
+
+  jupyter: 
     lite: true
   
 ########################################################################  
