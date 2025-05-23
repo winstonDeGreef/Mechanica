@@ -39,7 +39,7 @@ with $\vec{P} \equiv \vec{p}_1 + \vec{p}_2$. In words, it is as if a particle wi
 
 ## Center of Mass
 
-It is now logical to assign the total mass $M=m_1+m_2$ to this fictitious particle. It has momentum $\vec{p}_1+\vec{p}_2$ which we can also couple to its mass $M$ and assign a velocity $\vec{V}$ to it such that $\vec{P}=M\vec{V}$. Furthermore, if this fictitious mass has velocity $\vec{V}$, we can also assign a position to it. Afterall, $\vec{V} = \frac{d\vec{R}}{dt}$, which gives us the recipe for the position $\vec{R}$.
+It is now logical to assign the total mass $M=m_1+m_2$ to this fictitious particle. It has momentum $\vec{p}_1+\vec{p}_2$ which we can also couple to its mass $M$ and assign a velocity $\vec{V}$ to it such that $\vec{P}=M\vec{V}$. Furthermore, if this fictitious mass has velocity $\vec{V}$, we can also assign a position to it. After all, $\vec{V} = \frac{d\vec{R}}{dt}$, which gives us the recipe for the position $\vec{R}$.
 
 Its velocity $\vec{V}$ and position $\vec{R}$ then follow as:
 
@@ -82,7 +82,7 @@ Thus, the last part of the above equation tells us: first go to $m_1$ and then, 
 Note: if $m_1 = m_2$ this recipe indeed brings us right between the two particles.<br>
 Further note: the position of $M$ is always on the line from $m_1$ to $m_2$. If $m_1$ is much larger than $m_2$, it will be located close to $m_1$ and vice versa. 
 
-We call this position the <b>center of mass</b>, or CM for short. Reason: if we look at the response of our two particle system to the forces, it is as if there is a particle $M$ at position $\vec{R}$ that has all the momentum of the system.
+We call this position the **center of mass**, or CM for short. Reason: if we look at the response of our two particle system to the forces, it is as if there is a particle $M$ at position $\vec{R}$ that has all the momentum of the system.
 
 
 It turns out to be convenient to define relative coordinates with respect to the center of mass position (see also the figure above):
@@ -259,11 +259,25 @@ In other words: the Sun and Earth rotate in an ellipsoidal trajectory around the
 
 ### Exoplanets
 
-However, in modern times, this slight motion of stars is a way of trying to find orbiting planets around distant stars. Due to this small ellipsoidal trajectory, sometimes a star moves away from us, and sometimes it comes towards us. This moving away and towards us changes the apparent color of the light emission of molecules or atoms  by the [Doppler effect](doppler.md). This is a periodic motion, which lasts a 'year' of that solar system. Astronomers started looking out for periodic changes in the apparent color of the light of stars. One can also look for periodic changes in the brightness of a star (which is much, much harder than looking at spectral shifts of the light). If a planet is directly between the star and us, the intensity of the starlight decreases a bit. And they found one, and another one, and more and hundreds... Currently, more than [5,000 exoplanets](https://exoplanets.nasa.gov/) have been found.
+However, in modern times, this slight motion of stars is a way of trying to find orbiting planets around distant stars. Due to this small ellipsoidal trajectory, sometimes a star moves away from us, and sometimes it comes towards us. This moving away and towards us changes the apparent color of the light emission of molecules or atoms by the [Doppler effect](doppler.md). This is a periodic motion, which lasts a 'year' of that solar system. Astronomers started looking out for periodic changes in the apparent color of the light of stars. One can also look for periodic changes in the brightness of a star (which is much, much harder than looking at spectral shifts of the light). If a planet is directly between the star and us, the intensity of the starlight decreases a bit. And they found one, and another one, and more and hundreds... Currently, more than [5,000 exoplanets](https://exoplanets.nasa.gov/) have been found.
 
 * Changing color of star light due to a period motion induced by a planet orbiting the star ([movie from NASA ](https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/1)).
 
-<a href="movies/RadialVelocity.mp4">
+
+
+```{figure} images/radial_velocity.mp4
+:width: 80%
+
+with figure from nasa
+```
+         
+```{figure} images/transit_method_single_planet.mp4
+:width: 80%
+
+from nasa
+```
+
+
 
 ```{figure} images/RadialVelocity.png
 :name: fig:RadialVelocity.jpg
@@ -272,11 +286,15 @@ However, in modern times, this slight motion of stars is a way of trying to find
 
 Finding planets via periodic changes in the velocity of a star (from NASA).
 ```
-</a>
 
 
 * Changing intensity of star light due to a period passage of a planet orbiting the star ([(movie from NASA](https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/2)).
 
+
+```{iframe} https://exoplanets.nasa.gov/5_ways_content/vid/transit_method_single_planet.mp4
+
+video from nasa, does it work?
+```
 
 <a href="movies/TransientMethodSinglePlanet.mp4">
 
@@ -642,7 +660,7 @@ The N-body problem is, of course, even more complex than the three-body problem.
 
 All kind of computational techniques have been developed and various averaging techniques are employed in statistical techniques are introduced from the start. the reason is often, that a particular 'realisation' of all positions and velocities of all particles is needed nor sought for. A system is at its macro level described by averaged properties, the exact location of the individual atoms is not needed. You will find applications in cosmology all the way to molecular dynamics, trying to simulate the behavior of proteins or pharmaceuticals. 
 
-### Exercises ###
+### Exercises
 
 ```{exercise-start}
 :label: 11.1
@@ -724,7 +742,7 @@ The particles move inside a box with sides $L$=50m. Particles do not collide wit
 ```{exercise-end}
 ```
 
-### Answers ###
+### Answers
 
 ```{solution-start} 11.1
 :class: dropdown

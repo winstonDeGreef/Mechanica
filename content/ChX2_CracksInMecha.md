@@ -84,7 +84,7 @@ This equation describes the propagation of the electric field through vacuum (yo
 Light is identified as an electro-magnetic wave and from the wave equation we see that the wave velocity is given by 
 
 $$
-\frac{1}{\sqrt{\epsilon_0 \mu_0}}\equiv c=2.998\cdot 10^8\ m/s \approx 300,000\ km/s 
+\frac{1}{\sqrt{\epsilon_0 \mu_0}}\equiv c=2.998\cdot 10^8\ \text{m/s} \approx 300,000\ \text{km/s} 
 $$
 
 If the Maxwell equations are laws of physics all inertial observers must be able to write down the equation in the same form. Therefore for an observer $S'$, traveling at constant velocity $V\hat{x}$ with respect to $S$, we would write down the wave equation for a field that propagates only along the $x$-direction with amplitude in the $z$-direction (without loss of generality) $\vec{E}=(0,E_y(x,t),0)$ as
@@ -106,31 +106,24 @@ Now we still need to find a transformation $E_z\to E'_{z'}$ (and $c'\to c)$ tryi
 
 ### Hypothesis of the aether
 
-As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether*. The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all! <a href="https://en.wikipedia.org/wiki/Hendrik_Lorentz">Lorentz</a> and <a href="https://en.wikipedia.org/wiki/George_Francis_FitzGerald">Fitzgerald</a> found an ad hoc way to save the day by postulating an adapted version of the Galilei transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
+As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether*. The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilei transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
 
 
 ## The Michelson-Morley experiment
 
-The <a href="https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment">Michelson-Morley experiment</a> was performed in between 1880-1890 to investigate properties of the hypothetical aether. The experiment returned a null-result, i.e. there was no sign of the existence of the aether - and to this day there is none.
+The [Michelson-Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) was performed in between 1880-1890 to investigate properties of the hypothetical aether. The experiment returned a null-result, i.e. there was no sign of the existence of the aether - and to this day there is none.
 
 The idea is to check the speed of light for two observers $S$ and $S'$. One is moving with respect to the other with the highest possible speed, the orbit speed of the earth around the sun $\sim 30$ km/s. Of course, that is still only $10^{-4}$ compared to 300,000 km/s of the speed of light but the effects could be measured spectroscopically by interference of light.
 
-The experiment essentially consists of a <a herf="https://en.wikipedia.org/wiki/Michelson_interferometer">Michelson interferometer</a>. Light is send to a 50/50 beam splitter such that half of the light is reflected up towards arm $L_1$ and half is transmitted to arm $L_2$. The mirrors at the end of each arm reflect the light back. On the way back again half of the light is transmitted and reflected at the beamsplitter, such that half of the light from both arms is now traveling downwards towards the image plane/camera. At the image plane the light from both arms forms an interference pattern, depending on the path length difference induced by the difference of $L_1-L_2$.
-
-<table align="center">
-<tr>
-<td>
+The experiment essentially consists of a [Michelson interferometer](https://en.wikipedia.org/wiki/Michelson_interferometer). Light is send to a 50/50 beam splitter such that half of the light is reflected up towards arm $L_1$ and half is transmitted to arm $L_2$. The mirrors at the end of each arm reflect the light back. On the way back again half of the light is transmitted and reflected at the beamsplitter, such that half of the light from both arms is now traveling downwards towards the image plane/camera. At the image plane the light from both arms forms an interference pattern, depending on the path length difference induced by the difference of $L_1-L_2$.
 
 ```{figure} images/MichelsonMorleyExp.png
 :name: fig:MichelsonMorleyExp.png
 :width: 280px
 :align: center
+
 Michelson & Morley setup
 ```
-
-</td> 
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td>
 
 ```{figure} images/MM-setup.png
 :name: fig:MM-setup.png
@@ -139,12 +132,9 @@ Michelson & Morley setup
 
 
 ```
-</td>
-</tr>
-</table>
 
 
-The whole setup is mounted for stability on a heavy table that is floating in liquid mercury, to reduce vibrations coupling to the setup. If now one arm is parallel to the earth's orbit with $V=30$km/s, while the other is perpendicular to it, there will be some difference between the length of the two paths travelled: $\Delta \lambda_1$. If we rotate the setup by 90 degree (easily done in the mercury bath), then the roles of $L_1$ and $L_2$ are exchanged, leading to another phase shift $\Delta \lambda_2$. Therefore after rotation the fringes of the interference pattern on the detector should shift as
+The whole setup is mounted for stability on a heavy table that is floating in liquid mercury, to reduce vibrations coupling to the setup. If now one arm is parallel to the earth's orbit with $V=30$km/s, while the other is perpendicular to it, there will be some difference between the length of the two paths traveled: $\Delta \lambda_1$. If we rotate the setup by 90 degree (easily done in the mercury bath), then the roles of $L_1$ and $L_2$ are exchanged, leading to another phase shift $\Delta \lambda_2$. Therefore after rotation the fringes of the interference pattern on the detector should shift as
 
 $$
 \Delta \phi=2\pi\frac{\Delta \lambda_1 - \Delta \lambda_2}{\lambda} = 2\pi\frac{(L_1+L_2)}{\lambda}\frac{V^2}{c^2}
@@ -173,7 +163,7 @@ If you think these two axioms stubbornly through and take their consequences ser
 
 --- 
 
-Extra reading with a historic perceptive. In a 200 page book <a href="https://en.wikipedia.org/wiki/Wolfgang_Pauli">Wolfgang Pauli</a> -*Theory of Relativity*, Dover (the original German version is available online <a href="https://archive.org/details/EncyklopdieDerMathematischenWissenschaftennfterBandPhysik/page/538/mode/2up">*Relativitätstheorie*</a>) - summarizes all that was known about special relativity as a request made by this PhD advisor <a href="https://en.wikipedia.org/wiki/Arnold_Sommerfeld">Arnold Sommerfeld</a>. It is worth a read, although the notation is a bit outdated.
+Extra reading with a historic perceptive. In a 200 page book [Wolfgang Pauli](https://en.wikipedia.org/wiki/Wolfgang_Pauli) -*Theory of Relativity*, Dover (the original German version is available online [*Relativitätstheorie*](https://archive.org/details/EncyklopdieDerMathematischenWissenschaftennfterBandPhysik/page/538/mode/2up)) - summarizes all that was known about special relativity as a request made by this PhD advisor [Arnold Sommerfeld](https://en.wikipedia.org/wiki/Arnold_Sommerfeld). It is worth a read, although the notation is a bit outdated.
 
 ---
 
@@ -184,9 +174,9 @@ Extra reading [Hoe de ether verdween uit de natuurkunde](images/HoeDeEtherVerdwe
 ```{exercise-start}
 :label: 15.1
 ```
-Assume the Michelson-Morley experiment uses arms of length $L$ = 11 m and an aether wind speed $v$ due to the motion of the earth around the sun. <br>
-Distance earth-sun: $150 \cdot 10^6$km.<br>
-Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.<br>
+Assume the Michelson-Morley experiment uses arms of length $L$ = 11 m and an aether wind speed $v$ due to the motion of the earth around the sun.  
+Distance earth-sun: $150 \cdot 10^6$km.  
+Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
 
 The sun itself is orbiting the center of our Milky Way at an even higher speed: 250 km/s. What would this mean for the expected time difference in the Michelson and Morley experiment?
 
@@ -246,55 +236,44 @@ In the second half of the nineteenth century William Thomson (1824-1907) -later 
 
 Stable vortices have the shape of rings with no beginning or end. In air they are easily made and made visible with smoke and are indeed surprisingly stable. According to the vortex theory, atoms are vortices in aether. The simplest one is a single ring, which was hydrogen. More complicated forms, called knots represented the other elements. 
 
-<table style="border:0 ;margin-left:auto;margin-right:auto;">
-<td>
-
 ```{figure} images/VortexKnots.png
 :name: fig:VortexKnots.png
-::width: 350px
+:width: 350px
 :align: center
 
 Various vortex knots, each represents another element. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_for_unknot.svg), public domain.
 ```
-</td>
-<td>
+
 
 ```{figure} images/LordKelvin.jpg
 :name: fig:LordKelvin.jpg
-::width: 150px
+:width: 150px
 :align: center
 
 Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.
 ```
 
-</td>
-</table>
 
 At the end of the nineteenth century, in 1897, Joseph John Thomson discovered the electron. It allowed him to further refine the scientific model of the atom and it made an end to the vortex theory. In Thomson's view, an atom had internal structure: the electrons were moving in it. As electrons have a negative charge and atoms are neutral, there must be a balancing positive charge in an atom as well. Thomson had no idea what that would be and he figured that the positive charge was everywhere in the atom (that he thought of as being a sphere), with the electrons moving inside that sphere as tiny particles. From this picture, the Thomson model got its name: the plum pudding model, although it is a bit misleading as the idea was that the positively charged sphere was more a liquid in which the electrons 'float' than a solid. 
 
-<table style="border:0 ;margin-left:auto;margin-right:auto;">
-<td>
+
 
 ```{figure} images/PlumPuddingModel.png
 :name: fig:PlumPuddingModel.png
-::width: 150px
+:width: 150px
 :align: center
 
 Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
 ```
-</td>
-<td>
 
 ```{figure} images/JJThomson.jpg
 :name: fig:JJThomson.jpg
-::width: 150px
+:width: 150px
 :align: center
 
 Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.
 ```
 
-</td>
-</table>
 
 The model did not hold very long as we will see in the next paragraph. Nevertheless, it marks the start of physicist becoming really interested in an atom theory.
 
@@ -302,22 +281,17 @@ The model did not hold very long as we will see in the next paragraph. Neverthel
 ### Rutherford's scattering experiment
 #### Introduction
 
-<table style="border:0 ">
-<td width="500px">
+
 The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from the X-rays. He called them 'alpha' and 'beta' rays and later proved that 'alpha' rays consisted of He-nuclei. Rutherford in cooperation with Frederick Soddy was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. Prior to that, the atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
-</td>
-<td>
+
 
 ```{figure} images/Mariecurie.jpg
 :name: fig:MarieCurie.jpg
-::width: 200px
+:width: 200px
 :align: center
 
 Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
 ```
-
-</td>
-</table>
 
 Rutherford in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the alpha particles. Moreover, he could show that the alpha particles were He-nuclei with a positive charge of 2e. In 1917 he showed that Nitrogen could become Oxygen by bombarding it with the alpha particles. This was the first time that someone succeeded in artificially changing one element into another.
 
@@ -329,29 +303,22 @@ The start was formed by Rutherford's observation that some of the alpha-particle
 The Source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope & detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
 
 
-<table style="border:0 ;margin-left:auto;margin-right:auto;">
-<td>
-
 ```{figure} images/RutherfordExperimentalSetup.png
 :name: fig:RutherfordExperimentalSetup.png
-::width: 250px
+:width: 250px
 :align: center
 
 Experimental Setup of $\alpha$-scattering at a gold foil.
 ```
-</td>
-<td>
 
 ```{figure} images/ErnestRutherford.jpg
 :name: fig:ErnestRutherford.jpg
-::width: 150px
+:width: 150px
 :align: center
 
 Ernest Rutherford (1871-1937). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg), public domain.
 ```
 
-</td>
-</table>
 
 
 The story goes, that Rutherford's students would, together with Geiger, do the measurements as an assignment of their studies. The principle is simple: set the microscope under a know angle and, for a given period in time, count the number of hits. Repeat this for the next angle of the microscope. Obviously, the first measurements where all done on the side of the foil opposite to the $\alpha$-emitter. One was expecting small deviations from the undisturbed trajectory.
@@ -359,14 +326,12 @@ The story goes, that Rutherford's students would, together with Geiger, do the m
 When the experiments were basically done, so goes the story, still a student was left over that also needed an assignment. One of Rutherford's assistant suggested that this student would then measure with the microscope at the same side of the foil as the $\alpha$-emitter. They did not expect anything to see, but they needed an assignment for this student. Whether the story of the student assignments is true or not, fact is that the team found also hits on the detector for angles of about 180$^\circ$. That is, some $\alpha$-particles seem to bounce back from the foil!
 
 There is no way that the plum pudding model could explain this. The argumentation to show that, goes as follows. 
-<ol>
-<li> The size of the atoms of gold is known: they are on the order of 
 
-$r_0 \approx 10^{-10}$m. <br>
-This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found. </li>
-<li> An $\alpha$-particle has a charge of 2e and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.<br>
-However, an $alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.<br>
-It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle. <br><br>
+- The size of the atoms of gold is known: they are on the order of $r_0 \approx 10^{-10}$m.  
+This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found.   
+- An $\alpha$-particle has a charge of 2e and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
+However, an $alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
+It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
 
 Rutherford knew the theory of Maxwell for Electro-Magnetism and could estimate The force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
 
@@ -374,36 +339,36 @@ $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$
 
 with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge (+2e) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9 Nm^2/C^2$) and $r_0$ the radius of a gold atom.
 
-The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.</li>
+The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
-<li>It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum 
+- It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum 
 
 $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
 ```{figure} images/RutherfordDeltaP.png
 :name: fig:RutherfordDeltaP.png
-::width: 250px
+:width: 250px
 :align: center
 
 Relation of angle of deflection and change in momentum.
 ```
 $$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \text{ if } \phi \ll 1$$
-</li>
-<li> The momentum change is due to the force $F_c$ working for a time period 
+  
+-  The momentum change is due to the force $F_c$ working for a time period 
 
 $\Delta t$ on the particle:
 
 $$ dP = Fdt -\rightarrow \Delta p \approx F_c \Delta t$$
 
 The time the particle is in the atom is estimated as follows. The particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
-</li>
-<li> If we put everything together, we find:
+  
+-  If we put everything together, we find:
 
 $$ \frac{\Delta p}{p} \ll \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} \cdot \frac{2r_0}{v_0} = \frac{q_\alpha Q_g}{2 \pi \epsilon_0} \frac{1}{r_0 v_0} \ll 1$$
 
 We have used the know charge of a gold atom (79e) and that of the $\alpha$-particle, the radius of the gold atom and the incoming velocity of the $\alpha$-particle, $v_0 \approx 1.6 \cdot 10^{7}$m/s.
-</li>
-</ol>
+  
+
 
 With this estimate and the fact that Rutherford's gold foil was about 400 atoms thick, there is no way that we can explain $\alpha$-particles bouncing back.
 
@@ -415,11 +380,12 @@ Conclusion: the atom has a nucleus that is much smaller than the size of the ato
 
 ```{figure} images/RutherfordAtom.png
 :name: fig:RutherfordAtom.png
-::width: 200px
+:width: 200px
 :align: center
 
 Rutherford's model of an atom.
 ```
+
 This new model would spark a whole new set of questions, setting up one of the biggest changes in physics: Quantum Theory.
 
 #### Collapse of matter?
@@ -438,7 +404,7 @@ It is done with facilities of a very large scale to research particles at the sm
 
 ```{figure} images/AirPictureOfCERN.jpg
 :name: fig:RutAirPictureOfCER.png
-::width: 350px
+:width: 350px
 :align: center
 
 Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](josefrancisco.org), licensed under CC-BY 4.0.
@@ -448,7 +414,7 @@ The principles used in scattering can be illustrated by revisiting Rutherford's 
 
 ```{figure} images/ScatteringPrinciple.png
 :name: fig:ScatteringPrinciple.png
-::width: 350px
+:width: 350px
 :align: center
 
 Scattering of an incoming particle at a fixed source.
@@ -459,7 +425,7 @@ Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a 
 
 ```{figure} images/Scattering2D3D.png
 :name: fig:Scattering2D3D.png
-::width: 450px
+:width: 450px
 :align: center
 
 left: scattering in 2D, right: scattering in 3D.
@@ -480,10 +446,10 @@ The king of Sweden, Oscar II, announced, as celebration of his 60$^{th}$ birthda
 
 ```{figure} images/HenriPoincare.jpg
 :name: fig:20SolutionsThreeBodyProblem.gif
-::width: 250px
+:width: 250px
 :align: center
 
-[ Click here for the Wikipedia page of Poincaré.](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9)
+[Click here for the Wikipedia page of Poincaré.](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9)
 ```
 
 He showed that it was impossible to find such a solution as he reached the conclusion that the three body problem showed chaotic features. It led Poincaré to develop a whole new field: dynamic systems and what we call now *deterministic chaos*.  
@@ -494,7 +460,7 @@ It doesn't mean that there are no known solutions of specific cases of the three
 
 ```{figure} images/20SolutionsThreeBodyProblem.gif
 :name: fig:20SolutionsThreeBodyProblem.gif
-::width: 350px
+:width: 350px
 :align: center
 
 [Click here to see some exact solutions of the three body problem](https://upload.wikimedia.org/wikipedia/commons/5/5a/5_4_800_36_downscaled.gif) (By Perosello - Uploaded by Author, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133294338).
@@ -511,7 +477,7 @@ First, we ignore Alpha Centauri C and used that A and B have about the same mass
 
 ```{figure} images/TwoBody_animation.gif
 :name: fig:TwoBody_animation.gif
-::width: 320px
+:width: 320px
 :align: center
  
 Alpha Centauri A and B circling each other.
@@ -523,16 +489,17 @@ $m_C$ tries to orbit its closest star, but at some point comes under the influen
 
 ```{figure} images/ThreeBody_animation_long.gif
 :name: fig:ThreeBody_animation_long.gif
-::width: 320px
+:width: 320px
 :align: center
  
 Alpha Centauri A and B circling each other with a third object.
 ```
+
 If we let the simulations run for a much longer time, we see that at some point the conditions for our small star are such that it is 'shot' into space and disappears for ever.
 
 ```{figure} images/ThreeBody_animation_long.png
 :name: fig:ThreeBody_animation_long.png
-::width: 320px
+:width: 320px
 :align: center
  
 Alpha Centauri A and B circling each other with a third object. The third 'planet' is finally escaping into space.
