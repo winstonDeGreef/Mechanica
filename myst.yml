@@ -19,7 +19,8 @@ project:
       id: output-pdf
   downloads:
     - id: output-pdf
-  jupyter: true
+  jupyter:
+    lite: true
   
 ########################################################################  
   toc:
