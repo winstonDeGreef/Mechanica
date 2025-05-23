@@ -4,42 +4,28 @@ As the years progressed, Classical Mechanics developed further and further. So, 
 
 Already in the 18$^{th}$ century, work was done on what we call the kinetic theory of gases. The Swiss scientist Daniel Bernoulli proposed that gases were a large collection of molecules, i.e tiny particles moving in all directions. According to Bernoulli, their collision with walls was felt macroscopically as pressure and their averaged kinetic energy was in essence the temperature of the gas.
 
-<table align="center">
-<tr>
-<td>
-
 ```{figure} images/DanielBernoulli.png
----
-name: fig:DanielBernoulli.png
-width: 250px
-align: center
----
-Daniel Bernoulli (1700-1782).
-```
+:name: fig:DanielBernoulli.png
+:width: 40%
+:align: center
 
-</td> 
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td>
+Daniel Bernoulli (1700-1782). [RECHTEN]
+```
 
 ```{figure} images/JamesClerkMaxwell.png
----
-name: fig:JamesClerkMaxwell.png
-width: 280px
-align: center
----
-James Clerk Maxwell
-(1831-1879)
+:name: fig:JamesClerkMaxwell.png
+:width: 280px
+:align: center
 
+James Clerk Maxwell (1831-1879) [RECHTEN]
 ```
-</td>
-</tr>
-</table>
+
 
 It took a while before these ideas were accepted, partly because the law on conservation of energy was not fully developed. Moreover, people had difficulty accepting that at a molecular level collisions could be perfectly elastic.
 
 With the further development of Thermodynamics, the kinetic theory of gases also was refined. In 1856, August Krönig came up with a simple kinetic model for gases in which he only considered the possibility of translational motion of the molecules. In essence, he treated gas molecules as point particles. A year later, in 1857, Rudolf Clausius incorporated the possibility of rotation and vibrations. Two years after this, James Clerk Maxwell continued along this line. He found the velocity distribution of the molecules and established a firm connection between temperature and the average kinetic energy of a molecule.
 
-<b>Specific heat of gases</b><br>
+**Specific heat of gases**  
 However, he also noted that the theoretical predictions were not in line with experiments. What was the problem? For ideal gases, we have the ideal gas law: $pV = nRT$ with $n$ the number of moles of the gas in question. Or written in terms of number of molecules, $N$, it reads as: $pV = NkT$, $k$ being the Boltzmann constant.
 
 The ideal gas law helps in understanding that if we compress a given amount of gas, we may expect that the pressure goes up. But we also see that this depends on whether or not the temperature changes. And in principle it will.
@@ -50,40 +36,19 @@ The kinetic theory predicts $\gamma$ for various classes of gases. For instance,
 
 In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a number of gasses.
 
-<center><table style="text-align:center">
-    <tr>
-        <td> gas </td> <td> T (K) </td> <td> c<sub>p</sub>/c<sub>v</sub></td><td>kin.gas.th.</td>
-    </tr>
-    <tr>
-        <td> He </td> <td> 293 </td> <td> 1.663 </td><td>1.667</td>
-    </tr>
-    <tr>
-        <td> Ne </td> <td> 293 </td> <td> 1.667 </td><td>1.667</td>
-    </tr>
-     <tr>
-        <td> Kr </td> <td> 293 </td> <td> 1.656 </td><td>1.667</td>
-    </tr>
-    <tr>
-        <td> Ne </td> <td> 293 </td> <td> 1.667 </td><td>1.667</td>
-    </tr>
-    <tr>
-        <td> Br<sub>2</sub> </td> <td> 293 </td> <td> 1.28 </td><td>1.286</td>
-    </tr>
-    <tr>
-        <td> Cl<sub>2</sub> </td> <td> 293 </td> <td> 1.34 </td><td>1.286</td>
-    </tr>
-    <tr>
-        <td> H<sub>2</sub> </td> <td> 293 </td> <td> 1.405 </td><td>1.286</td>
-    </tr>
-    <tr>
-        <td> N<sub>2</sub> </td> <td> 293 </td> <td> 1.40 </td><td>1.286</td>
-    </tr>
-    <tr>
-        <td> O<sub>2</sub> </td> <td> 293 </td> <td> 1.395 </td><td>1.286</td>
-    </tr>
-</table></center>
+| Gas | $c_p/c_v$ | kin.gas.th.|
+| --- | --- | --- |
+| He | 1.663 | 1.667 |
+| Ne | 1.667 | 1.667 |
+| Kr | 1.656 | 1.667 |
+| Br$_2$| 1.28| 1.286 |
+| Cl$_2$| 1.34 | 1.286 |
+| H$_2$| 1.405 | 1.286 |
+| N$_2$| 1.40 | 1.286 |
+| O$_2$| 1.395 | 1.286 |
 
-As we see, for the noble gases it is quite ok (at $T=293\text{K}$!), but not so for the diatomic gases.
+
+As we see, for the noble gases it is quite ok (at $T=293\text{K}$ !), but not so for the diatomic gases.
 
 For really high temperatures (~2000K) for both $O_2$ and $H_2$ $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66!
 
@@ -93,7 +58,7 @@ As we have seen when discussing Rutherford's experiment, in the early twentieth 
 
 ## The problem with Maxwell's equations
 
-In the early 1860s <a href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell">Maxwell</a> extended Ampères law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electro-magnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
+In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electro-magnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
 
 $$
 \begin{array}{rcl}
@@ -157,11 +122,9 @@ The experiment essentially consists of a <a herf="https://en.wikipedia.org/wiki/
 <td>
 
 ```{figure} images/MichelsonMorleyExp.png
----
-name: fig:MichelsonMorleyExp.png
-width: 280px
-align: center
----
+:name: fig:MichelsonMorleyExp.png
+:width: 280px
+:align: center
 Michelson & Morley setup
 ```
 
@@ -170,11 +133,9 @@ Michelson & Morley setup
 <td>
 
 ```{figure} images/MM-setup.png
----
-name: fig:MM-setup.png
-width: 280px
-align: center
----
+:name: fig:MM-setup.png
+:width: 280px
+:align: center
 
 
 ```
@@ -290,7 +251,7 @@ Stable vortices have the shape of rings with no beginning or end. In air they ar
 
 ```{figure} images/VortexKnots.png
 :name: fig:VortexKnots.png
-:width: 350px
+::width: 350px
 :align: center
 
 Various vortex knots, each represents another element. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_for_unknot.svg), public domain.
@@ -300,7 +261,7 @@ Various vortex knots, each represents another element. From [Wikimedia Commons](
 
 ```{figure} images/LordKelvin.jpg
 :name: fig:LordKelvin.jpg
-:width: 150px
+::width: 150px
 :align: center
 
 Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.
@@ -316,7 +277,7 @@ At the end of the nineteenth century, in 1897, Joseph John Thomson discovered th
 
 ```{figure} images/PlumPuddingModel.png
 :name: fig:PlumPuddingModel.png
-:width: 150px
+::width: 150px
 :align: center
 
 Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
@@ -326,7 +287,7 @@ Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https:/
 
 ```{figure} images/JJThomson.jpg
 :name: fig:JJThomson.jpg
-:width: 150px
+::width: 150px
 :align: center
 
 Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.
@@ -349,7 +310,7 @@ The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-
 
 ```{figure} images/Mariecurie.jpg
 :name: fig:MarieCurie.jpg
-:width: 200px
+::width: 200px
 :align: center
 
 Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
@@ -373,7 +334,7 @@ The Source would emit $\alpha$-particles through a small diaphragm onto the gold
 
 ```{figure} images/RutherfordExperimentalSetup.png
 :name: fig:RutherfordExperimentalSetup.png
-:width: 250px
+::width: 250px
 :align: center
 
 Experimental Setup of $\alpha$-scattering at a gold foil.
@@ -383,7 +344,7 @@ Experimental Setup of $\alpha$-scattering at a gold foil.
 
 ```{figure} images/ErnestRutherford.jpg
 :name: fig:ErnestRutherford.jpg
-:width: 150px
+::width: 150px
 :align: center
 
 Ernest Rutherford (1871-1937). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg), public domain.
@@ -421,7 +382,7 @@ $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
 ```{figure} images/RutherfordDeltaP.png
 :name: fig:RutherfordDeltaP.png
-:width: 250px
+::width: 250px
 :align: center
 
 Relation of angle of deflection and change in momentum.
@@ -454,7 +415,7 @@ Conclusion: the atom has a nucleus that is much smaller than the size of the ato
 
 ```{figure} images/RutherfordAtom.png
 :name: fig:RutherfordAtom.png
-:width: 200px
+::width: 200px
 :align: center
 
 Rutherford's model of an atom.
@@ -477,7 +438,7 @@ It is done with facilities of a very large scale to research particles at the sm
 
 ```{figure} images/AirPictureOfCERN.jpg
 :name: fig:RutAirPictureOfCER.png
-:width: 350px
+::width: 350px
 :align: center
 
 Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](josefrancisco.org), licensed under CC-BY 4.0.
@@ -487,7 +448,7 @@ The principles used in scattering can be illustrated by revisiting Rutherford's 
 
 ```{figure} images/ScatteringPrinciple.png
 :name: fig:ScatteringPrinciple.png
-:width: 350px
+::width: 350px
 :align: center
 
 Scattering of an incoming particle at a fixed source.
@@ -498,7 +459,7 @@ Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a 
 
 ```{figure} images/Scattering2D3D.png
 :name: fig:Scattering2D3D.png
-:width: 450px
+::width: 450px
 :align: center
 
 left: scattering in 2D, right: scattering in 3D.
@@ -519,7 +480,7 @@ The king of Sweden, Oscar II, announced, as celebration of his 60$^{th}$ birthda
 
 ```{figure} images/HenriPoincare.jpg
 :name: fig:20SolutionsThreeBodyProblem.gif
-:width: 250px
+::width: 250px
 :align: center
 
 [ Click here for the Wikipedia page of Poincaré.](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9)
@@ -533,7 +494,7 @@ It doesn't mean that there are no known solutions of specific cases of the three
 
 ```{figure} images/20SolutionsThreeBodyProblem.gif
 :name: fig:20SolutionsThreeBodyProblem.gif
-:width: 350px
+::width: 350px
 :align: center
 
 [Click here to see some exact solutions of the three body problem](https://upload.wikimedia.org/wikipedia/commons/5/5a/5_4_800_36_downscaled.gif) (By Perosello - Uploaded by Author, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133294338).
@@ -550,7 +511,7 @@ First, we ignore Alpha Centauri C and used that A and B have about the same mass
 
 ```{figure} images/TwoBody_animation.gif
 :name: fig:TwoBody_animation.gif
-:width: 320px
+::width: 320px
 :align: center
  
 Alpha Centauri A and B circling each other.
@@ -562,7 +523,7 @@ $m_C$ tries to orbit its closest star, but at some point comes under the influen
 
 ```{figure} images/ThreeBody_animation_long.gif
 :name: fig:ThreeBody_animation_long.gif
-:width: 320px
+::width: 320px
 :align: center
  
 Alpha Centauri A and B circling each other with a third object.
@@ -571,7 +532,7 @@ If we let the simulations run for a much longer time, we see that at some point 
 
 ```{figure} images/ThreeBody_animation_long.png
 :name: fig:ThreeBody_animation_long.png
-:width: 320px
+::width: 320px
 :align: center
  
 Alpha Centauri A and B circling each other with a third object. The third 'planet' is finally escaping into space.

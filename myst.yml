@@ -8,7 +8,7 @@ project:
      
   title: Classical Mechanics & Special Relativity for Starters
   authors:
-    - name: Robert F. Mudde     
+    - name: Robert F. Mudde & C. Freek. J. Pols    
   github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY 4.0
 
@@ -85,8 +85,8 @@ project:
 #########################################################################
 site:
   options:
-    logo: content/images/tudelft.png
-    favicon: content/images/favicon.ico
+    logo: #content/images/tudelft.png
+    favicon: #content/images/favicon.ico
     folders: true
     hide_authors: true
     enable_service_worker: false
