@@ -109,7 +109,7 @@ In retrospect: of course this must be one of the solutions to the problem. We ha
 Consider now a 2D elastic collision such that the two particles collide in the origin.
 
 
-```{figure} images/collision.png
+```{figure} images/2Dcollision1.png
 :name: fig:2Dcollision1.png
 :width: 250px
 :align: center
