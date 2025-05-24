@@ -140,7 +140,7 @@ $$
 
 The red particle now has velocity $(-2v,v)$. The problem is still 2D.
 
-```{figure} images/collision2.png
+```{figure} images/2Dcollision2.png
 :name: fig:2Dcollision2.png
 :width: 250px
 :align: center
