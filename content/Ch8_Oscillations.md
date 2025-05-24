@@ -245,7 +245,7 @@ No wonder we find harmonic oscillators 'everywhere'. Any system that has a stabl
 We take a straight metal wire. Suspend one end at the ceiling and attach a disc of radius $R$ and mass $m$ at the other end.
 
 ```{figure} images/TorsionPendulum.png
-:name: fig:TorsionPenduluming.png
+:name: fig:TorsionPendulum.png
 :width: 150px
 :align: center
  
