@@ -1,4 +1,4 @@
-## Velocities
+# Velocity Transformation & Doppler shift
 
 Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow space ships sees for the other space ship speed?
 
@@ -28,7 +28,7 @@ In the above, we have only looked at the velocity component in the $x$-direction
 
 As our universe does not follow Galilei and Newton, we need to derive the transformation/addition formula for velocities with the LT. So let's do it. 
 
-### Velocity Transformation ###
+## Velocity Transformation ##
 Let us start from the definition of velocity (assuming we deal with constant velocities, so we don't need to worry about differentiation and integration). We will denote velocities by $u$ to avoid confusion with $V$, the relative velocity between the two observers.
 
 Observer $S'$ will write down:
