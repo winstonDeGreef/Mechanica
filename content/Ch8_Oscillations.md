@@ -139,7 +139,7 @@ This is shown in the figure below.
 
 ```{figure} images/MassSpring.png
 :name: fig:MassSpring.png
-:width: 150px
+:width: 300px
 :align: center
  
 Mass-spring system: archetype of a (harmonic) oscillation.
