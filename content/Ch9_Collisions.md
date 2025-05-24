@@ -150,7 +150,7 @@ Applying the Galilean Transformation.
 
 Next, we can rotate the coordinate system, to obtain a 1D head-on collision that we can solve as above. 
 
-```{figure} images/collision2D.png
+```{figure} images/2Dcollision3.png
 :name: fig:2Dcollision3.png
 :width: 250px
 :align: center
