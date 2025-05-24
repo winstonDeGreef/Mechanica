@@ -25,7 +25,7 @@ const exerciseTransform = {
     // check if there are any 'error' nodes in the tree
     rootChildren.forEach((node, index) => {
       if(node.type === "admonition") {
-        console.log(node);
+       // console.log(node);
       }
     });
 
@@ -50,7 +50,7 @@ const exerciseTransform = {
           node.kind = "note";
           node.children[0].children[0].value = `Exercise ${number}: ${text}`;
 
-          console.log("[exercise-solution plugin] adjusting exercise ", text);
+          //console.log("[exercise-solution plugin] adjusting exercise ", text);
         }
       });
 
@@ -68,7 +68,7 @@ const exerciseTransform = {
           node.kind = "note";
 
           // log which solution is being replaced
-          console.log(`[exercise-solution plugin] adjusted solution to ${text}`);
+          //console.log(`[exercise-solution plugin] adjusted solution to ${text}`);
         }
       });
 

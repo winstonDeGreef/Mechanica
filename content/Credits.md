@@ -58,7 +58,7 @@ Do you see a mistake, do you have suggestions for exercises, are parts missing o
 * Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
 * Dr. Freek Pols, Science & Engineering Education, Delft University of Technology
 
-Special thanks to Hanna den Hartog for (re)making most of the drawings.
+Special thanks to Hanna den Hartog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files.
 
 
 ### About the authors

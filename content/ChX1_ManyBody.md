@@ -1,8 +1,8 @@
-# Many-Body System
+## Many-Body System
 
 We have seen that we could reduce the two-body problem of sun-earth to a single body question via the concept of reduced mass. But that this strategy does not work for 3, 4, 5, ... bodies.
 
-## Linear Momentum
+### Linear Momentum
 
 We can, however, find some basic features of $N$-body problems. In the figure, a collection of $N$ interacting particles is drawn.
 
@@ -35,7 +35,7 @@ $$
 
 In other words: the total momentum changes due to external forces. If there are no external forces, then the total momentum is conserved. This happens quite a lot actually, if you consider e.g. collisions or scattering.
 
-## Center of Mass
+### Center of Mass
 
 Analogous to the two-particle case, we see from the total momentum that we can pretend that there is a particle of total mass $M=\sum_i m_i$ that has momentum $\vec{P}$, i.e., it moves at velocity $\vec{V} \equiv\frac{\vec{P}}{M}$ and is located at position:
 
@@ -55,7 +55,7 @@ $$
 \sum m_i \vec{r}_i  = 0
 $$
 
-## Energy
+### Energy
 
 In terms of relative coordinates, we can write the kinetic energy as a part associated with the center of mass and a part that describes the kinetic energy with respect to the center of mass, i.e., 'an internal kinetic energy'.
 
@@ -75,7 +75,7 @@ $$
 
 with $V_i$ the potential related to the external force on particle $i$ and $V_{ij}$ the potential related to the mutual interaction force from particle $i$ exerted on particle $j$ (assuming that all forces are conservative).
 
-## Angular Momentum
+### Angular Momentum
 
 The total angular momentum is, like the total momentum, defined as the sum of the angular momentum of all particles:
 
@@ -95,7 +95,7 @@ The N-body problem is, of course, even more complex than the three-body problem.
 
 All kind of computational techniques have been developed and various averaging techniques are employed in statistical techniques are introduced from the start. the reason is often, that a particular 'realisation' of all positions and velocities of all particles is needed nor sought for. A system is at its macro level described by averaged properties, the exact location of the individual atoms is not needed. You will find applications in cosmology all the way to molecular dynamics, trying to simulate the behavior of proteins or pharmaceuticals. 
 
-## Exercises ##
+### Exercises ###
 
 ```{exercise-start}
 :label: 11.1
@@ -177,7 +177,7 @@ The particles move inside a box with sides $L$=50m. Particles do not collide wit
 ```{exercise-end}
 ```
 
-## Answers ##
+### Answers ###
 
 ```{solution-start} 11.1
 :class: dropdown

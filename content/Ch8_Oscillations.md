@@ -139,7 +139,7 @@ This is shown in the figure below.
 
 ```{figure} images/MassSpring.png
 :name: fig:MassSpring.png
-:width: 150px
+:width: 300px
 :align: center
  
 Mass-spring system: archetype of a (harmonic) oscillation.
@@ -245,7 +245,7 @@ No wonder we find harmonic oscillators 'everywhere'. Any system that has a stabl
 We take a straight metal wire. Suspend one end at the ceiling and attach a disc of radius $R$ and mass $m$ at the other end.
 
 ```{figure} images/TorsionPendulum.png
-:name: fig:TorsionPenduluming.png
+:name: fig:TorsionPendulum.png
 :width: 150px
 :align: center
  
