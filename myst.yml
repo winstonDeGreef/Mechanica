@@ -67,12 +67,14 @@ project:
         - file: content/ChX0_TwoBody.md
     #    - file: content/ChX1_ManyBody.md
 
-        - file: content/ChX2_CracksInMecha.md
 
     - title: Special Relativity
       children:        
         - file: content/Special.md        
         - file: content/ChX2_CracksInMecha.md
+        - file: content/ChX3_IntroSpecialRelativity.md
+        - file: content/ChX4_VelotransDoppler copy.md
+
 
     - title: Project
       children:
