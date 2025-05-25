@@ -70,7 +70,7 @@ project:
 
     - title: Special Relativity
       children:        
-        - file: content/Special.md        
+    #    - file: content/Special.md        
         - file: content/ChX2_CracksInMecha.md
         - file: content/ChX3_IntroSpecialRelativity.md
         - file: content/ChX4_VelotransDoppler.md
