@@ -73,7 +73,8 @@ project:
         - file: content/Special.md        
         - file: content/ChX2_CracksInMecha.md
         - file: content/ChX3_IntroSpecialRelativity.md
-        - file: content/ChX4_VelotransDoppler copy.md
+        - file: content/ChX4_VelotransDoppler.md
+        - file: content/ChX5_FourVectors.md
 
 
     - title: Project
