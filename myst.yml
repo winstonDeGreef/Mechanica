@@ -76,6 +76,7 @@ project:
         - file: content/ChX4_VelotransDoppler.md
         - file: content/ChX5_FourVectors.md
         - file: content/ChX6_FourMomentum.md
+        - file: content/ChX7_RelDynColl.md
 
 
     - title: Project
