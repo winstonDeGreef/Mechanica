@@ -445,7 +445,7 @@ The three body problem is an old one. Already Newton himself worked on it. Its i
 The king of Sweden, Oscar II, announced, as celebration of his 60$^{th}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
 
 ```{figure} images/HenriPoincare.jpg
-:name: fig:20SolutionsThreeBodyProblem.gif
+:name: fig:HenriPoincare.jpg
 :width: 250px
 :align: center
 

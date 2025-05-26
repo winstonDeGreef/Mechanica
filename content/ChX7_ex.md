@@ -25,6 +25,7 @@ If the trajectories in the rest frame of the kaon are in one plane, then they ar
 
 
 ## Exercises
+
 ```{exercise}
 :label: 17.1
 
@@ -52,10 +53,8 @@ The incoming photon energy equals $mc^2$, the emitted photon $\frac{1}{4}mc^2$. 
 
 An elementary particle of mass $M$ moves in the frame of observer $S$ with a velocity $v/c = 12/13$. The particle is unstable and decays into a particle of mass $m$ and a photon. The particle $m$ has velocity $u/c = 4/5$. Both $M$ and $m$ move along the $x$-axis in the positive direction.
 
-a) Find the mass $m$ in terms of $M$.<br>
-b) What is the frequency of the photon?
-
-
+1. Find the mass $m$ in terms of $M$.
+1. What is the frequency of the photon?
 
 ```
 
@@ -66,8 +65,6 @@ A particle of mass $m$ moves with velocity $v_1 /c = 1/2$ in the positive direct
 
 Find the mass and velocity-vector of the new particle.
 
-
-
 ```
 
 ```{exercise}
@@ -75,13 +72,11 @@ Find the mass and velocity-vector of the new particle.
 
 A particle of mass $\frac{3}{5}m$ is moving at velocity $v_1/c = 4/5$ over the $x-axis$. From the other side a particle with mass $\frac{4}{5}m$ is approaching with velocity $v_2/c = 3/5$. The two particles will collide. After the collision, they maintained each their original mass. The collision is perfectly elastic.
 
-a. Find the velocities of both masses in the world of Galilei and Newton.<br>
-b. The same but now in the world of Lorentz and Einstein.
-
+1. Find the velocities of both masses in the world of Galilei and Newton.
+1. The same but now in the world of Lorentz and Einstein.
 
 ```
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ## Answers
 
 ```{solution} 17.1
@@ -115,7 +110,6 @@ and from this we find
 $$\frac{m_2}{M} = \frac{4\sqrt{7}}{16}$$
 
 Thus, we see that the mass after the disintegration is $\frac{1}{4}M + \frac{4\sqrt{7}}{16}M \approx 0.911 \lt M$.
-
 
 ```
 
@@ -219,7 +213,7 @@ $$\begin{split}
 
 hence, $u_x = u_y$. The new particle moves over the line $x=y$.
 
-If we combine $P^$ with $P^1$, we find:
+If we combine $P^0$ with $P^1$, we find:
 
 $$\begin{split}
 2 m\gamma c &= M\gamma_f c \\

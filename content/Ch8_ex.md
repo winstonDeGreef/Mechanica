@@ -5,7 +5,7 @@
 Here are some exercises that deals with oscillations. Make sure you practice IDEA.
 
 ```{exercise}
-:label: 9.1
+:label: ex_9.1
 
 A massless spring (spring constant $k$) is suspended from the ceiling. The spring has an unstretched length $l_0$. At the other end is a point particle (mass $m$).
 
@@ -20,7 +20,7 @@ A massless spring (spring constant $k$) is suspended from the ceiling. The sprin
 ```
 
 ```{exercise}
-:label: 9.2
+:label: ex_9.2
 
 Same question, but now two springs are used. Spring 1 has spring constant $k$; spring 2 has $2k$. Both have the same unstretched length $l_0$.
 
@@ -31,7 +31,7 @@ Same question, but now two springs are used. Spring 1 has spring constant $k$; s
 ```
 
 ````{exercise}
-:label: 9.3
+:label: ex_9.3
 
 A mass $m$ is attached to two springs. The other ends of the springs are fixed and can not move. The distance between these point is $2l_0$. The mass can move only in the horizontal direction and there is no gravity. See the figure below for a sketch. 
 
@@ -55,7 +55,7 @@ We are going to repeat the same analysis as in the previous exercises.
 ````
 
 ````{exercise}
-:label: 9.4
+:label: ex_9.4
 
 The same as above, but now the length between the two point where the spring are attached to is $l_0$ instead of $2l_0$.
 ```{figure} images/TwoHorSprings2.png
@@ -78,7 +78,7 @@ Note: in the figure $k, l_0$ denotes the characteristics of the springs.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ### Answers
 
-````{solution} 9.1
+````{solution} ex_9.1
 :class: dropdown
 
 Sketch; $z=0$ is when the mass is $l_0$ below the ceiling.
@@ -128,7 +128,7 @@ $$ z(t) = -\frac{mg}{k} + \frac{v_0}{\omega_0} \sin \omega_o t$$
 ````
 
 
-````{solution} 9.2
+````{solution} ex_9.2
 :class: dropdown
 
 Sketch; $z=0$ is when the mass is at $l_0$ below the ceiling. Now we have 2 springs, one with spring constant $k_1$, the other with $k_2$. Both have the same rest length $l_0$
@@ -165,7 +165,7 @@ with $ \omega_0^2 = \frac{k_{tot}}{m}$
 ````
 
 
-````{solution} 9.3
+````{solution} ex_9.3
 :class: dropdown
 
 ```{figure} images/TwoHorSprings1Sol.png
@@ -206,7 +206,7 @@ Like in the previous exercises, it is now a matter of specifying the initial con
 
 ````
 
-````{solution} 9.4
+````{solution} ex_9.4
 :class: dropdown
 
 ```{figure} images/TwoHorSprings2Sol.png

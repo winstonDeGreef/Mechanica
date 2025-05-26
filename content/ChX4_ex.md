@@ -1,12 +1,12 @@
-# Exercises, examples & solutions
+# Exercises, examples & answers
+
 ## Examples
-```{examples} Example 21cm hydrogen line
 
-21 cm line of hydrogen in < href="https://en.wikipedia.org/wiki/Hydrogen_line">radio astronomy</a>. <br>
-The proton and electron in the hydrogen atom both have a magnetic dipole moment related to their spin. The total quantum mechanical wave function can have 2 states for the spins, parallel or anti parallel, where anti parallel is energetically favorable. The transition between these two states is forbidden to first order (you will learn more about this in the three courses on *Quantum mechanics* in the second and third year). By <a href="https://en.wikipedia.org/wiki/Fermi%27s_golden_rule">Fermi's golden rule of quantum mechanics</a> that means the probability that it happens per second is very small, here $10^{-15}s^{-1}$ or that the lifetime of the excited state is very long $\sim 10^7$ years. As space is vast and there is much hydrogen, however, this still happens a lot such that we can observe it.<br>
+```{example} 21cm hydrogen line
+21 cm line of hydrogen in [radio astronomy](https://en.wikipedia.org/wiki/Hydrogen_line). <br>
+The proton and electron in the hydrogen atom both have a magnetic dipole moment related to their spin. The total quantum mechanical wave function can have 2 states for the spins, parallel or anti parallel, where anti parallel is energetically favorable. The transition between these two states is forbidden to first order (you will learn more about this in the three courses on *Quantum mechanics* in the second and third year). By [Fermi's golden rule of quantum mechanics](https://en.wikipedia.org/wiki/Fermi%27s_golden_rule) that means the probability that it happens per second is very small, here $10^{-15}s^{-1}$ or that the lifetime of the excited state is very long $\sim 10^7$ years. As space is vast and there is much hydrogen, however, this still happens a lot such that we can observe it.<br>
 
-Due to the very long life time, the emission line is very sharp, i.e. it has a small natural spectral broadening. This can be seen from <a href="https://en.wikipedia.org/wiki/Uncertainty_principle">Heisenberg's uncertainty principle</a> $\Delta E \Delta t \sim \hbar$. If $\Delta t$ is very large, then $\Delta E$ is small and the spectral line is very sharp. Therefore shifts to this line must come from Doppler shifts which can be used to measure speeds accurately. 
-
+Due to the very long life time, the emission line is very sharp, i.e. it has a small natural spectral broadening. This can be seen from [Heisenberg's uncertainty principle](https://en.wikipedia.org/wiki/Uncertainty_principle) $\Delta E \Delta t \sim \hbar$. If $\Delta t$ is very large, then $\Delta E$ is small and the spectral line is very sharp. Therefore shifts to this line must come from Doppler shifts which can be used to measure speeds accurately. 
 ```
 
 ## Exercises
@@ -19,8 +19,6 @@ Observers $S'$ is moving at $V/c = 3/5$ with respect to $S$. Both observers have
 $S'$ observes an object traveling at $4/5$ of the speed of light in the negative $x'$-direction.
 
 Calculate the velocity according to $S$.
-
-
 ```
 
 ```{exercise}
@@ -29,8 +27,6 @@ Calculate the velocity according to $S$.
 Same situation as in ex.(14.1), but now $S'$ observes that the object is moving in the $y'$-direction with velocity $\frac{4}{5} c$.
 
 Show that the magnitude of the velocity of the object according to $S$ is smaller than $c$.
-
-
 ```
 
 ```{exercise}
@@ -43,8 +39,6 @@ Captain Kirk on board of the starship USS Enterprise is traveling at a speed of 
 1. Enterprise is moving straight towards earth;
 2. Enterprise moves radially away from earth;
 3. Enterprise moves tangentially to earth.
-
-
 ```
 
 ```{exercise}
@@ -64,9 +58,8 @@ The judge has heard enough. She adjourns the session and retreats to her office.
 She returns to the court room and the session is continued by her ruling. The student is acquitted of running a red light but is fined for speeding.
 
 What is the amount of the fine?
-
-
 ```
+
 
 ## Answers
 
@@ -134,7 +127,5 @@ $$\begin{split}
 \frac{1+V/c}{1-V/c} = 0.68 \rightarrow \frac{V}{c} = 0.2
 \end{split} $$
 
-Thus the biker claims to have a speed of 20\% of the speed of light, that is 2.16 10$^8$ km/h and accordingly gets a fine of 1.08 billion Euro.
-
-
+Thus the biker claims to have a speed of 20% of the speed of light, that is 2.16 10$^8$ km/h and accordingly gets a fine of 1.08 billion Euro.
 ```
