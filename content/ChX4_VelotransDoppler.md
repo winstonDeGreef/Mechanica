@@ -93,7 +93,7 @@ This is again smaller (in absolute sense) than $c$. For the other ship we find o
 
 ## Doppler effect
 
-The <a href="https://en.wikipedia.org/wiki/Doppler_effect">Doppler effect</a> is well-known from waves. You know it from daily life. If a car is passing you at high speed, the frequency of the sound you hear changes from approaching to driving away from you. The received frequency $f_{obs}$ by you is higher than the emitted frequency $f_{src}$ while the car is approaching, and smaller when it drives off.  
+The [Doppler effect](https://en.wikipedia.org/wiki/Doppler_effect) is well-known from waves. You know it from daily life. If a car is passing you at high speed, the frequency of the sound you hear changes from approaching to driving away from you. The received frequency $f_{obs}$ by you is higher than the emitted frequency $f_{src}$ while the car is approaching, and smaller when it drives off.  
 
 Here we investigate the effect of a moving source that is emitting light with $f_{src}$ (electro-magnetic waves). This is one of the few cases where the relativistic case is easier than the classical effect. In the latter it matters if the source is moving or the medium. For EM-waves, however, there is no medium (aether) as we have seen which simplifies things.
 
@@ -174,9 +174,9 @@ Please observe that the $\gamma$ factor is of $\gamma(u)$ that means even for on
 
 The most well-known frequency shift is the red-shift from the expanding universe. 
 
-The astronomer <a href="https://en.wikipedia.org/wiki/Edwin_Hubble">Edwin Hubble</a> first found in the 1920s that the universe does not only consists out of our own galaxy, the milky way, but there must be (many) other galaxies, which were called *nebula* at that time. Second he could show that all further away galaxies move away from us by measuring the Doppler shift of well-known emission lines of stars and their distance from periodic intensity variation of Cepheid Variable stars. It turned out that the distance of the galaxies $d$ was roughly linearly proportional to the red-shift which is again linearly related to the the radial velocity $v$ as we derived. This is known now as Hubble's law $v=H_0 d$ with the Hubble constant ($H_0 \sim 70\ km/s/Mpc$). Further away galaxies move faster away, but why? And why is no galaxy approaching us?
+The astronomer [Edwin Hubble](https://en.wikipedia.org/wiki/Edwin_Hubble) first found in the 1920s that the universe does not only consists out of our own galaxy, the milky way, but there must be (many) other galaxies, which were called *nebula* at that time. Second he could show that all further away galaxies move away from us by measuring the Doppler shift of well-known emission lines of stars and their distance from periodic intensity variation of Cepheid Variable stars. It turned out that the distance of the galaxies $d$ was roughly linearly proportional to the red-shift which is again linearly related to the the radial velocity $v$ as we derived. This is known now as Hubble's law $v=H_0 d$ with the Hubble constant ($H_0 \sim 70\ km/s/Mpc$). Further away galaxies move faster away, but why? And why is no galaxy approaching us?
 
-At end of the 1920s <a href="https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre">Georges Lemaître</a> applied Einstein general theory of relativity to cosmology and found that the universe must be expanding, while it started in a "primeval atom", now known as the *Big Bang*. He could explain the red-shift relation from the expanding universe hypothesis.
+At end of the 1920s [Georges Lemaître](https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre) applied Einstein general theory of relativity to cosmology and found that the universe must be expanding, while it started in a "primeval atom", now known as the *Big Bang*. He could explain the red-shift relation from the expanding universe hypothesis.
 
 The Big Bang theory was highly debated early on, in particular by Einstein, but is now fully accepted. The strongest experimental evidence was the discovery of the *cosmic background radiation* in 1965 (by accident).
 
@@ -192,7 +192,7 @@ Background radiation in the universe as observed from earth.
 By NASA / WMAP Science Team - <a rel="nofollow" class="external free" href="https://map.gsfc.nasa.gov/media/121238/ilc_9yr_moll4096.png">http://map.gsfc.nasa.gov/media/121238/ilc_9yr_moll4096.png</a>, Public Domain.
 ```   
 
-This radiation is the red shifted radiation from around 380,000 years after the Big Bang when the universe became transparent. At that time the temperature had dropped (due to the adiabatic expansion) to around 3000 K, at which protons and electrons can form stable hydrogen atoms $p+e^- \to H$. This event is called *recombination*. At higher temperatures photons are scattered from the free electrons (and protons) constantly, effectively the photons have a very short mean free path and the universe is opaque. At the recombination temperature all of a sudden the photon could travel without strong scattering, the universe was transparent. The 3K cosmic background radiation that we measure today is the red-shifted version of this 3000 K light. It gives us a glimpse of how the universe looked at that time. Apart from the background radiation there were no other light sources in the universe as stars had not formed yet, the <a href="https://en.wikipedia.org/wiki/Chronology_of_the_universe#Dark_Ages">Dark Ages</a> of the universe began.
+This radiation is the red shifted radiation from around 380,000 years after the Big Bang when the universe became transparent. At that time the temperature had dropped (due to the adiabatic expansion) to around 3000 K, at which protons and electrons can form stable hydrogen atoms $p+e^- \to H$. This event is called *recombination*. At higher temperatures photons are scattered from the free electrons (and protons) constantly, effectively the photons have a very short mean free path and the universe is opaque. At the recombination temperature all of a sudden the photon could travel without strong scattering, the universe was transparent. The 3K cosmic background radiation that we measure today is the red-shifted version of this 3000 K light. It gives us a glimpse of how the universe looked at that time. Apart from the background radiation there were no other light sources in the universe as stars had not formed yet, the [Dark Ages](https://en.wikipedia.org/wiki/Chronology_of_the_universe#Dark_Ages) of the universe began.
 
 The red-shift here is actually caused by the expansion of the universe itself (the universe expands causing the photons' wavelength to expand). NB: Time in cosmology is often given in units of red-shift (e.g. the red-shift for recombination is $z=1089$).
 
@@ -200,7 +200,7 @@ The red-shift here is actually caused by the expansion of the universe itself (t
 
 How can we relate the wavelength of electro-magnetic radiation to temperature?
 	
-Matter emits electro-magnetic radiation depending on its temperature. This relation is given by <a href="https://en.wikipedia.org/wiki/Planck%27s_law">Planck's law</a> with which quantum mechanics started in 1900 as he considered *black body radiation*. The emitted spectral density per solid angle depends on the thermal energy $kT$ and is given by
+Matter emits electro-magnetic radiation depending on its temperature. This relation is given by [Planck's law](https://en.wikipedia.org/wiki/Planck%27s_law) with which quantum mechanics started in 1900 as he considered *black body radiation*. The emitted spectral density per solid angle depends on the thermal energy $kT$ and is given by
 
 $$
 	u(\lambda, T) = \frac{2hc}{\lambda^5}\frac{1}{e^{hc/\lambda kT}-1}

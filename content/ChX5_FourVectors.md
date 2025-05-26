@@ -430,7 +430,7 @@ Second note: we do not have a problem here with negative distances. Thus if we t
 
 This part is optional, but insightful.
 
-You can think of the LT as a rotation of the 4 coordinates of Minkowski space time. Obviously it is not a "normal" rotation with a <a href="https://en.wikipedia.org/wiki/Rotation_matrix">rotation matrix</a> $R\in SO(n)$ as we encountered in change to [polar coordinates](central_forces.md#polar-coordinates). 
+You can think of the LT as a rotation of the 4 coordinates of Minkowski space time. Obviously it is not a "normal" rotation with a [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix) $R\in SO(n)$ as we encountered in change to [polar coordinates](central_forces.md#polar-coordinates). 
 
 The LT in matrix notation reads as follows with $\gamma = \frac{1}{\sqrt{1-\beta^2}}$ and $\beta=V/c$.
 
@@ -474,7 +474,7 @@ $$
 
 Notice the similarity to the [rotation](central_forces.md#polar-coordinates) with sine and cosine.
 
-With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\alpha$ is the rapidity), we identify the matrix as $L(\alpha$). That the <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations">hyperbolic functions</a> appear should not be a surprise as they are equivalent to the sine and cosine for the circle, $(ct^2+x^2=1)$, for the hyperbola $(ct^2-x^2=1)$. Notice the relation to the inner products for standard and Minkowski space.
+With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\alpha$ is the rapidity), we identify the matrix as $L(\alpha$). That the [hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations) appear should not be a surprise as they are equivalent to the sine and cosine for the circle, $(ct^2+x^2=1)$, for the hyperbola $(ct^2-x^2=1)$. Notice the relation to the inner products for standard and Minkowski space.
 
 Minkowski made the sketch below to show that the Lorentz transformation is a rotation over a hyperbola not a circle as we were used to. The asymptotes of the hyperbola are given by the light lines.
 
@@ -492,5 +492,5 @@ $$
 \beta = \tanh (\alpha_1+\alpha_2)= \frac{\tanh \alpha_1 +\tanh \alpha_2}{1+\tanh \alpha_1 \tanh \alpha_2}=\frac{\beta_1 + \beta_2}{1+\beta_1\beta_2}
 $$ 
 
-The [addition of velocities](doppler.md) is brought back to <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations">hyperbolic identities</a>". 
+The [addition of velocities](doppler.md) is brought back to [hyperbolic identities](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations)". 
 
