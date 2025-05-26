@@ -1,25 +1,18 @@
 # Special Relativity - Lorentz Transformation
 
-As we discusses, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which Electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the M&M experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics under pinning the transformation and the length contraction. The proposals worked, but they had an ad hoc character. very unsatisfying for physicists!
+As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which Electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the M&M experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics under pinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
 
 And as we have mentioned, it took the work of a single man to change this and underpin the Lorentz Transformation, making Classical Mechanics a valid limit of Relativity Theory, only applicable at velocities small compared to the speed of light and to small distances compared to those of interest in cosmology.
 
-<table align="center">
-<tr>
-<td>
-
 ```{figure} images/AlbertEinstein.png
 :name: fig:AlbertEinstein.png
-width: 250px
-align: center
----
+:width: 50%
+:align: center
+
 Albert Einstein (1879-1955).
 ```
 
-</td> 
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td style="width:250px">
-<b>Lorentz Transformation</b>
+**Lorentz Transformation**
 
 $$\begin{split}
 ct' &= \gamma \left ( ct - \frac{V}{c} x \right ) \\
@@ -36,10 +29,7 @@ $$\gamma = \frac{1}{\sqrt{1 - \frac{V^2}{c^2}}}$$
 
 But there is more! Einstein also changed our view on the universe and on time itself. In the world of Newton and Galilei, people could not even think about relativity of time. Of course time was the same for everyone. There was only one time, one master clock - the same for all of us. It is hard coded in the Galilei Transformation: 
 
-<table align="center">
-<tr>
-<td style="width:250px">
-<b>Galilei Transformation
+**Galilei Transformation**
 
 $$\begin{split}
 t' &= t \\
@@ -47,12 +37,9 @@ x' &= x - Vt \\
 y' &= y \\
 z' &= z
 \end{split}$$
-</b>
-</td> 
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td style="width:250px">
-<br>
-<b>Lorentz Transformation
+
+
+**Lorentz Transformation**
 
 $$\begin{split}
 ct' &= \gamma \left ( ct - \frac{V}{c} x \right ) \\
@@ -60,21 +47,17 @@ x' &= \gamma \left ( x - \frac{V}{c} ct \right ) \\
 y' &= y \\
 z' &= z
 \end{split}$$
-</b>
-</td>
-</tr>
-</table>
 
 Now, with the Lorentz Transformation, that is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again. And so far: they firmly hold. And there is no other way then to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
 
 Do note, that the Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilei Transformation!
 Now, this should not come as a surprise (even if it for a moment did). After all, Classical Mechanics does an outstanding job in many, many physics problems and the agreement with experiments is excellent.
 
-## The Lorentz Transformation ##
+## The Lorentz Transformation
 
 The way we wrote down the Lorentz transformation is a bit particular in a sense that we combine time $t$ with the speed of light $c$ into the "time" axis $ct$ which now has unit length. We can do this as $c$ is constant for all observers independent of their frame of reference. The speed of light is said to be a **Lorentz invariant**. In this notation the transform between $S$ and $S'$ (moving with velocity $V$ away) is *easy to remember*!
 
-### S and S' ###
+### S and S'
 We will discuss most of the consequences for two observers $S$ and $S'$, traveling with a constant velocity $\vec{V}$ with respect to each other. They have taken their $x$, resp. $x'$ axis parallel to $\vec{V}$. Hence, we only need to talk about $V$, knowing that this is the only component of the relative velocity between the two observers and that it is along the $x, x'$ axis.
 
 Furthermore, their $y$ and $y'$ coordinates are taken in the same direction. This also holds for the $z$-component.
@@ -86,15 +69,15 @@ The standard sketch is given in the figure below.
 
 ```{figure} images/SSprime.png
 :name: fig:SSprime.png
-width: 350px
-align: center
----
+:width: 350px
+:align: center
+
 S and S': relative velocity parallel to the $x$ and $x'$ axes.
 ```
 
 N.B. It is crucial to be very precise in your notation when it comes to coordinates and quantities. For instance: $S$ might talk about the $x$-component of the velocity of an object and denote this by $v_x$. $S'$, on the other hand can also talk about that component, but will not call it the $x$-component: in the world of $S'$ $x$ "does not exist", only $x'$ does. So it is better to write $v'_{x'}$ for the $x'$-component of the velocity of the object according to $S'$. It may look cumbersome, and to a certain extend it is, but it actually does make sense. $S'$ would say that this component is $\frac{dx'}{dt'}$ both space and time having a prime. Hence, naturally $S'$ would talk about $\vec{r}' = x' \hat{x'} + y' \hat{y'} + z' \hat{z'}$ or $\vec{v}' = v'_{x'} \hat{x'} + v'_{y'} \hat{y'} + v'_{z'} \hat{z'}$
 
-### Lorentz Transformation and its Inverse ###
+### Lorentz Transformation and its Inverse
 The Lorentz Transformation, like the Galilei Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
 
 For instance, if $S$ sees an object moving with $v_x$, $S'$ can 'translate' this information via the Lorentz Transform into $v'_{x'}$ and $v'_{y'}$ or so if applicable.
@@ -130,7 +113,7 @@ The structure of the formulas is very symmetric and therefore needs little remem
 
 From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo. Now the time coordinated is mixed somehow with the space coordinated depending on the speed $V$.
 
-### Lorentz factor ###
+### Lorentz factor
 
 The Lorentz factor (or $\gamma$-factor) 
 
@@ -172,55 +155,44 @@ It is always important to verify that an extension of the known theory reduces t
 
 ### Historical context
 
-Lorentz did not derive the transformation that now has his name, based on Einstein's axioms. Lorentz, however, saw that Maxwell's equations were not GT invariant, therefore he tried to find a transformation under which they were invariant. He did so (with a bit of help from <a href="https://www.google.com/search?client=firefox-b-d&q=poincare"> Poincar&eacute; </a> afterwards). <a href="https://en.wikipedia.org/wiki/George_Francis_FitzGerald">FitzGerald</a> did also derive the transformation, but too did not understand its implications.
+Lorentz did not derive the transformation that now has his name, based on Einstein's axioms. Lorentz, however, saw that Maxwell's equations were not GT invariant, therefore he tried to find a transformation under which they were invariant. He did so (with a bit of help from [ Poincar&eacute; ](https://www.google.com/search?client=firefox-b-d&q=poincare) afterwards). [FitzGerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) did also derive the transformation, but too did not understand its implications.
 
-<table align="center">
-<tr>
-<td>
 
 ```{figure} images/HendrikLorentz.png
 :name: fig:HendrikLorentz.png
-width: 220px
-align: center
----
+:width: 50%
+:align: center
+
 Hendrik Lorentz (1853-1928).
 ```
 
-</td> 
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td>
 
 ```{figure} images/Fitzgerald.png
 :name: fig:Fitzgerald.png
-width: 220px
-align: center
----
+:width: 50%
+:align: center
+
 George Fitzgerald (1851-1901).
 ```
 
-</td>
-</tr>
-</table>
 
 Before Einstein's idea spread, Lorentz thought about the transformation as a fix to Galileo Transformation. Later he understood, of course. Unfortunately, Fitzgerald did not live long enough to see the first publication of Einstein on Relativity in 1905.
 
 The electro-magnetic wave equation can be transformed from $S$ to $S'$. And indeed, if you would do that, you would find that the wave equation maintains its form with the same $c$, not a new $c'$. Lorentz had found this, but it was Einstein who underpinned and generalized the use of the Lorentz Transformation to all mechanics, replacing the Galilean Transformation.
 
 
-```{exercise-start}
+```{exercise}
 :label: 11.1
-```
 
 Close your book, laptop. Shut down your screen, put aside your mobile, tablet. Put away you notes and put an empty clean sheet in front of you. All you have is that sheet of paper, one pen and your brain.
 * Write down the Lorentz Transformation and its inverse.
 * Repeat so you don't forget it (for the rest of your life: no one may call him/herself a physicist if he/she does not know the LT by heart ;-) ).
 
-```{exercise-end}
 ```
 
-## Length contraction & Time dilatation ##
+## Length contraction & Time dilatation
 
-### First Implications ###
+### First Implications
 As we have seen, we need to use the Lorentz Transformation instead of the Galilei one when two observers, $S$ and $S'$, want to exchange information. What does change if we do so? Let's first do some examples and see some of the consequences and the 'strange' conclusions we need to draw.
 
 Note: we will frequently use high velocities and large distances. It is convenient not to write these in units like $m$ and $m/s$. The numbers in front of them become so large that keeping an overview becomes cumbersome. Therefore, we will change to a different unit for distance: the light second. That is per definition the distance a photon of light ray travels in one second:
@@ -230,7 +202,7 @@ $$ 1 \text{ lightsecond} = 1 ls = c \cdot 1 sec = 3.0 \cdot 10^8 m $$
 For instance, it takes a photon about 8.3 minutes to travel from the sun to the earth. Thus, the distance from the sun to the earth is $8.3 lmin = 500 ls$. That is equivalent to $150 \cdot 10^6 km$.
 
 
-#### Worked Example ####
+#### Worked Example
 
 A space ship is flying at a velocity 0.8c passed earth in the direction of the moon. The moon is at a distance of 1.2 ls (that is some $3.6 \cdot 10^8$m) from the earth.
 The clocks on earth and in the space ship are set to zero when the space ship passes the earth.
@@ -245,14 +217,14 @@ First we make a sketch.
 
 ```{figure} images/EartMoonSpaceShip.png
 :name: fig:EartMoonSpaceShip.png
-width: 450px
-align: center
----
+:width: 50%
+:align: center
+
 ```
 
 Next, we need to carefully clarify what we mean by observe, know, see. This is very important as observations are made by someone at a certain time, while being at a certain position. Since now both time and place information gets into the transformation, being sloppy might lead to very strange and wrong conclusions.
 
-Thus, we will from now on, specify <b>Events</b>. An event is a physical phenomenon happening at a certain place at a certain time. For instance, you catching a frisbee at 12:45 (i.e. $t_f$) on the campus (at location $x_f, y_f, z_f$). This will be denoted as:
+Thus, we will from now on, specify **Events**. An event is a physical phenomenon happening at a certain place at a certain time. For instance, you catching a frisbee at 12:45 (i.e. $t_f$) on the campus (at location $x_f, y_f, z_f$). This will be denoted as:
 
 $$\text{frisbee caught: } E_f = (ct_f,x_f,y_f,z_f) = ( ..,..,..,..) $$
 
@@ -297,7 +269,7 @@ But now we consider $S'$. She says: the impact of the comet was at $t' = -0.767$
 
 And this is so according to both $S$ and $S'$. They may use different times, but they have set their clocks to zero when earth and Space ship were in 'the same position'.
 
-Ok, let's be puzzled for a while: how can $S'$ at the same time be both at the left side and at the right side of the earth? That doesn't make any sense!!!! What is <b>wrong</b> with this new theory? The answer is: <b>nothing!</b>
+Ok, let's be puzzled for a while: how can $S'$ at the same time be both at the left side and at the right side of the earth? That doesn't make any sense!!!! What is **wrong** with this new theory? The answer is: **nothing!**
 
 It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomena is not disputed at all. It happened. They don't agree that it took place at the same time according to their clocks. 
 
@@ -350,9 +322,9 @@ In the animation below the whole scenery is shown from the perspective of $S$ on
 
 ```{figure} images/SSearth2_animation.gif
 :name: fig:SSearth2_animation.gif
-width: 950px
-align: center
----
+:width: 90%
+:align: center
+
 ```
 
 An animation is given above. 
@@ -381,7 +353,7 @@ Puzzled by this all? Confused? Hard to believe?
 Welcome the 'Magical World of Relativity'. And don't worry: you will get used to it. Moreover, we will develop a mathematical framework that helps us and prevents our failing intuition to take the wrong path.
 
 
-<b>Conclusions:</b> 
+**Conclusions:** 
 
 <ul>
 <li>we need to be careful with interpreting distances and times, things are not what they seem at first glance.</li>
@@ -390,12 +362,12 @@ Welcome the 'Magical World of Relativity'. And don't worry: you will get used to
 </ul>
 
 
-### Time & Space ###
+### Time & Space
     
 Here we have a look at the consequences of axioms 1 & 2. We know how two observers $S$ and $S'$ (moving away with $V$) transform their respective coordinates into each other, via the Lorentz transformation.
 
 ```{admonition} LT
-<b>Lorentz Transformation</b>
+**Lorentz Transformation**
 
 $$\begin{split}
 ct' &= \gamma \left ( ct - \frac{V}{c} x \right ) \\
@@ -440,28 +412,28 @@ In words: The events A and B that are simultaneous for $S$, are never simultaneo
 *Relativit&auml;t der Gleichzeitigkeit* as Einstein called it, is the first very counterintuitive consequence by simple application of the Lorentz transformation. Our brains are not trained and build to cope with this aspect of nature. There is just no evolutionary advantage to it as all relevant speeds are much smaller than the speed of light.
 
 
-#### Time dilation ####
+#### Time dilation
 
 We investigate how time intervals between a stationary and a moving  observers are transformed. We can expect that these time intervals are not the same.
 
 ```{figure} images/timedilation1.png
 :name: fig:timedilation1.png
-width: 450px
-align: center
----
+:width: 80%
+:align: center
+
 Clock stationary according to $S'$ but moving for $S$.
 ```
 
-If you consider the sketch above, we see how time intervals are counted for a moving observer and for an observer in the rest frame. A light ray is traveling between 2 mirrors. This up and down traveling of the light is a counter for the time. If you have never thought how time is measured, think a bit how a clock actually does that. Today, the second is defined as a (very large) number of tiny energy transitions (vibrations) of the Caesium-133 atom (see e.g. <a href=">https://en.wikipedia.org/wiki/Atomic_clock">Atomic Clock</a>). 
+If you consider the sketch above, we see how time intervals are counted for a moving observer and for an observer in the rest frame. A light ray is traveling between 2 mirrors. This up and down traveling of the light is a counter for the time. If you have never thought how time is measured, think a bit how a clock actually does that. Today, the second is defined as a (very large) number of tiny energy transitions (vibrations) of the Caesium-133 atom (see e.g. [Atomic Clock](>https://en.wikipedia.org/wiki/Atomic_clock)). 
 
 Consider the time light travels for the observer $S$ who sees the clock moving with velocity $V$. The clock counts one unit of time, $t$ if the light has gone from the bottom mirror to the top one and back to the bottom mirror. Thus from bottom to top takes $t/2$. This means that the length of the light path from bottom mirror to top mirror is equal to $ct/2$ as light travels with velocity $c$. In that same period of time, the top mirror has moved a distance $Vt/2$, as the clock and thus the mirrors move with velocity $V$ with respect to observer $S$. Now, we can relate the length of the light path from the bottom to the top mirror to the size of the clock, $L$ and the displacement of the mirror, $Vt/2$: $L^2+\frac{V^2}{4}t^2=\frac{c^2}{4}t^2$ where we used Pythagoras, see figure below. 
 
 
 ```{figure} images/timedilation2.png
 :name: fig:timedilation2.png
-width: 150px
-align: center
----
+:width: 50%
+:align: center
+
 Light path in a moving clock.
 ```
 
@@ -477,13 +449,13 @@ $$
 \Delta T = \gamma \Delta T_0
 $$
 
-with $\gamma=\frac{1}{\sqrt{1-\frac{V^2}{c^2}}} >1$ and $T_0$ the <b>*proper time*</b> or *eigen time* in the rest frame.
+with $\gamma=\frac{1}{\sqrt{1-\frac{V^2}{c^2}}} >1$ and $T_0$ the ***proper time*** or *eigen time* in the rest frame.
 
 Note: a time interval is also the counting of your heart. That means the moving observer ages more slowly compared to the observer at rest. See the examples below for some experimental evidence of the time dilation.  
 
-<b> Conclusion: moving clocks run slower, time gets stretched</b>
+** Conclusion: moving clocks run slower, time gets stretched**
 
-#### Length contraction ####
+#### Length contraction
 
 The length of moving objects becomes smaller/contracted for the observer at rest. To explain this effect, we consider a moving rod with velocity $V$ and with length $L_0$ in the rest frame. 
 
@@ -493,7 +465,7 @@ Now that we have seen that time intervals are no longer universal, we need to th
 
 Normally, we measure the length of an object by seeing how many times a measuring stick fits in the object. We obviously do this in the frame of reference in which the object doesn't move. There we don't need to worry about the moment we start at the left side of the object and arrive with our measuring stick on the right side. But if we would do so in a frame of reference in which the object is moving, that wouldn't work of course. By the time we would reach the right side of the object, it would no longer be at its starting position when we began our measurement and the number of times our ruler fits in the object is now influenced by the motion of the right side of the object.
 
-To measure the length of a moving object, we thus need a different strategy. What we could do, is having a very long ruler fixed in our system. The object is moving passed it. If we have two observers, one concentrating on the left side of the object and the other on the right side, we could ask them to measure the position of the left and right side of the object along the ruler <b>at the same time</b>. Then the difference of the left and right side on the ruler will give us the length of the object.
+To measure the length of a moving object, we thus need a different strategy. What we could do, is having a very long ruler fixed in our system. The object is moving passed it. If we have two observers, one concentrating on the left side of the object and the other on the right side, we could ask them to measure the position of the left and right side of the object along the ruler **at the same time**. Then the difference of the left and right side on the ruler will give us the length of the object.
 
 Thus: the length is measured from the difference of two events in space-time of the front and the back of the rod. We will call the events $E_L: (ct_1, x_1)$ and $E_R: (ct_2, x_2)$. As we measure size, we require: $t_1 = t_2$, that is the measurements are done simultaneously in $S$. According to $S$, the length of the rod is $L = x_2 - x_1$, nothing special here. 
 
@@ -511,7 +483,7 @@ Thus $S'$ gets as length of the rod:
 
 $$ L_0=x'_2-x'_1$$
 
-with $L_0$ the <b> proper length</b> of the rod, i.e. the length according to an observer moving with the rod.
+with $L_0$ the ** proper length** of the rod, i.e. the length according to an observer moving with the rod.
 
 
 Now we invoke the Lorentz transformation for the two events $E_L$ and $E_R$ to find the relation between the coordinates used by the two observers:  
@@ -528,12 +500,12 @@ $$
 
 The length of the moving object observed by the stationary observer is not the same as the length in the rest frame.  The length observed by the stationary observer $S$ gets smaller/contracted by $\gamma>1$ compared to the length in the rest frame of $S'$: $L<L_0$.
 
-<b> Conclusion: moving rods are shorter, space shrinks</b>
+** Conclusion: moving rods are shorter, space shrinks**
 
 
 ### Paradox: twins and barns
 
-#### Barn & Ladder ####
+#### Barn & Ladder
 
 There are many variants of the following paradox. The word *paradox* already implies that there is only an apparent contradiction, not a real one. Here we will formulate the paradox with a ladder & barn and resolve it, but you can also think about it as a train & tunnel, or tank & trench etc. The resolution is always the same.
 
@@ -546,9 +518,9 @@ Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma 
 
 ```{figure} images/barnladder.png
 :name: fig:barnladder.png
-width: 450px
-align: center
----
+:width: 450px
+:align: center
+
 Ladder & Barn: perspective from two observers.
 ```
 
@@ -556,7 +528,7 @@ We have applied the Lorentz transformation or length contraction (time dilation)
 
 You can have the same paradox not with length contraction, but time dilation, then it is called the *twin paradox*. We discuss the twin paradox later in the framework of Minkowski-diagrams.
 
-<b>Solution</b>
+**Solution**
 
     The key to the resolution of the paradox is always the relativity of simultaneity. In this instance of the paradox with the barn and ladder: both observers are right but do not agree when the measurements are done.
 
@@ -575,9 +547,9 @@ The four events are sketched in the figure below
 
 ```{figure} images/BL_tot.png
 :name: fig:BL_tot.png
-width: 550px
-align: center
----
+:width: 550px
+:align: center
+
 Four events of the ladder & barn paradox
 ```
 
@@ -607,13 +579,13 @@ The paradox is, that both observers are right. Again we see demonstrated that si
 
 As you see both observers do not agree where the ladder is when the left door is closed. Where for the barn observer both doors closes at the same time, this does not happen for the ladder observer. 
 
-#### Worked Example ####
+#### Worked Example
 
-This problem became known through <a href="https://en.wikipedia.org/wiki/John_Stewart_Bell">John Bell</a>.
+This problem became known through [John Bell](https://en.wikipedia.org/wiki/John_Stewart_Bell).
 
 ??? "Why you absolutely need to know John Bell"
 
-John Bell became famous by the <a href="https://en.wikipedia.org/wiki/Bell%27s_theorem">inequalities</a> that have his name attached. Bell's theorem from 1964 started to end (post mortem) the twist between Einstein and Bohr about quantum mechanics in favor for Bohr. In 1935 Einstein, Polodsky and Rosen came up with a <a href="https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox">paradox</a>, named EPR paradox after their names, that seemed to show that quantum mechanics cannot be "complete" (.i.e *the real thing* describing reality). Bell's inequalities allowed to experimentally test who was right, and Einstein was fundamentally wrong. In 2022 the Nobel Prize in Physics was awarded to Clauser, Aspect and Zeilinger for their efforts to experimentally show that the Bell's inequalities are violated (and Bohr was right). In Delft Roland Hanson performed a *loophole-free Bell test* in 2015 which was big news. 
+John Bell became famous by the [inequalities](https://en.wikipedia.org/wiki/Bell%27s_theorem) that have his name attached. Bell's theorem from 1964 started to end (post mortem) the twist between Einstein and Bohr about quantum mechanics in favor for Bohr. In 1935 Einstein, Polodsky and Rosen came up with a [paradox](https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox), named EPR paradox after their names, that seemed to show that quantum mechanics cannot be "complete" (.i.e *the real thing* describing reality). Bell's inequalities allowed to experimentally test who was right, and Einstein was fundamentally wrong. In 2022 the Nobel Prize in Physics was awarded to Clauser, Aspect and Zeilinger for their efforts to experimentally show that the Bell's inequalities are violated (and Bohr was right). In Delft Roland Hanson performed a *loophole-free Bell test* in 2015 which was big news. 
     
 Why is this so important? It touches the heart of what is reality, is it deterministic and/or local now that quantum mechanics turned out *to be* the real thing? How we see reality now boils down to how we interpret quantum mechanics - and that is difficult to comprehend. The Copenhagen interpretation is so frustrating as the wave function collapses at measurement, however, the many-world interpretation that avoids the collapse is also not very appealing as it needs an infinite number of universes. This remains one of the important open ends in physics.
     
@@ -622,9 +594,9 @@ In this thought experiment we have two space ships $B$ and $C$ initially at rest
 
 ```{figure} images/Bell_paradox.png
 :name: fig:Bell_paradox.png
-width: 250px
-align: center
----
+:width: 50%
+:align: center
+
 Bell's paradox: accelerating space ships and a thin wire.
 ```
 
