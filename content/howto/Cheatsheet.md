@@ -284,7 +284,7 @@ Of via ...
 :::
 ::::
 
-Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {number} <tl_sancties>`
+Methode 2 heeft als voordeel de mogelijkheid tot refereren.
 
 
 ## Tabbladen

@@ -1,6 +1,5 @@
 # Exercises, examples & solutions
 
-
 ## Examples
 
 ### Newton's Cradle
@@ -12,7 +11,7 @@ Click on the image below for a video on Newton's cradle (gives you also the poss
 :name: fig:newtonCrad.jpg
 :width: 320px
 :align: center
- 
+
 
 ```
 </a>
@@ -25,7 +24,6 @@ Watch this video on bouncing superballs. We discussed this problem in [this chap
 
 
 ```{figure} images/SuperBall_animation.gif
-:name: fig:SuperBall_animation.gif
 :width: 320px
 :align: center
  

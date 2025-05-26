@@ -76,7 +76,7 @@ Note: in the figure $k, l_0$ denotes the characteristics of the springs.
 ````
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-### Answers
+## Answers
 
 ````{solution} ex_9.1
 :class: dropdown

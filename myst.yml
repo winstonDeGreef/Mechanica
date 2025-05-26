@@ -66,8 +66,8 @@ project:
           children:
             - file: content/Ch9_ex.md
         
-        # - file: content/ChX0_TwoBody.md
-    #    - file: content/ChX1_ManyBody.md
+      #   - file: content/ChX0_TwoBody.md
+      #  - file: content/ChX1_ManyBody.md
 
 
     - title: Special Relativity
@@ -95,7 +95,7 @@ project:
         - file: content/ChX7_RelDynColl.md
           children:
             - file: content/ChX7_ex.md
-
+                    
 
     - title: Project
       children:

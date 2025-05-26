@@ -2,7 +2,7 @@
 
 ## Worked Examples
 
-```{example} 
+```{example} Momentum of an accelerated electron
 Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300$ kV.
 
 From $E^2=(mc^2)^2+(pc)^2$ we have $p=\frac{1}{c}\sqrt{E^2-(mc^2)^2}$ and using $E=mc^2+E_{kin}$ we have
@@ -14,7 +14,7 @@ $$
 With $E_{kin}=300$ keV and $m_e=511$ keV. The speed can be computed from rearranging $E_{kin} = mc^2(\gamma -1)$ to $\frac{v}{c} = \sqrt{1- \frac{(mc^2)^2}{(E_{kin}+mc^2)^2}}=\sqrt{1-\frac{511^2}{811^2}}=0.77$. Please observe how practical it is to use the units eV!<br><br><br>
 ```
 
-```{example} 
+```{example} Decay of a neutral kaon
 Decay of a neutral kaon into three pions. $K^0 \to \pi^- + \pi^+ + \pi^0$. Show that the three pions trajectories are in one plane.
 
 In the rest frame of the kaon we have $\vec{p}_K=0$ before the decay. By conservation of momentum we have after the decay $\vec{p}_{\pi^-} + \vec{p}_{\pi^+} +\vec{p}_{\pi^0}=0$. A necessary and sufficient condition for three vectors $\vec{p}_1,\vec{p}_2,\vec{p}_3$ to lie in one plane is that $\vec{p}_1 \cdot (\vec{p}_2 \times \vec{p}_3)=0$ (Remember that this expression gives the volume of the parallelepiped spanned by the three vectors). From the conservation of momentum we have $\vec{p}_1 = -\vec{p}_2 -\vec{p}_3$. Now we can compute $(-\vec{p}_2 -\vec{p}_3)\cdot (\vec{p}_2 \times \vec{p}_3)=-\vec{p}_2\cdot(\vec{p}_2 \times \vec{p}_3)-\vec{p}_3\cdot(\vec{p}_2 \times \vec{p}_3)=0$. The two terms are each zero individually as the term in the bracket is perpendicular to $\vec{p}_2$ and $\vec{p}_3$ respectively. 
