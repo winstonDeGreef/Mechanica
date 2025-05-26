@@ -114,5 +114,7 @@ The cover image of ....
 
 This book is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+Some videos from NASA are included, where we adhere to [their regulations](https://www.nasa.gov/nasa-brand-center/images-and-media/).
+
 ### How to cite this book
 R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics & Special Relativity for Beginners*, <!--TU Delft Open, 2025, [LINK DOI]-->

@@ -42,25 +42,25 @@ project:
           children:
             - file: content/Ch0_ex.ipynb        
 
-        # - file: content/Ch2_NewtonsLaws.ipynb
-        #   children:
-        #     - file: content/Ch2_ex.ipynb
+        - file: content/Ch2_NewtonsLaws.ipynb
+          children:
+            - file: content/Ch2_ex.ipynb
 
-        # - file: content/Ch4_WorkEnergy.ipynb
-        #   children:
-        #     - file: content/Ch4_ex.ipynb
+        - file: content/Ch4_WorkEnergy.ipynb
+          children:
+            - file: content/Ch4_ex.ipynb
 
-        # - file: content/Ch6_AngularMomentum.ipynb
-        #   children:
-        #     - file: content/Ch6_ex.ipynb
+        - file: content/Ch6_AngularMomentum.ipynb
+          children:
+            - file: content/Ch6_ex.ipynb
 
-        # - file: content/Ch7_ConservationEquations.md
-        #   children:
-        #     - file: content/Ch7_ex.md
+        - file: content/Ch7_ConservationEquations.md
+          children:
+            - file: content/Ch7_ex.md
 
-        # - file: content/Ch8_Oscillations.md
-        #   children:
-        #     - file: content/Ch8_ex.md
+        - file: content/Ch8_Oscillations.md
+          children:
+            - file: content/Ch8_ex.md
             
         - file: content/Ch9_Collisions.md
           children:
@@ -73,12 +73,29 @@ project:
     - title: Special Relativity
       children:        
     #    - file: content/Special.md        
-        # - file: content/ChX2_CracksInMecha.md
-        # - file: content/ChX3_IntroSpecialRelativity.md
-        # - file: content/ChX4_VelotransDoppler.md
-        # - file: content/ChX5_FourVectors.md
-        # - file: content/ChX6_FourMomentum.md
-        # - file: content/ChX7_RelDynColl.md
+        - file: content/ChX2_CracksInMecha.md
+          children:
+            - file: content/ChX2_ex.md
+        
+        - file: content/ChX3_IntroSpecialRelativity.md
+          children:
+            - file: content/ChX3_ex.md
+        
+        - file: content/ChX4_VelotransDoppler.md
+          children:
+            - file: content/ChX4_ex.md
+
+        - file: content/ChX5_FourVectors.md
+          children:
+            - file: content/ChX5_ex.md
+
+        - file: content/ChX6_FourMomentum.md
+          children:
+            - file: content/ChX6_ex.md
+
+        - file: content/ChX7_RelDynColl.md
+          children:
+            - file: content/ChX7_ex.md
 
 
     - title: Project
