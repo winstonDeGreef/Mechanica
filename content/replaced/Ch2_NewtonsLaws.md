@@ -78,8 +78,7 @@ What is the velocity of the particle for $ t> \Delta t $ ?
 First we make a sketch.
 
 ```{figure} images/Example1.jpg
----
-name: fig:Example1
+:name: fig:Example1
 width: 0%4
 align: center
 ---
@@ -306,8 +305,7 @@ $\vec{F} = -\frac{m v_0}{\Delta t} \hat{x}$
 1.
 
 ```{figure} images/Exercise2.4.jpg
----
-name: fig:Example1
+:name: fig:Example1
 width: 50%
 align: center
 ---
@@ -330,8 +328,7 @@ At $t=t_1: \vec{r}(t_1) = x_B\hat{i} + 0\hat(j) \rightarrow \vec{r}(t_1) = \vec{
 1.
 
 ```{figure} images/Ex2.5.png
----
-name: fig:Ex2.5
+:name: fig:Ex2.5
 width: 50%
 align: center
 ---
@@ -357,8 +354,7 @@ $$ \vec{v} = \left ( \frac{3}{2}\sqrt{3} + \frac{5}{2} \right ) \hat{x}' + \left
 :class: dropdown
 
 ```{figure} images/Ex2.6.png
----
-name: fig:Ex2.6
+:name: fig:Ex2.6
 width: 50%
 align: center
 ---
@@ -410,8 +406,7 @@ y'(t) = -\sin ( 2\pi ft) \rightarrow \frac{dy'}{dt} = 2 \pi f \cos (2\pi ft)
 1.
 
 ```{figure} images/Ex2.7.png
----
-name: fig:Ex2.7
+:name: fig:Ex2.7
 width: 70%
 align: center
 ---
@@ -553,8 +548,7 @@ Let's do this one together. We follow the standard approach of IDEA: Interpret (
 First a sketch: draw what is needed, no more, no less. 
 
 ```{figure} images/Example2.jpg
----
-name: fig:Example2
+:name: fig:Example2
 width: 20%
 align: center
 ---
@@ -653,8 +647,7 @@ As far as we can tell (via experiments) $ m_i $ and $ m_g $ are the same. Actual
 So far we did not address how to measure force. Neither did we discuss how to measure mass. This is less trivial than it looks at first side. Obviously, force and mass are coupled via N2: $ F = m a $. 
 
 ```{figure} images/UsingABalance.jpg
----
-name: fig:UsingABalance
+:name: fig:UsingABalance
 width: 40%
 align: center
 --- 
@@ -707,8 +700,7 @@ The essence of the Eötvös experiment is finding a set up in which both gravity
 
 
 ```{figure} images/EotvosExperiment.png
----
-name: fig:EotvosExperiment
+:name: fig:EotvosExperiment
 width: 50%
 align: center
 --- 
@@ -887,8 +879,7 @@ Write a computer program (e.g. in python) that calculates the motion of your obj
 :class: dropdown
 
 ```{figure} images/BicycleRide.jpg
----
-name: fig:BicycleRide
+:name: fig:BicycleRide
 width: 40%
 align: center
 ---
@@ -911,8 +902,7 @@ To check your thoughts: click [Riding a Bike](Solutions/RidingYourBike.pdf) .
  :class: dropdown
 
 ```{figure} images/SteppingOfABoat.jpg
----
-name: fig:SteppingOfABoat
+:name: fig:SteppingOfABoat
 width: 70%
 align: center
 --- 
@@ -931,8 +921,7 @@ To check your thoughts: click [Stepping off the boat](Solutions/SteppingOffTheBo
 :class: dropdown   
 
 ```{figure} images/StampNewton.jpg
----
-name: fig:StampNewton
+:name: fig:StampNewton
 width: 40%
 align: center
 ---

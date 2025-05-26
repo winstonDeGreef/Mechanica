@@ -1,4 +1,5 @@
-# Examples
+# Exercises, examples & solutions
+## Examples
 
 ```{admonition} Example 1: Muon production in the upper atmosphere
 :class: important
@@ -153,8 +154,7 @@ E2: $(ct_2, x_2) = (\gamma 2L', \gamma 2\frac{V}{c}L') $
 4. This becomes evident in the $(ct,x)$ diagram.
 
 ```{figure} images/TrainTwoPulses_animation.gif
----
-name: fig:TrainTwoPulses_animation.gif
+:name: fig:TrainTwoPulses_animation.gif
 width: 850px
 align: center
 ---

@@ -87,11 +87,9 @@ With $E=m\gamma(u)c^2$ and $\vec{p}=m\gamma(u)\vec{u}$.
 Two elementary particles collide head on, see the figure below.
 
 ```{figure} images/relbot.png
----
-name: fig:relbot.png
+:name: fig:relbot.png
 width: 300px
-align: center
----
+:align: center
 ```
 
 Both particles have mass $m$, after the collision there is only one particle with unknown mass $M$. What is the mass $M$ and the velocity $v$ of that one particle after the collision/fusion?
@@ -162,14 +160,12 @@ NB: please observe that analysis in the CM frame is often a good idea.
 
 ### Example: Compton scattering
 
-<a href="https://en.wikipedia.org/wiki/Compton_scattering">Compton scattering</a> describes the (elastic) scattering of an incoming photon by a (bound) charged particle, typical an electron. 
+[Compton scattering](https://en.wikipedia.org/wiki/Compton_scattering) describes the (elastic) scattering of an incoming photon by a (bound) charged particle, typical an electron. 
 
 ```{figure} images/compton.png
----
-name: fig:compton.png
+:name: fig:compton.png
 width: 450px
-align: center
----
+:align: center
 ```
 
 In the rest frame of the electron, we have for the 4 different 4-momenta:

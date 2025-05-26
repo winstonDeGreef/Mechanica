@@ -1,4 +1,5 @@
-# Exercises
+# Exercises, examples & solutions
+## Exercises
 ````{admonition} Example 21cm hydrogen line
 :class: important
 

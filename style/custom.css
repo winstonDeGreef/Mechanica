@@ -40,6 +40,10 @@ aside.admonition-experiment > div:first-child > div:first-child {
   margin-right: 0.5em;
 }
 
+aside.admonition-experiment img {
+display: block;
+}
+
 
 
 /* ADMONITION INTERMEZZO */
@@ -80,6 +84,9 @@ aside.admonition-intermezzo > div:first-child > div:first-child {
   margin-right: 0.5em;
 }
 
+aside.admonition-intermezzo img {
+display: block;
+}
 
 
 /* ADMONITION EXAMPLE */
@@ -121,3 +128,6 @@ aside.admonition-example > div:first-child > div:first-child {
   margin-right: 0.5em;
 }
 
+aside.admonition-example img {
+display: block;
+}

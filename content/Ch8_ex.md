@@ -1,4 +1,5 @@
-# Exercises
+# Exercises, examples & solutions
+## Exercises
 
 
 Here are some exercises that deals with oscillations. Make sure you practice IDEA.

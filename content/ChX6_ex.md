@@ -1,4 +1,5 @@
-# Exercises
+# Exercises, examples & solutions
+
 ```{exercise-start}
 :label: 16.1
 ```

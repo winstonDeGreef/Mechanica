@@ -572,8 +572,7 @@ We have seen that we could reduce the two-body problem of sun-earth to a single 
 We can, however, find some basic features of $N$-body problems. In the figure, a collection of $N$ interacting particles is drawn.
 
 ```{figure} images/ManyParticles.jpg
----
-name: fig:ManyParticles.jpg
+:name: fig:ManyParticles.jpg
 width: 150px
 align: center
 ---
@@ -678,8 +677,7 @@ Thee masses are forming an equilateral triangle with sides of 2m. Mass 1 (10kg) 
 Four particles are moving over the line $y=y_0$. The particles have mass $m_1 = 4m, m_2 = 3m, m_3 = 2m, m_4 = m$ and velocity $v_1 = v, v_2 = 2v, v_3 = 3v, v_4 = 4v$. These velocities are constant and parallel to the $x$-axis. At $t=0$ all particles are at location $(x,y) = (0,y_0)$.
 
 ```{figure} images/FourParticles.png
----
-name: fig:FourParticles.png
+:name: fig:FourParticles.png
 width: 250px
 align: center
 ---
@@ -701,8 +699,7 @@ Four particles moving on a line.
 Eight point particles (each mass $m$) are attached to a massless wheel of radius $R$.
 
 ```{figure} images/Wheel8Masses.png
----
-name: fig:Wheel8Masses.png
+:name: fig:Wheel8Masses.png
 width: 250px
 align: center
 ---
@@ -763,8 +760,7 @@ Note: $\hat{x}$ and $\hat{y}$ do not carry units!
 ```
 
 ```{figure} images/FourParticlesVectors.png
----
-name: fig:FourParticlesVectors.png
+:name: fig:FourParticlesVectors.png
 width: 350px
 align: center
 ---
@@ -847,8 +843,7 @@ The entire container drops with acceleration $-g$.
 
 ```{figure} images/Dustparticles_animation.gif
 
----
-name: fig:Dustparticles_animation.gif
+:name: fig:Dustparticles_animation.gif
 width: 350px
 align: center
 ---
