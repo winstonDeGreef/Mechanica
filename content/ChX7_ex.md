@@ -24,7 +24,7 @@ If the trajectories in the rest frame of the kaon are in one plane, then they ar
 ```
 
 
-# Exercises
+## Exercises
 ```{exercise}
 :label: 17.1
 

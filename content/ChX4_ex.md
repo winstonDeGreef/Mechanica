@@ -1,5 +1,5 @@
 # Exercises, examples & solutions
-## Exercises
+## Examples
 ```{examples} Example 21cm hydrogen line
 
 21 cm line of hydrogen in < href="https://en.wikipedia.org/wiki/Hydrogen_line">radio astronomy</a>. <br>
