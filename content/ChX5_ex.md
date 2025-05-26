@@ -1,8 +1,8 @@
 # Exercises, examples & solutions
 ## Exercises
-```{exercise-start}
+```{exercise}
 :label: 15.1
-```
+
 Consider the following pairs of events and determine whether they are time like, space like or light like connected.
 
 a. E1: $(ct_1, x_1) = (1,0)$ and E2: $(ct_2, x_2) = (0,1)$<br>
@@ -13,12 +13,11 @@ $S'$ travels at $V/c = 12/13$ in the positive $x$-direction with respect to $S$.
 
 d. Answer the same questions, but now from the perspective of $S'$.
 
-```{exercise-end}
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 15.2
-```
+
 In the frame of $S$ a laser is placed at $(x_1,y_1,z_1) = (4,0,0)$. A receiver is located at $(x_2,y_2,z_2) = (0,3,0)$. At $ct=0$ the laser fires a light puls towards the receiver.
 
 Find the events "pulse send" and "pulse received" and determine the distance between the two events.
@@ -26,12 +25,12 @@ Find the events "pulse send" and "pulse received" and determine the distance bet
 Secondly, an observer $S'$ moves with $V/c = 4/5$ with respect to $S$. The velocity points in the positive $x$-direction. Both observers have their $x$ resp. $x'$ axis aligned and their clocks synchronized: $ct' = ct = 0$ when $x' = x = 0$.
 
 Find the events for $S'$ and show that the same distance is found between the two events.
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 15.3
-```
+
 Observer $S'$ moves at a constant velocity of $V/c = 12/13$ with respect to $S$. They have aligned their axes and synchronized their clocks in the usually way.
 
 Consider the two events $E1: (ct_1,x_1) = (3,3)$ and $E2: (ct_2,x_2)= (4,5)$
@@ -39,12 +38,12 @@ Consider the two events $E1: (ct_1,x_1) = (3,3)$ and $E2: (ct_2,x_2)= (4,5)$
 a.  Compute the distance between the two events, $\Delta s^2$, according to S.<br>
 b.  Compute the event coordinates according to $S'$.<br>
 c.  Compute $\Delta s'^2$ and convince yourself that this is of course equal to $\Delta s^2$.
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 15.4
-```
+
 Observer $S'$ moves at a constant velocity of $V/c = 3/5$ with respect to $S$. They have aligned their axes and synchronized their clocks in the usually way. In the world of $S'$ the following events happen:
 
 E0: $(ct'_0, x'_0)=(0,0)$ preparation is made to send a signal;<br>
@@ -56,13 +55,13 @@ E5: $(ct'_5, x'_5)=(5,0)$ the signal is processed.
 
 Find the corresponding $(ct,x)$ coordinates according to $S$.
 Draw the events in two diagrams. The first one has both $ct$ and $ct'$ as the vertical axis and $x$ and $x'$ as the horizontal axis. The second on is a Minkowski diagram from the perspective of $S$.
-```{exercise-end}
+
 ```
 
 
-```{exercise-start}
+```{exercise}
 :label: 15.5
-```
+
 A Space Ship, with $S'$ on board, is moving at $V/c = 3/5$ with respect to Mission Control (where $S$ is located) on earth. Both $S$ and $S'$ have aligned their axes and synchronized their clocks in the usual way. 
 
 Mission control receives at $t=1.7 ls$ images from the impact of a meteorite on the moon. The distance from Mission Control to the moon is 1.2ls (according to $S$). This event E1. Event E2 is the impact itself (that is where and when of the impact), Event 3 is the receiving of images of the impact by $S'$. Of course, images travel in space at the speed of light.
@@ -73,16 +72,15 @@ c.  Make a $(ct,x)$ diagram in which you plot all the above events. Draw the the
 d.  Do the same but now for $S'$.
 e.  Make a Minkowski diagram (from the perspective of $S$) and draw the grid-lines of $S'$ for the events E1 and E2.
 
-```{exercise-end}
 ```
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-### Answers ###
+### Answers
 
-```{solution-start} 15.1
+```{solution} 15.1
 :class: dropdown
-```
+
 
 a. E1: $(ct_1, x_1) = (1,0)$ and E2: $(ct_2, x_2) = (0,1)$<br>
 $$\rightarrow \Delta s_{12}^2 = (1-0)^2 - (0-1)^2 = 0 \text{ light like}$$
@@ -111,13 +109,12 @@ $$\rightarrow \Delta s^{'2}_{56} = (-11/5+9/5)^2 - (14/5-16/5)^2 = 0 \text{ ligh
 
 Of course, for all cases we find $\Delta s'^2 = \Delta s^2 $: distance defined according to our Minkowski inproduct is a Lorentz invariant, i.e. the same for all inertial observers.
 
-```{solution-end}
 ```
 
 
-```{solution-start} 15.2
+```{solution} 15.2
 :class: dropdown
-```
+
 For $S$:
 $$ E1: (ct_1, x_1, y_1, z_1) = (0,4,0,0)$$
 $$ E2: (ct_2, x_2, y_2, z_2) = (5,0,3,0)$$
@@ -140,12 +137,12 @@ $$\begin{split}
 &= \frac{41^2}{9} - \frac{40^2}{9} - \frac{81}{9} =0 
 \end{split}$$
 
-```{solution-end}
+
 ```
 
-```{solution-start} 15.3
+```{solution} 15.3
 :class: dropdown
-```
+
 We start with writing down the LT. As $V/c = 12/13$ we have $\gamma = 13/5$.
 Thus, for this case LT reads as:
 
@@ -177,12 +174,12 @@ c.  $$\begin{split}
 &=(-\frac{8}{5}-\frac{3}{5})^2-(\frac{17}{5}-\frac{3}{5})^2 \\
 &= \frac{121}{25} -\frac{196}{25} = -3
 \end{split}$$
-```{solution-end}
+
 ```
 
-```{solution-start} 15.4
+````{solution} 15.4
 :class: dropdown
-```
+
 Lorentz Transformation 
 $$\begin{split} ct &= \gamma \left ( ct' + \frac{V}{c} x'\right ) \\
 x &= \gamma \left ( x' + \frac{V}{c} ct'\right )\\
@@ -202,30 +199,30 @@ This gives the two required plots.
 
 ```{figure} images/MinkowskiEvents.png
 :name: fig:MinkowskiEvents.png
-width: 650px
-align: center
----
+:width: 650px
+:align: center
+
 left: $S$ and $S'$ in the same diagram; right: Minkowski diagram.
 ``` 
 
-```{solution-end}
-```
+
+````
 
 
-```{solution-start} 15.5
+````{solution} 15.5
 :class: dropdown
-```
+
 
 ```{figure} images/CometMoon.png
 :name: fig:CometMoon.png
-width: 650px
-align: center
----
+:width: 650px
+:align: center
+
 top left: $S$ , top right: $S'$, bottom: Minkowski diagram.<br>
 red: square - comet hits moon, diamond - photon registered by Space Ship, circle - photon detected by earth<br>
 blue: corresponding position of $S'$ according to $S$ and its Lorentz transform for $S'$<br>
 Minkowski diagram: pink lines show the intersection with the $ct'$ and $x'$ axes, i.e. the coordinates according to $S'$ 
 ``` 
 
-```{solution-end}
-```
+
+````

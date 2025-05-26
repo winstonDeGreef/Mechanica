@@ -1,40 +1,36 @@
 # Exercises, examples & solutions
 ## Examples
 
-```{admonition} Example 1: Muon production in the upper atmosphere
-:class: important
+```{example} Muon production in the upper atmosphere
 
-<a href="https://en.wikipedia.org/wiki/Muon">Muons</a> are elementary particles of the lepton family, the heavier brother of the electron. Muons decay via $\mu^- \to e^- + \bar{\nu}_e + \nu_\mu$ (or $\mu^+ \to e^+ + \nu_e + \bar{\nu}_\mu$. NB: You need the neutrinos to conserve lepton number) with a mean lifetime of $\tau=2.2\ \mu$s. Muons are generated in the upper atmosphere (20 km) when a high energetic cosmic ray hits a nuclei as decay products. The speed of the muons is about $v=0.99 c$. If you compute velocity times lifetime $\tau v < 1$ km, then we conclude that nearly no muons should be detectable on the ground (assuming no other process interferes in the muons path). But we do? How is this possible? 
+[Muons](https://en.wikipedia.org/wiki/Muon) are elementary particles of the lepton family, the heavier brother of the electron. Muons decay via $\mu^- \to e^- + \bar{\nu}_e + \nu_\mu$ (or $\mu^+ \to e^+ + \nu_e + \bar{\nu}_\mu$. NB: You need the neutrinos to conserve lepton number) with a mean lifetime of $\tau=2.2\ \mu$s. Muons are generated in the upper atmosphere (20 km) when a high energetic cosmic ray hits a nuclei as decay products. The speed of the muons is about $v=0.99 c$. If you compute velocity times lifetime $\tau v < 1$ km, then we conclude that nearly no muons should be detectable on the ground (assuming no other process interferes in the muons path). But we do? How is this possible? 
  
 ```
 
-````{admonition} Solution
+```{admonition} Solution
 :class: tip, dropdown
 
 You can solve this by considering the time dilation for an earth observer, as the lifetime is with respect to the rest frame! The lifetime for an earth observer is therefor stretched to $\gamma \tau\sim 16\ \mu$s. Therefore muons only need to travel about 4 lifetimes, and a decent fraction ($1/16$) can still be measured on the earth surface. 
 You can also reason via length contraction of the path the muons travel 20 km$/\gamma$.
 
-````
+```
 
-```{admonition} Example 2: Special relativistic correction to GPS timing
-:class: important
-    
-<a href="https://en.wikipedia.org/wiki/Global_Positioning_System">GPS</a> uses satellites orbiting the earth at a lower altitude to determine the position. If you receive the signals from 4 or more satellites, you can compute your position by triangulation, e.g. measurement of time difference of the received signals. To this end you need a very precise timing of the signals. The satellites velocity is "slow" with $v=4 \cdot 10^3$ m/s, and thus $\gamma \sim 10^{-5}\ll 1$. But the error in time measurement accumulates and due to time dilation even this small $\gamma$-factor will increase within 1 hour to a time error of $10^{-7}$ s or a position error of about 100 m. This would not be useful for navigation in a city and would required a recalibration of the system every few minutes. Later we see that a **general relativistic effect** is even more prominent!
+```{example} Special relativistic correction to GPS timing
+[GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) uses satellites orbiting the earth at a lower altitude to determine the position. If you receive the signals from 4 or more satellites, you can compute your position by triangulation, e.g. measurement of time difference of the received signals. To this end you need a very precise timing of the signals. The satellites velocity is "slow" with $v=4 \cdot 10^3$ m/s, and thus $\gamma \sim 10^{-5}\ll 1$. But the error in time measurement accumulates and due to time dilation even this small $\gamma$-factor will increase within 1 hour to a time error of $10^{-7}$ s or a position error of about 100 m. This would not be useful for navigation in a city and would required a recalibration of the system every few minutes. Later we see that a **general relativistic effect** is even more prominent!
 
-````
+```
 
-```{admonition} Example 3: Relativistic correction to wavelength of electrons in a TEM
-:class: important
+```{example} Relativistic correction to wavelength of electrons in a TEM
 
-In a standard Transmission Electron Microscope the electrons are accelerated via electric potential differences of up to 300 kV. Assuming that particles have a wavelength via the idea of de Broglie $E=mc^2=pc=h\frac{c}{\lambda} \Rightarrow \lambda = \frac{h}{p}$ we can use electrons as waves to image and magnify as with a normal light microscope. The smallest detail you can image with waves imaging in the far-field is given by the diffraction or <a href="https://en.wikipedia.org/wiki/Diffraction-limited_system">Abbe resolution limit</a> to $d\sim \frac{\lambda}{2}$. For microscopy with visible light ($\lambda\sim$ 500 nm) this limit is a hard restriction. For electrons of low speeds we can use $\lambda = \frac{h}{mv}$, but for 300 kV acceleration the speed would be already larger than $c$! Later in the course you learn how to compute the **[**relativistic momentum**, filling in the numbers and the rest mass of the electron of 511 keV we obtain $\lambda \sim 2$ pm. About 10% *smaller* than from classical considerations. The diffraction limit to resolution is not an issue practically for the electrons as the distances between atoms in a solid are typically $>10$ pm.
+In a standard Transmission Electron Microscope the electrons are accelerated via electric potential differences of up to 300 kV. Assuming that particles have a wavelength via the idea of de Broglie $E=mc^2=pc=h\frac{c}{\lambda} \Rightarrow \lambda = \frac{h}{p}$ we can use electrons as waves to image and magnify as with a normal light microscope. The smallest detail you can image with waves imaging in the far-field is given by the diffraction or [Abbe resolution limit](https://en.wikipedia.org/wiki/Diffraction-limited_system) to $d\sim \frac{\lambda}{2}$. For microscopy with visible light ($\lambda\sim$ 500 nm) this limit is a hard restriction. For electrons of low speeds we can use $\lambda = \frac{h}{mv}$, but for 300 kV acceleration the speed would be already larger than $c$! Later in the course you learn how to compute the **relativistic momentum**, filling in the numbers and the rest mass of the electron of 511 keV we obtain $\lambda \sim 2$ pm. About 10% *smaller* than from classical considerations. The diffraction limit to resolution is not an issue practically for the electrons as the distances between atoms in a solid are typically $>10$ pm.
 
-````
+```
 
 ## Exercises 
 
-```{exercise-start}
+```{exercise}
 :label: 13.1
-```
+
 During their quest to find planets at other stars than our sun, ESA researcher discover a planet that shows striking similarities with earth. This planet orbits a star 40 lightyears from us. They start planning an expedition with astronauts. ESA requires that the astronauts upon arrival at the planet have aged no more than 30 years.
 
 In this exercise, we ignore possible effects of acceleration. A lightyear is the distance traveled by a photon in one year.
@@ -43,12 +39,12 @@ In this exercise, we ignore possible effects of acceleration. A lightyear is the
 2. What is according to the astronauts the distance the have to travel? Does that agree with the journey time of 30 years?
 3. To inform Mission Control on earth the astronauts send yearly (according to their clock) a report to earth. Of course, the report is coded in the form of a light pulse. What is the period between receiving two consecutive reports according to Mission Control?
 
-```{exercise-end}
 ```
 
-```{exercise-start}
+
+```{exercise}
 :label: 13.2
-```
+
 An observer $S'$ is traveling in a fast train. According to $S'$, the train has a length $2L'$. The train is speeding with $V$ over a track that is along the $x$-axis. At $t'=0$ $S'$ passes the origin of the frame of reference of $S$, who is stationary with respect to the track. At the moment of passing, $S$ sets her clock to $t=0$.
 
 $S'$ is in the middle of the train. He send at $t'=0$ two light pulses out. One in the direction of the front of the train, where this pulse reflects on a mirror and is traveling back to $S'$. The other pulse is send to the back of the train and reflects there back to $S'$. $S'$ claims that both pulses are received back at the same time.
@@ -58,12 +54,12 @@ $S'$ is in the middle of the train. He send at $t'=0$ two light pulses out. One 
 3. Does $S$ also see the two pulses reach $'$ at the same time?
 4. Draw a $(ct,x)$ diagram in which the the trajectories of $S'$, front and back mirror as well as the two pulses are shown. Note: the $ct$-axis is the vertical axis in such a graph. Can you graphically understand whether or not the two pulses arrive at $S'$ at the same time according to $S$. 
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 13.3
-```
+
 Observer $S'$ is traveling with velocity V with respect to observer $S$. Both observers have aligned their $x$, $x'$ axis and set their clocks to zero when their origins coincide.
 
 According to $S'$, an object is approaching $S'$ at a velocity -V. At $ct'=0$, the object is a distance $L'$ from $S'$. At some moment in time it will collide with $S'$.
@@ -71,12 +67,12 @@ According to $S'$, an object is approaching $S'$ at a velocity -V. At $ct'=0$, t
 1.  The initial time and position of the object at $ct'=0$ is marked as Event 1 by $S'$. Provide the coordinates of E1 according to $S'$ and according to $S$.
 2.  Determine the event "object collides with $S'$" (event E2) according to $S'$ and according to $S$.
 3.  Can you understand the values of $x_1$ and $x_2$?
-```{exercise-end
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 13.4
-```
+
 Observer $S'$ is traveling with velocity V/c=4/5 with respect to observer $S$. Both observers have aligned their $x$, $x'$ axis and set their clocks to zero when their origins coincide.
 
 According to $S$, an object is moving at a velocity -V/c = -4/5. At $ct=0$, the object is in the origin of $S$. At some moment in time, $ct$, it is located somewhere on the negative $x$-axis.
@@ -85,14 +81,14 @@ Do the exercise twice: first for observers in the world of Einstein and Lorentz,
 
 1.  Define two events: one (E1) where the object is at $ct=0$ and the other (E2) where it is at $ct$. Transform both objects to $S'$.
 2. For an object moving at constant velocity, the velocity can be found from two locations at two separate moments in time. Find the velocity of the object according to $S'$ and show that its magnitude is smaller than the speed of light in the world of Lorentz and Einstein. To people living in the world of Newton and Galilei, this is a surprising result. They would have found a velocity magnitude larger than c.
-```{exercise-end
+
 ```
 
-## Answers ##
+## Answers
 
-```{solution-start} 13.1
+```{solution} 13.1
 :class: dropdown
-```
+
 1. Denote Mission control by $S$ and the space ship by $S'$. According to S, the distance to the planet is $L=40 ly$. Thus the traveling time will be $\delta t_e = \frac{L}{V}$, with $V$ the velocity of the space ship according to $S$.
 $S'$ time dilation $\rightarrow \delta t_e = \gamma \delta t_0$<br>
 Requirement: $\delta t_0 = 30 ly \rightarrow \frac{L}{V} = \frac{1}{\sqrt{1 - \frac{V^2}{c^2}}} \delta t_0 \Rightarrow \frac{V}{c} = \frac{4}{5} $
@@ -129,12 +125,12 @@ The astronauts send 30 reports while on their way to the planet as their journey
 
 This is a great example, that you need to be careful with quick answers based on time dilation. That would give $\gamma \cdot 1 year = \frac{5}{3} year$ in between two pulses. But than we have forgotten that these pulses are not send from the same location.
 
-```{solution-end}
+
 ```
 
-```{solution-start} 13.2
+````{solution} 13.2
 :class: dropdown
-```
+
 1. Events:
 
 E0 - pulses send: $(ct'_0, x'_0) = (0,0) $<br>
@@ -161,12 +157,11 @@ align: center
 (x,ct) diagrams for S' and S)
 ```
 
-```{solution-end}
-```
+````
 
-```{solution-start} 13.3
+```{solution} 13.3
 :class: dropdown
-```
+
 1. E1: 
 
 $$ (ct'_1, x'_1 ) = ( 0, L') \Rightarrow \left \{
@@ -195,14 +190,12 @@ x_2 &= \gamma \left ( cx'_2 + \frac{V}{c} ct'_2 \right ) = \gamma L'
 
 Note: we will come back to the transformation of velocities. That is more subtle than it know may look.
 
-```{solution-end}
 ```
 
-``
 
-```{solution-start} 13.4
+```{solution} 13.4
 :class: dropdown
-```
+
 Special Relativity with LT
 1. E1: $(ct_1, x_1) = (0,0)$ en $(ct_2, x_2) = (ct, -\frac{V}{c}ct)$
 
@@ -250,5 +243,4 @@ Thus the magnitude of the velocity according to $S'$ is higher than c.
 
 We will come back to this peculiar result in the world of Einstein and Lorentz.
 
-```{solution-end}
 ```

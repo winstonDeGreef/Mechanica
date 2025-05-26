@@ -1,8 +1,9 @@
 # Exercises, examples & solutions
 
-```{exercise-start}
+## Exercises
+```{exercise}
 :label: 16.1
-```
+
 Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
 
 $$\begin{split}
@@ -16,12 +17,12 @@ $S'$ observes a particle of mass $m$ traveling in the positive $x'$-direction wi
 
 Find, using the 4-velocity, the velocity of m according to $S$.
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 16.2
-```
+
 Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
 
 $$\begin{split}
@@ -35,36 +36,36 @@ $S'$ observes a particle of mass $m$ traveling in the positive $y'$-direction wi
 
 Find, using the 4-velocity, the velocity of m according to $S$.
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 16.3
-```
+
 According to $S'$ a photon is emitted at $t'=0$ from position $L_0 = 1 ls$. It has a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
 Determine the time of detection of the photon by $S'$ and by $S$.
 Find the frequency that $S$ measures. 
 
-```{exercise-end}
+
 ```
 
 
-```{exercise-start}
+```{exercise}
 :label: 16.4
-```
+
 In this exercise, the photon is emitted to $S'$ a photon over the $y'$-axis. It has again a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
 
 Find the frequency that $S$ measures and the angle the traveling photon makes with the $x$-axis. 
 
-```{exercise-end}
+
 ```
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ## Answers
 
-```{solution-start} 16.1
+```{solution} 16.1
 :class: dropdown
-```
+
 According to $S'$
 
 $$\begin{split}
@@ -86,13 +87,13 @@ u_x &= \frac{1012}{1013} c \lt 1\\
 u_y &= u_z =0
 \end{split}$$
 
-```{solution-end}
+
 ```
 
 
-```{solution-start} 16.2
+```{solution} 16.2
 :class: dropdown
-```
+
 According to $S'$
 
 $$\begin{split}
@@ -121,12 +122,12 @@ The magnitude of the volocity accoring to $S4 is
 
 $$ u =\sqrt{u^2_x + u^2_y} = \sqrt{\frac{243664}{284089}} c \approx 0.93 c \lt 1$$
 
-```{solution-end}
+
 ```
 
-```{solution-start} 16.3
+```{solution} 16.3
 :class: dropdown
-```
+
 According to $S'$ the photon is send at $E_1: (ct'_1, x'_1 ) = (0, 1) ls$. Thus, it is received at $E_2: (ct'_2, x'_2 ) = (1,0)$. Hence, for $S$ event $E_1$ has coordinates:
 
 $$\begin{split}
@@ -141,12 +142,11 @@ For $S'$ the 4-Momentum of the photon is: $\left ( \frac{hf_0}{c}, -\frac{hf_0}{
 $$ \frac{hf}{c} = \frac{5}{4} \left ( \frac{hf_0}{c} + \frac{3}{5} \cdot -\frac{hf_0}{c} \right ) = \frac{1}{2}\frac{hf_0}{c} \Rightarrow f =\frac{1}{2}f_0$$
 
 
-```{solution-end}
+
 ```
 
-```{solution-start} 16.4
+```{solution} 16.4
 :class: dropdown
-```
 
 In this case for $S'$ the 4-momentum of the photon is:
 
@@ -172,5 +172,5 @@ Indeed, the two spatial components are in agreement with the time-like one.
 
 Finally, we have that according to $S$, the photon travels at an angle $\tan \alpha = \pm \frac{4}{3} \rightarrow \alpha = \pm 53.13^\circ $ with the $x$-axis.
 
-```{solution-end}
+
 ```

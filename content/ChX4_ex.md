@@ -1,7 +1,6 @@
 # Exercises, examples & solutions
 ## Exercises
-````{admonition} Example 21cm hydrogen line
-:class: important
+```{examples} Example 21cm hydrogen line
 
 21 cm line of hydrogen in < href="https://en.wikipedia.org/wiki/Hydrogen_line">radio astronomy</a>. <br>
 The proton and electron in the hydrogen atom both have a magnetic dipole moment related to their spin. The total quantum mechanical wave function can have 2 states for the spins, parallel or anti parallel, where anti parallel is energetically favorable. The transition between these two states is forbidden to first order (you will learn more about this in the three courses on *Quantum mechanics* in the second and third year). By <a href="https://en.wikipedia.org/wiki/Fermi%27s_golden_rule">Fermi's golden rule of quantum mechanics</a> that means the probability that it happens per second is very small, here $10^{-15}s^{-1}$ or that the lifetime of the excited state is very long $\sim 10^7$ years. As space is vast and there is much hydrogen, however, this still happens a lot such that we can observe it.<br>
@@ -12,9 +11,8 @@ Due to the very long life time, the emission line is very sharp, i.e. it has a s
 
 ## Exercises
 
-```{exercise-start}
+```{exercise}
 :label: 14.1
-```
 
 Observers $S'$ is moving at $V/c = 3/5$ with respect to $S$. Both observers have their $x$ and $x'$ axis aligned. If they are at the same position ($x=x'=0$), they set their clocks to zero.
 
@@ -22,22 +20,21 @@ $S'$ observes an object traveling at $4/5$ of the speed of light in the negative
 
 Calculate the velocity according to $S$.
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 14.2
-```
+
 Same situation as in ex.(14.1), but now $S'$ observes that the object is moving in the $y'$-direction with velocity $\frac{4}{5} c$.
 
 Show that the magnitude of the velocity of the object according to $S$ is smaller than $c$.
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 14.3
-```
 
 In order to send information via electro-magnetic waves, people use amplitude modulation (AM) and frequency modulation (FM). AM means that the amplitude of the wave that is send out varies: the variations can be detected by the receiver and 'decoded' to the message. FM, on the other hand, means that the frequency of the wave is changing. This can also be detected and decoded to the message.
 
@@ -47,12 +44,12 @@ Captain Kirk on board of the starship USS Enterprise is traveling at a speed of 
 2. Enterprise moves radially away from earth;
 3. Enterprise moves tangentially to earth.
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 14.4
-```
+
 In the year 2525 a young Applied Physics student (who doesn't take his study to seriously) is caught ignoring a red traffic light and gets a fine. Trying to be a smarty, he refuses to pay and calls for a hearing in court. 
 
 The judge asks the student why he doesn't want to pay: ignoring a red traffic light is dangerous and a fine is in place.
@@ -69,25 +66,25 @@ She returns to the court room and the session is continued by her ruling. The st
 What is the amount of the fine?
 
 
-```{exercise-end}
 ```
 
-## Answers ##
+## Answers
 
-```{solution-start} 14.1
+```{solution} 14.1
 :class: dropdown
-```
+
 According to $S'$ the object has velocity $u'_{x'}/c = -4/5$. Observer $S$ uses the velocity transformation for the $x$-component of velocities:
 
 $$
 \frac{u_x}{c} = \frac{\frac{u'_{x'}}{c} + \frac{V}{c}}{1+ \frac{V}{c} \frac{u'_{x'}}{c}} = \frac{\frac{-4}{5} + \frac{3}{5}}{1 - \frac{3}{5}\cdot\frac{4}{5}} = -\frac{5}{13}
 $$
-```{solution-end}
+
 ```
 
-```{solution-start} 14.2
+
+```{solution} 14.2
 :class: dropdown
-```
+
 According to $S'$ the object has velocity $u'_{x'}=0$ and $u'_{y'}/c = 4/5$. Observer $S$ uses the velocity transformation for the $x$ and $y$-component of velocities:
 
 $$
@@ -103,12 +100,12 @@ Thus the magnitude of $\vec{u}$ is:
 $$ \frac{u}{c} = \sqrt{\frac{u_x^2}{c^2} + \frac{u_y^2}{c^2}} = \sqrt{\frac{481}{625}} \approx \frac{22}{25} \lt 1
 $$
 
-```{solution-end}
+
 ```
 
-```{solution-start} 14.3
+```{solution} 14.3
 :class: dropdown
-```
+
 Doppler shift
 
 $$
@@ -120,12 +117,12 @@ In this case: $ u/c = 40/41 \rightarrow \gamma = \frac{41}{9} $
 2. $u_r/c=40/41 \rightarrow \frac{f_0}{f} = \frac{81}{41}\frac{41}{9} \rightarrow f=\frac{1}{9}f_0 = 1.11GHz$ 
 3. $u_r/c=0 \rightarrow \frac{f_0}{f} = \frac{41}{9} \rightarrow f=\frac{9}{41}f_0 = 2.20GHz$
 
-```{solution-end}
+
 ```
 
-```{solution-start} 14.4
+```{solution} 14.4
 :class: dropdown
-```
+
 Obviously, the student tries to claim that due to his high speed, the red color of the traffic light was green to him. As he is approaching the light source, with a velocity $V/c$, he may also take the point of view of an observer in a frame in which he is not moving, but the traffic light is approaching with $V/c$,
 
 The wave length of red light is 630nm and of green light 530nm. Or in terms of the corresponding frequencies: $f_r = \frac{c}{\lambda_r} = 4.76 \cdot 10^{14}$Hz and $f_g = 5.66 \cdot 10^{14}$Hz. In the rest frame of the traffic light, the frequency is thus: $f_0 = f_r$, whereas in the frame of the student it is $f=f_g$.
@@ -139,5 +136,5 @@ $$\begin{split}
 
 Thus the biker claims to have a speed of 20\% of the speed of light, that is 2.16 10$^8$ km/h and accordingly gets a fine of 1.08 billion Euro.
 
-```{solution-end}
+
 ```

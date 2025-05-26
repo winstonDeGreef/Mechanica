@@ -2,7 +2,7 @@
 
 ## Worked Examples
 
-<b>Example 1</b><br>
+```{example} 
 Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300$ kV.
 
 From $E^2=(mc^2)^2+(pc)^2$ we have $p=\frac{1}{c}\sqrt{E^2-(mc^2)^2}$ and using $E=mc^2+E_{kin}$ we have
@@ -12,81 +12,81 @@ $$
 	$$
 	
 With $E_{kin}=300$ keV and $m_e=511$ keV. The speed can be computed from rearranging $E_{kin} = mc^2(\gamma -1)$ to $\frac{v}{c} = \sqrt{1- \frac{(mc^2)^2}{(E_{kin}+mc^2)^2}}=\sqrt{1-\frac{511^2}{811^2}}=0.77$. Please observe how practical it is to use the units eV!<br><br><br>
+```
 
-
-<b>Example 2</b><br>
+```{example} 
 Decay of a neutral kaon into three pions. $K^0 \to \pi^- + \pi^+ + \pi^0$. Show that the three pions trajectories are in one plane.
 
 In the rest frame of the kaon we have $\vec{p}_K=0$ before the decay. By conservation of momentum we have after the decay $\vec{p}_{\pi^-} + \vec{p}_{\pi^+} +\vec{p}_{\pi^0}=0$. A necessary and sufficient condition for three vectors $\vec{p}_1,\vec{p}_2,\vec{p}_3$ to lie in one plane is that $\vec{p}_1 \cdot (\vec{p}_2 \times \vec{p}_3)=0$ (Remember that this expression gives the volume of the parallelepiped spanned by the three vectors). From the conservation of momentum we have $\vec{p}_1 = -\vec{p}_2 -\vec{p}_3$. Now we can compute $(-\vec{p}_2 -\vec{p}_3)\cdot (\vec{p}_2 \times \vec{p}_3)=-\vec{p}_2\cdot(\vec{p}_2 \times \vec{p}_3)-\vec{p}_3\cdot(\vec{p}_2 \times \vec{p}_3)=0$. The two terms are each zero individually as the term in the bracket is perpendicular to $\vec{p}_2$ and $\vec{p}_3$ respectively. 
 	
 If the trajectories in the rest frame of the kaon are in one plane, then they are also in one plane in all other frames. A coordinate transformation only shifts or rotates, which transfers a plane into a plane, but does not e.g. shear or bend a plane.
 
-
+```
 
 
 # Exercises
-```{exercise-start}
+```{exercise}
 :label: 17.1
-```
+
 A particle of mass $M$ disintegrates into two fragments. In the rest frame of $M$, fragment $m_1$ has a mass of $\frac{1}{4}M$ and a velocity $u_1 /c = 3/5$.
 
 Find the mass and velocity of the other fragment.
 
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 17.2
-```
+
 A particle of mass $m$ is initially at rest (in frame $S$). A photon of frequency $f$ is traveling over the $x$-axis and will be absorbed by the particle. Another photon is emitted. This photon is also traveling over the $x$- axis but in the opposite direction as incoming photon.
 
 The incoming photon energy equals $mc^2$, the emitted photon $\frac{1}{4}mc^2$. Find the velocity and mass of the particle after the process of absorbing and emitting the photons.
 
-```{exercise-end}
+
 ```
 
 
-```{exercise-start}
+```{exercise}
 :label: 17.3
-```
+
 An elementary particle of mass $M$ moves in the frame of observer $S$ with a velocity $v/c = 12/13$. The particle is unstable and decays into a particle of mass $m$ and a photon. The particle $m$ has velocity $u/c = 4/5$. Both $M$ and $m$ move along the $x$-axis in the positive direction.
 
 a) Find the mass $m$ in terms of $M$.<br>
 b) What is the frequency of the photon?
 
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 17.4
-```
+
 A particle of mass $m$ moves with velocity $v_1 /c = 1/2$ in the positive direction over the $x$-axis. At the same time, an identical particle is moving with the same velocity in the positive $y$-direction over the $y$-axis. At some point in time the two particles collide and as a result a new particle of mass $M$ is formed.
 
 Find the mass and velocity-vector of the new particle.
 
 
-```{exercise-end}
+
 ```
 
-```{exercise-start}
+```{exercise}
 :label: 17.5
-```
+
 A particle of mass $\frac{3}{5}m$ is moving at velocity $v_1/c = 4/5$ over the $x-axis$. From the other side a particle with mass $\frac{4}{5}m$ is approaching with velocity $v_2/c = 3/5$. The two particles will collide. After the collision, they maintained each their original mass. The collision is perfectly elastic.
 
 a. Find the velocities of both masses in the world of Galilei and Newton.<br>
 b. The same but now in the world of Lorentz and Einstein.
 
-```{exercise-end}
-```
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-### Answers
 
-```{solution-start} 17.1
-:class: dropdown
 ```
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+## Answers
+
+```{solution} 17.1
+:class: dropdown
+
 Prior to the disintegration, particle $M$ has 4-momentum:
 
 $$P_i^\mu = \left ( Mc, 0 \right )$$
@@ -116,12 +116,12 @@ $$\frac{m_2}{M} = \frac{4\sqrt{7}}{16}$$
 
 Thus, we see that the mass after the disintegration is $\frac{1}{4}M + \frac{4\sqrt{7}}{16}M \approx 0.911 \lt M$.
 
-```{solution-end}
+
 ```
 
-```{solution-start} 17.2
+```{solution} 17.2
 :class: dropdown
-```
+
 Before the absorption of the photon the 4-momentum is:
 
 $$P_i^\mu = \left ( \frac{hf}{c}, \frac{hf}{c}\right) + \left ( mc, 0 \right ) = \left ( 2mc, mc \right )$$
@@ -152,12 +152,12 @@ The mass of the particle is:
 
 $$M = \frac{7}{4 \gamma }m = \frac{1}{2} \sqrt{6} \,m$$
 
-```{solution-end}
+
 ```
 
-```{solution-start} 17.3
+```{solution} 17.3
 :class: dropdown
-```
+
 Initially, the 4-Momentum is
 
 $$P^\mu_i = \left ( M\gamma(v) c, M\gamma(v) v\right ) $$
@@ -193,13 +193,13 @@ $$\begin{split}
 \end{split}$$
 
 Solving for $m$ gives: $m = \frac{3}{5}M$. If we plug this back in, we find for the photon $hf = \frac{8}{5}Mc^2$.
-```{solution-end}
+
 ```
 
 
-```{solution-start} 17.4
+```{solution} 17.4
 :class: dropdown
-```
+
 The total 4-momentum before the collision is
 
 $$P_i^\mu = \left ( 2m\gamma c, \frac{1}{2} m\gamma c,  \frac{1}{2} m\gamma c \right ) \text{  with  } \gamma = \frac{2}{3} \sqrt{3}$$
@@ -230,12 +230,12 @@ This gives $\frac{u_x}{c} = \frac{1}{4}$. Thus, the new particle moves with velo
 
 $$ 2m\gamma c = M\gamma_f c \rightarrow M = \sqrt{\frac{14}{3}}m $$
 
-```{solution-end}
+
 ```
 
-```{solution-start} 17.5
+```{solution} 17.5
 :class: dropdown
-```
+
 a. In classical mechanics, we use -for this type of collision- conservation of momentum and of kinetic energy. This gives us:
 
 $$\begin{split}
@@ -263,5 +263,5 @@ Next, we use conservation of 4-momentum: $P_i^\mu = P_f^\mu$. This is, however, 
 
 $$u = - 0.7355c \text{\,\,\,\,\, and \,\,\,\,\,   } U = + 0.8050 c$$
 
-```{solution-end}
+
 ```
