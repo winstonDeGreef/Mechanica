@@ -38,36 +38,38 @@ project:
 
     - title: Mechanics
       children:    
-        - file: content/Ch0_Language.ipynb
+        - file: content/classic/Ch0_Language.ipynb
           children:
-            - file: content/Ch0_ex.ipynb        
+            - file: content/classic/Ch0_ex.ipynb        
 
-        - file: content/Ch2_NewtonsLaws.ipynb
+        - file: content/classic/Ch2_NewtonsLaws.ipynb
           children:
-            - file: content/Ch2_ex.ipynb
+            - file: content/classic/Ch2_ex.ipynb
 
-        - file: content/Ch4_WorkEnergy.ipynb
+        - file: content/classic/Ch4_WorkEnergy.ipynb
           children:
-            - file: content/Ch4_ex.ipynb
+            - file: content/classic/Ch4_ex.ipynb
 
-        - file: content/Ch6_AngularMomentum.ipynb
+        - file: content/classic/Ch6_AngularMomentum.ipynb
           children:
-            - file: content/Ch6_ex.ipynb
+            - file: content/classic/Ch6_ex.ipynb
 
-        # - file: content/Ch7_ConservationEquations.md
-        #   children:
-        #     - file: content/Ch7_ex.md
-
-        - file: content/Ch8_Oscillations.md
+        - file: content/classic/Ch7_ConservationEquations.md
           children:
-            - file: content/Ch8_ex.md
+            - file: content/classic/Ch7_ex.md
+
+        - file: content/classic/Ch8_Oscillations.md
+          children:
+            - file: content/classic/Ch8_ex.md
             
-        - file: content/Ch9_Collisions.md
+        - file: content/classic/Ch9_Collisions.md
           children:
-            - file: content/Ch9_ex.md
+            - file: content/classic/Ch9_ex.md
         
-        # - file: content/ChX0_TwoBody.md
-    #    - file: content/ChX1_ManyBody.md
+        - file: content/classic/ChX0_TwoBody.md
+          children:
+            - file: content/classic/ChX0_ex.md
+    
 
 #######################################################################
     - title: Special Relativity
@@ -96,11 +98,11 @@ project:
     #   children:
     #     - file: content/project/Numerical analysis.ipynb
 
-    # - title: For developers
-    #   children:
-    #     - file: content/howto/Howtostart.md
-    #     - file: content/howto/Cheatsheet.md
-    #     - file: content/howto/test.ipynb
+    - title: For developers
+      children:
+        - file: content/howto/Howtostart.md
+        - file: content/howto/Cheatsheet.md
+        - file: content/howto/test.ipynb
         
 #########################################################################
 site:

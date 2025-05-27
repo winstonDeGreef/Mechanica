@@ -7,9 +7,9 @@ We should, first of all realize, that the information regarding the velocity of 
 
 ```{figure} images/addvel.png
 :label: fig:addvel.png
-width: 350px
-align: center
---- 
+:width: 350px
+:align: center
+ 
 Two space ships approaching each other.
 ```   
 
@@ -99,9 +99,9 @@ Here we investigate the effect of a moving source that is emitting light with $f
 
 ```{figure} images/Doppler_animation.gif
 :label: fig:Doppler_animation.gif
-width: 550px
-align: center
---- 
+:width: 550px
+:align: center
+ 
 Effect on sound waves due to motion.
 ```   
 
@@ -119,9 +119,9 @@ For the relativistic effect we consider a moving source with velocity $\vec{u}$ 
 
 ```{figure} images/doppler2.png
 :label: fig:doppler2.png
-width: 250px
-align: center
---- 
+:width: 250px
+:align: center
+ 
 Observer S' and source both moving with respect to S.
 ``` 
 
@@ -129,9 +129,9 @@ We now consider the situation for $S$ as shown in the figure below. The position
 
 ```{figure} images/doppler3.png
 :label: fig:doppler3.png
-width: 250px
-align: center
---- 
+:width: 250px
+:align: center
+ 
 
 ```   
 
@@ -185,9 +185,9 @@ The whole cosmos is nearly uniformly filled by a background radiation of about 2
 
 ```{figure} images/1280px-WMAP_2012.png
 :label: fig:1280px-WMAP_2012.png
-width: 550px
-align: center
---- 
+:width: 550px
+:align: center
+ 
 Background radiation in the universe as observed from earth.
 By NASA / WMAP Science Team - <a rel="nofollow" class="external free" href="https://map.gsfc.nasa.gov/media/121238/ilc_9yr_moll4096.png">http://map.gsfc.nasa.gov/media/121238/ilc_9yr_moll4096.png</a>, Public Domain.
 ```   
