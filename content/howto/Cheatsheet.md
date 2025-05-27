@@ -255,7 +255,7 @@ Of via ...
 
 ```{list-table} Overzicht van sancties bij bepaald gedrag
 :header-rows: 1
-:name:tl_ sancties
+:label: tl_ sancties
 * - Gedrag
     - Sanctie bij 1e keer
     - Sanctie bij 2e keer
@@ -271,7 +271,7 @@ Of via ...
 ````markdown
 ```{list-table} Overzicht van sancties bij bepaald gedrag
 :header-rows: 1
-:name: tl_sancties
+:label: tl_sancties
 * - Gedrag
     - Sanctie bij 1e keer
     - Sanctie bij 2e keer
@@ -284,7 +284,7 @@ Of via ...
 :::
 ::::
 
-Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {number} <tl_sancties>`
+Methode 2 heeft als voordeel de mogelijkheid tot refereren.
 
 
 ## Tabbladen

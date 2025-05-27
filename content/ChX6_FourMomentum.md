@@ -261,8 +261,7 @@ $$
 This converts back to $E=mc^2$ in the rest frame.
 
 ```{figure} images/einsteintriangle.png
----
-name: fig:einsteintriangle.png
+:name: fig:einsteintriangle.png
 width: 450px
 align: center
 ---
@@ -334,10 +333,16 @@ Note that we didn't use the transformation of $P'^1_{photon}$ as this will give 
 
 The $\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot
 
+```{code-cell} python
+import numpy as np
+import matplotlib.pyplot as plt
+
+Hier code voor de plot
+```
+
 
 ```{figure} images/gamma_v.png
----
-name: fig:gamma_v.png
+:name: fig:gamma_v.png
 width: 450px
 align: center
 ---
@@ -345,213 +350,14 @@ align: center
 
 For a massive particle this has strong consequences. In the limit $u\to c$ the factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $\gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
 
-NB: $c$ is the speed of light in vacuum. In matter the speed of light $v$ is smaller than $c$, characterized by the *refractive index*  $n$ as $n=c/v$. This leads e.g. to refraction by <a href="https://en.wikipedia.org/wiki/Snell%27s_law">Snell's law</a> at an interface. In matter the speed of massive particles can be larger than the speed of light there. This happens e.g. in a nuclear reactor when electrons move faster than the speed of light in water ($0.75c$). As water is a dielectric, the light waves generated from the response to the moving charge lag behind and a phenomena similar to a sonic boom is created. This phenomena is termed <a href="https://en.wikipedia.org/wiki/Cherenkov_radiation">Cherenkov radiation</a>. If you have the opportunity to see it in a nuclear reactor, we highly recommend to take it. The color is a very intense deep blue.
+NB: $c$ is the speed of light in vacuum. In matter the speed of light $v$ is smaller than $c$, characterized by the *refractive index*  $n$ as $n=c/v$. This leads e.g. to refraction by [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) at an interface. In matter the speed of massive particles can be larger than the speed of light there. This happens e.g. in a nuclear reactor when electrons move faster than the speed of light in water ($0.75c$). As water is a dielectric, the light waves generated from the response to the moving charge lag behind and a phenomena similar to a sonic boom is created. This phenomena is termed [Cherenkov radiation](https://en.wikipedia.org/wiki/Cherenkov_radiation). If you have the opportunity to see it in a nuclear reactor, we highly recommend to take it. The color is a very intense deep blue.
 
 
 ```{figure} images/CherenkovRadiation.jpg
----
-name: fig:CherenkovRadiation.jpg
+:name: fig:CherenkovRadiation.jpg
 width: 350px
 align: center
 ---
 Cherenkov radiation glowing in the core of the Advanced Test Reactor at Idaho National Laboratory (Wikipedia Commons, CC BY-SA 2.0)
 ```
 
-## Worked Examples
-
-<b>Example 1</b><br>
-Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300$ kV.
-
-From $E^2=(mc^2)^2+(pc)^2$ we have $p=\frac{1}{c}\sqrt{E^2-(mc^2)^2}$ and using $E=mc^2+E_{kin}$ we have
-	
-$$
-	p=\frac{1}{c}\sqrt{2mc^2 E_{kin}+E^2_{kin}}
-	$$
-	
-With $E_{kin}=300$ keV and $m_e=511$ keV. The speed can be computed from rearranging $E_{kin} = mc^2(\gamma -1)$ to $\frac{v}{c} = \sqrt{1- \frac{(mc^2)^2}{(E_{kin}+mc^2)^2}}=\sqrt{1-\frac{511^2}{811^2}}=0.77$. Please observe how practical it is to use the units eV!<br><br><br>
-
-
-<b>Example 2</b><br>
-Decay of a neutral kaon into three pions. $K^0 \to \pi^- + \pi^+ + \pi^0$. Show that the three pions trajectories are in one plane.
-
-In the rest frame of the kaon we have $\vec{p}_K=0$ before the decay. By conservation of momentum we have after the decay $\vec{p}_{\pi^-} + \vec{p}_{\pi^+} +\vec{p}_{\pi^0}=0$. A necessary and sufficient condition for three vectors $\vec{p}_1,\vec{p}_2,\vec{p}_3$ to lie in one plane is that $\vec{p}_1 \cdot (\vec{p}_2 \times \vec{p}_3)=0$ (Remember that this expression gives the volume of the parallelepiped spanned by the three vectors). From the conservation of momentum we have $\vec{p}_1 = -\vec{p}_2 -\vec{p}_3$. Now we can compute $(-\vec{p}_2 -\vec{p}_3)\cdot (\vec{p}_2 \times \vec{p}_3)=-\vec{p}_2\cdot(\vec{p}_2 \times \vec{p}_3)-\vec{p}_3\cdot(\vec{p}_2 \times \vec{p}_3)=0$. The two terms are each zero individually as the term in the bracket is perpendicular to $\vec{p}_2$ and $\vec{p}_3$ respectively. 
-	
-If the trajectories in the rest frame of the kaon are in one plane, then they are also in one plane in all other frames. A coordinate transformation only shifts or rotates, which transfers a plane into a plane, but does not e.g. shear or bend a plane.
-
-
-
-## Exercises ##
-```{exercise-start}
-:label: 16.1
-```
-Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
-
-$$\begin{split}
-ct' &= \gamma \left ( ct - \frac{V}{c} x\right ) \\
-x' &= \gamma \left ( x - \frac{V}{c} ct \right )
-\end{split}$$
-
-with $V/c = 12/13$.
-
-$S'$ observes a particle of mass $m$ traveling in the positive $x'$-direction with velocity $U'/c=40/41$.
-
-Find, using the 4-velocity, the velocity of m according to $S$.
-
-```{exercise-end}
-```
-
-```{exercise-start}
-:label: 16.2
-```
-Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
-
-$$\begin{split}
-ct' &= \gamma \left ( ct - \frac{V}{c} x\right ) \\
-x' &= \gamma \left ( x - \frac{V}{c} ct \right )
-\end{split}$$
-
-with $V/c = 12/13$.
-
-$S'$ observes a particle of mass $m$ traveling in the positive $y'$-direction with velocity $U'/c=40/41$.
-
-Find, using the 4-velocity, the velocity of m according to $S$.
-
-```{exercise-end}
-```
-
-```{exercise-start}
-:label: 16.3
-```
-According to $S'$ a photon is emitted at $t'=0$ from position $L_0 = 1 ls$. It has a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
-Determine the time of detection of the photon by $S'$ and by $S$.
-Find the frequency that $S$ measures. 
-
-```{exercise-end}
-```
-
-
-```{exercise-start}
-:label: 16.4
-```
-In this exercise, the photon is emitted to $S'$ a photon over the $y'$-axis. It has again a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
-
-Find the frequency that $S$ measures and the angle the traveling photon makes with the $x$-axis. 
-
-```{exercise-end}
-```
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-## Answers ##
-
-```{solution-start} 16.1
-:class: dropdown
-```
-According to $S'$
-
-$$\begin{split}
-U'_0 &= \gamma(U')c = \frac{41}{9} c \\
-U'_1 &= \gamma(U') U' = \frac{40}{9} c
-\end{split}$$
-
-LT to $S$ using $\gamma (V) = \frac{13}{5}$:
-
-$$\begin{split}
-U_0 &= \gamma(V) \left ( U'_0 + \frac{V}{c} U'_1) \right ) = \frac{13}{5} \left ( \frac{41}{9} c + \frac{12}{13} \frac{40}{9} c \right ) = \frac{1013}{45}c\\
-U_1 &= \gamma(V) \left (U'_1 + \frac{V}{c} U'_0) \right ) = = \frac{13}{5} \left ( \frac{40}{9} c + \frac{12}{13} \frac{41}{9} c \right ) = \frac{1012}{45}c
-\end{split}$$
-
-We find $u_x$ by taking the ratio $\frac{U_1}{U_0} = \frac{\gamma(U)u}{\gamma(U)c}$:
-
-$$\begin{split}
-u_x &= \frac{1012}{1013} c \lt 1\\
-u_y &= u_z =0
-\end{split}$$
-
-```{solution-end}
-```
-
-
-```{solution-start} 16.2
-:class: dropdown
-```
-According to $S'$
-
-$$\begin{split}
-U'_0 &= \gamma(U')c = \frac{41}{9} c \\
-U'_1 &= 0 \\
-U'_2 &= \gamma(U') U' = \frac{40}{9} c
-\end{split}$$
-
-LT naar $S$ using $\gamma (V) = \frac{13}{5}$:
-
-$$\begin{split}
-U_0 &= \gamma(V) \left ( U'_0 + \frac{V}{c} U'_1) \right ) = \frac{13}{5} \left ( \frac{41}{9} c + 0 \right ) = \frac{533}{45}c\\
-U_1 &= \gamma(V) \left (U'_1 + \frac{V}{c} U'_0) \right ) = = \frac{13}{5} \left ( 0 + \frac{12}{13} \frac{41}{9} c \right ) = \frac{492}{45}c \\
-U_2 &= U'_2 = \frac{40}{9} c
-\end{split}$$
-
-We find $u_x$ by taking the ratio $\frac{U_1}{U_0} = \frac{\gamma(U)u_x}{\gamma(U)c}$:
-
-$$u_x = \frac{492}{533} c$$
-
-Similarly:
-
-$$u_y = \frac{U_2}{U_0} = \frac{\gamma(U)u_y}{\gamma(U)c} = \frac{40}{533}c $$
-
-The magnitude of the volocity accoring to $S4 is
-
-$$ u =\sqrt{u^2_x + u^2_y} = \sqrt{\frac{243664}{284089}} c \approx 0.93 c \lt 1$$
-
-```{solution-end}
-```
-
-```{solution-start} 16.3
-:class: dropdown
-```
-According to $S'$ the photon is send at $E_1: (ct'_1, x'_1 ) = (0, 1) ls$. Thus, it is received at $E_2: (ct'_2, x'_2 ) = (1,0)$. Hence, for $S$ event $E_1$ has coordinates:
-
-$$\begin{split}
-ct_1 &= \frac{5}{4} \left ( 0 + \frac{3}{5} 1 \right ) = \frac{3}{4} ls \\
-x_1 &= \frac{5}{4} \left ( 1 + \frac{3}{5} 0 \right ) = \frac{5}{4} ls 
-\end{split}$$
-
-and thus, $S$ receives this photon at $(ct_3, x_3) = ( 2, 0)ls$.
-
-For $S'$ the 4-Momentum of the photon is: $\left ( \frac{hf_0}{c}, -\frac{hf_0}{c}\right )$. If we transform this to the frame of $S$, we get:
-
-$$ \frac{hf}{c} = \frac{5}{4} \left ( \frac{hf_0}{c} + \frac{3}{5} \cdot -\frac{hf_0}{c} \right ) = \frac{1}{2}\frac{hf_0}{c} \Rightarrow f =\frac{1}{2}f_0$$
-
-
-```{solution-end}
-```
-
-```{solution-start} 16.4
-:class: dropdown
-```
-
-In this case for $S'$ the 4-momentum of the photon is:
-
-$$ P'^\mu = \left ( \frac{hf_0}{c},0, \pm \frac{hf_0}{c}, 0 \right )$$
-
-If we translate this to the world of $S$, we need to realize that momentum is a vector and that the spatial parts, i.e. $P^1, P^2, P^3$ form a 3-vector. In this case, there is no $z$-component and we can write the $x$ and $y$-components as the length of the vector times a $\cos$ and a $\sin$, respectively:
-
-$$\begin{split}
-\frac{hf}{c} &= \frac{5}{4} \left (\frac{hf_0}{c} + \frac{3}{5} 0 \right ) = \frac{5}{4} \frac{hf_0}{c}\\
-\frac{hf}{c} \cos \alpha & = \frac{5}{4} \left ( 0 + \frac{3}{5}\frac{hf_0}{c}\right ) = \frac{3}{4} \frac{hf_0}{c}\\
-\frac{hf}{c} \sin \alpha & = \pm \frac{hf_0}{c}
-\end{split}$$
-
-Thus, from the time-like component we conclude: $f = \frac{5}{4}f_0$. This should be in agreement with the spatial components. Let's check:
-
-$$\begin{split}
-\frac{h^2f^2}{c^2} &= \frac{h^2f^2}{c^2} \cos^2 \alpha + \frac{h^2f^2}{c^2} \sin^2 \alpha \\
-&= \frac{3^2}{4^2} \frac{h^2f_0^2}{c^2} + \frac{h^2f_0^2}{c^2} \\
-&= \frac{5^2}{4^2} \frac{h^2f_0^2}{c^2}
-\end{split}$$
-
-Indeed, the two spatial components are in agreement with the time-like one.
-
-Finally, we have that according to $S$, the photon travels at an angle $\tan \alpha = \pm \frac{4}{3} \rightarrow \alpha = \pm 53.13^\circ $ with the $x$-axis.
-
-```{solution-end}
-```
