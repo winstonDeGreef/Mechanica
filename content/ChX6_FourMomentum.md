@@ -1,4 +1,4 @@
-# 4-Momentum & $E=mc^2$
+# 4-Momentum \& $E=mc^2$
     
 ## Proper time
 We have seen that in Special Relativity events are described by four coordinates: $(ct,x,y,z)$. Moreover, distance is measured via a inner product $A^\mu \cdot B^\mu = A^0B^0 - A^1B^1 - A^2B^2 - A^3 B^3$. That opens the question: what about other quantities that we use in mechanics. 

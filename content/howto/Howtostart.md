@@ -54,7 +54,7 @@ Bij starten van nieuwe edits doe je een git pull, zie {numref}`fig_gitpull`.
 Bij de start doe je een pull.
 ```
 
-Ben je klaar, dan commit & push je de wijzigingen naar de repository. Vergeet niet een samenvatting van de wijzigingen toe te voegen! Tussendoor kun je ook een push doen, om bijv. het resultaat online te bekijken.
+Ben je klaar, dan commit \& push je de wijzigingen naar de repository. Vergeet niet een samenvatting van de wijzigingen toe te voegen! Tussendoor kun je ook een push doen, om bijv. het resultaat online te bekijken.
 
 ```{figure} ../images/gitpush.png
 :width: 80%

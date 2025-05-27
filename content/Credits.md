@@ -56,7 +56,7 @@ Do you see a mistake, do you have suggestions for exercises, are parts missing o
 
 * Prof.Dr. Robert F. Mudde, Department of Chemical Engineering, Delft University of Technology
 * Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
-* Dr. Freek Pols, Science & Engineering Education, Delft University of Technology
+* Dr. Freek Pols, Science \& Engineering Education, Delft University of Technology
 
 Special thanks to Hanna den Hartog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files.
 
@@ -84,7 +84,7 @@ Robert Mudde is Distinguished Professor of Science Education at the faculty of A
 
 Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
-Freek Pols is an assistant professor in the [Science & Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+Freek Pols is an assistant professor in the [Science \& Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
 
 
@@ -117,4 +117,4 @@ This book is licensed under a [Creative Commons Attribution 4.0 International Li
 Some videos from NASA are included, where we adhere to [their regulations](https://www.nasa.gov/nasa-brand-center/images-and-media/).
 
 ### How to cite this book
-R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics & Special Relativity for Beginners*, <!--TU Delft Open, 2025, [LINK DOI]-->
+R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, <!--TU Delft Open, 2025, [LINK DOI]-->

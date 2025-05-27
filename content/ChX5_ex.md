@@ -1,4 +1,4 @@
-# Exercises, examples & solutions
+# Exercises, examples \& solutions
 ## Exercises
 ```{exercise}
 :label: 15.1

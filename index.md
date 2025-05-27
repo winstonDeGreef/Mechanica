@@ -1,5 +1,5 @@
 ---
-title: Introducing Classical Mechanics & Special Relativity
+title: Introducing Classical Mechanics \& Special Relativity
 site:
   hide_outline: true
   hide_toc: true
@@ -8,14 +8,14 @@ site:
 
 <div style="text-align: center;">
 
-## Introducing Classical Mechanics & Special Relativity
+## Introducing Classical Mechanics \& Special Relativity
 
 </div>
 
 ```{figure} cover.gif
 :width: 80%
 :align: center
-:alt: Introducing Classical Mechanics & Special Relativity
+:alt: Introducing Classical Mechanics \& Special Relativity
 ```
 
 

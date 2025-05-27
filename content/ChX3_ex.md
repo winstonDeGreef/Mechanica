@@ -1,4 +1,4 @@
-# Exercises, examples & solutions
+# Exercises, examples \& solutions
 ## Examples
 
 ```{example} Muon production in the upper atmosphere

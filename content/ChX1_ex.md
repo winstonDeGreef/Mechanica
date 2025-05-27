@@ -1,4 +1,4 @@
-# Examples, exercises & solutions
+# Examples, exercises \& solutions
 
 ## Exercises
 

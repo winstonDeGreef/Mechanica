@@ -111,7 +111,7 @@ $$
 f_{obs} = f_{src}\frac{u\pm v_{obs}}{u\mp v_{src}}
 $$
 
-where for the stationary observer & medium, we have $+/-$ and for the moving observer and stationary source $-/+$.
+where for the stationary observer and medium, we have $+/-$ and for the moving observer and stationary source $-/+$.
 
 The origin of the observed frequency shift of a moving source is visible in the picture. In the direction of motion, more wave maxima arrive per unit time, as the car is moving closer between two wave maxima.
 

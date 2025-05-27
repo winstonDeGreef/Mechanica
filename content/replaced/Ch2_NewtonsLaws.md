@@ -719,7 +719,7 @@ Want to know more? Watch this [videoclip](https://youtu.be/w2r9ISVJOhs?si=xmfY4f
 The question is not if $m_i / m_g$ is different from 1. If that was the case but the ratio would always be the same, then we would just rescale $m_g$, that is redefine the value of the gravitational const $G$ to make $m_g$ equal to $m_i$. No, the question is whether these two properties are separate things, like mass and charge. We can have two objects with the same inertial mass but give them very different charges. In analogy: if $m_i$ and $m_g$ are fundamentally different quantities then we could do the same but now with inertial and gravitational mass.
 ```
 
-## Examples & Exercises
+## Examples \& Exercises
 
 Here are some examples and exercises that deals with forces. Make sure you practice IDEA.
 

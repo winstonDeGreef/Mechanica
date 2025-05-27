@@ -2,7 +2,7 @@
 
 As the years progressed, Classical Mechanics developed further and further. So, in the first half of the nineteenths century it felt like classical mechanics was an all encompassing theory and that physics would become a discipline of working out problems based on a well-established, complete theory. But that wasn't going to be the case at all. Around 1850-1860 several cracks in the theory started to become visible. And they were fundamental!
 
-## Rutherford & the atom
+## Rutherford \& the atom
 
 ### Atomic theory
 The idea that matter is made of atoms is old. However, the notion of atoms as we have now is relatively young. 
@@ -87,7 +87,7 @@ As mentioned, Rutherford is responsible for overthrowing the plum pudding model 
 
 The start of this paradigm-shift was formed by Rutherford's observation that some of the alpha-particles were deflected by a thin metal sheet in front of his alpha-counter. This puzzled him as the plum pudding model could not explain this: when using that model the particles were either colliding or passing straight. Rutherford, Geiger and Marsden thus set up an experiment in which they led the alpha particles scatter at a very thin gold foil to investigate further. 
 
-In the experiment, the source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope & detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
+In the experiment, the source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope and detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
 
 
 ```{figure} images/RutherfordExperimentalSetup.png
