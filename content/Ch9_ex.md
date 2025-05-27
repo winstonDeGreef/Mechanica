@@ -230,7 +230,17 @@ $$\begin{split}
 
 ## Exercises
 
-Here are some exercises that deals with oscillations. Make sure you practice IDEA.
+```{exercise} Intuitive collisions
+Consider two particles ($m_1$,$m_2$) with velocities ($v_1$,$v_2$) before head-to-head collision. What will the situation be after collision, tell so without calculations, if:
+
+1. $m_1=m_2$ and $v_1=v; v_2=0$
+1. $m_1=m_2$ and $v_1=v; v_2=-v$
+1. $m_1=2m_2$ and $v_1=v; v_2=0$
+1. $2m_1=m_2$ and $v_1=v; v_2=0$
+1. $m_1=2m_2$ and $v_1=v; v_2=-v$
+
+```
+
 
 ```{exercise}
 :label: 9.1
