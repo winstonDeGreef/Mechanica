@@ -11,8 +11,9 @@ project:
     - name: Robert F. Mudde \& C. Freek. J. Pols    
   github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY 4.0
+  date: 2025-05-27
 
-  # exports:
+  exports:
   #   # - format: typst # typst 
   #   #   output: exports/document_typst.pdf
   #   #   template: lapreprint-typst
@@ -23,9 +24,15 @@ project:
   #     output: exports/MechaRela.pdf
   #     id: output-pdf
 
-  # downloads:
+    - format: pdf
+      template: curvenote
+      output: exports/MechaRela.pdf
+      id: output-pdf
+
+
+  downloads:
   #   # - id: output-typst
-  #   - id: output-pdf
+    - id: output-pdf
 
   jupyter: 
     lite: true

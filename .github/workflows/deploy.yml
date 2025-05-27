@@ -43,40 +43,70 @@ jobs:
       # - name: Build Typst source with MyST
       #   run: myst build --typst
       
-      # - name: Setup TeX Live
-      #   uses: teatimeguest/setup-texlive-action@v3
-      #   with:
-      #     packages: |  
-      #       scheme-basic
-      #       xetex
-      #       latexmk
-      #       hyperref
-      #       microtype
-      #       caption
-      #       xcolor
-      #       changepage
-      #       amsfonts
-      #       enumitem
-      #       framed
-      #       booktabs
-      #       fontawesome5
-      #       tcolorbox
-      #       pdfcol
-      #       adjustbox            
-      #       varwidth  
-      #       ulem       
-      #       titlesec   
-      #       amsmath    
-      #       fancyvrb  
-      #       nicefrac
-      #       float
-      #       datetime
-      #       fmtcount
-      #       doi
-      #       glossaries
-       
-      # - name: Build PDF Assets
-      #   run: myst build --pdf
+      - name: Setup TeX Live
+        uses: teatimeguest/setup-texlive-action@v3
+        with:
+          packages: |  
+            adjustbox            
+            amsfonts
+            amsmath    
+            amssymb
+            amsthm
+            authblk
+            babel
+            background
+            booktabs
+            caption
+            changepage
+            curvenote
+            datetime
+            doi
+            enumitem
+            fancyhdr
+            fancyvrb  
+            float
+            fmtcount
+            fontawesome5
+            fontenc
+            framed
+            framed
+            geometry
+            glossaries
+            graphbox
+            graphicx
+            hyperref
+            hyperref
+            inputenc
+            latexmk
+            lineno
+            lipsum
+            lmodern
+            mdframed
+            microtype
+            natbib
+            needspace
+            newfloat
+            nicefrac
+            pdfcol
+            preprint
+            scalerel
+            scheme-basic
+            sidecap
+            tcolorbox
+            tikz
+            times
+            titlesec   
+            txfonts
+            ulem       
+            url
+            varwidth  
+            xcolor
+            xetex
+            xkeyval
+            zref
+
+      - name: Build PDF Assets
+        run: myst build --pdf
       - name: Build HTML Assets
         run: myst build --html
       - name: Upload artifact
