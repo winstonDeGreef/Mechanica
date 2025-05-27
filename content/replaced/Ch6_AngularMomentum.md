@@ -4,7 +4,7 @@
 From experience we know that if we want to unscrew a bottle, lift a heavy object on one side, try to unscrew a screw, we better use 'leverage'.
 
 ```{figure} images/Leverage.png
-:name: fig:Leverage.png
+:label: fig:Leverage.png
 :width: 300px
 :align: center
 
@@ -37,7 +37,7 @@ However, there is a catch: using torques requires that we are much more explicit
 Let's consider a simple example (simple in the sense that we are all familiar with it): the seesaw.
 
 ```{figure} images/SeeSaw1.png
-:name: fig:SeeSaw1.png
+:label: fig:SeeSaw1.png
 :width: 200px
 :align: center
 
@@ -49,7 +49,7 @@ It is obvious that the adult -seesawing with the child- should sit much closer t
 Let's turn this picture into one that captures the essence and includes the necessary physical quantities, and then draw a free-body diagram.
 
 ```{figure} images/SeeSaw2.png
-:name: fig:SeeSaw2.png
+:label: fig:SeeSaw2.png
 :width: 300px
 :align: center
 
@@ -72,7 +72,7 @@ Time for a first analysis: what keeps this seesaw in equilibrium?
 Let's redraw, now concentrating on the forces on the seesaw.
 
 ```{figure} images/SeeSaw3.png
-:name: fig:SeeSaw3.png
+:label: fig:SeeSaw3.png
 :width: 300px
 :align: center
 
@@ -120,7 +120,7 @@ So far, so good. But what if we had chosen the origin not at the pivot point, bu
 No, it wouldn't! Let's just do it and recalculate. In the figure below, we have moved the origin to the left end of the seesaw. The distance from the heavy mass to the origin is $\Lambda$ (green arrow).
 
 ```{figure} images/SeeSaw4.png
-:name: fig:SeeSaw4.png
+:label: fig:SeeSaw4.png
 :width: 300px
 :align: center
 
@@ -169,7 +169,7 @@ Again the seesaw will give guidance. Suppose we remove the smaller mass all toge
 We will use the corkscrew rule or right hand rule to give that a direction: rotate a corkscrew clockwise and the screw will move into the cork away from you; rotate a corkscrew counter clockwise and it will move out of the cork, towards you. Of course, in stead of a corkscrew you can think of a screwdriver or a water tap: closing is rotating 'clock wise, opening the tap is counter clockwise. 
 
 ```{figure} images/RotatingDirection.png
-:name: fig:SeeSaw4.png
+:label: fig:SeeSaw4.png
 :width: 100px
 :align: center
 
@@ -193,7 +193,7 @@ Note that it is a cross product as well. Hence it is a vector itself. Further no
 Furthermore, note that since $\vec{l} \equiv \vec{r} \times \vec{p}$, $\vec{l}$ is perpendicular to the plane formed by $\vec{r}$ and $\vec{p}$.
 
 ```{figure} images/AngularMomentum.png
-:name: fig:AngularMomentum.png
+:label: fig:AngularMomentum.png
 :width: 250px
 :align: center
 
@@ -254,7 +254,7 @@ $$
 Here $\theta$ is the angle between $\vec{a}$ and $\vec{b}$, and $\hat{n}$ is a unit vector normal to the plane spanned by $\vec{a},\vec{b}$ with direction given by the *right-hand rule*. 
 
 ```{figure} images/Right_hand_rule.png
-:name: fig:Right_hand_rule.png
+:label: fig:Right_hand_rule.png
 :width: 250px
 :align: center
 
@@ -264,7 +264,7 @@ Right hand rule for cross products. Adapted from [Wikimedia Commons](https://com
 From the definition it is clear that $\| \vec{a}\times\vec{b}\|$ is the area of the parallelogram spanned by $\vec{a},\vec{b}$.
 
 ```{figure} images/area_cross.png
-:name: fig:area_cross.png
+:label: fig:area_cross.png
 :width: 250px
 :align: center
 
@@ -305,7 +305,7 @@ Notice the cyclic structure of the equations.
 It is a common mistake to identify angular momentum with rotational motion. That is not correct. A particle that travels in a straight line will, in general, also have a non-zero angular momentum. See {numref}`fig:AngularMomentumFreeParticle.png`. Here we look at a free particle: there are no forces working on it. So it travels in a straight line, with constant momentum. 
 
 ```{figure} images/AngularMomentumFreeParticle.png
-:name: fig:AngularMomentumFreeParticle.png
+:label: fig:AngularMomentumFreeParticle.png
 :width: 250px
 :align: center
 
@@ -323,7 +323,7 @@ Clearly, the angular momentum of a free particle is constant. Moreover, the mome
 Take a look at {numref}`fig:ConstantAngularMomentum.png`. We have chosen the $xy$-plane such that both $\vec{r}$ and $\vec{p}$ are in it. Furthermore, we have taken it such that $\vec{p}$ is parallel to the $x$-axis.
 
 ```{figure} images/ConstantAngularMomentum.png
-:name: fig:ConstantAngularMomentum.png
+:label: fig:ConstantAngularMomentum.png
 :width: 250px
 :align: center
 
@@ -339,7 +339,7 @@ Later in time it is at position $\vec{r}_2$. Still, its angular momentum is perp
 As seen in class: one person throws a basketball to another via a bounce on the ground, the basketball starts to spin after hitting the ground although initially it did not.
 	
 ```{figure} images/basketball.png
-:name: fig:basketball.png
+:label: fig:basketball.png
 :width: 250px
 :align: center
 
@@ -357,7 +357,7 @@ As seen in class, we have a student sitting on a chair that can rotate (swivel c
 
 	
 ```{figure} images/studentwheel.png
-:name: fig:studentwheel.png
+:label: fig:studentwheel.png
 :width: 200px
 :align: center
 
@@ -375,7 +375,7 @@ Once the student starts to spin the wheel while sitting on the chair, the studen
 A point particle (mass $m$) is initially located at position $P=(x_0,H,0)$. At $t = 0$, it is released from rest and falls in a force field of constant acceleration $\vec{a}=(0,-a,0)$ that acts on the mass. 
 	
 ```{figure} images/Fallingm.png
-:name: fig:Fallingm.png
+:label: fig:Fallingm.png
 :width: 150px
 :align: center
 
@@ -484,7 +484,7 @@ Thus, the angular momentum still points in the negative $z$-direction but increa
 	
 ```{figure} images/Fallingm2.png
 
-:name: fig:Fallingm2.png
+:label: fig:Fallingm2.png
 :width: 150px
 :align: center
 
@@ -550,7 +550,7 @@ Before we embark at the problem of the earth moving under the influence of the s
 We find ourselves back in the Late Renaissance, that is around 1550-1600 AD. In Europe, the first signs of the scientific revolution can be found. Copernicus proposed his heliocentric view of the solar system. Galilei used his telescope to study the planets and found further evidence for the heliocentric idea. In Denmark, Tycho Brahe (1546-1601) made astronomical observations with data of unprecedented precision. He did so without the telescope as the first records of telescopes date back to around 1608 AD. 
 
 ```{figure} images/BraheFam.png
-:name: fig:BraheFam.png
+:label: fig:BraheFam.png
 :width: 400px
 :align: center
 
@@ -569,7 +569,7 @@ At the end of his life, Brahe moved to Prague to become the official imperial as
 Kepler was 6 years old when the Great Comet appeared in the sky. He recorded in his writings that his mother had taken him to a high place to look at it. At the age of nine, he witnessed a lunar eclipse in which the Moon is in the Earth shadow, darkening it and turning quite red. As a child he suffered from smallpox making his vision weak and limited ability to use his hands. This made it difficult for him to make astronomical observations. It pushed him to mathematics. But there he was confronted with the Ptolemaic and the Copernican view on planetary motion. Kepler became a math professor at the Protestant Stiftsschüle in Graz. He wrote his ideas about the universe, following the thoughts of Copernicus in a book, that was read by Tycho Brahe. This brought him into contact with Brahe. In 1600 Kepler and his family moved to Prague as a consequence of political and religious oppression. He was appointed as assistant to Brahe and worked with Brahe on a new star catalogue and planetary tables. Brahe died unexpectedly on October 24th 1601. Two days later, Kepler was appointed as his successor. 
 
 ```{figure} images/Kepler.jpg
-:name: fig:Kepler.jpg
+:label: fig:Kepler.jpg
 :width: 220px
 :align: center
 
@@ -589,7 +589,7 @@ Kepler has formulated three laws that describe features of the orbits of the pla
 <li>A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time (Law of Equal Areas).
 
  ```{figure} images/Perkenwet.png
-:name: fig:Perkenwet.png
+:label: fig:Perkenwet.png
 :width: 350px
 :align: center
 
@@ -619,7 +619,7 @@ $$ \vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2} \hat{r}_{12} $$
 In the figure below, the situation is sketched. We have chosen the origin somewhere and denote te position of the sun and the planet by $\vec{r}_1$ and $\vec{r}_2$. Gravity works along the vector $\vec{r}_{12} = \vec{r}_2 - \vec{r}_1$. The corresponding unit vector is defined as $\hat{r}_{12} = \frac{\vec{r}_{12}}{r_{12}}$. 
 
 ```{figure} images/NewtonKeplerProblem.jpg
-:name: fig:NewtonKeplerProblem.jpg
+:label: fig:NewtonKeplerProblem.jpg
 :width: 250px
 :align: center
 
@@ -657,7 +657,7 @@ Thus, $\vec{l} =const$ both in length and in direction. From the latter, we can 
 
 	
 ```{figure} images/Kepler1.png
-:name: fig:Kepler1.png
+:label: fig:Kepler1.png
 :width: 250px
 :align: center
 
@@ -711,7 +711,7 @@ What does this mean? The coordinate $r$ is the distance from the sun to the eart
 
 	
 ```{figure} images/Vradial.png
-:name: fig:Vradial.png
+:label: fig:Vradial.png
 :width: 250px
 :align: center
 
@@ -749,7 +749,7 @@ Hence, we can first inspect the global features of our energy equation. Notice t
 We can make a drawing of the energy. See {numref}`fig:KeplerEnergy.png`.
 
 ```{figure} images/KeplerEnergy.png
-:name: fig:KeplerEnergy.png
+:label: fig:KeplerEnergy.png
 :width: 450px
 :align: center
 
@@ -792,7 +792,7 @@ Next, we consider a case where the total energy of the planet has a value betwee
 From {numref}`fig:KeplerEnergy2.png` we see that the planet will now be confined to an area where the effective potential is either equal to or smaller than this particular value $E_2$ 
 
 ```{figure} images/KeplerEnergy2.png
-:name: fig:KeplerEnergy2.png
+:label: fig:KeplerEnergy2.png
 :width: 550px
 :align: center
 
@@ -813,7 +813,7 @@ Thus, if the planet is closer to $r_a$ it moves faster than close to $r_b$. But 
 Finally, we take the case that the total energy of the planet is positive, say a value of $E_3$ in {numref}`fig:KeplerEnergy3.png`. Now we see that the planet can approach the sun, but not closer than a distance $r=r_c$. The planet is attracted to the sun, but after reaching the closest distance $r=r_c$ it will move away and eventually reach infinity. Again note: at $r=r_c$, the planet does have a non-zero velocity.
 
 ```{figure} images/KeplerEnergy3.png
-:name: fig:KeplerEnergy3.png
+:label: fig:KeplerEnergy3.png
 :width: 450px
 :align: center
 
@@ -832,7 +832,7 @@ The outcome of the analysis would be the following expression for the orbit in c
 $$ \frac{(x+ea)^2}{a^2} + \frac{y^2}{b^2} = 1 $$
 
 ```{figure} images/KeplerEllips.png
-:name: fig:KeplerEllips.png
+:label: fig:KeplerEllips.png
 :width: 350px
 :align: center
 
@@ -858,7 +858,7 @@ This type of curve is know as the conic sections. That is, they can be found by 
 
 
 ```{figure} images/conic_sections_small.gif
-:name: fig:conic_sections_small.gif
+:label: fig:conic_sections_small.gif
 :width: 550px
 :align: center
 
@@ -905,7 +905,7 @@ Thus, indeed Kepler was right. Moreover, we note that the constant is only depen
 In {numref}`fig:FigureKepler3.png` Kepler's third law is shown for our solar system. The red data points are based on the measured 'year' of each planet and the distance to the sun. The blue line is the prediction from Newton's theory.
 
 ```{figure} images/FigureKepler3.png
-:name: fig:FigureKepler3.png
+:label: fig:FigureKepler3.png
 :width: 450px
 :align: center
 
@@ -921,7 +921,7 @@ One of the best visible comets is Haley's comet. However, its orbital period is 
 
 ```{figure} images/Halley's_Comet_animation.gif
 
-:name: fig:Halley's_Comet_animation.gif
+:label: fig:Halley's_Comet_animation.gif
 :width: 400px
 :align: center
 
@@ -945,7 +945,7 @@ T^2 &= \frac{4\pi^2}{GM}a^3\\
 Indeed if we measure the speed of the planets in the solar system this prediction holds, the velocity drops with the distance from the sun as $\propto r^{-1/2}$ (see figure). As $M$ we use the mass of the sun here.
 
 ```{figure} images/orbitalspeed.png
-:name: fig:orbitalspeed.png
+:label: fig:orbitalspeed.png
 :width: 450px
 :align: center
 
@@ -957,7 +957,7 @@ The distance is measured in [Astronomical Units [AU]](https://en.wikipedia.org/w
 If we plot the same speed versus distance curve not for the planets in our solar system, but for stars orbiting the center of our galaxy, the milky way, then the picture looks very different. The far away stars orbit at a much higher speed than expected and the form of the found curve does not match $\propto r^{-1/2}$. 
 
 ```{figure} images/orbitmilkyway.png
-:name: fig:orbitmilkyway.png
+:label: fig:orbitmilkyway.png
 :width: 450px
 :align: center
 

@@ -8,7 +8,7 @@ Click on the image below for a video on Newton's cradle (gives you also the poss
 <a href="https://www.myphysicslab.com/engine2D/newtons-cradle-en.html">
 
 ```{figure} images/newtonCrad.jpg
-:name: fig:newtonCrad.jpg
+:label: fig:newtonCrad.jpg
 :width: 320px
 :align: center
 
@@ -355,7 +355,7 @@ Experiment: drop a tennis ball with zero initial velocity from various height, $
 1. Plot $e$ as a function $H$ and you will have answered the above question.
 
 ```{figure} images/DroppingTennisBall2.png
-:name: fig:DroppingTennisBall2.png
+:label: fig:DroppingTennisBall2.png
 :width: 200px
 :align: center
  

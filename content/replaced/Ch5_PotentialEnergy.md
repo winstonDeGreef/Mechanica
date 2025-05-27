@@ -10,7 +10,7 @@ $$
 In general, the amount of work depends on the path followed. That is, the work done when going from $ \vec{r}_1 $ to $ vec{r}_2 $ over the red path in the figure below, will be different when going from  $ \vec{r}_1 $ to $ \vec{r}_2 $ over the blue path. Work depends on the specific trajectory followed.
 
 ```{figure} images/Path12.png
-:name: fig:Path12.png
+:label: fig:Path12.png
 :width: 50%
 :align: center
 
@@ -30,7 +30,7 @@ However, there is a certain class of forces for which the path does not matter, 
 It was George Stokes who proved an important theorem, that we will use to turn the concept of conservative forces into a new and important concept.
 
 ```{figure} images/GeorgeStokes.jpg
-:name: fig:GeorgeStokes.jpg
+:label: fig:GeorgeStokes.jpg
 :width: 50%
 :align: center
 
@@ -51,7 +51,7 @@ Consider a closed curve in the $xy$-plane. We would like to calculate the work d
 We can visualize what we need to do: we cut the curve in small part; compute $\vec{F} \cdot d\vec{r}$ for each part (i.e. the red, green, blue, etc. in fig.(\ref{Stokes2.png}) and sum these to get the total along the curve. If we make the parts infinitesimally small, we go from a (Riemann) sum to an integral. 
 
 ```{figure} images/Stokes2.png
-:name: fig:Stokes2.png
+:label: fig:Stokes2.png
 :width: 70% 
 :align: center
  
@@ -121,7 +121,7 @@ Second note of warning: the representation of the nabla-operator does change qui
 Suppose we need to calculate the integral of the vectorfield $\vec{F}(x,y) = y \hat{x} - x \hat{y}$ over the closed curve formed by a square from $(0,0)$ to $(1,0)$, $(1,1)$, $(0,1)$ and back to $(0,0)$.
 
 ```{figure} images/StokesTheoremExample.png
-:name: fig:StokesTheoremExample.png
+:label: fig:StokesTheoremExample.png
 :width: 70%
 :align: center
 
@@ -277,7 +277,7 @@ $$
 Luckily, the definition of potential energy is such that these rules are easy to visualize in 1D and remember, see fig.(?.?).
 
 ```{figure} images/PotentialStableUnstable.png
-:name: fig:PotentialStableUnstable.png
+:label: fig:PotentialStableUnstable.png
 :width: 70%
 :align: center
 

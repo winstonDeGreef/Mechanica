@@ -105,7 +105,7 @@ In the graph, we have plotted both the analytical solution and the numerical one
 In the above, the friction force was proportional to the velocity. What if we make the force more realistic? For instance, let's consider a small hail stone that comes falling out of the sky. We will assume that the hail stone is formed in a cloud at a height of 1km above the ground. Furthermore, we will take that the stone drops from that height with zero initial velocity. Finally, we will assume that the problem is 1-dimensional: the hail stone drops vertically down and experiences only gravity, buoyancy and air-friction. The situation is sketched in {numref}`fig:HailStoneFriction`.
 
 ```{figure} images/HailStoneFriction.png
-:name: fig:HailStoneFriction
+:label: fig:HailStoneFriction
 width: 50%
 align: center
 --- 
@@ -310,7 +310,7 @@ fig
 ```
 
 ```{glue:figure} HailStone
-:name: fig:HailStone
+:label: fig:HailStone
 
 ---
 Velocity of a hail stone falling from 1km height taking air friction into account.
@@ -342,7 +342,7 @@ In the examples so far, we looked at 1-dimensional problems, for instance, the f
 The standard classical mechanical example is that of the 'canon ball': a point mass of mass m is shot into the air from $z=0$ with initial velocity $v_0$ at an angle $\alpha$ with the horizontal. The only force taken into account is gravity and the question is: "at what value does the ball travel furthest?" This is a 2-dimensional, which makes it in principle more complicated. However, in this case, the equations for the motion in the horizontal and vertical direction are uncoupled and can be solved separately. it is relatively simple to show that the path is longest at $\alpha = 45^\circ$, independent of the initial velocity of the ball.
 
 ```{figure} images/Kogelbaan.png
-:name: fig:Kogelbaan
+:label: fig:Kogelbaan
 width: 70%
 align: center
 --- 
@@ -385,7 +385,7 @@ Write a computer code for the case of a spherical sand particle of 1 mm (density
 You should find something like shown in the graph below.
 
 ```{figure} images/Kogelbaanfrictie.png
-:name: fig:Kogelbaanfrictie
+:label: fig:Kogelbaanfrictie
 width: 70%
 align: center
 --- 
@@ -419,7 +419,7 @@ You will experience, that small changes in the initial condition have large cons
 Note that for a reliable solution, better numerical schemes than the one we are using here are needed. An example of five different initial conditions giving five different solutions, but now made with higher order schemes, is given in the figure below.
 
 ```{figure} images/DrivenPendulumChaos.png
-:name: fig:DrivenPendulumChaos
+:label: fig:DrivenPendulumChaos
 width: 70%
 align: center
 --- 

@@ -8,7 +8,7 @@ If you let a <span style="color:green">smaller</span> and a <span style="color:b
 
 
 ```{figure} images/Superballs.png
-:name: fig:superballs.png
+:label: fig:superballs.png
 :width: 450px
 :align: center
  
@@ -26,7 +26,7 @@ To explain this we use the Galilean Transformation (GT).
 The smaller ball has now velocity $3\vec{v}$ instead of $\vec{v}$ if you drop it without the larger ball. NB: If you would use three balls instead of two, the third ball would have a velocity of $7\vec{v}$ using the same reasoning as above. 
 
 ```{figure} images/Superball_animation.gif
-:name: fig:Superball_animation.gif
+:label: fig:Superball_animation.gif
 :width: 450px
 :align: center
  
@@ -66,7 +66,7 @@ Consider yourself biking at a constant velocity on an unlikely day with zero win
 $$ F_f \propto v_b^2 $$
 
 ```{figure} images/Fietser.png
-:name: fig:Fietser.png
+:label: fig:Fietser.png
 :width: 300px
 :align: center
  
@@ -85,7 +85,7 @@ $$ F_f \propto (v_b - v_{air} )^2 $$
 Riding a bike while it rains. You have done this 100s of times. Your front gets soaked, while the backside of your coat stays dry. Or if you have a passenger on your carrier he/she will not get wet, while you take all the water. From a GT to the reference frame of the biker it is obvious  why this is the case. The rain is not falling straight from the sky, but at an angle towards him. 
 
 ```{figure} images/RainBike.png
-:name: fig:RainBike.png
+:label: fig:RainBike.png
 :width: 400px
 :align: center
  
@@ -104,7 +104,7 @@ Notice, that both S and S' are inertial observers. That is, they keep their velo
 What would Galilei say?
 
 ```{figure} images/BallAgainstWall_animation.gif
-:name: fig:BallAgainstWall_animation.gif
+:label: fig:BallAgainstWall_animation.gif
 :width: 400px
 :align: center
  
@@ -120,7 +120,7 @@ Ball bouncing at a wall.
 A train is passing a station at a constant velocity $V$. At the platform, an observer $S$ sees that in the middle of the train (train length $2L$), at $t=0$ an object is released with a constant velocity $u$. The object moves towards the back of the train and, at some point in time, will hit the back.
 
 ```{figure} images/TrainAndObject1.png
-:name: fig:TrainAndObject1.png
+:label: fig:TrainAndObject1.png
 :width: 350px
 :align: center
  
@@ -136,7 +136,7 @@ A point particle of mass $m$ is sitting on a horizontal frictionless table. Grav
 According to your observation, $m$ has zero velocity. But you see the table moving at a velocity $-v$ in the negative $x$-direction. The table doesn't stay flat, but has a bump of height $H$. What will happen to $m$?
 
 ```{figure} images/TableWithBump1.png
-:name: fig:TableWithBump1.png
+:label: fig:TableWithBump1.png
 :width: 350px
 :align: center
  
@@ -170,7 +170,7 @@ Next, use the Galilei transformation and show that you could have used your pers
 First we make a new sketch, now showing the two observers $S$ and $S'$ and their axis. We have made the velocity of the object red, the color of $S$. And we have given the coordinates of the front and back of the train in green as these are specified according to $S'$. We do this, as it is is crucial to realize that we have 'mixed' information.<br>
 
 ```{figure} images/TrainAndObject2.png
-:name: fig:TrainAndObject2.png
+:label: fig:TrainAndObject2.png
 :width: 350px
 :align: center
  
@@ -206,7 +206,7 @@ The particle will 'collide' with the bump. This might cause the particle to star
 Perhaps it is easier when we view this from the point of view of an observer moving with the table.
 
 ```{figure} images/TableWithBump2.png
-:name: fig:TableWithBump2.png
+:label: fig:TableWithBump2.png
 :width: 350px
 :align: center
  
@@ -235,7 +235,7 @@ N.B. We have assumed that the bump is not too steep, because in such a case the 
 First, a sketch:
 
 ```{figure} images/SnowBall.png
-:name: fig:SnowBall.png
+:label: fig:SnowBall.png
 :width: 300px
 :align: center
  

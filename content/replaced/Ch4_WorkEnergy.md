@@ -10,7 +10,7 @@ dW = \vec{F} \cdot d\vec{r}
 $$
 
 ```{figure} images/Work.jpg
-:name: fig_Work
+:label: fig_Work
 :width: 40%
 :align: center
 

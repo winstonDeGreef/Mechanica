@@ -5,7 +5,7 @@ As we discussed, in the second half of the nineteenth century it became clear th
 And as we have mentioned, it took the work of a single man to change this and underpin the Lorentz Transformation, making Classical Mechanics a valid limit of Relativity Theory, only applicable at velocities small compared to the speed of light and to small distances compared to those of interest in cosmology.
 
 ```{figure} images/AlbertEinstein.png
-:name: fig:AlbertEinstein.png
+:label: fig:AlbertEinstein.png
 :width: 50%
 :align: center
 
@@ -68,7 +68,7 @@ Note: $S$ is sitting in her origin $\mathcal{O}$ (with coordinates, according to
 The standard sketch is given in the figure below.
 
 ```{figure} images/SSprime.png
-:name: fig:SSprime.png
+:label: fig:SSprime.png
 :width: 350px
 :align: center
 
@@ -159,7 +159,7 @@ Lorentz did not derive the transformation that now has his name, based on Einste
 
 
 ```{figure} images/HendrikLorentz.png
-:name: fig:HendrikLorentz.png
+:label: fig:HendrikLorentz.png
 :width: 50%
 :align: center
 
@@ -168,7 +168,7 @@ Hendrik Lorentz (1853-1928).
 
 
 ```{figure} images/Fitzgerald.png
-:name: fig:Fitzgerald.png
+:label: fig:Fitzgerald.png
 :width: 50%
 :align: center
 
@@ -216,7 +216,7 @@ When does $S'$, who is on the space ship, see this happening?
 First we make a sketch.
 
 ```{figure} images/EartMoonSpaceShip.png
-:name: fig:EartMoonSpaceShip.png
+:label: fig:EartMoonSpaceShip.png
 :width: 50%
 :align: center
 
@@ -321,7 +321,7 @@ In the animation below the whole scenery is shown from the perspective of $S$ on
 
 
 ```{figure} images/SSearth2_animation.gif
-:name: fig:SSearth2_animation.gif
+:label: fig:SSearth2_animation.gif
 :width: 90%
 :align: center
 
@@ -417,7 +417,7 @@ In words: The events A and B that are simultaneous for $S$, are never simultaneo
 We investigate how time intervals between a stationary and a moving  observers are transformed. We can expect that these time intervals are not the same.
 
 ```{figure} images/timedilation1.png
-:name: fig:timedilation1.png
+:label: fig:timedilation1.png
 :width: 80%
 :align: center
 
@@ -430,7 +430,7 @@ Consider the time light travels for the observer $S$ who sees the clock moving w
 
 
 ```{figure} images/timedilation2.png
-:name: fig:timedilation2.png
+:label: fig:timedilation2.png
 :width: 50%
 :align: center
 
@@ -517,7 +517,7 @@ Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma 
 - For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4$ m, being much too small to fit in the ladder. The ladder in his rest frame is 26 m.
 
 ```{figure} images/barnladder.png
-:name: fig:barnladder.png
+:label: fig:barnladder.png
 :width: 450px
 :align: center
 
@@ -546,7 +546,7 @@ We will consider how both observers would actually *measure* things in their res
 The four events are sketched in the figure below
 
 ```{figure} images/BL_tot.png
-:name: fig:BL_tot.png
+:label: fig:BL_tot.png
 :width: 550px
 :align: center
 
@@ -593,7 +593,7 @@ In this thought experiment we have two space ships $B$ and $C$ initially at rest
 
 
 ```{figure} images/Bell_paradox.png
-:name: fig:Bell_paradox.png
+:label: fig:Bell_paradox.png
 :width: 50%
 :align: center
 

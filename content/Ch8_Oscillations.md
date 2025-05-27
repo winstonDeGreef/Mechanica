@@ -13,7 +13,7 @@ A few simple examples will illustrate the above.
 The merry-go-round ({numref}`fig:HaMerryGoRound.jpg`) is a periodic motion, but not an oscillation. The seats go round in a circular, periodic motion but there is no back & forth. This is in contrast to a swing. That is also a periodic motion, but it has the back and forth as well as a restoring force, which in this case is gravity.
 
 ```{figure} images/MerryGoRound2.jpg
-:name: fig:HaMerryGoRound.jpg
+:label: fig:HaMerryGoRound.jpg
 :width: 320px
 :align: center
  
@@ -38,7 +38,7 @@ here $r$ and $f$ represent the rabbit and fox population, resp. $\lambda_r$ is t
 This is clearly a coupled and dynamic system. It is non-linear due to the product $r \cdot f$, making it much more difficult to solve analytically then linear versions. In literature, this kind of system is known as Lotka-Volterra or prey-predator models. Below is a plot of the numerical solution of the rabbit and fox population (for $( \lambda_r, \mu_r,\lambda_f, mu_f) = (0.2, 0.03, 0.1, 0.01) $ and initial conditions ($r_0$, $f_0$) = (80, 2)).
 
 ```{figure} images/RabbitsAndFoxes.png
-:name: fig:RabbitsAndFoxes.png
+:label: fig:RabbitsAndFoxes.png
 :width: 400px
 :align: center
  
@@ -48,7 +48,7 @@ Periodic time evolution of the population of rabbits and foxes.
 The solution is periodic. This can be illustrated better by plotting $f$ against $r$. The animation below shows this (this kind of plot is called a phase plot). 
 
 ```{figure} images/rf_animation.gif
-:name: fig:rf_animation.gif
+:label: fig:rf_animation.gif
 :width: 400px
 :align: center
  
@@ -59,7 +59,7 @@ Phase plot of the rabbit-fox prey-predator model. The red dot shows the populati
 As a second example we look at the Wilberforce pendulum. This is a spring, suspended vertically, to which a weight is fixed at the free end. The weight can go up and down but also rotate in a horizontal plane. A sketch is given below. 
 
 ```{figure} images/WilberforceSketch.png
-:name: fig:WilberforceSketch.png
+:label: fig:WilberforceSketch.png
 :width: 150px
 :align: center
  
@@ -93,7 +93,7 @@ We could use a simple numerical scheme like we have employed in Chapter 3. In th
 
 
 ```{figure} images/WilberforceEuler.png
-:name: fig:WilberforceEuler.png
+:label: fig:WilberforceEuler.png
 :width: 450px
 :align: center
  
@@ -106,7 +106,7 @@ But there is something really disturbing: the amplitude of our oscillation is in
 
 
 ```{figure} images/WilberforceHigherOrder.png
-:name: fig:WilberforceHigherOrder.png
+:label: fig:WilberforceHigherOrder.png
 :width: 450px
 :align: center
  
@@ -118,7 +118,7 @@ Now the amplitude of the oscillations stays nicely constant, obeying conservatio
 In the figure below a small animation can be seen: the marker in both graphs shows $z$ and $\theta$ at the same time instant.
 
 ```{figure} images/Wilberforce_animation.gif
-:name: fig:Wilberforce_animation.gif
+:label: fig:Wilberforce_animation.gif
 :width: 450px
 :align: center
  
@@ -138,7 +138,7 @@ $$F_v = - k (l - l_0 ) = -k \Delta l $$
 This is shown in the figure below.
 
 ```{figure} images/MassSpring.png
-:name: fig:MassSpring.png
+:label: fig:MassSpring.png
 :width: 300px
 :align: center
  
@@ -245,7 +245,7 @@ No wonder we find harmonic oscillators 'everywhere'. Any system that has a stabl
 We take a straight metal wire. Suspend one end at the ceiling and attach a disc of radius $R$ and mass $m$ at the other end.
 
 ```{figure} images/TorsionPendulum.png
-:name: fig:TorsionPendulum.png
+:label: fig:TorsionPendulum.png
 :width: 150px
 :align: center
  
@@ -275,7 +275,7 @@ with $\omega \equiv \frac{d\theta}{dt}$, the angular velocity.
 In Electronics alternating current (AC) circuits are building blocks of many complex systems. One of these is the L-C circuit, in which an inductor, $L$, and a capacitor, $C$, are in series coupled. See {numref}`fig:LCcircuit.png`.
 
 ```{figure} images/LCcircuit.png
-:name: fig:LCcircuit.png
+:label: fig:LCcircuit.png
 :width: 150px
 :align: center
  
@@ -298,7 +298,7 @@ L \frac{d^2 I}{dt^2} + \frac{1}{C}I &= 0 \Rightarrow \\
 As we see, this LC-circuit will start to oscillate. In the animation below the current through the circuit and the voltage across the inductor are shown for $C = 1 \mu F$ and $L = 1 \mu H$.
 
 ```{figure} images/LC_animation.gif
-:name: fig:LC_animation.gif
+:label: fig:LC_animation.gif
 :width: 400px
 :align: center
  
@@ -316,7 +316,7 @@ Not only strings, but also beams will exhibit this behavior, well-known example:
 Another example of oscillatory motion is the pendulum. In its most simple for it is a point-mass $m$, attached to a massless rod of length $L$. The rod is fixed to a pivotal point that allows it to swing freely.
 
 ```{figure} images/Pendulum.png
-:name: fig:Pendulum.png
+:label: fig:Pendulum.png
 :width: 200px
 :align: center
  
@@ -386,7 +386,7 @@ $$ \frac{1}{2}mv^2 + mgz = E_0 $$
 To solve this, we change from $z$ to $\phi$. $z$ is, in terms of $\phi$: $L - L\cos\phi$, see {numref}`fig:PendulumEnergy.png`.
 
 ```{figure} images/PendulumEnergy.png
-:name: fig:PendulumEnergy.png
+:label: fig:PendulumEnergy.png
 :width: 250px
 :align: center
  
@@ -427,7 +427,7 @@ The animation shows: a green mass, that is the pendulum with a (fixed) small amp
 The red mass, on the other hand obeys the equation of motion of the pendulum leaving the term with $\sin \phi$. It is clear that the real pendulum (i.e. the red one) does not have the same frequency as the others. Moreover, its time trace (left part of the figure) is clearly not a true sinus.
 
 ```{figure} images/Pendulum_animation.gif
-:name: fig:Pendulum_animation.gif
+:label: fig:Pendulum_animation.gif
 :width: 600px
 :align: center
  
@@ -582,7 +582,7 @@ Further, note that the first part (with $A$) has an exponent that is closer to z
 In the figure below, an example of case 1 and case 3 is shown together with the solution of case 2. We see, that case 2 is the one that decays fastest: it has the highest damping coefficient in its exponent. This is called critical damping. If you need to dampen unwanted oscillations: make sure you tune your damping parameter b such that $b^2 - 4mk = 0$.
 
 ```{figure} images/DampedOscillatorPlot.png
-:name: fig:DampedOscillatorPlot.png
+:label: fig:DampedOscillatorPlot.png
 :width: 400px
 :align: center
  
@@ -602,7 +602,7 @@ $$
 and see how it evolves as a function of the damping $b$ in the complex plane.
 
 ```{figure} images/polezero.png
-:name: fig:polezero.png
+:label: fig:polezero.png
 :width: 400px
 :align: center
  
@@ -664,7 +664,7 @@ In this course we mostly only consider one oscillator, but of course there could
 
 
 ```{figure} images/coupled_huygens.jpg
-:name: fig:coupled_huygens.jpg
+:label: fig:coupled_huygens.jpg
 :width: 300px
 :align: center
  
@@ -730,7 +730,7 @@ $$
 
 
 ```{figure} images/ElectronBlueSky.png
-:name: fig:ElectronBlueSky.png
+:label: fig:ElectronBlueSky.png
 :width: 150px
 :align: center
  
@@ -780,7 +780,7 @@ In the figure below, a part of the string is drawn with special attention to a s
 
 
 ```{figure} images/TensionString.png
-:name: fig:TensionString.png
+:label: fig:TensionString.png
 :width: 350px
 :align: center
  
@@ -892,7 +892,7 @@ In the figure below, a wave is shown that starts as seemingly one hump. But it a
 Moreover, the rope has a fixed end at the left and a free one at the right. Notice the difference in reflection of the waves at both ends.
 
 ```{figure} images/OscillatingRope.gif
-:name: fig:OscillatingRope.gif
+:label: fig:OscillatingRope.gif
 :width: 350px
 :align: center
  

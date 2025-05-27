@@ -16,7 +16,7 @@ Calculate the position of the center of mass.
 Four particles are moving over the line $y=y_0$. The particles have mass $m_1 = 4m, m_2 = 3m, m_3 = 2m, m_4 = m$ and velocity $v_1 = v, v_2 = 2v, v_3 = 3v, v_4 = 4v$. These velocities are constant and parallel to the $x$-axis. At $t=0$ all particles are at location $(x,y) = (0,y_0)$.
 
 ```{figure} images/FourParticles.png
-:name: fig:FourParticles.png
+:label: fig:FourParticles.png
 :width: 70%
 :align: center
 
@@ -35,7 +35,7 @@ Four particles moving on a line.
 Eight point particles (each mass $m$) are attached to a massless wheel of radius $R$.
 
 ```{figure} images/Wheel8Masses.png
-:name: fig:Wheel8Masses.png
+:label: fig:Wheel8Masses.png
 :width: 70%
 :align: center
 
@@ -92,7 +92,7 @@ Note: $\hat{x}$ and $\hat{y}$ do not carry units!
 
 
 ```{figure} images/FourParticlesVectors.png
-:name: fig:FourParticlesVectors.png
+:label: fig:FourParticlesVectors.png
 width: 350px
 align: center
 ---
@@ -173,7 +173,7 @@ The entire container drops with acceleration $-g$.
 :class: dropdown
 
 ```{figure} images/Dustparticles_animation.gif
-:name: fig:Dustparticles_animation.gif
+:label: fig:Dustparticles_animation.gif
 :width: 70%
 :align: center
 

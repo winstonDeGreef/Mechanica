@@ -6,7 +6,7 @@ We should, first of all realize, that the information regarding the velocity of 
 
 
 ```{figure} images/addvel.png
-:name: fig:addvel.png
+:label: fig:addvel.png
 width: 350px
 align: center
 --- 
@@ -98,7 +98,7 @@ The [Doppler effect](https://en.wikipedia.org/wiki/Doppler_effect) is well-known
 Here we investigate the effect of a moving source that is emitting light with $f_{src}$ (electro-magnetic waves). This is one of the few cases where the relativistic case is easier than the classical effect. In the latter it matters if the source is moving or the medium. For EM-waves, however, there is no medium (aether) as we have seen which simplifies things.
 
 ```{figure} images/Doppler_animation.gif
-:name: fig:Doppler_animation.gif
+:label: fig:Doppler_animation.gif
 width: 550px
 align: center
 --- 
@@ -118,7 +118,7 @@ The origin of the observed frequency shift of a moving source is visible in the 
 For the relativistic effect we consider a moving source with velocity $\vec{u}$ moving with observer $S'$ relative to $S$. The frequency of the source is $f_0=\frac{1}{T_0}$ in the rest frame, with $T_0$ the period of the oscillation.
 
 ```{figure} images/doppler2.png
-:name: fig:doppler2.png
+:label: fig:doppler2.png
 width: 250px
 align: center
 --- 
@@ -128,7 +128,7 @@ Observer S' and source both moving with respect to S.
 We now consider the situation for $S$ as shown in the figure below. The position of the source $\vec{r}_0$ is indicated with the star $*$. 
 
 ```{figure} images/doppler3.png
-:name: fig:doppler3.png
+:label: fig:doppler3.png
 width: 250px
 align: center
 --- 
@@ -184,7 +184,7 @@ The whole cosmos is nearly uniformly filled by a background radiation of about 2
 
 
 ```{figure} images/1280px-WMAP_2012.png
-:name: fig:1280px-WMAP_2012.png
+:label: fig:1280px-WMAP_2012.png
 width: 550px
 align: center
 --- 

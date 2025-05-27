@@ -23,7 +23,7 @@ Stable vortices have the shape of rings with no beginning or end. In air they ar
 
 ````{figure}
 ```{figure} images/VortexKnots.png
-:name: fig:VortexKnots.png
+:label: fig:VortexKnots.png
 :width: 30%
 :align: center
 
@@ -32,7 +32,7 @@ Various vortex knots, each represents another element. From [Wikimedia Commons](
 
 
 ```{figure} images/LordKelvin.jpg
-:name: fig:LordKelvin.jpg
+:label: fig:LordKelvin.jpg
 :width: 30%
 :align: center
 
@@ -46,7 +46,7 @@ At the end of the nineteenth century, in 1897, Joseph John Thomson discovered th
 ````{figure}
 
 ```{figure} images/PlumPuddingModel.png
-:name: fig:PlumPuddingModel.png
+:label: fig:PlumPuddingModel.png
 :width: 30%
 :align: center
 
@@ -54,7 +54,7 @@ Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https:/
 ```
 
 ```{figure} images/JJThomson.jpg
-:name: fig:JJThomson.jpg
+:label: fig:JJThomson.jpg
 :width: 30%
 :align: center
 
@@ -72,7 +72,7 @@ The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-
 
 
 ```{figure} images/Mariecurie.jpg
-:name: fig:MarieCurie.jpg
+:label: fig:MarieCurie.jpg
 :width: 30%
 :align: center
 
@@ -91,7 +91,7 @@ In the experiment, the source would emit $\alpha$-particles through a small diap
 
 
 ```{figure} images/RutherfordExperimentalSetup.png
-:name: fig:RutherfordExperimentalSetup.png
+:label: fig:RutherfordExperimentalSetup.png
 :width: 40%
 :align: center
 
@@ -99,7 +99,7 @@ Experimental setup of $\alpha$-scattering at a gold foil.
 ```
 
 ```{figure} images/ErnestRutherford.jpg
-:name: fig:ErnestRutherford.jpg
+:label: fig:ErnestRutherford.jpg
 :width: 30%
 :align: center
 
@@ -131,7 +131,7 @@ The deflection of the particle is biggest if the Coulomb force is perpendicular 
 $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
 ```{figure} images/RutherfordDeltaP.png
-:name: fig:RutherfordDeltaP.png
+:label: fig:RutherfordDeltaP.png
 :width: 250px
 :align: center
 
@@ -164,7 +164,7 @@ They redid the calculation, but now with $r_0$ as a free parameter to be backed 
 Conclusion: the atom has a nucleus that is much smaller than the size of the atom that contains all positive charge. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
 
 ```{figure} images/RutherfordAtom.png
-:name: fig:RutherfordAtom.png
+:label: fig:RutherfordAtom.png
 :width: 200px
 :align: center
 
@@ -188,7 +188,7 @@ The idea is to send high energy particles towards the object of investigation an
 It is done with facilities of a very large scale to research particles at the smallest scales. For instance, in CERN researchers accelerate particles (protons, electrons, etc) to velocities almost the speed of light. Then, they let these particles collide, that is undergo interactions involving enormous amounts of energy, and measure the fragments and all kind of exotic particles that result from these collisions. 
 
 ```{figure} images/AirPictureOfCERN.jpg
-:name: fig:RutAirPictureOfCER.png
+:label: fig:RutAirPictureOfCER.png
 :width: 350px
 :align: center
 
@@ -198,7 +198,7 @@ Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](
 The principles used in scattering can be illustrated by revisiting Rutherford's experiment. 
 
 ```{figure} images/ScatteringPrinciple.png
-:name: fig:ScatteringPrinciple.png
+:label: fig:ScatteringPrinciple.png
 :width: 350px
 :align: center
 
@@ -209,7 +209,7 @@ Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a 
 
 
 ```{figure} images/Scattering2D3D.png
-:name: fig:Scattering2D3D.png
+:label: fig:Scattering2D3D.png
 :width: 450px
 :align: center
 
@@ -227,7 +227,7 @@ Already in the 18$^{th}$ century, work was done on what we call the kinetic theo
 
 ````{figure}
 ```{figure} images/DanielBernoulli.png
-:name: fig:DanielBernoulli.png
+:label: fig:DanielBernoulli.png
 :width: 40%
 :align: center
 
@@ -235,7 +235,7 @@ Daniel Bernoulli (1700-1782). [RECHTEN]
 ```
 
 ```{figure} images/JamesClerkMaxwell.png
-:name: fig:JamesClerkMaxwell.png
+:label: fig:JamesClerkMaxwell.png
 :width: 40%
 :align: center
 
@@ -339,7 +339,7 @@ The idea is to check the speed of light for two observers $S$ and $S'$. One is m
 The experiment essentially consists of a [Michelson interferometer](https://en.wikipedia.org/wiki/Michelson_interferometer). Light is send to a 50/50 beam splitter such that half of the light is reflected up towards arm $L_1$ and half is transmitted to arm $L_2$. The mirrors at the end of each arm reflect the light back. On the way back again half of the light is transmitted and reflected at the beamsplitter, such that half of the light from both arms is now traveling downwards towards the image plane/camera. At the image plane the light from both arms forms an interference pattern, depending on the path length difference induced by the difference of $L_1-L_2$.
 
 ```{figure} images/MichelsonMorleyExp.png
-:name: fig:MichelsonMorleyExp.png
+:label: fig:MichelsonMorleyExp.png
 :width: 280px
 :align: center
 
@@ -347,7 +347,7 @@ Michelson & Morley setup
 ```
 
 ```{figure} images/MM-setup.png
-:name: fig:MM-setup.png
+:label: fig:MM-setup.png
 :width: 280px
 :align: center
 
@@ -444,7 +444,7 @@ The three body problem is an old one. Already Newton himself worked on it. Its i
 The king of Sweden, Oscar II, announced, as celebration of his 60$^{th}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
 
 ```{figure} images/HenriPoincare.jpg
-:name: fig:HenriPoincare.jpg
+:label: fig:HenriPoincare.jpg
 :width: 250px
 :align: center
 
@@ -458,7 +458,7 @@ The work of Poincaré was the trigger of yet another 'revolution' in our underst
 It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the movie below 20 solutions are given. Notice that they all have a high degree of symmetry. 
 
 ```{figure} images/20SolutionsThreeBodyProblem.gif
-:name: fig:20SolutionsThreeBodyProblem.gif
+:label: fig:20SolutionsThreeBodyProblem.gif
 :width: 350px
 :align: center
 
@@ -475,7 +475,7 @@ The three body problem can also be studied by numerical means. As the equations 
 First, we ignore Alpha Centauri C and used that A and B have about the same mass. The two stars start rotating around each other in ellipsoidal orbits, as we already know from the two body problem.
 
 ```{figure} images/TwoBody_animation.gif
-:name: fig:TwoBody_animation.gif
+:label: fig:TwoBody_animation.gif
 :width: 320px
 :align: center
  
@@ -487,7 +487,7 @@ Then, we add third small one object (not Centauri C, but one with a much smaller
 $m_C$ tries to orbit its closest star, but at some point comes under the influence of the second star and gets 'tossed around'.
 
 ```{figure} images/ThreeBody_animation_long.gif
-:name: fig:ThreeBody_animation_long.gif
+:label: fig:ThreeBody_animation_long.gif
 :width: 320px
 :align: center
  
@@ -497,7 +497,7 @@ Alpha Centauri A and B circling each other with a third object.
 If we let the simulations run for a much longer time, we see that at some point the conditions for our small star are such that it is 'shot' into space and disappears for ever.
 
 ```{figure} images/ThreeBody_animation_long.png
-:name: fig:ThreeBody_animation_long.png
+:label: fig:ThreeBody_animation_long.png
 :width: 320px
 :align: center
  

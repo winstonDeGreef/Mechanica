@@ -261,7 +261,7 @@ $$
 This converts back to $E=mc^2$ in the rest frame.
 
 ```{figure} images/einsteintriangle.png
-:name: fig:einsteintriangle.png
+:label: fig:einsteintriangle.png
 width: 450px
 align: center
 ---
@@ -342,7 +342,7 @@ Hier code voor de plot
 
 
 ```{figure} images/gamma_v.png
-:name: fig:gamma_v.png
+:label: fig:gamma_v.png
 width: 450px
 align: center
 ---
@@ -354,7 +354,7 @@ NB: $c$ is the speed of light in vacuum. In matter the speed of light $v$ is sma
 
 
 ```{figure} images/CherenkovRadiation.jpg
-:name: fig:CherenkovRadiation.jpg
+:label: fig:CherenkovRadiation.jpg
 width: 350px
 align: center
 ---

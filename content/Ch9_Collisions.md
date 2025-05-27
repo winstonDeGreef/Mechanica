@@ -11,7 +11,7 @@ kernelspec:
 In daily life we do understand what a collision is: the bumping of two objects into each other. From a physics point of view, we see it slightly different. The objects don't have to touch. It is sufficient if they undergo a mutual interaction *'with a beginning and an end'*. What do we mean by this? 
 
 ```{figure} images/collision.png
-:name: fig:collision.png
+:label: fig:collision.png
 :width: 50%
 
 Collision of two particles.
@@ -50,7 +50,7 @@ Given a collision experiment where the initial situation before the collision is
 Consider a head-on collision of two point particles on a line as shown in {numref}`fig:collision2.png`. One particle with mass $3m$ is initially at rest ($u=0$), the other with mass $2m$ has velocity $2v$. What are the velocities $v',u'$ of the particles after the collision?
 
 ```{figure} images/collision2.png
-:name: fig:collision2.png
+:label: fig:collision2.png
 :width: 320px
 :align: center
  
@@ -127,7 +127,7 @@ Consider now a 2D elastic collision such that the two particles collide in the o
 
 
 ```{figure} images/2Dcollision1.png
-:name: fig:2Dcollision1.png
+:label: fig:2Dcollision1.png
 :width: 250px
 :align: center
  
@@ -158,7 +158,7 @@ $$
 The red particle now has velocity $(-2v,v)$. The problem is still 2D.
 
 ```{figure} images/2Dcollision2.png
-:name: fig:2Dcollision2.png
+:label: fig:2Dcollision2.png
 :width: 250px
 :align: center
  
@@ -168,7 +168,7 @@ Applying the Galilean Transformation.
 Next, we can rotate the coordinate system, to obtain a 1D head-on collision that we can solve as above. 
 
 ```{figure} images/2Dcollision3.png
-:name: fig:2Dcollision3.png
+:label: fig:2Dcollision3.png
 :width: 250px
 :align: center
  
@@ -211,7 +211,7 @@ $$
 Instead of working in the lab frame we can use the CM frame. A sketch of the coordinates and vectors is given in the figure below.
 
 ```{figure} images/CMsketch.png
-:name: fig:CMsketch.png
+:label: fig:CMsketch.png
 :width: 250px
 :align: center
  
@@ -233,7 +233,7 @@ This means the momenta of both particles are *always* equal in magnitude and opp
 
 
 ```{figure} images/CMmomentum.png
-:name: fig:CMmomentum.png
+:label: fig:CMmomentum.png
 :width: 320px
 :align: center
  

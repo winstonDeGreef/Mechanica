@@ -198,7 +198,7 @@ E5: $(ct_5, x_5)=(25/4,15/4)$
 This gives the two required plots.
 
 ```{figure} images/MinkowskiEvents.png
-:name: fig:MinkowskiEvents.png
+:label: fig:MinkowskiEvents.png
 :width: 650px
 :align: center
 
@@ -214,7 +214,7 @@ left: $S$ and $S'$ in the same diagram; right: Minkowski diagram.
 
 
 ```{figure} images/CometMoon.png
-:name: fig:CometMoon.png
+:label: fig:CometMoon.png
 :width: 650px
 :align: center
 

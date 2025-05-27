@@ -11,7 +11,7 @@ skip_execution: false
 Imagine that you have never heard of the modern concept of our solar system or about galaxies and all kind of other concepts of cosmology. So, picture yourself in the ancient days of the Greek, Babylonian, Egyptian or Chinese civilization. During the dark nights, when the sky was open, you would be staring at the unknown above you, trying to figure out what that is all about. What would your idea be? 
 
 ```{figure}
-:name: fig:Plato
+:label: fig:Plato
 
 ![Plato. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg), public domain.](images/Plato.jpg) 
 ![Aristotle. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg), public domain.](images/Aristotle.jpg) 
@@ -24,7 +24,7 @@ And, I probably would also 'buy the idea' of the Greek philosophers, that the he
 One might wonder: couldn't they, in the ancient days, not have found clues that the earth is not the center around which everything rotates? Well, yes and no. They could have looked for instance for parallax, that is the apparent change in position when you look at distant objects from two different locations. We now know that in half a year the earth has moved substantially. So, you might expect that objects that are not at the same distance will have a different, apparent displacement and therefore their relative position will change. But, that is not what we over the course of a year observe. 
 
 ```{figure} images/Parallax.jpg
-:name: fig:Parallax
+:label: fig:Parallax
 width: 50%
 align: center
 ---
@@ -41,7 +41,7 @@ The stellar constellations, like the Big Dipper, stay the same. Again, with our 
 Nevertheless, the idea of the earth at the center of the universe and everything else rotating around it in circular orbits that are part of a small number of different spheres had its problems. The motion of the planet Mars along the sky isn't exactly like it is moving at a constant speed over a fixed circle. It sometimes is moving backwards. {numref}`fig:OrbitMars` shows the position of Mars over a period of several month, that is, after every few days the position of Mars is shown against the night sky at same time at night. Mars is moving relative to the stars. But not at a constant speed. It even reverses its direction for a short while. 
 
 ```{figure} images/OrbitMars.png
-:name: fig:OrbitMars
+:label: fig:OrbitMars
 width: 70%
 align: center
 ---
@@ -51,7 +51,7 @@ Position of Mars versus the 'fixed stars' over a longer period of time. Mars see
 The Greek astronomers and philosophers 'cured' this mismatch with the circle &amp sphere idea by introducing epi-cycles. That is, Mars itself was orbiting in a circular motion a point on the main circle. The latter was moving at a constant speed over its circle. {numref}`fig:EpiCirkels` shows what this is and how that can lead to backward motion.
 
 ```{figure} images/EpiCirkels.png
-:name: fig:EpiCirkels
+:label: fig:EpiCirkels
 width: 50%
 align: center
 ---
@@ -62,7 +62,7 @@ From the Helio-centric view, one can easily compute the geo-centric one and find
 % Click the image to start the motion.
 
 ```{figure} images/EpiCirkelCrop.gif
-:name: fig:EpiCirkelCrop.gif
+:label: fig:EpiCirkelCrop.gif
 width: 70%
 align: center
 --- 
@@ -77,7 +77,7 @@ Already as early as in the third century BC, it was proposed that the earth was 
 In the Muslim world astronomers also studied the motion of stars and planets. A good knowledge of times especially the lunar motion and position is important for Muslims, as their daily prayers and various other religious festivals and celebrations follow the lunar calendar. In the Islamic Golden Age, science and especially mathematics and astronomy reached a high level. While in Europe large parts were still in the dark part of the early Middle Ages, Islamic scientists studied the skies at night. Already in the 11$^{th}$ some reached the conclusion that the earth is rotating around its axis and not the center of the universe. In the first half of the 15$^{th}$ century, Ulugh Beg (1394-1449, ruler of the Timurid Empire) built a large Observatory in Samarkand. Since the telescope was yet to be discovered, he worked with traditional instruments, like the sextant. To increase the accuracy, his observatory contained a sextant with a radius of 36m. It allowed him to improve the star catalogue of Ptolemy. 
 
 ```{figure} images/UlughBeg.jpg
-:name: fig:UlughBeg
+:label: fig:UlughBeg
 width: 70%
 align: center
 ---
@@ -92,7 +92,7 @@ Meanwhile in Europe, the Catholic church still had a firm grip on scientific ide
 The geo-centric view prevailed. It was unthinkable that the earth was not the center of the universe. Anybody questioning this or similar ideas had a fair chance  of ending on the pyre. Nevertheless, also in Europe the geo-centric model started eventually to crumble.
 
 ```{figure} images/Copernicus.jpg
-:name: fig:Copernicus
+:label: fig:Copernicus
 width: 70%
 align: center
 ---
@@ -108,7 +108,7 @@ Copernicus finished more or less his work on the helio-centric view in 1532, whe
 Galileo Galilei (Pisa, Italy, 17 Feb. 1564 - Florence, Italy, 8 Jan. 1642) is seen as one of the founding fathers of experimental physics and with that of modern science. He pioneered with falling object and reasoned that the acceleration of falling objects is independent of their mass. The story is that he performed an experiment by dropping two unequal masses from the leaning tower of Pisa, showing that they reached the ground at the same time. It is probably not true, but Galilei had a splendid thought experiment to show it couldn't be otherwise.
 
 ```{figure} images/Galilei.jpg
-:name: fig:Galilei
+:label: fig:Galilei
 width: 70%
 align: center
 ---
@@ -123,7 +123,7 @@ Galilei had another thought experiment. Suppose, we have a kind of curved gutter
 If friction can be ignored, the particle will reach the same height as it was released from, but now on the other side of the gutter. Galilei reasoned: if we widen the 'valley', still the particle will reach the same height if we ignore friction. Consequently, if we make the 'valley' infinitely wide, the particle will have to keep moving as eventually it should reach the other side and climb up. But then, in the horizontal part, its velocity can not decrease as then it would ultimately come to a stand still and it will not reach the same height on the other side. This led Galilei to its law: if no force is applied to a particle, it will continue to move at a constant speed. This law is also know as the Law of Inertia.
 
 ```{figure} images/Gutter.jpg
-:name: fig:Gutter
+:label: fig:Gutter
 width: 70%
 align: center
 ---

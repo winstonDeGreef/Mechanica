@@ -66,7 +66,7 @@ What is it and how do we know? To answer this question we have to resort to Emmy
 
 
 ```{figure} images/EmmyNoether.png
-:name: fig:EmmyNoether.png
+:label: fig:EmmyNoether.png
 :width: 320px
 :align: center
  
@@ -97,7 +97,7 @@ An important requirement of any physical law is that it looks the same for all i
 
 
 ```{figure} images/GTsystem.png
-:name: fig:GTsystem.png
+:label: fig:GTsystem.png
 :width: 320px
 :align: center
  
@@ -118,7 +118,7 @@ According to observer $S$, $S'$ is moving at a constant velocity $V$. Both obser
 
 
 ```{figure} images/GalileiTransformation.png
-:name: fig:GalileiTransformation.png
+:label: fig:GalileiTransformation.png
 :width: 320px
 :align: center
  
