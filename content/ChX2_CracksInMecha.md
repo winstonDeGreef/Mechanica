@@ -2,8 +2,230 @@
 
 As the years progressed, Classical Mechanics developed further and further. So, in the first half of the nineteenths century it felt like classical mechanics was an all encompassing theory and that physics would become a discipline of working out problems based on a well-established, complete theory. But that wasn't going to be the case at all. Around 1850-1860 several cracks in the theory started to become visible. And they were fundamental!
 
+## Rutherford & the atom
+
+### Atomic theory
+The idea that matter is made of atoms is old. However, the notion of atoms as we have now is relatively young. 
+
+In the ancient Greek world, it was as early as the fifth century B.C. that Leucippus and later one of his pupils Democritus proposed that the world (matter), is made up of tiny, indivisible particles. These particles were called atoms, derived from the Greek word 'atomos', which means uncuttable. These particles would float in a vacuum, that was called *void* by Democritus. We currently have a view that is remarkably close, but at the same time quite different from these first ideas.
+
+In ancient India even earlier (records go back to the eighth' century B.C.) philosophers like [Uddalaka Aruni](https://en.wikipedia.org/wiki/Udd%C4%81laka_%C4%80ru%E1%B9%87i) talk about matter being made up of tiny particles. They did not use terms like atoms, but instead referred to the 'building blocks' of matter as 'kana' which means particles. In the Islamic world, atomic theories were developed in e.g. the Asharite school by Al Ghazali (1058-1111). In his thinking, atoms are the only material things that live forever. Everything else, any event or interaction is due to God's intervention.
+
+Although these early thoughts point at atoms as the underlying elements of matter and as such resemble our current understanding of matter, they also differ quite a bit. The early ideas are based on philosophy and the notion that matter is either a continuum that can always be cut in smaller parts that still maintain all characteristics or that at some point a further splitting in smaller pieces is no longer possible with at least losing some of the characteristics.
+
+In more recent history, the notion of atoms as elementary building blocks is guided by experiments. The English physicist and chemist John Dalton (1766-1844) did ground braking work. He noticed that water, when decomposed, always resulted in the same elements: hydrogen and oxygen. Moreover, the relative weights of these two was always the same. Furthermore, he came to the conclusion that there is a unique atom for each element. More chemists noted that many substances were made of the elements in very specific ratios. In our modern view we would say: water is formed in a 1 to 2 ratio of oxygen and hydrogen, never in 1 to 2.1 or any other non-integer number. 
+
+Although the evidence from chemistry was clear, the notion of atoms as the building blocks remained controversial. The laws of definite proportion (e.g. water is decomposed in a fixed ratio in hydrogen and oxygen) were generally accepted, but the hypothesis that everything was made of atoms was not. As a consequence, the work of Ludwig Boltzmann (1844-1906) on statistical thermodynamics that is entirely based on an atomic (or molecular) view was not accepted during Boltzmann's life.
+
+In the second half of the nineteenth century William Thomson (1824-1907) -later Lord Kelvin- proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether. 
+
+Stable vortices have the shape of rings with no beginning or end. In air they are easily made and made visible with smoke and are indeed surprisingly stable. According to the vortex theory, atoms are vortices in aether. The simplest one is a single ring, which was hydrogen. More complicated forms, called knots represented the other elements. 
+
+````{figure}
+```{figure} images/VortexKnots.png
+:name: fig:VortexKnots.png
+:width: 30%
+:align: center
+
+Various vortex knots, each represents another element. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_for_unknot.svg), public domain.
+```
+
+
+```{figure} images/LordKelvin.jpg
+:name: fig:LordKelvin.jpg
+:width: 30%
+:align: center
+
+Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.
+```
+Lord Kelvin working on the vortex theory of the atom
+````
+
+At the end of the nineteenth century, in 1897, Joseph John Thomson discovered the electron. It allowed him to further refine the scientific model of the atom and ended the vortex theory. In Thomson's view, an atom has internal structure: the electrons are moving in it. As electrons have a negative charge and atoms are neutral, there must be a balancing positive charge in an atom as well. Thomson had no idea what that would be. He figured that the positive charge was everywhere in the atom (that he thought of as being a sphere), with the electrons moving inside that sphere as tiny particles. From this picture, the Thomson model got its name: *the plum pudding model*, although it is a bit misleading as the idea was that the positively charged sphere was more a liquid in which the electrons 'float' than a solid. 
+
+````{figure}
+
+```{figure} images/PlumPuddingModel.png
+:name: fig:PlumPuddingModel.png
+:width: 30%
+:align: center
+
+Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
+```
+
+```{figure} images/JJThomson.jpg
+:name: fig:JJThomson.jpg
+:width: 30%
+:align: center
+
+Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.
+```
+Thomson refined the idea of the atomic model: electrons moving within the atom, though the atom is still neutral in charge.
+````
+
+The model did not hold very long as we will see in the next paragraph. Nevertheless, it marks the start of physicist becoming really interested in an atom theory.
+
+
+### Rutherford's scattering experiment
+
+The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from X-rays. He called them 'alpha' and 'beta' rays. Later he proved that 'alpha' rays consist of He-nuclei. Rutherford, in cooperation with Frederick Soddy, was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. This idea thus countered the prior idea that an atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
+
+
+```{figure} images/Mariecurie.jpg
+:name: fig:MarieCurie.jpg
+:width: 30%
+:align: center
+
+Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
+```
+
+Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the alpha particles. Moreover, he showed that the alpha particles were He-nuclei with a positive charge of $2e4$. In 1917, he showed that Nitrogen could become Oxygen by bombarding it with the alpha particles. This was the first time that someone succeeded in artificially changing one element into another.
+
+#### Scattering at a gold 
+
+As mentioned, Rutherford is responsible for overthrowing the plum pudding model and replacing it by our modern view: an atom is made of a tiny, positively charged nucleus with the electrons orbiting around it. 
+
+The start of this paradigm-shift was formed by Rutherford's observation that some of the alpha-particles were deflected by a thin metal sheet in front of his alpha-counter. This puzzled him as the plum pudding model could not explain this: when using that model the particles were either colliding or passing straight. Rutherford, Geiger and Marsden thus set up an experiment in which they led the alpha particles scatter at a very thin gold foil to investigate further. 
+
+In the experiment, the source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope & detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
+
+
+```{figure} images/RutherfordExperimentalSetup.png
+:name: fig:RutherfordExperimentalSetup.png
+:width: 40%
+:align: center
+
+Experimental setup of $\alpha$-scattering at a gold foil.
+```
+
+```{figure} images/ErnestRutherford.jpg
+:name: fig:ErnestRutherford.jpg
+:width: 30%
+:align: center
+
+Ernest Rutherford (1871-1937). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg), public domain.
+```
+
+The story goes, that Rutherford's students would, together with Geiger, do the measurements as an assignment of their studies. The principle is simple: set the microscope under a know angle and, for a given period in time, count the number of hits. Repeat this for the next angle of the microscope. Obviously, the first measurements were all done on the side of the foil opposite to the $\alpha$-emitter. One was expecting small deviations from the undisturbed trajectory.
+
+When the experiments were basically done, so goes the story, still a student was left over that also needed an assignment. One of Rutherford's assistant suggested that this student would then measure with the microscope at the same side of the foil as the $\alpha$-emitter. They did not expect anything to see, but they needed an assignment for this student. Whether the story of the student assignments is true or not, fact is that the team found also hits on the detector for angles of about 180$^\circ$. That is, some $\alpha$-particles seemed to bounce back from the foil!
+
+There is no way that the plum pudding model could explain this. The argumentation to show that, goes as follows. 
+
+- The size of the atoms of gold is known: they are on the order of $r_0 \approx 10^{-10}$m.  
+This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found.   
+- An $\alpha$-particle has a charge of 2e and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
+However, an $alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
+It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
+
+Rutherford knew the theory of Maxwell for Electro-Magnetism and could estimate The force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
+
+$$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
+
+with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge (+2e) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9 Nm^2/C^2$) and $r_0$ the radius of a gold atom.
+
+The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
+
+- It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum 
+
+$\Delta p$ is much smaller than $p$ itself, the deflection will be small.
+
+```{figure} images/RutherfordDeltaP.png
+:name: fig:RutherfordDeltaP.png
+:width: 250px
+:align: center
+
+Relation of angle of deflection and change in momentum.
+```
+$$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \text{ if } \phi \ll 1$$
+  
+-  The momentum change is due to the force $F_c$ working for a time period 
+
+$\Delta t$ on the particle:
+
+$$ dP = Fdt -\rightarrow \Delta p \approx F_c \Delta t$$
+
+The time the particle is in the atom is estimated as follows. The particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
+  
+-  If we put everything together, we find:
+
+$$ \frac{\Delta p}{p} \ll \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} \cdot \frac{2r_0}{v_0} = \frac{q_\alpha Q_g}{2 \pi \epsilon_0} \frac{1}{r_0 v_0} \ll 1$$
+
+We have used the know charge of a gold atom (79e) and that of the $\alpha$-particle, the radius of the gold atom and the incoming velocity of the $\alpha$-particle, $v_0 \approx 1.6 \cdot 10^{7}$m/s.
+  
+
+
+With this estimate and the fact that Rutherford's gold foil was about 400 atoms thick, there is no way that we can explain $\alpha$-particles bouncing back.
+
+Rutherford and his colleagues, had no other option than to conclude that the positive charge of the gold atom must be confined to a much smaller part of space. After all, the only parameter in our estimate that is not measured is $r_0$. That was estimated based on the plum pudding model.
+
+They redid the calculation, but now with $r_0$ as a free parameter to be backed out of the calculation. They changed the requirement of small scattering angles (i.e. small deviation from the original path) to the experimental finding that scattering angles of about 180$^\circ$ were possible. That gave that $r_0$ is on the order of $10^{-14}$m. 
+
+Conclusion: the atom has a nucleus that is much smaller than the size of the atom that contains all positive charge. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
+
+```{figure} images/RutherfordAtom.png
+:name: fig:RutherfordAtom.png
+:width: 200px
+:align: center
+
+Rutherford's model of an atom.
+```
+
+This new model would spark a whole new set of questions, setting up one of the biggest changes in physics: Quantum Theory.
+
+#### Collapse of matter?
+An immediate consequence of this new view on atoms and matter came from the analogy with Newton's work on the solar system and the Kepler Laws. In the case of the sun and planets, the interaction force is gravity: $\vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2}\hat{r_{12}}$. When dealing with a nucleus with its orbiting electrons the interaction force is the Coulomb force: $ \vec{F}_C = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r_{12}^2}\hat{r_{12}} $.
+
+As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance from the two interacting particles the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
+
+Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of Electro-Magnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electro-magnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know, that the idea of an atom being a miniature solar system is wrong. But out of questions and dilemma's as these grew very quickly quantum mechanics opening a whole new world and a completely different picture of things at the small scales. A world with new rules and new consequences, where our intuition based on daily life and large scale structures composed of many, many atoms fails.
+
+#### Scattering Theory
+The work of Rutherford and co-workers forms the start of a new branch of physics: nuclear physics. By using radiation in the form of X-rays (i.e. high energy photons) and electrons or protons, physicists are able to probe the internal properties of molecules, atom, nuclei and even elementary particles (or at least, what we once thought were elementary particles).
+
+The idea is to send high energy particles towards the object of investigation and look at the scattering that is a consequence of the interaction between the object and the incoming particles. The internal structure of the object dictates the scattering. Thus, by measuring the scattering features and back tracing the underlying physical interaction can be found.
+
+It is done with facilities of a very large scale to research particles at the smallest scales. For instance, in CERN researchers accelerate particles (protons, electrons, etc) to velocities almost the speed of light. Then, they let these particles collide, that is undergo interactions involving enormous amounts of energy, and measure the fragments and all kind of exotic particles that result from these collisions. 
+
+```{figure} images/AirPictureOfCERN.jpg
+:name: fig:RutAirPictureOfCER.png
+:width: 350px
+:align: center
+
+Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](josefrancisco.org), licensed under CC-BY 4.0.
+```
+
+The principles used in scattering can be illustrated by revisiting Rutherford's experiment. 
+
+```{figure} images/ScatteringPrinciple.png
+:name: fig:ScatteringPrinciple.png
+:width: 350px
+:align: center
+
+Scattering of an incoming particle at a fixed source.
+```
+
+Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a fixed second particle. The latter is fixed in the origin and act like a force-source. The force is central, i.e. works along the direction of the red line in fig.(7.7). In the drawing the forces is repelling and the incoming particle will deviate from its straight line. Eventually it will continue moving over a straight line, when the influence of the force is no longer felt. The angle of the new direction with the incoming one, is $\theta$, the scattering angle. We are looking for the relation between $b$, the distance at which the incoming particle would have passed by the origin if there was no force and the scattering angle $\theta$.
+
+
+```{figure} images/Scattering2D3D.png
+:name: fig:Scattering2D3D.png
+:width: 450px
+:align: center
+
+left: scattering in 2D, right: scattering in 3D.
+```
+
+In fig.(7.8) scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2d equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3d it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
+
+
+
+## Kinetic theory of gases
+
 Already in the 18$^{th}$ century, work was done on what we call the kinetic theory of gases. The Swiss scientist Daniel Bernoulli proposed that gases were a large collection of molecules, i.e tiny particles moving in all directions. According to Bernoulli, their collision with walls was felt macroscopically as pressure and their averaged kinetic energy was in essence the temperature of the gas.
 
+
+````{figure}
 ```{figure} images/DanielBernoulli.png
 :name: fig:DanielBernoulli.png
 :width: 40%
@@ -14,21 +236,22 @@ Daniel Bernoulli (1700-1782). [RECHTEN]
 
 ```{figure} images/JamesClerkMaxwell.png
 :name: fig:JamesClerkMaxwell.png
-:width: 280px
+:width: 40%
 :align: center
 
 James Clerk Maxwell (1831-1879) [RECHTEN]
 ```
-
+Two famous scientists working on the physics of gases.
+````
 
 It took a while before these ideas were accepted, partly because the law on conservation of energy was not fully developed. Moreover, people had difficulty accepting that at a molecular level collisions could be perfectly elastic.
 
-With the further development of Thermodynamics, the kinetic theory of gases also was refined. In 1856, August Krönig came up with a simple kinetic model for gases in which he only considered the possibility of translational motion of the molecules. In essence, he treated gas molecules as point particles. A year later, in 1857, Rudolf Clausius incorporated the possibility of rotation and vibrations. Two years after this, James Clerk Maxwell continued along this line. He found the velocity distribution of the molecules and established a firm connection between temperature and the average kinetic energy of a molecule.
+With the further development of Thermodynamics, the kinetic theory of gases also refined. In 1856, August Krönig came up with a simple kinetic model for gases in which he only considered the possibility of translational motion of the molecules. In essence, he treated gas molecules as point particles. A year later, Rudolf Clausius incorporated the possibility of rotation and vibrations. Two years after this, James Clerk Maxwell continued along this line. He found the velocity distribution of the molecules and established a firm connection between temperature and the average kinetic energy of a molecule. However, he also noted that the theoretical predictions were not in line with experiments. What was the problem? 
 
-**Specific heat of gases**  
-However, he also noted that the theoretical predictions were not in line with experiments. What was the problem? For ideal gases, we have the ideal gas law: $pV = nRT$ with $n$ the number of moles of the gas in question. Or written in terms of number of molecules, $N$, it reads as: $pV = NkT$, $k$ being the Boltzmann constant.
+### Specific heat of gases  
+For ideal gases, we have the ideal gas law: $pV = nRT$ with $n$ the number of moles of the gas in question. Or written in terms of number of molecules, $N$, it reads as: $pV = NkT$, $k$ being the Boltzmann constant.
 
-The ideal gas law helps in understanding that if we compress a given amount of gas, we may expect that the pressure goes up. But we also see that this depends on whether or not the temperature changes. And in principle it will.
+The ideal gas law helps in understanding how gases behave under changing conditions. For instance, if we compress a given amount of gas, we may expect that the pressure goes up. But we also see that this depends on whether or not the temperature changes. And in principle the temperature will change.
 
 If we would do a compression experiment with a fixed number of molecules, $N$, and we would compress the gas such that no heat can escape from the container, then the changes in temperature, volume and pressure are such that $p V^\gamma = const$. This is called adiabatic compression. The quantity $\gamma$ is the ratio of the specific heat at constant pressure over the specific heat at constant volume. Both these quantities are easily measured in experiments and, hence, $\gamma$ can be found for many gases.
 
@@ -43,16 +266,14 @@ In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a n
 | Kr | 1.656 | 1.667 |
 | Br$_2$| 1.28| 1.286 |
 | Cl$_2$| 1.34 | 1.286 |
-| H$_2$| 1.405 | 1.286 |
-| N$_2$| 1.40 | 1.286 |
-| O$_2$| 1.395 | 1.286 |
+| **H$_2$**| **1.405** | 1.286 |
+| **N$_2$**| **1.40** | 1.286 |
+| **O$_2$**| **1.395** | 1.286 |
 
 
 As we see, for the noble gases it is quite ok (at $T=293\text{K}$ !), but not so for the diatomic gases.
 
-For really high temperatures (~2000K) for both $O_2$ and $H_2$ $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66!
-
-Maxwell concluded, that the laws of classical mechanics could not be the final answer. 
+For really high temperatures (~2000K) for both $O_2$ and $H_2$, $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded, that the laws of classical mechanics could not be the final answer. 
 
 As we have seen when discussing Rutherford's experiment, in the early twentieth century more cracks became visible. These led scientists to Quantum Mechanics.
 
@@ -169,11 +390,10 @@ Extra reading with a historic perceptive. In a 200 page book [Wolfgang Pauli](ht
 
 Extra reading [Hoe de ether verdween uit de natuurkunde](images/HoeDeEtherVerdween.pdf). This article by Jos Engelen in the *Nederandse Tijdschrijft voor Natuurkunde* explains the Michelsen-Morley experiment, places it into historic perspective and then adds the work of Lorentz, Poincaré and Einstein leading to the Lorentz transformation.
 
-## Exercises
 
-```{exercise-start}
+```{exercise}
 :label: 15.1
-```
+
 Assume the Michelson-Morley experiment uses arms of length $L$ = 11 m and an aether wind speed $v$ due to the motion of the earth around the sun.  
 Distance earth-sun: $150 \cdot 10^6$km.  
 Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
@@ -182,14 +402,11 @@ The sun itself is orbiting the center of our Milky Way at an even higher speed: 
 
 Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors in their set up for each of the two light beam paths to make the traveling length of the light, from the splitter to the mirror and the edge of the table and back, much longer than only the radius of the table and back. This is how they achieved a path length of 11m. The table itself was of course not of a diameter of 22m. 
 
-```{exercise-end}
 ```
 
-## Answers
 
-```{solution-start} 15.1
+```{solution} 15.1
 :class: dropdown
-```
 
 The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6$ km and $T$ = 1 year = 31.6 $10^6$ s. This gives $V$ = 30 km/s.
 
@@ -211,227 +428,9 @@ Putting in the numbers, we find $ \Delta t = 3.67 \cdot 10^{-16}s$
 This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7}$m. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500 nm = 5 \cdot 10^{-7} m$.
 Conclusion: the expected time difference is well in reach of interferometry.
 
-```{solution-end}
 ```
 
 
-
-
-## Rutherford & the atom
-
-### Atomic theory
-The idea that matter is made of atoms is old. However, the notion of atoms as we have now is relatively young. 
-
-In the ancient Greek world, it was as early as the fifth century B.C. that Leucippus and later one of his pupils Democritus proposed that the world, i.e. matter, is made up of tiny, indivisible particles -which he called atoms, derived from the Greek word 'atomos', which means uncuttable. These particles float in a vacuum, that was called void by Democritus. We currently have a view that is remarkably close, but at the same time quite different from these first ideas.
-
-In ancient India even earlier (records go back to the eighth' century B.C.) philosophers like Uddalaka Aruni talk about matter being made up of tiny particles. They did not use terms like atoms, but instead referred to the 'building blocks' of matter as 'kana' which means particles. In the Islamic world, atomic theories were developed in e.g. the Asharite school by Al Ghazali (1058-1111). In his thinking, atoms are the only material things that live forever. Everything else, any event or interaction is due to God's intervention.
-
-Although these early thoughts point at atoms as the underlying elements of matter and as such resemble our current understanding of matter, they also differ quite a bit. The early ideas are based on philosophy and the notion that matter is either a continuum that can always be cut in smaller parts that still maintain all characteristics or that at some point a further splitting in smaller pieces is no longer possible with at least losing some of the characteristics.
-
-In more recent history, the notion of atoms as elementary building blocks is guided by experiments. The English physicist and chemist John Dalton (1766-1844) did ground braking work. For instance, he noticed that water, when decomposed, always resulted in the same elements: hydrogen and oxygen. Moreover, the relative weights of these two was always the same. Furthermore, he came to the conclusion that there is a uniques atom for each element. More chemists noted that many substances were made of the elements in very specific ratio's. In our modern view we would say: water is formed in a 1 to 2 ratio of oxygen and hydrogen, never in 1 to 2.1 or any other non-integer number. 
-
-Although the evidence from chemistry was clear, the notion of atoms as the building blocks remained controversial. One generally accepted the laws of definite proportion (e.g. water is decomposed in a fixed ratio in hydrogen and oxygen), but the hypothesis that everything was made of atoms was not. As a consequence, the work of Ludwig Boltzmann (1844-1906) on statistical thermodynamics that is entirely based on an atomic (or molecular) view was not accepted during Boltzmann's life.
-
-In the second half of the nineteenth century William Thomson (1824-1907) -later Lord Kelvin- proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether. 
-
-Stable vortices have the shape of rings with no beginning or end. In air they are easily made and made visible with smoke and are indeed surprisingly stable. According to the vortex theory, atoms are vortices in aether. The simplest one is a single ring, which was hydrogen. More complicated forms, called knots represented the other elements. 
-
-```{figure} images/VortexKnots.png
-:name: fig:VortexKnots.png
-:width: 350px
-:align: center
-
-Various vortex knots, each represents another element. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_for_unknot.svg), public domain.
-```
-
-
-```{figure} images/LordKelvin.jpg
-:name: fig:LordKelvin.jpg
-:width: 150px
-:align: center
-
-Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.
-```
-
-
-At the end of the nineteenth century, in 1897, Joseph John Thomson discovered the electron. It allowed him to further refine the scientific model of the atom and it made an end to the vortex theory. In Thomson's view, an atom had internal structure: the electrons were moving in it. As electrons have a negative charge and atoms are neutral, there must be a balancing positive charge in an atom as well. Thomson had no idea what that would be and he figured that the positive charge was everywhere in the atom (that he thought of as being a sphere), with the electrons moving inside that sphere as tiny particles. From this picture, the Thomson model got its name: the plum pudding model, although it is a bit misleading as the idea was that the positively charged sphere was more a liquid in which the electrons 'float' than a solid. 
-
-
-
-```{figure} images/PlumPuddingModel.png
-:name: fig:PlumPuddingModel.png
-:width: 150px
-:align: center
-
-Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
-```
-
-```{figure} images/JJThomson.jpg
-:name: fig:JJThomson.jpg
-:width: 150px
-:align: center
-
-Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.
-```
-
-
-The model did not hold very long as we will see in the next paragraph. Nevertheless, it marks the start of physicist becoming really interested in an atom theory.
-
-
-### Rutherford's scattering experiment
-#### Introduction
-
-
-The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from the X-rays. He called them 'alpha' and 'beta' rays and later proved that 'alpha' rays consisted of He-nuclei. Rutherford in cooperation with Frederick Soddy was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. Prior to that, the atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
-
-
-```{figure} images/Mariecurie.jpg
-:name: fig:MarieCurie.jpg
-:width: 200px
-:align: center
-
-Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
-```
-
-Rutherford in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the alpha particles. Moreover, he could show that the alpha particles were He-nuclei with a positive charge of 2e. In 1917 he showed that Nitrogen could become Oxygen by bombarding it with the alpha particles. This was the first time that someone succeeded in artificially changing one element into another.
-
-#### Scattering at a gold foil
-As mentioned Rutherford is responsible for overthrowing the plum pudding model and replacing it by our modern view: an atom is made of a tiny, positively charged nucleus with the electrons orbiting around it. 
-
-The start was formed by Rutherford's observation that some of the alpha-particles were deflected by a thin metal sheet in front of his alpha-counter. This puzzled him as the plum pudding model could not explain this. Hence, Rutherford, Geiger and Marsden set up an experiment in which they led the alpha particles scatter at a very thin gold foil. 
-
-The Source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope & detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
-
-
-```{figure} images/RutherfordExperimentalSetup.png
-:name: fig:RutherfordExperimentalSetup.png
-:width: 250px
-:align: center
-
-Experimental Setup of $\alpha$-scattering at a gold foil.
-```
-
-```{figure} images/ErnestRutherford.jpg
-:name: fig:ErnestRutherford.jpg
-:width: 150px
-:align: center
-
-Ernest Rutherford (1871-1937). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg), public domain.
-```
-
-
-
-The story goes, that Rutherford's students would, together with Geiger, do the measurements as an assignment of their studies. The principle is simple: set the microscope under a know angle and, for a given period in time, count the number of hits. Repeat this for the next angle of the microscope. Obviously, the first measurements where all done on the side of the foil opposite to the $\alpha$-emitter. One was expecting small deviations from the undisturbed trajectory.
-
-When the experiments were basically done, so goes the story, still a student was left over that also needed an assignment. One of Rutherford's assistant suggested that this student would then measure with the microscope at the same side of the foil as the $\alpha$-emitter. They did not expect anything to see, but they needed an assignment for this student. Whether the story of the student assignments is true or not, fact is that the team found also hits on the detector for angles of about 180$^\circ$. That is, some $\alpha$-particles seem to bounce back from the foil!
-
-There is no way that the plum pudding model could explain this. The argumentation to show that, goes as follows. 
-
-- The size of the atoms of gold is known: they are on the order of $r_0 \approx 10^{-10}$m.  
-This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found.   
-- An $\alpha$-particle has a charge of 2e and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
-However, an $alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
-It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
-
-Rutherford knew the theory of Maxwell for Electro-Magnetism and could estimate The force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
-
-$$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
-
-with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge (+2e) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9 Nm^2/C^2$) and $r_0$ the radius of a gold atom.
-
-The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
-
-- It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum 
-
-$\Delta p$ is much smaller than $p$ itself, the deflection will be small.
-
-```{figure} images/RutherfordDeltaP.png
-:name: fig:RutherfordDeltaP.png
-:width: 250px
-:align: center
-
-Relation of angle of deflection and change in momentum.
-```
-$$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \text{ if } \phi \ll 1$$
-  
--  The momentum change is due to the force $F_c$ working for a time period 
-
-$\Delta t$ on the particle:
-
-$$ dP = Fdt -\rightarrow \Delta p \approx F_c \Delta t$$
-
-The time the particle is in the atom is estimated as follows. The particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
-  
--  If we put everything together, we find:
-
-$$ \frac{\Delta p}{p} \ll \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} \cdot \frac{2r_0}{v_0} = \frac{q_\alpha Q_g}{2 \pi \epsilon_0} \frac{1}{r_0 v_0} \ll 1$$
-
-We have used the know charge of a gold atom (79e) and that of the $\alpha$-particle, the radius of the gold atom and the incoming velocity of the $\alpha$-particle, $v_0 \approx 1.6 \cdot 10^{7}$m/s.
-  
-
-
-With this estimate and the fact that Rutherford's gold foil was about 400 atoms thick, there is no way that we can explain $\alpha$-particles bouncing back.
-
-Rutherford and his colleagues, had no other option than to conclude that the positive charge of the gold atom must be confined to a much smaller part of space. After all, the only parameter in our estimate that is not measured is $r_0$. That was estimated based on the plum pudding model.
-
-They redid the calculation, but now with $r_0$ as a free parameter to be backed out of the calculation. They changed the requirement of small scattering angles (i.e. small deviation from the original path) to the experimental finding that scattering angles of about 180$^\circ$ were possible. That gave that $r_0$ is on the order of $10^{-14}$m. 
-
-Conclusion: the atom has a nucleus that is much smaller than the size of the atom that contains all positive charge. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
-
-```{figure} images/RutherfordAtom.png
-:name: fig:RutherfordAtom.png
-:width: 200px
-:align: center
-
-Rutherford's model of an atom.
-```
-
-This new model would spark a whole new set of questions, setting up one of the biggest changes in physics: Quantum Theory.
-
-#### Collapse of matter?
-An immediate consequence of this new view on atoms and matter came from the analogy with Newton's work on the solar system and the Kepler Laws. In the case of the sun and planets, the interaction force is gravity: $\vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2}\hat{r_{12}}$. When dealing with a nucleus with its orbiting electrons the interaction force is the Coulomb force: $ \vec{F}_C = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r_{12}^2}\hat{r_{12}} $.
-
-As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance from the two interacting particles the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
-
-Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of Electro-Magnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electro-magnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know, that the idea of an atom being a miniature solar system is wrong. But out of questions and dilemma's as these grew very quickly quantum mechanics opening a whole new world and a completely different picture of things at the small scales. A world with new rules and new consequences, where our intuition based on daily life and large scale structures composed of many, many atoms fails.
-
-#### Scattering Theory
-The work of Rutherford and co-workers forms the start of a new branch of physics: nuclear physics. By using radiation in the form of X-rays (i.e. high energy photons) and electrons or protons, physicists are able to probe the internal properties of molecules, atom, nuclei and even elementary particles (or at least, what we once thought were elementary particles).
-
-The idea is to send high energy particles towards the object of investigation and look at the scattering that is a consequence of the interaction between the object and the incoming particles. The internal structure of the object dictates the scattering. Thus, by measuring the scattering features and back tracing the underlying physical interaction can be found.
-
-It is done with facilities of a very large scale to research particles at the smallest scales. For instance, in CERN researchers accelerate particles (protons, electrons, etc) to velocities almost the speed of light. Then, they let these particles collide, that is undergo interactions involving enormous amounts of energy, and measure the fragments and all kind of exotic particles that result from these collisions. 
-
-```{figure} images/AirPictureOfCERN.jpg
-:name: fig:RutAirPictureOfCER.png
-:width: 350px
-:align: center
-
-Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](josefrancisco.org), licensed under CC-BY 4.0.
-```
-
-The principles used in scattering can be illustrated by revisiting Rutherford's experiment. 
-
-```{figure} images/ScatteringPrinciple.png
-:name: fig:ScatteringPrinciple.png
-:width: 350px
-:align: center
-
-Scattering of an incoming particle at a fixed source.
-```
-
-Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a fixed second particle. The latter is fixed in the origin and act like a force-source. The force is central, i.e. works along the direction of the red line in fig.(7.7). In the drawing the forces is repelling and the incoming particle will deviate from its straight line. Eventually it will continue moving over a straight line, when the influence of the force is no longer felt. The angle of the new direction with the incoming one, is $\theta$, the scattering angle. We are looking for the relation between $b$, the distance at which the incoming particle would have passed by the origin if there was no force and the scattering angle $\theta$.
-
-
-```{figure} images/Scattering2D3D.png
-:name: fig:Scattering2D3D.png
-:width: 450px
-:align: center
-
-left: scattering in 2D, right: scattering in 3D.
-```
-
-In fig.(7.8) scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2d equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3d it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
 
 
 ## Three body Problem
