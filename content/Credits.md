@@ -104,7 +104,7 @@ This website is a [Jupyter Book](https://jupyterbook.org/intro.html). MarkDown s
 
 The bar on the right of this page opens [Hypothesis](https://web.hypothes.is/), a service that allows you to add comments to pieces of text in this book.
 
-![](https://i.creativecommons.org/l/by/4.0/88x31.png)
+<!-- ![](https://i.creativecommons.org/l/by/4.0/88x31.png) -->
 
 
 ### Software and license

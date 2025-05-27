@@ -15,7 +15,7 @@ $$
          \frac{d\vec{p}_2}{dt} = \vec{F}_{12} = - \vec{F}_{21}\end{array} \right \} \rightarrow \frac{d}{dt} \left ( \vec{p}_1 + \vec{p}_2 \right ) = 0 \Rightarrow \vec{p}_1 + \vec{p}_2 = const
 $$
 
-The total (linear) momentum is conserved if only internal forces are present; "action-reaction pairs" always cancel out.<br>
+The total (linear) momentum is conserved if only internal forces are present; "action-reaction pairs" always cancel out.  
 This law has no exception: it must be obeyed at all times. The total momentum is constant, momentum lost by one must be gained by others.
 
 ## Conservation of Energy

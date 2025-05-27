@@ -46,7 +46,7 @@ $$
 In words: the integral of the force over a closed path equals the surface integral of the curl of that force. The surface being 'cut out' by the close path. The term $\vec{\nabla} \times \vec{F}$ is called the curl of $F$: it is a vector. The meaning of it and some words on the theorem are given below.
 
 ````{Intermezzo} Intermezzo: intuitive proof of Stokes' Theorem 
-Consider a closed curve in the $xy$-plane. We would like to calculate the work done when going around this curve. In other words: what is $\oint \vec{F} \cdot d\vec{r}$ if we move along this curve?<br>
+Consider a closed curve in the $xy$-plane. We would like to calculate the work done when going around this curve. In other words: what is $\oint \vec{F} \cdot d\vec{r}$ if we move along this curve?  
 
 We can visualize what we need to do: we cut the curve in small part; compute $\vec{F} \cdot d\vec{r}$ for each part (i.e. the red, green, blue, etc. in fig.(\ref{Stokes2.png}) and sum these to get the total along the curve. If we make the parts infinitesimally small, we go from a (Riemann) sum to an integral. 
 
@@ -60,13 +60,13 @@ Closed path on a grid.
 
 We are going to compute much more: take a look at {numref}`fig:Stokes2.png`. We have put a grid in the $xy$-plane over a closed curve $\Gamma$. Hence, the interior of our curve is fool op squares. We are not only computing the parts along the curve, but also along the sides of alle curves. This will sound like way too much work, but we will see that it actually is a very good idea.
 
-See {numref}`fig:Stokes2.png`: we calculate $\oint \vec{F} \cdot d\vec{r}$ counter clockwise for the green square. Than we have at least the green part of our $\oint \vec{F} \cdot d\vec{r}$ done in the right direction. Hence, we compute $\int \vec{F} \cdot d\vec{r}$ along the right side of the green square. We do that from bottom to top as we go counter clockwise along the green square. Let's call that $\int_g \vec{F} \cdot d\vec{r}$.<br>
+See {numref}`fig:Stokes2.png`: we calculate $\oint \vec{F} \cdot d\vec{r}$ counter clockwise for the green square. Than we have at least the green part of our $\oint \vec{F} \cdot d\vec{r}$ done in the right direction. Hence, we compute $\int \vec{F} \cdot d\vec{r}$ along the right side of the green square. We do that from bottom to top as we go counter clockwise along the green square. Let's call that $\int_g \vec{F} \cdot d\vec{r}$.  
 
-Then we move to the blue square and repeat in counter clockwise direction our calculation. But this means that we compute along the left side of blue the square from top to bottom. We will call this $\int_b \vec{F} \cdot d\vec{r}$.<br>
+Then we move to the blue square and repeat in counter clockwise direction our calculation. But this means that we compute along the left side of blue the square from top to bottom. We will call this $\int_b \vec{F} \cdot d\vec{r}$.  
 
-Note that we will add all contributions. Thus we get $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r}$. But these two cancel each other as they are exactly the same but done in opposite directions. Thus if we use that $\int_1^2 f dx = - \int_2^1 f dx$ for any integration, it becomes obvious that  $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r} = 0$.<br>
+Note that we will add all contributions. Thus we get $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r}$. But these two cancel each other as they are exactly the same but done in opposite directions. Thus if we use that $\int_1^2 f dx = - \int_2^1 f dx$ for any integration, it becomes obvious that  $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r} = 0$.  
 
-Note that this will happen for all side of the squares that are in the interior of our curve. Thus, the integral over all squares is exactly the integral along the curve $\Gamma$.<br>
+Note that this will happen for all side of the squares that are in the interior of our curve. Thus, the integral over all squares is exactly the integral along the curve $\Gamma$.  
 
 It seems, we do a lot of work for nothing. But there is another way of looking at the path-integrals along the squares. If we make the square small enough, the calculation along one square can be approximated:
 
@@ -84,7 +84,7 @@ $$
 \oint_{\Gamma} \vec{F} \cdot d\vec{r} = \iint \left ( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right ) dx dy
 $$
 
-The right hand side of the above equation is an surface integral of the 'vector' $\frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}$. Obviously, we did not provide a rigorous proof, but only an intuitive one. For a mathematical proof, see your calculus classes.<br>
+The right hand side of the above equation is an surface integral of the 'vector' $\frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}$. Obviously, we did not provide a rigorous proof, but only an intuitive one. For a mathematical proof, see your calculus classes.  
 
 Moreover, we only worked in the $xy$-plane. If we would extend our reasoning to a closed curve in 3 dimensions, we would get Stokes theorem, which reads as:
 
@@ -110,7 +110,7 @@ F_x & F_y & F_z  \end{vmatrix}
 = \left ( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right ) \hat{x} + \left ( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right ) \hat{y} + \left ( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right ) \hat{z}
 $$
 
-Note of warning: do be careful with the nabla-operator. It is not a standard vector. For instance, ordinary vectors have the property $\vec{a} \cdot \vec{b} = \vec{b} \cdot \vec{a}$. This does not hold for the nabla-operator.<br>
+Note of warning: do be careful with the nabla-operator. It is not a standard vector. For instance, ordinary vectors have the property $\vec{a} \cdot \vec{b} = \vec{b} \cdot \vec{a}$. This does not hold for the nabla-operator.  
 
 Second note of warning: the representation of the nabla-operator does change quite a bit when using other coordinate systems like cylindrical or spherical. For instance, in cylindrical coordinates it is <b><em>not</em></b> equal to $\left ( \begin{matrix} \frac{\partial}{\partial r} \\ \frac{\partial}{\partial \phi} \\ \frac{\partial}{\partial z} \end{matrix} \right )$. This can be easily seen as both $r, z$ have units length, i.e. meters, but $\phi$ has no units.
 ````
@@ -168,7 +168,7 @@ Indeed, we find the same outcome.
 
 ## Conservative force and $\vec{\nabla} \times \vec{F}$ ##
 
-For a conservative force the integral over the closed path is zero for any closed path. Consequently, $ \vec{\nabla} \times \vec{F} = 0 $ everywhere. How do we know this? Suppose $ \vec{\nabla} \times \vec{F} \neq 0 $ at some point in space. Then, since we deal with continuous differentiable vector fields, in the close vicinity of this point, it must also be non-zero. Without loss of generality, we can assume that in that region $ \vec{\nabla} \times \vec{F} \cdot d\vec{\sigma}> 0 $. Next, we draw a closed curve around this point, in this region. We now calculate the $\oint \vec{F} \cdot d\vec{r}$ along this curve. That is, we invoke Stokes Theorem. But we know that $ \vec{\nabla} \times \vec{F} \cdot d\vec{\sigma} > 0 $ on the surface formed by the closed curve. Consequently, the outcome of the surface integral is non-zero. But that is a contradiction as we started with a conservative force and thus the integral should have been zero. <br>
+For a conservative force the integral over the closed path is zero for any closed path. Consequently, $ \vec{\nabla} \times \vec{F} = 0 $ everywhere. How do we know this? Suppose $ \vec{\nabla} \times \vec{F} \neq 0 $ at some point in space. Then, since we deal with continuous differentiable vector fields, in the close vicinity of this point, it must also be non-zero. Without loss of generality, we can assume that in that region $ \vec{\nabla} \times \vec{F} \cdot d\vec{\sigma}> 0 $. Next, we draw a closed curve around this point, in this region. We now calculate the $\oint \vec{F} \cdot d\vec{r}$ along this curve. That is, we invoke Stokes Theorem. But we know that $ \vec{\nabla} \times \vec{F} \cdot d\vec{\sigma} > 0 $ on the surface formed by the closed curve. Consequently, the outcome of the surface integral is non-zero. But that is a contradiction as we started with a conservative force and thus the integral should have been zero.   
 The only way out, is that $ \vec{\nabla} \times \vec{F} = 0 $ everywhere.
 
 Thus we have:
@@ -176,11 +176,11 @@ Thus we have:
 $$
 \text{conservative force  } \Leftrightarrow \vec{\nabla} \times \vec{F} = 0 \text{ everywhere}
 $$
-<br>
+  
 
 
 ## Potential Energy ##
- A direct consequence of the above is:<br>
+ A direct consequence of the above is:  
 
  if $ \vec{\nabla} \times \vec{F} = 0 $ everywhere, a function $ V (\vec{r}) $ exists such that $ \vec{F} = -\vec{\nabla}V $
           
@@ -191,7 +191,7 @@ $$
 $$
        
 
-where in the last integral, the lower limit is taken from some, self picked, reference point. The upper limit is the position $ \vec{r} $.<br>
+where in the last integral, the lower limit is taken from some, self picked, reference point. The upper limit is the position $ \vec{r} $.  
 
 This function V is called the potential energy or the potential for short. It has a direct connection to work and kinetic energy.
 
@@ -205,11 +205,11 @@ $$
 	E_{kin,1} + V(\vec{r}_1)  = E_{kin,2} + V(\vec{r}_2) 
 $$ 
 
-In words: **for a conservative force, the sum of kinetic and potential energy stays constant**.<br><br>
+In words: **for a conservative force, the sum of kinetic and potential energy stays constant**.    
 
 ### Energy versus Newton's Second Law ###
-We, starting from Newton's Laws, arrived at an energy formulation for physical problems. <br>
-Question: can we also go back? That is: suppose we would start with formulating the energy rule for a physical problem, can we then back out the equation of motion?<br>
+We, starting from Newton's Laws, arrived at an energy formulation for physical problems.   
+Question: can we also go back? That is: suppose we would start with formulating the energy rule for a physical problem, can we then back out the equation of motion?  
 Answer: yes, we can!
 
 It goes as follows. Take a system that can be completely described by its kinetic plus potential energy. Then: take the time-derivative and simplify, we will do it for a 1-dimensional case first.
@@ -246,7 +246,7 @@ This is a great result. It allows us to pick what we like: formulate a problem i
 
 
 ## Stable/Unstable Equilibrium ##
-A particle (or system) is in equilibrium when the sum of forces acting on it is zero. Then, it will keep the same velocity, and we can easily find an inertial system in which the particle is at rest, at an equilibrium position. <br>
+A particle (or system) is in equilibrium when the sum of forces acting on it is zero. Then, it will keep the same velocity, and we can easily find an inertial system in which the particle is at rest, at an equilibrium position.   
 The equilibrium position (or more general state) can also be found directly from the potential energy.
 
 Potential energy and (conservative) forces are coupled via: 
@@ -284,7 +284,7 @@ Luckily, the definition of potential energy is such that these rules are easy to
 Stable and unstable position of a particle in a potential.
 ```
 
-A valley is stable; a hill top is unstable. <br>
+A valley is stable; a hill top is unstable.   
 NB: Now the choice of the minus sign in the definition of the potential is clear . Otherwise a hill would be stable, but that does not feel natural at all.
 
 It is also easy to visualize what will happen if we distort that particle from the equilibrium state:
@@ -293,7 +293,7 @@ It is also easy to visualize what will happen if we distort that particle from t
 <li>The valley, i.e., the stable system, will make the particle move back to the lowest point. Due to inertia, it will not stop but will continue to move. As the lowest position is one of zero force, the particle will 'climb' toward the other end of the valley and start an oscillatory motion.</li>
 <li>The top, i.e., the unstable point, will make the particle move away from the stable point. The force acting on the particle is now pushing it outwards, down the slope of the hill.</li>
 </ul>
-<br>
+  
 
 
 ### Taylor Series Expansion of the Potential ###
@@ -310,7 +310,7 @@ For our purpose here, it suffices to stop after the second derivative term:
  f(x) \approx f(x_0) + f'(x_0) (x-x_0 ) + \frac{1}{2} f''(x_0) (x-x_0)^2 + \mathcal{O}(x^3)
  $$
  
-A way of understanding why the Taylor series actually works is the following.<br>
+A way of understanding why the Taylor series actually works is the following.  
 Imagine you have to explain to someone how a function looks around some point $x_0$, but you are not allowed to draw it. One way of passing on information about $f(x)$ is to start by giving the value of $f(x)$ at the point $x_0$:
 
 $$

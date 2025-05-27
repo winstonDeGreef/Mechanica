@@ -64,7 +64,7 @@ We have a few arguments:
 1)  if the particles are actually each half of a real particle, we obviously require that $\vec{R}$ is the position of the real particle.
 2)  If the particles are separate by a small distance, we would like to have the fictitious particle somewhere in between the two. Moreover, if the two particles are identical, it makes sense to have the fictitious particle right in between them: the system is symmetric.
 
-Where, in general is the position $\vec{R}$? <br> That can be easily seen from the figure below.
+Where, in general is the position $\vec{R}$?    That can be easily seen from the figure below.
 
 ```{figure} images/CM_r1r2.png
 :label: fig:TCM_r1r2.png
@@ -78,8 +78,8 @@ We rewrite the definition of $\vec{R}$:
 
 $$ \vec{R} \equiv \frac{m_1 \vec{x}_1 + m_2 \vec{x}_2}{m_1 + m_2} = \vec{x}_1 + \frac{m_2}{m_1 + m_2} \left ( \vec{x}_2 - \vec{x}_1\right )$$
 
-Thus, the last part of the above equation tells us: first go to $m_1$ and then, 'walk' a fraction $\frac{m_2}{m_1 + m_2} $ of the line connecting $m_1$ and $m_2$. If you have done that, you are at position $\vec{R}$.<br>
-Note: if $m_1 = m_2$ this recipe indeed brings us right between the two particles.<br>
+Thus, the last part of the above equation tells us: first go to $m_1$ and then, 'walk' a fraction $\frac{m_2}{m_1 + m_2} $ of the line connecting $m_1$ and $m_2$. If you have done that, you are at position $\vec{R}$.  
+Note: if $m_1 = m_2$ this recipe indeed brings us right between the two particles.  
 Further note: the position of $M$ is always on the line from $m_1$ to $m_2$. If $m_1$ is much larger than $m_2$, it will be located close to $m_1$ and vice versa. 
 
 We call this position the **center of mass**, or CM for short. Reason: if we look at the response of our two particle system to the forces, it is as if there is a particle $M$ at position $\vec{R}$ that has all the momentum of the system.
@@ -405,7 +405,7 @@ Two bumper cars are approaching each other in a straight line. The two cars will
 
 Two carts on a frictionless track move toward each other:
 
-Cart 1: mass $m_1$ = 2kg, velocity $v_1$ = 4m/s <br>
+Cart 1: mass $m_1$ = 2kg, velocity $v_1$ = 4m/s   
 Cart 2: mass $m_2$ = 3kg, velocity $v_2$ = -2m/s 
 * What is the total kinetic energy in the lab frame?
 * What is the velocity of the center of mass?
@@ -522,7 +522,7 @@ v_2' & = v_2 - V_{cm} = -4.8m/s
 ```{solution} 10.5
 :class: dropdown
 
-Cart 1: mass $m_1$ = 2kg, velocity $v_1$ = 4m/s <br>
+Cart 1: mass $m_1$ = 2kg, velocity $v_1$ = 4m/s   
 Cart 2: mass $m_2$ = 3kg, velocity $v_2$ = -2m/s 
 * The total kinetic energy in the lab frame is
 
@@ -573,9 +573,9 @@ We can, however, find some basic features of $N$-body problems. In the figure, a
 
 ```{figure} images/ManyParticles.jpg
 :label: fig:ManyParticles.jpg
-width: 150px
-align: center
----
+:width: 150px
+:align: center
+
 Many particle system.
 ```
 

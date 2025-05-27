@@ -12,20 +12,20 @@ project:
   github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY 4.0
 
-  exports:
-    - format: typst # typst 
-      output: exports/document_typst.pdf
-      template: lapreprint-typst
-      id: output-typst
+  # exports:
+  #   # - format: typst # typst 
+  #   #   output: exports/document_typst.pdf
+  #   #   template: lapreprint-typst
+  #   #   id: output-typst
 
-    - format: pdf
-      template: ./template
-      output: exports/MechaRela.pdf
-      id: output-pdf
+  #   - format: pdf
+  #     template: ./template
+  #     output: exports/MechaRela.pdf
+  #     id: output-pdf
 
-  downloads:
-    - id: output-typst
-    - id: output-pdf
+  # downloads:
+  #   # - id: output-typst
+  #   - id: output-pdf
 
   jupyter: 
     lite: true
@@ -54,9 +54,9 @@ project:
           children:
             - file: content/Ch6_ex.ipynb
 
-        - file: content/Ch7_ConservationEquations.md
-          children:
-            - file: content/Ch7_ex.md
+        # - file: content/Ch7_ConservationEquations.md
+        #   children:
+        #     - file: content/Ch7_ex.md
 
         - file: content/Ch8_Oscillations.md
           children:
@@ -66,42 +66,41 @@ project:
           children:
             - file: content/Ch9_ex.md
         
-        - file: content/ChX0_TwoBody.md
+        # - file: content/ChX0_TwoBody.md
     #    - file: content/ChX1_ManyBody.md
 
-
+#######################################################################
     - title: Special Relativity
       children:        
-    #    - file: content/Special.md        
-        - file: content/ChX2_CracksInMecha.md
+        - file: content/special/ChX2_CracksInMecha.md
           children:
-            - file: content/ChX2_ex.md
-        - file: content/ChX3_IntroSpecialRelativity.md
+            - file: content/special/ChX2_ex.md
+        - file: content/special/ChX3_IntroSpecialRelativity.md
           children:
-            - file: content/ChX3_ex.md
-        - file: content/ChX4_VelotransDoppler.md
+            - file: content/special/ChX3_ex.md
+        - file: content/special/ChX4_VelotransDoppler.md
           children:
-            - file: content/ChX4_ex.md
-        - file: content/ChX5_FourVectors.md
+            - file: content/special/ChX4_ex.md
+        - file: content/special/ChX5_FourVectors.md
           children:
-            - file: content/ChX5_ex.md
-        - file: content/ChX6_FourMomentum.md
+            - file: content/special/ChX5_ex.md
+        - file: content/special/ChX6_FourMomentum.md
           children:
-            - file: content/ChX6_ex.md
-        - file: content/ChX7_RelDynColl.md
+            - file: content/special/ChX6_ex.md
+        - file: content/special/ChX7_RelDynColl.md
           children:
-            - file: content/ChX7_ex.md
+            - file: content/special/ChX7_ex.md
 
 
-    - title: Project
-      children:
-        - file: content/project/Numerical analysis.ipynb
+    # - title: Project
+    #   children:
+    #     - file: content/project/Numerical analysis.ipynb
 
-    - title: For developers
-      children:
-        - file: content/howto/Howtostart.md
-        - file: content/howto/Cheatsheet.md
-        - file: content/howto/test.ipynb
+    # - title: For developers
+    #   children:
+    #     - file: content/howto/Howtostart.md
+    #     - file: content/howto/Cheatsheet.md
+    #     - file: content/howto/test.ipynb
         
 #########################################################################
 site:

@@ -26,8 +26,8 @@ One might wonder: couldn't they, in the ancient days, not have found clues that 
 ```{figure} images/Parallax.jpg
 :label: fig:Parallax
 width: 50%
-align: center
----
+:align: center
+
 Parallax: apparent change in position caused by motion of the earth.
 ```
 
@@ -43,8 +43,8 @@ Nevertheless, the idea of the earth at the center of the universe and everything
 ```{figure} images/OrbitMars.png
 :label: fig:OrbitMars
 width: 70%
-align: center
----
+:align: center
+
 Position of Mars versus the 'fixed stars' over a longer period of time. Mars seems to move backwards for a short period of time. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mars_motion_2005.png) by Tomruen, licensed under CC-BY-SA 4.0.
 ```
 
@@ -53,8 +53,8 @@ The Greek astronomers and philosophers 'cured' this mismatch with the circle &am
 ```{figure} images/EpiCirkels.png
 :label: fig:EpiCirkels
 width: 50%
-align: center
----
+:align: center
+
 Epi-cycles and the moving backwards of a planet.
 ```
 
@@ -64,8 +64,8 @@ From the Helio-centric view, one can easily compute the geo-centric one and find
 ```{figure} images/EpiCirkelCrop.gif
 :label: fig:EpiCirkelCrop.gif
 width: 70%
-align: center
---- 
+:align: center
+ 
 Sun (yellow), Earth (blue) and Mars (red). Left: helio centrum view; right: geo centric view.
 ```
 
@@ -79,8 +79,8 @@ In the Muslim world astronomers also studied the motion of stars and planets. A 
 ```{figure} images/UlughBeg.jpg
 :label: fig:UlughBeg
 width: 70%
-align: center
----
+:align: center
+
 Stamp with portrait of Ulugh Beg and Inside Ulugh Beg's observatory. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1987_CPA_5876.jpg), public domain.
 ```
 
@@ -94,8 +94,8 @@ The geo-centric view prevailed. It was unthinkable that the earth was not the ce
 ```{figure} images/Copernicus.jpg
 :label: fig:Copernicus
 width: 70%
-align: center
----
+:align: center
+
 Nicolaus Copernicus holding a helio-centric model in his hand. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Copernicus.jpg), public domain.
 ```
 
@@ -110,8 +110,8 @@ Galileo Galilei (Pisa, Italy, 17 Feb. 1564 - Florence, Italy, 8 Jan. 1642) is se
 ```{figure} images/Galilei.jpg
 :label: fig:Galilei
 width: 70%
-align: center
----
+:align: center
+
 Portrait of Galileo Galilei in 1636 A.D. by Justus Sustermans. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg), public domain.
 ```
 
@@ -125,8 +125,8 @@ If friction can be ignored, the particle will reach the same height as it was re
 ```{figure} images/Gutter.jpg
 :label: fig:Gutter
 width: 70%
-align: center
----
+:align: center
+
 Galilei: a particle moving down the gutter will reach the same height at the other side.
 ```
 
