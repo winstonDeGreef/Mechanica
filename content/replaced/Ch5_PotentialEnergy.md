@@ -182,7 +182,7 @@ $$
 ## Potential Energy ##
  A direct consequence of the above is:<br>
 
- if $ \vec{\nabla} \times \vec{F} = 0 $ everywhere, a function $ V (\vec{r})) $ exists such that $ \vec{F} = -\vec{\nabla}V $
+ if $ \vec{\nabla} \times \vec{F} = 0 $ everywhere, a function $ V (\vec{r}) $ exists such that $ \vec{F} = -\vec{\nabla}V $
           
 $$
 	\text{conservative force } \Leftrightarrow \vec{\nabla} \times \vec{F} = 0  \text{ everywhere } \\
