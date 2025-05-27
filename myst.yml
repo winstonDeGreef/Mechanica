@@ -63,39 +63,21 @@ project:
             - file: content/Ch8_ex.md
             
         - file: content/Ch9_Collisions.md
-          children:
-            - file: content/Ch9_ex.md
         
-      #   - file: content/ChX0_TwoBody.md
-      #  - file: content/ChX1_ManyBody.md
+        - file: content/ChX0_TwoBody.md
+    #    - file: content/ChX1_ManyBody.md
 
 
     - title: Special Relativity
       children:        
+    #    - file: content/Special.md        
         - file: content/ChX2_CracksInMecha.md
-          children:
-            - file: content/ChX2_ex.md
-        
         - file: content/ChX3_IntroSpecialRelativity.md
-          children:
-            - file: content/ChX3_ex.md
-        
         - file: content/ChX4_VelotransDoppler.md
-          children:
-            - file: content/ChX4_ex.md
-
         - file: content/ChX5_FourVectors.md
-          children:
-            - file: content/ChX5_ex.md
-
         - file: content/ChX6_FourMomentum.md
-          children:
-            - file: content/ChX6_ex.md
-
         - file: content/ChX7_RelDynColl.md
-          children:
-            - file: content/ChX7_ex.md
-                    
+
 
     - title: Project
       children:

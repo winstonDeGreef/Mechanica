@@ -505,3 +505,6 @@ Alpha Centauri A and B circling each other with a third object. The third 'plane
 ```
 
 Note: this is a chaotic system and computations need great care. 
+
+```{iframe} https://trinket.io/embed/glowscript/b541844f22
+```
