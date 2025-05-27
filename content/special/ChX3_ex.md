@@ -149,7 +149,7 @@ E2: $(ct_2, x_2) = (\gamma 2L', \gamma 2\frac{V}{c}L') $
 
 4. This becomes evident in the $(ct,x)$ diagram.
 
-```{figure} images/TrainTwoPulses_animation.gif
+```{figure} ../images/TrainTwoPulses_animation.gif
 :label: fig:TrainTwoPulses_animation.gif
 :width: 850px
 :align: center

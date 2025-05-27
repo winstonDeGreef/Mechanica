@@ -12,7 +12,7 @@ A few simple examples will illustrate the above.
 
 The merry-go-round ({numref}`fig:HaMerryGoRound.jpg`) is a periodic motion, but not an oscillation. The seats go round in a circular, periodic motion but there is no back & forth. This is in contrast to a swing. That is also a periodic motion, but it has the back and forth as well as a restoring force, which in this case is gravity.
 
-```{figure} images/MerryGoRound2.jpg
+```{figure} ../images/MerryGoRound2.jpg
 :label: fig:HaMerryGoRound.jpg
 :width: 320px
 :align: center
@@ -37,7 +37,7 @@ here $r$ and $f$ represent the rabbit and fox population, resp. $\lambda_r$ is t
 
 This is clearly a coupled and dynamic system. It is non-linear due to the product $r \cdot f$, making it much more difficult to solve analytically then linear versions. In literature, this kind of system is known as Lotka-Volterra or prey-predator models. Below is a plot of the numerical solution of the rabbit and fox population (for $( \lambda_r, \mu_r,\lambda_f, mu_f) = (0.2, 0.03, 0.1, 0.01) $ and initial conditions ($r_0$, $f_0$) = (80, 2)).
 
-```{figure} images/RabbitsAndFoxes.png
+```{figure} ../images/RabbitsAndFoxes.png
 :label: fig:RabbitsAndFoxes.png
 :width: 400px
 :align: center
@@ -47,7 +47,7 @@ Periodic time evolution of the population of rabbits and foxes.
 
 The solution is periodic. This can be illustrated better by plotting $f$ against $r$. The animation below shows this (this kind of plot is called a phase plot). 
 
-```{figure} images/rf_animation.gif
+```{figure} ../images/rf_animation.gif
 :label: fig:rf_animation.gif
 :width: 400px
 :align: center
@@ -58,7 +58,7 @@ Phase plot of the rabbit-fox prey-predator model. The red dot shows the populati
 #### Wilberforce Oscillator
 As a second example we look at the Wilberforce pendulum. This is a spring, suspended vertically, to which a weight is fixed at the free end. The weight can go up and down but also rotate in a horizontal plane. A sketch is given below. 
 
-```{figure} images/WilberforceSketch.png
+```{figure} ../images/WilberforceSketch.png
 :label: fig:WilberforceSketch.png
 :width: 150px
 :align: center
@@ -92,7 +92,7 @@ Don't worry, if you don't follow this. The point here is, that we have a coupled
 We could use a simple numerical scheme like we have employed in Chapter 3. In the figure below $z(t)$ and $\theta (t)$ are shown using such a simple numerical scheme.
 
 
-```{figure} images/WilberforceEuler.png
+```{figure} ../images/WilberforceEuler.png
 :label: fig:WilberforceEuler.png
 :width: 450px
 :align: center
@@ -105,7 +105,7 @@ We indeed see the oscillating motion and that the vertical oscillation changes o
 But there is something really disturbing: the amplitude of our oscillation is increasing and it seems to do so for every cycle. That cannot be true: It violates energy conservation. What did we do wrong? Well, our numerical method is just not good enough. If we use again a higher order method, we obtain the results in the figure below.
 
 
-```{figure} images/WilberforceHigherOrder.png
+```{figure} ../images/WilberforceHigherOrder.png
 :label: fig:WilberforceHigherOrder.png
 :width: 450px
 :align: center
@@ -117,7 +117,7 @@ Now the amplitude of the oscillations stays nicely constant, obeying conservatio
 
 In the figure below a small animation can be seen: the marker in both graphs shows $z$ and $\theta$ at the same time instant.
 
-```{figure} images/Wilberforce_animation.gif
+```{figure} ../images/Wilberforce_animation.gif
 :label: fig:Wilberforce_animation.gif
 :width: 450px
 :align: center
@@ -137,7 +137,7 @@ $$F_v = - k (l - l_0 ) = -k \Delta l $$
 
 This is shown in the figure below.
 
-```{figure} images/MassSpring.png
+```{figure} ../images/MassSpring.png
 :label: fig:MassSpring.png
 :width: 300px
 :align: center
@@ -244,7 +244,7 @@ No wonder we find harmonic oscillators 'everywhere'. Any system that has a stabl
 ### Torsion Pendulum
 We take a straight metal wire. Suspend one end at the ceiling and attach a disc of radius $R$ and mass $m$ at the other end.
 
-```{figure} images/TorsionPendulum.png
+```{figure} ../images/TorsionPendulum.png
 :label: fig:TorsionPendulum.png
 :width: 150px
 :align: center
@@ -274,7 +274,7 @@ with $\omega \equiv \frac{d\theta}{dt}$, the angular velocity.
 ### L-C circuit
 In Electronics alternating current (AC) circuits are building blocks of many complex systems. One of these is the L-C circuit, in which an inductor, $L$, and a capacitor, $C$, are in series coupled. See {numref}`fig:LCcircuit.png`.
 
-```{figure} images/LCcircuit.png
+```{figure} ../images/LCcircuit.png
 :label: fig:LCcircuit.png
 :width: 150px
 :align: center
@@ -297,7 +297,7 @@ L \frac{d^2 I}{dt^2} + \frac{1}{C}I &= 0 \Rightarrow \\
 
 As we see, this LC-circuit will start to oscillate. In the animation below the current through the circuit and the voltage across the inductor are shown for $C = 1 \mu F$ and $L = 1 \mu H$.
 
-```{figure} images/LC_animation.gif
+```{figure} ../images/LC_animation.gif
 :label: fig:LC_animation.gif
 :width: 400px
 :align: center
@@ -315,7 +315,7 @@ Not only strings, but also beams will exhibit this behavior, well-known example:
 
 Another example of oscillatory motion is the pendulum. In its most simple for it is a point-mass $m$, attached to a massless rod of length $L$. The rod is fixed to a pivotal point that allows it to swing freely.
 
-```{figure} images/Pendulum.png
+```{figure} ../images/Pendulum.png
 :label: fig:Pendulum.png
 :width: 200px
 :align: center
@@ -385,7 +385,7 @@ $$ \frac{1}{2}mv^2 + mgz = E_0 $$
 
 To solve this, we change from $z$ to $\phi$. $z$ is, in terms of $\phi$: $L - L\cos\phi$, see {numref}`fig:PendulumEnergy.png`.
 
-```{figure} images/PendulumEnergy.png
+```{figure} ../images/PendulumEnergy.png
 :label: fig:PendulumEnergy.png
 :width: 250px
 :align: center
@@ -426,7 +426,7 @@ The animation shows: a green mass, that is the pendulum with a (fixed) small amp
 
 The red mass, on the other hand obeys the equation of motion of the pendulum leaving the term with $\sin \phi$. It is clear that the real pendulum (i.e. the red one) does not have the same frequency as the others. Moreover, its time trace (left part of the figure) is clearly not a true sinus.
 
-```{figure} images/Pendulum_animation.gif
+```{figure} ../images/Pendulum_animation.gif
 :label: fig:Pendulum_animation.gif
 :width: 600px
 :align: center
@@ -581,7 +581,7 @@ Further, note that the first part (with $A$) has an exponent that is closer to z
 
 In the figure below, an example of case 1 and case 3 is shown together with the solution of case 2. We see, that case 2 is the one that decays fastest: it has the highest damping coefficient in its exponent. This is called critical damping. If you need to dampen unwanted oscillations: make sure you tune your damping parameter b such that $b^2 - 4mk = 0$.
 
-```{figure} images/DampedOscillatorPlot.png
+```{figure} ../images/DampedOscillatorPlot.png
 :label: fig:DampedOscillatorPlot.png
 :width: 400px
 :align: center
@@ -601,7 +601,7 @@ $$
 
 and see how it evolves as a function of the damping $b$ in the complex plane.
 
-```{figure} images/polezero.png
+```{figure} ../images/polezero.png
 :label: fig:polezero.png
 :width: 400px
 :align: center
@@ -663,7 +663,7 @@ $$
 In this course we mostly only consider one oscillator, but of course there could be many that are coupled in one way or another. Already <a href="https://nl.wikipedia.org/wiki/Christiaan_Huygens">Christiaan Huygens</a> considered them.
 
 
-```{figure} images/coupled_huygens.jpg
+```{figure} ../images/coupled_huygens.jpg
 :label: fig:coupled_huygens.jpg
 :width: 300px
 :align: center
@@ -729,7 +729,7 @@ m\ddot{x} + kx = 0 \rightarrow \ddot{x} + \omega_0^2 x = 0
 $$
 
 
-```{figure} images/ElectronBlueSky.png
+```{figure} ../images/ElectronBlueSky.png
 :label: fig:ElectronBlueSky.png
 :width: 150px
 :align: center
@@ -779,7 +779,7 @@ We will give here an intuitive derivation of the equation of motion. Don't worry
 In the figure below, a part of the string is drawn with special attention to a small part (the red line). On this small part the tension from the left and right side is pulling on the red part. This is visualized by the two blue arrows. In the inset, this is drawn at a larger scale. The two blue arrows are equal in magnitude ($T$) as the tension in the string is the same everywhere. But the direction in which the two blue forces are pulling is slightly different as the string is curved. 
 
 
-```{figure} images/TensionString.png
+```{figure} ../images/TensionString.png
 :label: fig:TensionString.png
 :width: 350px
 :align: center
@@ -891,7 +891,7 @@ In the figure below, a wave is shown that starts as seemingly one hump. But it a
 
 Moreover, the rope has a fixed end at the left and a free one at the right. Notice the difference in reflection of the waves at both ends.
 
-```{figure} images/OscillatingRope.gif
+```{figure} ../images/OscillatingRope.gif
 :label: fig:OscillatingRope.gif
 :width: 350px
 :align: center
@@ -940,7 +940,7 @@ If we look at the motion of the string on a violin closely, we will not see trav
 For a string with two ends fixed like on a piano or violin, the string can only show standing waves that 'fit'. These standing waves are sinusoidal and their wave length should be such that the beginning and end of the string don't oscillate. In the figure below four possibilities are shown.
 
 
-```{figure} images/String_animation.gif
+```{figure} ../images/String_animation.gif
 :width: 350px
 :align: center
  

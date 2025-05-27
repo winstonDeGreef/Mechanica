@@ -75,7 +75,7 @@ $$ a^2 + b^2 = c^2$$
 
 Example: for a triangle with sides (3,4,5) this would give the figure below.
 
-```{figure} images/PythagorasEuclidisch.png
+```{figure} ../images/PythagorasEuclidisch.png
 :label: fig:PythagorasEuclidisch.png
 :width: 150px
 :align: center
@@ -95,7 +95,7 @@ Can we draw this? Sure, now we need an $(ct,x$) diagram. It is a convention to d
 
 The figure is going to look like this.
 
-```{figure} images/PythagorasMinkowski.png
+```{figure} ../images/PythagorasMinkowski.png
 :label: fig:PythagorasMinkowski.png
 :width: 150px
 :align: center
@@ -116,7 +116,7 @@ E2: (ct'_2, x'_2) &= \left ( \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ), \ga
 
 \end{split}$$
 
-```{figure} images/PythagorasMinkowskiPrime.png
+```{figure} ../images/PythagorasMinkowskiPrime.png
 :label: fig:PythagorasMinkowskiPrime.png
 :width: 150px
 :align: center
@@ -192,7 +192,7 @@ $$
 
 Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^3)$. For sake of simplicity we only consider one space like component here. In the sketch we have the space axis ($x$ or $x^1$) to the right and the time axis ($ct$ or $x^0$) up. We consider 3 events $A,B,C$ (points in space time) and their connection to the origin $O$
 
-```{figure} images/lightcone1.png
+```{figure} ../images/lightcone1.png
 :label: fig:lightcone1.png
 :width: 300px
 :align: center
@@ -205,7 +205,7 @@ Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^
 
 Here you visually can observe that the sign of the distance using the Minkowski inner product classifies parts of space time.
 
-```{figure} images/lightcone.png
+```{figure} ../images/lightcone.png
 :label: fig:lightcone.png
 :width: 450px
 :align: center
@@ -221,7 +221,7 @@ Now we can have a look at world lines of an observer $S'$ with respect to $S$ tr
 
 We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in the coordinate system of S (black). 
 
-```{figure} images/minkowski1.png
+```{figure} ../images/minkowski1.png
 :label: fig:minkowski1.png
 :width: 350px
 :align: center
@@ -234,7 +234,7 @@ We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in 
 Both lines of $S'$ make the same angle $\alpha$ with the coordinates axis of $S$. They lie symmetric around the light line $x=ct$ (diagonal with $\alpha=45$ deg). The higher the speed $V$ the higher the angle and the closer the lines lie to the light line. See the animation below, where the $(ct',x')$ axis are plotted in the $(ct,x)$ diagram of $S$ for different values of $V/c$.
 
 
-```{figure} images/Minkowski_animation.gif
+```{figure} ../images/Minkowski_animation.gif
 :label: fig:Minkowski_animation.gif
 :width: 450px
 :align: center
@@ -243,7 +243,7 @@ Both lines of $S'$ make the same angle $\alpha$ with the coordinates axis of $S$
 
 To further investigate how this plot can help us, let us consider lines of equal time in $S$. These are just the lines perpendicular to the $ct$-axis, and parallel to the $x$-axis, as you expect. And of course, lines parallel to $ct$, perpendicular to $x$ are lines of constant space coordinate.
 
-```{figure} images/minkowski2.png
+```{figure} ../images/minkowski2.png
 :label: fig:minkowski2.png
 :width: 350px
 :align: center
@@ -260,7 +260,7 @@ With this information in hand, we can investigate how events are transferred fro
 In the animation below, we see the effect of different values of $V/c$ on the lines of constant $ct'$ and $x'$ as seen by $S$. For clarity, these are only drawn for $V/c \geq 0$
 
 
-```{figure} images/Minkowski2_animation.gif
+```{figure} ../images/Minkowski2_animation.gif
 :label: fig:Minkowski2_animation.gif
 :width: 450px
 :align: center
@@ -271,7 +271,7 @@ In the animation below, we see the effect of different values of $V/c$ on the li
 
 We will now take a look back at the [ladder and barn paradox](timedilation.md#paradox-twins-and-barns). We had a barn of 10 m wide and a ladder of 26 m long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
 
-```{figure} images/mink1.png
+```{figure} ../images/mink1.png
 :label: fig:mink1.png
 :width: 350px
 :align: center
@@ -281,7 +281,7 @@ We will now take a look back at the [ladder and barn paradox](timedilation.md#pa
 Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of 26 m and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
 
 
-```{figure} images/mink2.png
+```{figure} ../images/mink2.png
 :label: fig:mink2.png
 :width: 350px
 :align: center
@@ -291,7 +291,7 @@ Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest le
 As the ladder moves (we move it parallel to $x'$ between the world lines) it will eventually enter the barn and hit the right door of the barn (dashed red line). This event is indicated by the space time point $A$. For $S'$ the other end of the ladder is then still outside the barn at space time point $C$. According to $S'$ the ladder does not fit into the barn.
 
 
-```{figure} images/mink3.png
+```{figure} ../images/mink3.png
 :label: fig:mink3.png
 :width: 350px
 :align: center
@@ -300,7 +300,7 @@ As the ladder moves (we move it parallel to $x'$ between the world lines) it wil
 
 When the ladder hits the right door for $S$ at space time point $A$, he makes a measurement of the ladder. To this end we draw a line of constant time (dashed light blue, parallel to $x$) until it intersects the world line of the ladder at space time point $B$. Observer $S$ measures that the ladder fits into the barn.
 
-```{figure} images/mink4.png
+```{figure} ../images/mink4.png
 :label: fig:mink4.png
 :width: 350px
 :align: center
@@ -318,7 +318,7 @@ This paradox has two issues:
 1. The principle of relativity is not applicable as Bob must *turn around*. This requires acceleration of his frame and breaks the symmetry of the problem.
 2. Bob will be younger than Alice, due to the relativity of simultaneity changing around the turning point. We can see this by looking at the Minkowski-diagram below. Just before Bob is turning around, his line of simultaneity is $x'$, but just after turning around his line of simultaneity is $x''$.  On the time line of Alice, Bob lines of simultaneity first is at point A, but then makes a jump around the turning point to B. Bob will be younger than Alice, by the length of this jump on her time line from A to B.
 
-```{figure} images/mink5.png
+```{figure} ../images/mink5.png
 :label: fig:mink45.png
 :width: 450px
 :align: center
@@ -349,7 +349,7 @@ We start by drawing the audience frame with $(ct,x)$ and an equal time line for 
 
 These intersections are also directly the events A and B.
 
-```{figure} images/RT_1.png
+```{figure} ../images/RT_1.png
 :label: fig:RT_1.png
 :width: 450px
 :align: center
@@ -358,7 +358,7 @@ These intersections are also directly the events A and B.
 
 For the events C and D, we first draw from A a line of constant time for $R$ (parallel to $x_R$) and then look at the intersection with the world line of $T$ and mark it with C. The same for the event D. We draw a line parallel to $x_T$ of constant time for $T$ through B to see where $R$ is when $T$ finishes and mark it with D.
 
-```{figure} images/RT_2.png
+```{figure} ../images/RT_2.png
 :label: fig:RT_2.png
 :width: 450px
 :align: center
@@ -376,7 +376,7 @@ In the animation below a Minkowski diagram is plotted as $S$ would do. The motio
 The green dashed lines is the grid of $S'$ translated to the world of $S$. The pink dashed lines show the corresponding coordinates of the particle in the world of $S'$: they intersect the $ct'$ and $x'$ axes at the position and time as $S'$ would use. Notice that the clock of $S'$ is indeed slow. Of course the $x'$ coordinate of the particle stays relatively small: $S'$ is 'chasing' the particle.
 
 
-```{figure} images/MinkowskiMovingParticle_animation.gif
+```{figure} ../images/MinkowskiMovingParticle_animation.gif
 :label: fig:MinkowskiMovingParticle_animation.gif
 :width: 550px
 :align: center
@@ -387,7 +387,7 @@ The green dashed lines is the grid of $S'$ translated to the world of $S$. The p
 
 We have seen that the length interval $ds^2$ is a Lorentz invariant. Therefore we can use it to also indicate corresponding time and space units in a Minkowski diagram for two moving observers. If we fix $ds^2$ then the equation $ds^2=c^2 dt^2-dx^2$ describes a hyperbola in $(ct,x)$ of the Minkowski diagram.
 
-```{figure} images/invariantDs.png
+```{figure} ../images/invariantDs.png
 :label: fig:invariantDs.png
 :width: 350px
 :align: center
@@ -478,7 +478,7 @@ With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\al
 
 Minkowski made the sketch below to show that the Lorentz transformation is a rotation over a hyperbola not a circle as we were used to. The asymptotes of the hyperbola are given by the light lines.
 
-```{figure} images/MinkDrawing.png
+```{figure} ../images/MinkDrawing.png
 :label: fig:MinkDrawing.png
 :width: 350px
 :align: center

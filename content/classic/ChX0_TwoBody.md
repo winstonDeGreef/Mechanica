@@ -3,7 +3,7 @@
 Newton must have realized that his analysis of the Kepler laws was not 100% correct. After all, the sun is not fixed in space and even though its mass is much larger than any of the planets revolving it, it will have to move under the influence of the gravitational force by the planets. Take for example, the sun and earth as our system. By the account of Newton's third law, the Earth exerts also a force on the Sun. Therefore, the Sun has to move as well; thus, we must revisit the Earth-Sun analysis and incorporate that the Sun isn't fixed in space.  
 
 
-```{figure} images/TwoParticles.jpg
+```{figure} ../images/TwoParticles.jpg
 :label: fig:TwoParticles
 :width: 250px
 :align: center
@@ -66,7 +66,7 @@ We have a few arguments:
 
 Where, in general is the position $\vec{R}$?    That can be easily seen from the figure below.
 
-```{figure} images/CM_r1r2.png
+```{figure} ../images/CM_r1r2.png
 :label: fig:TCM_r1r2.png
 :width: 350px
 :align: center
@@ -212,7 +212,7 @@ Thus, if we have solved the motion of the reduced particle, then we can quickly 
 ## Kepler Revisited
 
 
-```{figure} images/KeplerRevisited.jpg
+```{figure} ../images/KeplerRevisited.jpg
 :label: fig:KeplerRevisited.jpg
 :width: 350px
 :align: center
@@ -238,7 +238,7 @@ Everything else remains the same: the force is still central and conservative, e
 ### Where is the CM located?
 
 
-```{figure} images/EarthSunCoG.jpg
+```{figure} ../images/EarthSunCoG.jpg
 :label: fig:EarthSunCoG.jpg
 :width: 250px
 :align: center
@@ -265,13 +265,13 @@ However, in modern times, this slight motion of stars is a way of trying to find
 
 
 
-```{figure} images/radial_velocity.mp4
+```{figure} ../images/radial_velocity.mp4
 :width: 80%
 
 with figure from nasa
 ```
          
-```{figure} images/transit_method_single_planet.mp4
+```{figure} ../images/transit_method_single_planet.mp4
 :width: 80%
 
 from nasa
@@ -279,7 +279,7 @@ from nasa
 
 
 
-```{figure} images/RadialVelocity.png
+```{figure} ../images/RadialVelocity.png
 :label: fig:RadialVelocity.jpg
 :width: 350px
 :align: center
@@ -298,7 +298,7 @@ video from nasa, does it work?
 
 <a href="movies/TransientMethodSinglePlanet.mp4">
 
-```{figure} images/TransientMethodSinglePlanet.png
+```{figure} ../images/TransientMethodSinglePlanet.png
 :label: fig:RadialVelocity.jpg
 :width: 350px
 :align: center
@@ -315,7 +315,7 @@ Finding planets via a periodic change in intensity of a star (from NASA).
  <!-- movies can be embedded when they are located in _static folder -->
  <!-- movies are also not in the movies folder -->
 
-```{figure} images/TransientMethodMultiplePlanets.png
+```{figure} ../images/TransientMethodMultiplePlanets.png
 
 :width: 350px
 :align: center
@@ -571,7 +571,7 @@ We have seen that we could reduce the two-body problem of sun-earth to a single 
 
 We can, however, find some basic features of $N$-body problems. In the figure, a collection of $N$ interacting particles is drawn.
 
-```{figure} images/ManyParticles.jpg
+```{figure} ../images/ManyParticles.jpg
 :label: fig:ManyParticles.jpg
 :width: 150px
 :align: center
@@ -676,7 +676,7 @@ Thee masses are forming an equilateral triangle with sides of 2m. Mass 1 (10kg) 
 ```
 Four particles are moving over the line $y=y_0$. The particles have mass $m_1 = 4m, m_2 = 3m, m_3 = 2m, m_4 = m$ and velocity $v_1 = v, v_2 = 2v, v_3 = 3v, v_4 = 4v$. These velocities are constant and parallel to the $x$-axis. At $t=0$ all particles are at location $(x,y) = (0,y_0)$.
 
-```{figure} images/FourParticles.png
+```{figure} ../images/FourParticles.png
 :label: fig:FourParticles.png
 width: 250px
 align: center
@@ -698,7 +698,7 @@ Four particles moving on a line.
 
 Eight point particles (each mass $m$) are attached to a massless wheel of radius $R$.
 
-```{figure} images/Wheel8Masses.png
+```{figure} ../images/Wheel8Masses.png
 :label: fig:Wheel8Masses.png
 width: 250px
 align: center
@@ -759,7 +759,7 @@ Note: $\hat{x}$ and $\hat{y}$ do not carry units!
 :class: dropdown
 ```
 
-```{figure} images/FourParticlesVectors.png
+```{figure} ../images/FourParticlesVectors.png
 :label: fig:FourParticlesVectors.png
 width: 350px
 align: center
@@ -841,7 +841,7 @@ The entire container drops with acceleration $-g$.
 :class: dropdown
 ```
 
-```{figure} images/Dustparticles_animation.gif
+```{figure} ../images/Dustparticles_animation.gif
 
 :label: fig:Dustparticles_animation.gif
 width: 350px

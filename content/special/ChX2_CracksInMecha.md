@@ -22,7 +22,7 @@ In the second half of the nineteenth century William Thomson (1824-1907) -later 
 Stable vortices have the shape of rings with no beginning or end. In air they are easily made and made visible with smoke and are indeed surprisingly stable. According to the vortex theory, atoms are vortices in aether. The simplest one is a single ring, which was hydrogen. More complicated forms, called knots represented the other elements. 
 
 ````{figure}
-```{figure} images/VortexKnots.png
+```{figure} ../images/VortexKnots.png
 :label: fig:VortexKnots.png
 :width: 30%
 :align: center
@@ -31,7 +31,7 @@ Various vortex knots, each represents another element. From [Wikimedia Commons](
 ```
 
 
-```{figure} images/LordKelvin.jpg
+```{figure} ../images/LordKelvin.jpg
 :label: fig:LordKelvin.jpg
 :width: 30%
 :align: center
@@ -45,7 +45,7 @@ At the end of the nineteenth century, in 1897, Joseph John Thomson discovered th
 
 ````{figure}
 
-```{figure} images/PlumPuddingModel.png
+```{figure} ../images/PlumPuddingModel.png
 :label: fig:PlumPuddingModel.png
 :width: 30%
 :align: center
@@ -53,7 +53,7 @@ At the end of the nineteenth century, in 1897, Joseph John Thomson discovered th
 Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
 ```
 
-```{figure} images/JJThomson.jpg
+```{figure} ../images/JJThomson.jpg
 :label: fig:JJThomson.jpg
 :width: 30%
 :align: center
@@ -71,7 +71,7 @@ The model did not hold very long as we will see in the next paragraph. Neverthel
 The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from X-rays. He called them 'alpha' and 'beta' rays. Later he proved that 'alpha' rays consist of He-nuclei. Rutherford, in cooperation with Frederick Soddy, was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. This idea thus countered the prior idea that an atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
 
 
-```{figure} images/Mariecurie.jpg
+```{figure} ../images/Mariecurie.jpg
 :label: fig:MarieCurie.jpg
 :width: 30%
 :align: center
@@ -90,7 +90,7 @@ The start of this paradigm-shift was formed by Rutherford's observation that som
 In the experiment, the source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope and detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
 
 
-```{figure} images/RutherfordExperimentalSetup.png
+```{figure} ../images/RutherfordExperimentalSetup.png
 :label: fig:RutherfordExperimentalSetup.png
 :width: 40%
 :align: center
@@ -98,7 +98,7 @@ In the experiment, the source would emit $\alpha$-particles through a small diap
 Experimental setup of $\alpha$-scattering at a gold foil.
 ```
 
-```{figure} images/ErnestRutherford.jpg
+```{figure} ../images/ErnestRutherford.jpg
 :label: fig:ErnestRutherford.jpg
 :width: 30%
 :align: center
@@ -130,7 +130,7 @@ The deflection of the particle is biggest if the Coulomb force is perpendicular 
 
 $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
-```{figure} images/RutherfordDeltaP.png
+```{figure} ../images/RutherfordDeltaP.png
 :label: fig:RutherfordDeltaP.png
 :width: 250px
 :align: center
@@ -163,7 +163,7 @@ They redid the calculation, but now with $r_0$ as a free parameter to be backed 
 
 Conclusion: the atom has a nucleus that is much smaller than the size of the atom that contains all positive charge. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
 
-```{figure} images/RutherfordAtom.png
+```{figure} ../images/RutherfordAtom.png
 :label: fig:RutherfordAtom.png
 :width: 200px
 :align: center
@@ -187,7 +187,7 @@ The idea is to send high energy particles towards the object of investigation an
 
 It is done with facilities of a very large scale to research particles at the smallest scales. For instance, in CERN researchers accelerate particles (protons, electrons, etc) to velocities almost the speed of light. Then, they let these particles collide, that is undergo interactions involving enormous amounts of energy, and measure the fragments and all kind of exotic particles that result from these collisions. 
 
-```{figure} images/AirPictureOfCERN.jpg
+```{figure} ../images/AirPictureOfCERN.jpg
 :label: fig:RutAirPictureOfCER.png
 :width: 350px
 :align: center
@@ -197,7 +197,7 @@ Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](
 
 The principles used in scattering can be illustrated by revisiting Rutherford's experiment. 
 
-```{figure} images/ScatteringPrinciple.png
+```{figure} ../images/ScatteringPrinciple.png
 :label: fig:ScatteringPrinciple.png
 :width: 350px
 :align: center
@@ -208,7 +208,7 @@ Scattering of an incoming particle at a fixed source.
 Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a fixed second particle. The latter is fixed in the origin and act like a force-source. The force is central, i.e. works along the direction of the red line in fig.(7.7). In the drawing the forces is repelling and the incoming particle will deviate from its straight line. Eventually it will continue moving over a straight line, when the influence of the force is no longer felt. The angle of the new direction with the incoming one, is $\theta$, the scattering angle. We are looking for the relation between $b$, the distance at which the incoming particle would have passed by the origin if there was no force and the scattering angle $\theta$.
 
 
-```{figure} images/Scattering2D3D.png
+```{figure} ../images/Scattering2D3D.png
 :label: fig:Scattering2D3D.png
 :width: 450px
 :align: center
@@ -226,7 +226,7 @@ Already in the 18$^{th}$ century, work was done on what we call the kinetic theo
 
 
 ````{figure}
-```{figure} images/DanielBernoulli.png
+```{figure} ../images/DanielBernoulli.png
 :label: fig:DanielBernoulli.png
 :width: 40%
 :align: center
@@ -234,7 +234,7 @@ Already in the 18$^{th}$ century, work was done on what we call the kinetic theo
 Daniel Bernoulli (1700-1782). [RECHTEN]
 ```
 
-```{figure} images/JamesClerkMaxwell.png
+```{figure} ../images/JamesClerkMaxwell.png
 :label: fig:JamesClerkMaxwell.png
 :width: 40%
 :align: center
@@ -338,7 +338,7 @@ The idea is to check the speed of light for two observers $S$ and $S'$. One is m
 
 The experiment essentially consists of a [Michelson interferometer](https://en.wikipedia.org/wiki/Michelson_interferometer). Light is send to a 50/50 beam splitter such that half of the light is reflected up towards arm $L_1$ and half is transmitted to arm $L_2$. The mirrors at the end of each arm reflect the light back. On the way back again half of the light is transmitted and reflected at the beamsplitter, such that half of the light from both arms is now traveling downwards towards the image plane/camera. At the image plane the light from both arms forms an interference pattern, depending on the path length difference induced by the difference of $L_1-L_2$.
 
-```{figure} images/MichelsonMorleyExp.png
+```{figure} ../images/MichelsonMorleyExp.png
 :label: fig:MichelsonMorleyExp.png
 :width: 280px
 :align: center
@@ -346,7 +346,7 @@ The experiment essentially consists of a [Michelson interferometer](https://en.w
 Michelson & Morley setup
 ```
 
-```{figure} images/MM-setup.png
+```{figure} ../images/MM-setup.png
 :label: fig:MM-setup.png
 :width: 280px
 :align: center
@@ -388,7 +388,7 @@ Extra reading with a historic perceptive. In a 200 page book [Wolfgang Pauli](ht
 
 ---
 
-Extra reading [Hoe de ether verdween uit de natuurkunde](images/HoeDeEtherVerdween.pdf). This article by Jos Engelen in the *Nederandse Tijdschrijft voor Natuurkunde* explains the Michelsen-Morley experiment, places it into historic perspective and then adds the work of Lorentz, Poincaré and Einstein leading to the Lorentz transformation.
+Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVerdween.pdf). This article by Jos Engelen in the *Nederandse Tijdschrijft voor Natuurkunde* explains the Michelsen-Morley experiment, places it into historic perspective and then adds the work of Lorentz, Poincaré and Einstein leading to the Lorentz transformation.
 
 
 ```{exercise}
@@ -443,7 +443,7 @@ The three body problem is an old one. Already Newton himself worked on it. Its i
 
 The king of Sweden, Oscar II, announced, as celebration of his 60$^{th}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
 
-```{figure} images/HenriPoincare.jpg
+```{figure} ../images/HenriPoincare.jpg
 :label: fig:HenriPoincare.jpg
 :width: 250px
 :align: center
@@ -457,7 +457,7 @@ The work of Poincaré was the trigger of yet another 'revolution' in our underst
 
 It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the movie below 20 solutions are given. Notice that they all have a high degree of symmetry. 
 
-```{figure} images/20SolutionsThreeBodyProblem.gif
+```{figure} ../images/20SolutionsThreeBodyProblem.gif
 :label: fig:20SolutionsThreeBodyProblem.gif
 :width: 350px
 :align: center
@@ -474,7 +474,7 @@ The three body problem can also be studied by numerical means. As the equations 
 
 First, we ignore Alpha Centauri C and used that A and B have about the same mass. The two stars start rotating around each other in ellipsoidal orbits, as we already know from the two body problem.
 
-```{figure} images/TwoBody_animation.gif
+```{figure} ../images/TwoBody_animation.gif
 :label: fig:TwoBody_animation.gif
 :width: 320px
 :align: center
@@ -486,7 +486,7 @@ Then, we add third small one object (not Centauri C, but one with a much smaller
 
 $m_C$ tries to orbit its closest star, but at some point comes under the influence of the second star and gets 'tossed around'.
 
-```{figure} images/ThreeBody_animation_long.gif
+```{figure} ../images/ThreeBody_animation_long.gif
 :label: fig:ThreeBody_animation_long.gif
 :width: 320px
 :align: center
@@ -496,7 +496,7 @@ Alpha Centauri A and B circling each other with a third object.
 
 If we let the simulations run for a much longer time, we see that at some point the conditions for our small star are such that it is 'shot' into space and disappears for ever.
 
-```{figure} images/ThreeBody_animation_long.png
+```{figure} ../images/ThreeBody_animation_long.png
 :label: fig:ThreeBody_animation_long.png
 :width: 320px
 :align: center

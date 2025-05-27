@@ -5,7 +5,7 @@ Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as sh
 We should, first of all realize, that the information regarding the velocity of the two space ships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
 
 
-```{figure} images/addvel.png
+```{figure} ../images/addvel.png
 :label: fig:addvel.png
 :width: 350px
 :align: center
@@ -97,7 +97,7 @@ The [Doppler effect](https://en.wikipedia.org/wiki/Doppler_effect) is well-known
 
 Here we investigate the effect of a moving source that is emitting light with $f_{src}$ (electro-magnetic waves). This is one of the few cases where the relativistic case is easier than the classical effect. In the latter it matters if the source is moving or the medium. For EM-waves, however, there is no medium (aether) as we have seen which simplifies things.
 
-```{figure} images/Doppler_animation.gif
+```{figure} ../images/Doppler_animation.gif
 :label: fig:Doppler_animation.gif
 :width: 550px
 :align: center
@@ -117,7 +117,7 @@ The origin of the observed frequency shift of a moving source is visible in the 
 
 For the relativistic effect we consider a moving source with velocity $\vec{u}$ moving with observer $S'$ relative to $S$. The frequency of the source is $f_0=\frac{1}{T_0}$ in the rest frame, with $T_0$ the period of the oscillation.
 
-```{figure} images/doppler2.png
+```{figure} ../images/doppler2.png
 :label: fig:doppler2.png
 :width: 250px
 :align: center
@@ -127,7 +127,7 @@ Observer S' and source both moving with respect to S.
 
 We now consider the situation for $S$ as shown in the figure below. The position of the source $\vec{r}_0$ is indicated with the star $*$. 
 
-```{figure} images/doppler3.png
+```{figure} ../images/doppler3.png
 :label: fig:doppler3.png
 :width: 250px
 :align: center
@@ -183,7 +183,7 @@ The Big Bang theory was highly debated early on, in particular by Einstein, but 
 The whole cosmos is nearly uniformly filled by a background radiation of about 2.7 K (wavelength in the $\mu$m range) with small inhomogeneities as shown in the picture by the Planck satellite around 2013.
 
 
-```{figure} images/1280px-WMAP_2012.png
+```{figure} ../images/1280px-WMAP_2012.png
 :label: fig:1280px-WMAP_2012.png
 :width: 550px
 :align: center

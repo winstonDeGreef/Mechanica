@@ -7,7 +7,7 @@ In class you have seen the *Superballs* example. You can watch it <a href="https
 If you let a <span style="color:green">smaller</span> and a <span style="color:blue">larger</span> ball drop together, stacked on top of each other, the smaller ball will bounce back much stronger (higher) than if you let the small ball fall without stacking it on the lager ball. How can that happen?
 
 
-```{figure} images/Superballs.png
+```{figure} ../images/Superballs.png
 :label: fig:superballs.png
 :width: 450px
 :align: center
@@ -25,7 +25,7 @@ To explain this we use the Galilean Transformation (GT).
 
 The smaller ball has now velocity $3\vec{v}$ instead of $\vec{v}$ if you drop it without the larger ball. NB: If you would use three balls instead of two, the third ball would have a velocity of $7\vec{v}$ using the same reasoning as above. 
 
-```{figure} images/Superball_animation.gif
+```{figure} ../images/Superball_animation.gif
 :label: fig:Superball_animation.gif
 :width: 450px
 :align: center
@@ -65,7 +65,7 @@ Consider yourself biking at a constant velocity on an unlikely day with zero win
 
 $$ F_f \propto v_b^2 $$
 
-```{figure} images/Fietser.png
+```{figure} ../images/Fietser.png
 :label: fig:Fietser.png
 :width: 300px
 :align: center
@@ -84,7 +84,7 @@ $$ F_f \propto (v_b - v_{air} )^2 $$
 
 Riding a bike while it rains. You have done this 100s of times. Your front gets soaked, while the backside of your coat stays dry. Or if you have a passenger on your carrier he/she will not get wet, while you take all the water. From a GT to the reference frame of the biker it is obvious  why this is the case. The rain is not falling straight from the sky, but at an angle towards him. 
 
-```{figure} images/RainBike.png
+```{figure} ../images/RainBike.png
 :label: fig:RainBike.png
 :width: 400px
 :align: center
@@ -103,7 +103,7 @@ On the left side, we see this from the perspective of an observer, S, standing n
 Notice, that both S and S' are inertial observers. That is, they keep their velocity and are no part of the collision.
 What would Galilei say?
 
-```{figure} images/BallAgainstWall_animation.gif
+```{figure} ../images/BallAgainstWall_animation.gif
 :label: fig:BallAgainstWall_animation.gif
 :width: 400px
 :align: center
@@ -119,7 +119,7 @@ Ball bouncing at a wall.
 
 A train is passing a station at a constant velocity $V$. At the platform, an observer $S$ sees that in the middle of the train (train length $2L$), at $t=0$ an object is released with a constant velocity $u$. The object moves towards the back of the train and, at some point in time, will hit the back.
 
-```{figure} images/TrainAndObject1.png
+```{figure} ../images/TrainAndObject1.png
 :label: fig:TrainAndObject1.png
 :width: 350px
 :align: center
@@ -135,7 +135,7 @@ Inside the train, observer $S'$ sees the same phenomenon. Show that both find th
 A point particle of mass $m$ is sitting on a horizontal frictionless table. Gravity is acting in the vertical downward direction.   
 According to your observation, $m$ has zero velocity. But you see the table moving at a velocity $-v$ in the negative $x$-direction. The table doesn't stay flat, but has a bump of height $H$. What will happen to $m$?
 
-```{figure} images/TableWithBump1.png
+```{figure} ../images/TableWithBump1.png
 :label: fig:TableWithBump1.png
 :width: 350px
 :align: center
@@ -169,7 +169,7 @@ Next, use the Galilei transformation and show that you could have used your pers
 
 First we make a new sketch, now showing the two observers $S$ and $S'$ and their axis. We have made the velocity of the object red, the color of $S$. And we have given the coordinates of the front and back of the train in green as these are specified according to $S'$. We do this, as it is is crucial to realize that we have 'mixed' information.  
 
-```{figure} images/TrainAndObject2.png
+```{figure} ../images/TrainAndObject2.png
 :label: fig:TrainAndObject2.png
 :width: 350px
 :align: center
@@ -205,7 +205,7 @@ The particle will 'collide' with the bump. This might cause the particle to star
 
 Perhaps it is easier when we view this from the point of view of an observer moving with the table.
 
-```{figure} images/TableWithBump2.png
+```{figure} ../images/TableWithBump2.png
 :label: fig:TableWithBump2.png
 :width: 350px
 :align: center
@@ -234,7 +234,7 @@ N.B. We have assumed that the bump is not too steep, because in such a case the 
 
 First, a sketch:
 
-```{figure} images/SnowBall.png
+```{figure} ../images/SnowBall.png
 :label: fig:SnowBall.png
 :width: 300px
 :align: center

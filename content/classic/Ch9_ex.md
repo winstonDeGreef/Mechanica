@@ -7,7 +7,7 @@ Click on the image below for a video on Newton's cradle (gives you also the poss
 
 <a href="https://www.myphysicslab.com/engine2D/newtons-cradle-en.html">
 
-```{figure} images/newtonCrad.jpg
+```{figure} ../images/newtonCrad.jpg
 :label: fig:newtonCrad.jpg
 :width: 320px
 :align: center
@@ -24,7 +24,7 @@ Watch this video on bouncing superballs. We discussed this problem in [this chap
 ```
             
 
-```{figure} images/SuperBall_animation.gif 
+```{figure} ../images/SuperBall_animation.gif 
 :width: 320px
 :align: center
  
@@ -354,7 +354,7 @@ Experiment: drop a tennis ball with zero initial velocity from various height, $
 1. Use your recordings to compute the height as function of number of bounces and compute the restitution coefficient $e$. 
 1. Plot $e$ as a function $H$ and you will have answered the above question.
 
-```{figure} images/DroppingTennisBall2.png
+```{figure} ../images/DroppingTennisBall2.png
 :label: fig:DroppingTennisBall2.png
 :width: 200px
 :align: center

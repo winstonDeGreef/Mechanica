@@ -86,7 +86,7 @@ With $E=m\gamma(u)c^2$ and $\vec{p}=m\gamma(u)\vec{u}$.
 
 Two elementary particles collide head on, see the figure below.
 
-```{figure} images/relbot.png
+```{figure} ../images/relbot.png
 :label: fig:relbot.png
 :width: 300px
 :align: center
@@ -162,7 +162,7 @@ NB: please observe that analysis in the CM frame is often a good idea.
 
 [Compton scattering](https://en.wikipedia.org/wiki/Compton_scattering) describes the (elastic) scattering of an incoming photon by a (bound) charged particle, typical an electron. 
 
-```{figure} images/compton.png
+```{figure} ../images/compton.png
 :label: fig:compton.png
 :width: 450px
 :align: center

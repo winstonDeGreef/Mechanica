@@ -65,7 +65,7 @@ We discussed the conservation laws as consequences of Newton's Laws. That in its
 What is it and how do we know? To answer this question we have to resort to Emmy Noether, a German mathematician. Noether made top contributions to abstract algebra. She proved, what we now call, Noether's first and second theorems, which are fundamental in mathematical physics. Noether is often named as one of the best if not the best female mathematicians ever lived. Her work on differential invariants in the calculus of variations has been called "one of the most important mathematical theorems ever proved in guiding the development of modern physics".
 
 
-```{figure} images/EmmyNoether.png
+```{figure} ../images/EmmyNoether.png
 :label: fig:EmmyNoether.png
 :width: 320px
 :align: center
@@ -96,7 +96,7 @@ Later in the study of Classical Mechanics, we will see, that it is possible to d
 An important requirement of any physical law is that it looks the same for all inertial observers. That doesn't mean that the outcome of using such a law is the same. As a trivial example, take two inertial observers S and S'. According to S, S' moves at a constant velocity, $V$, in the $x$-direction. S' observes a mass $m$ that is not moving in the frame of reference of S'. For simplicity, we will assume that each observer is in its own origin. 
 
 
-```{figure} images/GTsystem.png
+```{figure} ../images/GTsystem.png
 :label: fig:GTsystem.png
 :width: 320px
 :align: center
@@ -117,7 +117,7 @@ This protocol is called the *Galilean Transformation* between two inertial frame
 According to observer $S$, $S'$ is moving at a constant velocity $V$. Both observers have chosen their coordinate system such that $x$ and $x'$ are parallel. Moreover, at $t=t'=0$, the origins $O$ and $O'$ coincide. The picture below illustrates this.
 
 
-```{figure} images/GalileiTransformation.png
+```{figure} ../images/GalileiTransformation.png
 :label: fig:GalileiTransformation.png
 :width: 320px
 :align: center

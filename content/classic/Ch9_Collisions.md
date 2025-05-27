@@ -10,7 +10,7 @@ kernelspec:
 ## What are collisions?
 In daily life we do understand what a collision is: the bumping of two objects into each other. From a physics point of view, we see it slightly different. The objects don't have to touch. It is sufficient if they undergo a mutual interaction *'with a beginning and an end'*. What do we mean by this? 
 
-```{figure} images/collision.png
+```{figure} ../images/collision.png
 :label: fig:collision.png
 :width: 50%
 
@@ -49,7 +49,7 @@ Given a collision experiment where the initial situation before the collision is
 
 Consider a head-on collision of two point particles on a line as shown in {numref}`fig:collision2.png`. One particle with mass $3m$ is initially at rest ($u=0$), the other with mass $2m$ has velocity $2v$. What are the velocities $v',u'$ of the particles after the collision?
 
-```{figure} images/collision2.png
+```{figure} ../images/collision2.png
 :label: fig:collision2.png
 :width: 320px
 :align: center
@@ -102,7 +102,7 @@ $$\begin{array}{lcl}
 
 This solution strategy always works. NB: you need to practice this. Although it is conceptually easy, we often see that students have problems when actually solving for the 2 unknowns.
 
-```{figure} images/sol_col.jpg
+```{figure} ../images/sol_col.jpg
 :width: 80%
 
 Solving 
@@ -126,7 +126,7 @@ In retrospect: of course this must be one of the solutions to the problem. We ha
 Consider now a 2D elastic collision such that the two particles collide in the origin, {numref}`fig:2Dcollision1.png`.
 
 
-```{figure} images/2Dcollision1.png
+```{figure} ../images/2Dcollision1.png
 :label: fig:2Dcollision1.png
 :width: 250px
 :align: center
@@ -157,7 +157,7 @@ $$
 
 The red particle now has velocity $(-2v,v)$. The problem is still 2D.
 
-```{figure} images/2Dcollision2.png
+```{figure} ../images/2Dcollision2.png
 :label: fig:2Dcollision2.png
 :width: 250px
 :align: center
@@ -167,7 +167,7 @@ Applying the Galilean Transformation.
 
 Next, we can rotate the coordinate system, to obtain a 1D head-on collision that we can solve as above. 
 
-```{figure} images/2Dcollision3.png
+```{figure} ../images/2Dcollision3.png
 :label: fig:2Dcollision3.png
 :width: 250px
 :align: center
@@ -210,7 +210,7 @@ $$
 
 Instead of working in the lab frame we can use the CM frame. A sketch of the coordinates and vectors is given in the figure below.
 
-```{figure} images/CMsketch.png
+```{figure} ../images/CMsketch.png
 :label: fig:CMsketch.png
 :width: 250px
 :align: center
@@ -232,7 +232,7 @@ $$
 This means the momenta of both particles are *always* equal in magnitude and opposed in direction in the CM frame. Only the orientation of the pair $\dot{\vec{r}}_{1,2}$ can change from before to after the collision.
 
 
-```{figure} images/CMmomentum.png
+```{figure} ../images/CMmomentum.png
 :label: fig:CMmomentum.png
 :width: 320px
 :align: center

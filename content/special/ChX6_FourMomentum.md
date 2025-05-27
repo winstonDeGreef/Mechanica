@@ -260,7 +260,7 @@ $$
 
 This converts back to $E=mc^2$ in the rest frame.
 
-```{figure} images/einsteintriangle.png
+```{figure} ../images/einsteintriangle.png
 :label: fig:einsteintriangle.png
 :width: 450px
 ```
@@ -339,7 +339,7 @@ Hier code voor de plot
 ```
 
 
-```{figure} images/gamma_v.png
+```{figure} ../images/gamma_v.png
 :label: fig:gamma_v.png
 :width: 450px
 ```
@@ -349,7 +349,7 @@ For a massive particle this has strong consequences. In the limit $u\to c$ the f
 NB: $c$ is the speed of light in vacuum. In matter the speed of light $v$ is smaller than $c$, characterized by the *refractive index*  $n$ as $n=c/v$. This leads e.g. to refraction by [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) at an interface. In matter the speed of massive particles can be larger than the speed of light there. This happens e.g. in a nuclear reactor when electrons move faster than the speed of light in water ($0.75c$). As water is a dielectric, the light waves generated from the response to the moving charge lag behind and a phenomena similar to a sonic boom is created. This phenomena is termed [Cherenkov radiation](https://en.wikipedia.org/wiki/Cherenkov_radiation). If you have the opportunity to see it in a nuclear reactor, we highly recommend to take it. The color is a very intense deep blue.
 
 
-```{figure} images/CherenkovRadiation.jpg
+```{figure} ../images/CherenkovRadiation.jpg
 :label: fig:CherenkovRadiation.jpg
 :width:  350px
 :align: center
