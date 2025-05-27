@@ -12,7 +12,7 @@ Click on the image below for a video on Newton's cradle (gives you also the poss
 :width: 320px
 :align: center
 
-
+Click the image for the app
 ```
 </a>
 
@@ -20,10 +20,11 @@ Click on the image below for a video on Newton's cradle (gives you also the poss
 Watch this video on bouncing superballs. We discussed this problem in [this chapter](./Ch7_ConservationEquations.md).
 
 ```{iframe} https://www.youtube.com/embed/2UHS883_P60?si=KYY0YWHbW-a3UqwU
+
 ```
+            
 
-
-```{figure} images/SuperBall_animation.gif
+```{figure} images/SuperBall_animation.gif 
 :width: 320px
 :align: center
  

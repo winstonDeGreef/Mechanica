@@ -24,7 +24,7 @@ const example = {
 
     const admonition = {
         "type": "admonition",
-        "kind": "",
+        "kind": "admonition",
         "class": "admonition-example",  //Add class (custom.css)
         "icon": false,
         "children": [

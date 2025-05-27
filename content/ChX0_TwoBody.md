@@ -316,7 +316,7 @@ Finding planets via a periodic change in intensity of a star (from NASA).
  <!-- movies are also not in the movies folder -->
 
 ```{figure} images/TransientMethodMultiplePlanets.png
-:name: fig:RadialVelocity.jpg
+
 :width: 350px
 :align: center
 
@@ -662,7 +662,7 @@ All kind of computational techniques have been developed and various averaging t
 ### Exercises
 
 ```{exercise-start}
-:label: 11.1
+:label: ex11.1
 ```
 Thee masses are forming an equilateral triangle with sides of 2m. Mass 1 (10kg) is positioned at $(x_1,y_1) = (-1m,0))$. Mass 2 (6kg) is at $(x_2,y_2) = (1m,0))$, while mass 3 (2kg) is at $(x_3,y_3) = (0,\sqrt{3})$.
 
@@ -741,7 +741,7 @@ The particles move inside a box with sides $L$=50m. Particles do not collide wit
 
 ### Answers
 
-```{solution-start} 11.1
+```{solution-start} ex11.1
 :class: dropdown
 ```
 The position of the center of mass is
