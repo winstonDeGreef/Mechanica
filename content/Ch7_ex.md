@@ -7,7 +7,7 @@ In class you have seen the *Superballs* example. You can watch it <a href="https
 If you let a <span style="color:green">smaller</span> and a <span style="color:blue">larger</span> ball drop together, stacked on top of each other, the smaller ball will bounce back much stronger (higher) than if you let the small ball fall without stacking it on the lager ball. How can that happen?
 
 
-```{figure} images/superballs.png
+```{figure} images/Superballs.png
 :name: fig:superballs.png
 :width: 450px
 :align: center
