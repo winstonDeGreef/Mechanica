@@ -212,8 +212,8 @@ Thus, if we have solved the motion of the reduced particle, then we can quickly 
 ## Kepler Revisited
 
 
-```{figure} ../images/KeplerRevisited.jpg
-:label: fig:KeplerRevisited.jpg
+```{figure} ../images/KeplerRevisited.png
+:label: fig:KeplerRevisited.png
 :width: 350px
 :align: center
 
