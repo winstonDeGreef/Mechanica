@@ -571,8 +571,8 @@ We have seen that we could reduce the two-body problem of sun-earth to a single 
 
 We can, however, find some basic features of $N$-body problems. In the figure, a collection of $N$ interacting particles is drawn.
 
-```{figure} ../images/ManyParticles.jpg
-:label: fig:ManyParticles.jpg
+```{figure} ../images/ManyParticles.png
+:label: fig:ManyParticles.png
 :width: 150px
 :align: center
 
