@@ -238,8 +238,8 @@ Everything else remains the same: the force is still central and conservative, e
 ### Where is the CM located?
 
 
-```{figure} ../images/EarthSunCoG.jpg
-:label: fig:EarthSunCoG.jpg
+```{figure} ../images/EarthSunCoG.png
+:label: fig:EarthSunCoG.png
 :width: 250px
 :align: center
 
