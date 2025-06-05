@@ -101,9 +101,9 @@ project:
             - file: content/special/ChX7_ex.md
 
 
-    # - title: Project
-    #   children:
-    #     - file: content/project/Numerical analysis.ipynb
+    - title: Project
+      children:
+        - file: content/project/Deeltjes.ipynb
 
     - title: For developers
       children:
