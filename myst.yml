@@ -61,21 +61,21 @@ project:
           children:
             - file: content/classic/Ch6_ex.ipynb
 
-        - file: content/classic/Ch7_ConservationEquations.md
+        - file: content/classic/Ch7_ConservationEquations.ipynb
           children:
-            - file: content/classic/Ch7_ex.md
+            - file: content/classic/Ch7_ex.ipynb
 
-        - file: content/classic/Ch8_Oscillations.md
+        - file: content/classic/Ch8_Oscillations.ipynb
           children:
-            - file: content/classic/Ch8_ex.md
+            - file: content/classic/Ch8_ex.ipynb
             
-        - file: content/classic/Ch9_Collisions.md
+        - file: content/classic/Ch9_Collisions.ipynb
           children:
-            - file: content/classic/Ch9_ex.md
+            - file: content/classic/Ch9_ex.ipynb
         
-        - file: content/classic/ChX0_TwoBody.md
+        - file: content/classic/ChX0_TwoBody.ipynb
           children:
-            - file: content/classic/ChX0_ex.md
+            - file: content/classic/ChX0_ex.ipynb
     
 
 #######################################################################
