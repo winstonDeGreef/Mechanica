@@ -11,7 +11,7 @@ project:
     - name: Robert F. Mudde & C. Freek. J. Pols    
   github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY 4.0
-  date: 2025-05-27
+  date: 2025-06-12
 
   exports:
   #   # - format: typst # typst 
@@ -79,37 +79,37 @@ project:
     
 
 #######################################################################
-    - title: Special Relativity
-      children:        
-        - file: content/special/ChX2_CracksInMecha.md
-          children:
-            - file: content/special/ChX2_ex.md
-        - file: content/special/ChX3_IntroSpecialRelativity.md
-          children:
-            - file: content/special/ChX3_ex.md
-        - file: content/special/ChX4_VelotransDoppler.md
-          children:
-            - file: content/special/ChX4_ex.md
-        - file: content/special/ChX5_FourVectors.md
-          children:
-            - file: content/special/ChX5_ex.md
-        - file: content/special/ChX6_FourMomentum.md
-          children:
-            - file: content/special/ChX6_ex.md
-        - file: content/special/ChX7_RelDynColl.md
-          children:
-            - file: content/special/ChX7_ex.md
+    # - title: Special Relativity
+    #   children:        
+    #     - file: content/special/ChX2_CracksInMecha.md
+    #       children:
+    #         - file: content/special/ChX2_ex.md
+    #     - file: content/special/ChX3_IntroSpecialRelativity.md
+    #       children:
+    #         - file: content/special/ChX3_ex.md
+    #     - file: content/special/ChX4_VelotransDoppler.md
+    #       children:
+    #         - file: content/special/ChX4_ex.md
+    #     - file: content/special/ChX5_FourVectors.md
+    #       children:
+    #         - file: content/special/ChX5_ex.md
+    #     - file: content/special/ChX6_FourMomentum.md
+    #       children:
+    #         - file: content/special/ChX6_ex.md
+    #     - file: content/special/ChX7_RelDynColl.md
+    #       children:
+    #         - file: content/special/ChX7_ex.md
 
 
-    - title: Project
-      children:
-        - file: content/project/Deeltjes.ipynb
+    # - title: Project
+    #   children:
+    #     - file: content/project/Deeltjes.ipynb
 
-    - title: For developers
-      children:
-        - file: content/howto/Howtostart.md
-        - file: content/howto/Cheatsheet.md
-        - file: content/howto/test.ipynb
+    # - title: For developers
+    #   children:
+    #     - file: content/howto/Howtostart.md
+    #     - file: content/howto/Cheatsheet.md
+    #     - file: content/howto/test.ipynb
         
 #########################################################################
 site:
