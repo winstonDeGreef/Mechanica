@@ -11,7 +11,7 @@ project:
     - name: Robert F. Mudde & C. Freek. J. Pols    
   github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY 4.0
-  date: 2025-06-12
+  date: 2025-06-13
 
   exports:
   #   # - format: typst # typst 
@@ -105,11 +105,11 @@ project:
     #   children:
     #     - file: content/project/Deeltjes.ipynb
 
-    # - title: For developers
-    #   children:
-    #     - file: content/howto/Howtostart.md
-    #     - file: content/howto/Cheatsheet.md
-    #     - file: content/howto/test.ipynb
+    - title: For developers
+      children:
+        - file: content/howto/Howtostart.md
+        - file: content/howto/Cheatsheet.md
+        - file: content/howto/test.ipynb
         
 #########################################################################
 site:
