@@ -23,16 +23,22 @@ project:
   #     template: ./template
   #     output: exports/MechaRela.pdf
   #     id: output-pdf
-
     - format: pdf
       template: curvenote
       output: exports/MechaRela.pdf
-      id: output-pdf
+      id: output-pdf1
+
+    - format: pdf
+      template: curvenote
+      output: exports/SpecialRel.pdf
+      id: output-pdf2
 
 
   downloads:
   #   # - id: output-typst
-    - id: output-pdf
+    - id: output-pdf1
+    - id: output-pdf2
+
 
   jupyter: 
     lite: true
@@ -79,26 +85,26 @@ project:
     
 
 #######################################################################
-    # - title: Special Relativity
-    #   children:        
-    #     - file: content/special/ChX2_CracksInMecha.md
-    #       children:
-    #         - file: content/special/ChX2_ex.md
-    #     - file: content/special/ChX3_IntroSpecialRelativity.md
-    #       children:
-    #         - file: content/special/ChX3_ex.md
-    #     - file: content/special/ChX4_VelotransDoppler.md
-    #       children:
-    #         - file: content/special/ChX4_ex.md
-    #     - file: content/special/ChX5_FourVectors.md
-    #       children:
-    #         - file: content/special/ChX5_ex.md
-    #     - file: content/special/ChX6_FourMomentum.md
-    #       children:
-    #         - file: content/special/ChX6_ex.md
-    #     - file: content/special/ChX7_RelDynColl.md
-    #       children:
-    #         - file: content/special/ChX7_ex.md
+    - title: Special Relativity
+      children:        
+        - file: content/special/ChX2_CracksInMecha.md
+          children:
+            - file: content/special/ChX2_ex.md
+        - file: content/special/ChX3_IntroSpecialRelativity.md
+          children:
+            - file: content/special/ChX3_ex.md
+        - file: content/special/ChX4_VelotransDoppler.md
+          children:
+            - file: content/special/ChX4_ex.md
+        - file: content/special/ChX5_FourVectors.md
+          children:
+            - file: content/special/ChX5_ex.md
+        - file: content/special/ChX6_FourMomentum.md
+          children:
+            - file: content/special/ChX6_ex.md
+        - file: content/special/ChX7_RelDynColl.md
+          children:
+            - file: content/special/ChX7_ex.md
 
 
     # - title: Project
