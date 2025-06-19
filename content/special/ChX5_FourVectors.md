@@ -116,8 +116,8 @@ E2: (ct'_2, x'_2) &= \left ( \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ), \ga
 \end{split}
 $$
 
-```{figure} ../images/PythagorasMinkowskiPrime.png
-:label: fig:PythagorasMinkowskiPrime.png
+```{figure} ../images/chx5_PythagorasMinkowskiPrime.svg
+:label: fig:chx5_PythagorasMinkowskiPrime.svg
 :width: 40%
 :align: center
 
