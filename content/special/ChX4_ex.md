@@ -24,7 +24,7 @@ Calculate the velocity according to $S$.
 ```{exercise}
 :label: 14.2
 
-Same situation as in ex.(14.1), but now $S'$ observes that the object is moving in the $y'$-direction with velocity $\frac{4}{5} c$.
+Same situation as in {numref}`14.1`, but now $S'$ observes that the object is moving in the $y'$-direction with velocity $\frac{4}{5} c$.
 
 Show that the magnitude of the velocity of the object according to $S$ is smaller than $c$.
 ```
@@ -34,7 +34,7 @@ Show that the magnitude of the velocity of the object according to $S$ is smalle
 
 In order to send information via electro-magnetic waves, people use amplitude modulation (AM) and frequency modulation (FM). AM means that the amplitude of the wave that is send out varies: the variations can be detected by the receiver and 'decoded' to the message. FM, on the other hand, means that the frequency of the wave is changing. This can also be detected and decoded to the message.
 
-Captain Kirk on board of the starship USS Enterprise is traveling at a speed of $\frac{V}{c} = \frac{40}{41} with respect to earth. He uses FM and sends his monthly report to mission control using a center frequency of 10GHz. What is the frequency that Mission Control needs to look for in case:
+Captain Kirk on board of the starship USS Enterprise is traveling at a speed of $\frac{V}{c} = \frac{40}{41}$ with respect to earth. He uses FM and sends his monthly report to mission control using a center frequency of $10\mathrm{GHz}$. What is the frequency that Mission Control needs to look for in case:
 
 1. Enterprise is moving straight towards earth;
 2. Enterprise moves radially away from earth;
@@ -106,9 +106,9 @@ $$
 $$
 
 In this case: $ u/c = 40/41 \rightarrow \gamma = \frac{41}{9} $
-1. $u_r/c=-40/41 \rightarrow \frac{f_0}{f} = \frac{1}{41}\frac{41}{9} \rightarrow f=9f_0 = 90GHz$
-2. $u_r/c=40/41 \rightarrow \frac{f_0}{f} = \frac{81}{41}\frac{41}{9} \rightarrow f=\frac{1}{9}f_0 = 1.11GHz$ 
-3. $u_r/c=0 \rightarrow \frac{f_0}{f} = \frac{41}{9} \rightarrow f=\frac{9}{41}f_0 = 2.20GHz$
+1. $u_r/c=-40/41 \rightarrow \frac{f_0}{f} = \frac{1}{41}\frac{41}{9} \rightarrow f=9f_0 = 90\mathrm{GHz}$
+2. $u_r/c=40/41 \rightarrow \frac{f_0}{f} = \frac{81}{41}\frac{41}{9} \rightarrow f=\frac{1}{9}f_0 = 1.11\mathrm{GHz}$ 
+3. $u_r/c=0 \rightarrow \frac{f_0}{f} = \frac{41}{9} \rightarrow f=\frac{9}{41}f_0 = 2.20\mathrm{GHz}$
 
 
 ```
@@ -118,7 +118,7 @@ In this case: $ u/c = 40/41 \rightarrow \gamma = \frac{41}{9} $
 
 Obviously, the student tries to claim that due to his high speed, the red color of the traffic light was green to him. As he is approaching the light source, with a velocity $V/c$, he may also take the point of view of an observer in a frame in which he is not moving, but the traffic light is approaching with $V/c$,
 
-The wave length of red light is 630nm and of green light 530nm. Or in terms of the corresponding frequencies: $f_r = \frac{c}{\lambda_r} = 4.76 \cdot 10^{14}$Hz and $f_g = 5.66 \cdot 10^{14}$Hz. In the rest frame of the traffic light, the frequency is thus: $f_0 = f_r$, whereas in the frame of the student it is $f=f_g$.
+The wave length of red light is $630\mathrm{nm}$ and of green light $530\mathrm{nm}$. Or in terms of the corresponding frequencies: $f_r = \frac{c}{\lambda_r} = 4.76 \cdot 10^{14} \mathrm{Hz}$ and $f_g = 5.66 \cdot 10^{14} \mathrm{Hz}$. In the rest frame of the traffic light, the frequency is thus: $f_0 = f_r$, whereas in the frame of the student it is $f=f_g$.
 
 If we plug this into the Doppler shift formula, we get:
 
@@ -127,5 +127,5 @@ $$\begin{split}
 \frac{1+V/c}{1-V/c} = 0.68 \rightarrow \frac{V}{c} = 0.2
 \end{split} $$
 
-Thus the biker claims to have a speed of 20% of the speed of light, that is 2.16 10$^8$ km/h and accordingly gets a fine of 1.08 billion Euro.
+Thus the biker claims to have a speed of 20% of the speed of light, that is $2.16 10^8 \mathrm{km/h}$ and accordingly gets a fine of 1.08 billion Euro.
 ```

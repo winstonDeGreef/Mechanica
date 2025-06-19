@@ -118,9 +118,9 @@ Similarly:
 
 $$u_y = \frac{U_2}{U_0} = \frac{\gamma(U)u_y}{\gamma(U)c} = \frac{40}{533}c $$
 
-The magnitude of the volocity accoring to $S4 is
+The magnitude of the velocity according to $S4$ is
 
-$$ u =\sqrt{u^2_x + u^2_y} = \sqrt{\frac{243664}{284089}} c \approx 0.93 c \lt 1$$
+$$ u =\sqrt{u^2_x + u^2_y} = \sqrt{\frac{243664}{284089}} c \approx 0.93 c \lt 1 c$$
 
 
 ```

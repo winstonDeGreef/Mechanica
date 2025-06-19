@@ -66,18 +66,17 @@ cdt'^2 - dx'^2 &=& \gamma^2 \left ( cdt - \frac{V}{c}dx\right )^2 - \gamma^2 \le
 
 Note that if we had used a + sign, that is $ds^2 \equiv c^2dt^2 + dx^2$, we would <b>not</b> have arrived at a Lorentz Invariant.
 
-```{admonition} Example 15.1: Pythagoras gets mixed up
-:class: important
+````{example}  Pythagoras gets mixed up
 
 We are used to all kind of 'obvious' results that hold in our Galilei/Newtonian world. For instance, for a triangle with a perpendicular angle we can apply Pythagoras theorem:
 
 $$ a^2 + b^2 = c^2$$
 
-Example: for a triangle with sides (3,4,5) this would give the figure below.
+Example: for a triangle with sides $(3,4,5)$ this would give the figure below.
 
 ```{figure} ../images/PythagorasEuclidisch.png
 :label: fig:PythagorasEuclidisch.png
-:width: 150px
+:width: 40%
 :align: center
 
 ```
@@ -97,7 +96,7 @@ The figure is going to look like this.
 
 ```{figure} ../images/PythagorasMinkowski.png
 :label: fig:PythagorasMinkowski.png
-:width: 150px
+:width: 40%
 :align: center
 
 ```
@@ -108,24 +107,26 @@ Why does this make sense? In the world of Special Relativity, we can find answer
 
 We have to translate the two events of $E_1$ and $E_2$ to the frame of $S'$:
 
-$$\begin{split}
+$$
+\begin{split}
 E1: (ct'_1, x'_1) &= (0,0) \\
 E2: (ct'_2, x'_2) &= \left ( \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ), \gamma \left ( x_2 - \frac{V}{c} ct_2 \right ) \right ) \\
 &= \left ( \frac{5}{3} \left ( 5 - \frac{4}{5} 4 \right ), \frac{5}{3} \left ( 4 - \frac{4}{5} 5 \right ) \right ) \\
 &= (3, 0)
-
-\end{split}$$
+\end{split}
+$$
 
 ```{figure} ../images/PythagorasMinkowskiPrime.png
 :label: fig:PythagorasMinkowskiPrime.png
-:width: 150px
+:width: 40%
 :align: center
 
 ```
 
 Of course, as we knew, the length of the interval stays the same: $\Delta s^2 = \Delta s'^2 = 3^2$.
+````
 
-## 4-vector ##
+## 4-vector
 
 The idea of having to work with a 'position' vector with 4 components with an inproduct as we discussed above, is generalized to vectors, i.e. quantities with a direction and a magnitude.
 
@@ -156,7 +157,7 @@ $$
 \vec{A}\cdot \vec{B} \equiv A^0B^0 - A^1B^1-A^2B^2-A^3B^3
 $$
 
-This is not a "choice" for the inner product, but follows strictly from the requirement that distance or length should not change under LT. A space with this inner product is called *Minkowski space* or the space has a *Minkowski metric* after <a heref="https://en.wikipedia.org/wiki/Hermann_Minkowski">Hermann Minkowski</a>.
+This is not a "choice" for the inner product, but follows strictly from the requirement that distance or length should not change under LT. A space with this inner product is called *Minkowski space* or the space has a *Minkowski metric* after [Hermann Minkowski](https://en.wikipedia.org/wiki/Hermann_Minkowski).
 
 Notice that time component $(+)$ is treated differently than the spatial components $(-)$ in the inner product. Sometimes the inner product is also called *pseudo Euclidean* as there are $-1$ and $+1$ present in the inner product (instead of only $+1$ for Euclidean space).
 
@@ -207,7 +208,7 @@ Here you visually can observe that the sign of the distance using the Minkowski 
 
 ```{figure} ../images/lightcone.png
 :label: fig:lightcone.png
-:width: 450px
+:width: 80%
 :align: center
 
 ```
@@ -223,7 +224,7 @@ We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in 
 
 ```{figure} ../images/minkowski1.png
 :label: fig:minkowski1.png
-:width: 350px
+:width: 70%
 :align: center
 
 ```
@@ -262,28 +263,28 @@ In the animation below, we see the effect of different values of $V/c$ on the li
 
 ```{figure} ../images/Minkowski2_animation.gif
 :label: fig:Minkowski2_animation.gif
-:width: 450px
+:width: 80%
 :align: center
 
 ```
 
 ### The ladder & barn revisited
 
-We will now take a look back at the [ladder and barn paradox](timedilation.md#paradox-twins-and-barns). We had a barn of 10 m wide and a ladder of 26 m long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
+We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10 \mathrm{m}$ wide and a ladder of $26 \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
 
 ```{figure} ../images/mink1.png
 :label: fig:mink1.png
-:width: 350px
+:width: 70%
 :align: center
 
 ```
 
-Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of 26 m and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
+Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of $26 \mathrm{m}$ and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
 
 
 ```{figure} ../images/mink2.png
 :label: fig:mink2.png
-:width: 350px
+:width: 70%
 :align: center
 
 ```
@@ -293,7 +294,7 @@ As the ladder moves (we move it parallel to $x'$ between the world lines) it wil
 
 ```{figure} ../images/mink3.png
 :label: fig:mink3.png
-:width: 350px
+:width: 70%
 :align: center
 
 ```
@@ -302,7 +303,7 @@ When the ladder hits the right door for $S$ at space time point $A$, he makes a 
 
 ```{figure} ../images/mink4.png
 :label: fig:mink4.png
-:width: 350px
+:width: 70%
 :align: center
 
 ```
@@ -320,18 +321,19 @@ This paradox has two issues:
 
 ```{figure} ../images/mink5.png
 :label: fig:mink45.png
-:width: 450px
+:width: 80%
 :align: center
 
+.
 ```
 
 Extra: We symmetries the problem. Both Alice and Bob move in space ships away from each other at the same but opposite speed, then turn around and meet again. Who is older now?
 
-??? "Answer"
+**Answer**
 
-	They are the same age. You can now reason with symmetry even though both are accelerated. You can also draw the Minkowski-diagram similar to the above and see that both make the same "jump" in the time, and thus are the same age.
+>	They are the same age. You can now reason with symmetry even though both are accelerated. You can also draw the Minkowski-diagram similar to the above and see that both make the same "jump" in the time, and thus are the same age.
 
-### Worked example: the rabbit and the turtle
+````{example} the rabbit and the turtle
 
 We consider the relativistic race between the well-known rabbit ($R$) with speed $v_R$ and his buddy turtle ($T$) with speed $v_T<v_R$. Both turtle and rabbit are point particles. To give turtle a chance, it does not need to run as far as rabbit $(L_T<L_R)$. The distances are chosen such that an observer at rest (the audience) records that $R$ and $T$ finish at the same time.
 
@@ -343,7 +345,7 @@ We consider the relativistic race between the well-known rabbit ($R$) with speed
 	- In the frame of $T$, when he finishes, the event where $R$ is then (D)
 3. Who has won according to $R$ and who according to $T$. Do they agree?
 
-Solutions:
+**Solutions:**
 
 We start by drawing the audience frame with $(ct,x)$ and an equal time line for the finish of $R$ and $T$. From that we draw the coordinate system of $R$ as $(ct_R,x_R)$ and of $T$ as $(ct_T,x_T)$. As $v_T < v_R$, the coordinate system $(ct_R,x_R)$ is closer to the light line. The length $L_R$ and $L_T$ follow as the intersections of $ct_R$ and $ct_T$ with the line of equal time for the audience. 
 
@@ -366,8 +368,9 @@ For the events C and D, we first draw from A a line of constant time for $R$ (pa
 ``` 
 
 Both $R$ and $T$ agree that $R$ has won, but the audience does of course not agree.
+````
 
-### Worked example: moving particle
+````{example} moving particle
 Consider a standard situations: $S'$ moving at $V/c=3/5$ with respect to $S$. CLocks are synchronized at $ct'=ct=0$ when $x'=x=0$. 
 
 According to $S$, a particle is moving with $U/c=4/5$ over the x-axis. $S$ describes the trajectory of the particle as $x_p(ct) = \frac{U}{c}ct$.
@@ -378,10 +381,12 @@ The green dashed lines is the grid of $S'$ translated to the world of $S$. The p
 
 ```{figure} ../images/MinkowskiMovingParticle_animation.gif
 :label: fig:MinkowskiMovingParticle_animation.gif
-:width: 550px
+:width: 80%
 :align: center
 
 ``` 
+
+````
 
 ### Lines of invariant distance
 
@@ -389,17 +394,16 @@ We have seen that the length interval $ds^2$ is a Lorentz invariant. Therefore w
 
 ```{figure} ../images/invariantDs.png
 :label: fig:invariantDs.png
-:width: 350px
+:width: 80%
 :align: center
 
-Image from T. Idema, *Mechanics and Relativity*.
+Image from [](https://doi.org/10.59490/tb.81) 
 ``` 
 
 For $ds^2<0$ we find the corresponding space units (the interval is [space-like](4vector.md#the-light-cone)), and for $ds^2>0$ the corresponding time units (the interval is [time-like](4vector/#the-light-cone). All hyperbola have the light line $ds^2=0$ as asymptotes. 
 
 
-```{admonition} Example 15.3: Circles are not circular??
-:class: important
+```{example} Circles are not circular??
 
 We define a circle as the set of points (in a plane) that have the same distance to some given point $M$. We can easily extend this to three dimensions: that the circle becomes the surface of a sphere. If we stick to Eucledian spaces, we can do this for any dimension: a spherical surface in n-dimensional space, is the collection of points with the same distance to a given point $M$. Now the point has to be represented by $n$ coordinates. But our measure of distance follows the same inner-product as we use in 2 and three dimensions:
 
@@ -472,9 +476,11 @@ ct \\ x \\ y \\z
 \end{array} \right )
 $$
 
-Notice the similarity to the [rotation](central_forces.md#polar-coordinates) with sine and cosine.
+Notice the similarity to the [rotation](../classic/Ch6_AngularMomentum.ipynb#torque-analogy-to-n2) with sine and cosine.
 
-With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\alpha$ is the rapidity), we identify the matrix as $L(\alpha$). That the [hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations) appear should not be a surprise as they are equivalent to the sine and cosine for the circle, $(ct^2+x^2=1)$, for the hyperbola $(ct^2-x^2=1)$. Notice the relation to the inner products for standard and Minkowski space.
+
+
+With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\alpha$ is the rapidity), we identify the matrix as $L(\alpha)$. That the [hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations) appear should not be a surprise as they are equivalent to the sine and cosine for the circle, $(ct^2+x^2=1)$, for the hyperbola $(ct^2-x^2=1)$. Notice the relation to the inner products for standard and Minkowski space.
 
 Minkowski made the sketch below to show that the Lorentz transformation is a rotation over a hyperbola not a circle as we were used to. The asymptotes of the hyperbola are given by the light lines.
 
@@ -492,5 +498,5 @@ $$
 \beta = \tanh (\alpha_1+\alpha_2)= \frac{\tanh \alpha_1 +\tanh \alpha_2}{1+\tanh \alpha_1 \tanh \alpha_2}=\frac{\beta_1 + \beta_2}{1+\beta_1\beta_2}
 $$ 
 
-The [addition of velocities](doppler.md) is brought back to [hyperbolic identities](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations)". 
+The [addition of velocities](./ChX4_VelotransDoppler.md) is brought back to [hyperbolic identities](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations). 
 

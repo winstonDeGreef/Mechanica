@@ -1,6 +1,6 @@
 # Special Relativity - Lorentz Transformation
 
-As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which Electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the {abbr}`M&M (Michelson-Morley)` experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics under pinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
+As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which Electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the {abbr}`M\&M (Michelson-Morley)` experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics under pinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
 
 And as we have mentioned, it took the work of a single man to change this and underpin the Lorentz Transformation, making Classical Mechanics a valid limit of Relativity Theory, only applicable at velocities small compared to the speed of light and to small distances compared to those of interest in cosmology.
 
@@ -63,7 +63,7 @@ We will discuss most of the consequences for two observers $S$ and $S'$, traveli
 Furthermore, their $y$ and $y'$ coordinates are taken in the same direction. This also holds for the $z$-component.
 Finally, when $S$ and $S'$ pass each other (they are then both at the same point), they put their clocks to zero: $t=0$ and $t'=0$. 
 
-Note: $S$ is sitting in her origin $\mathcal{O}$ (with coordinates, according to $S$ $(x,y,z)=(0,0,0)$) and stays there. Similarly for $S'$ who is sitting in $\mathcal{O}'$ (with coordinates, according to $S'$ $(x',y',z')=(0,0,0)$).
+Note: $S$ is sitting in her origin $\mathcal{O}$ (with coordinates, according to $S$ (x,y,z)=(0,0,0)) and stays there. Similarly for $S'$ who is sitting in $\mathcal{O}'$ (with coordinates, according to $S'$ (x',y',z')=(0,0,0)).
 
 The standard sketch is given in the figure below.
 
@@ -72,12 +72,12 @@ The standard sketch is given in the figure below.
 :width: 350px
 :align: center
 
-$S$ and $S'$: relative velocity parallel to the $x$ and $x'$ axes.
+S and S': relative velocity parallel to the $x$ and $x'$ axes.
 ```
 
 N.B. It is crucial to be very precise in your notation when it comes to coordinates and quantities. For instance: $S$ might talk about the $x$-component of the velocity of an object and denote this by $v_x$. $S'$, on the other hand can also talk about that component, but will not call it the $x$-component: in the world of $S'$ $x$ "does not exist", only $x'$ does. So it is better to write $v'_{x'}$ for the $x'$-component of the velocity of the object according to $S'$. It may look cumbersome, and to a certain extend it is, but it actually does make sense. $S'$ would say that this component is $\frac{dx'}{dt'}$ both space and time having a prime. Hence, naturally $S'$ would talk about $\vec{r}' = x' \hat{x'} + y' \hat{y'} + z' \hat{z'}$ or $\vec{v}' = v'_{x'} \hat{x'} + v'_{y'} \hat{y'} + v'_{z'} \hat{z'}$
 
-### Lorentz Transformation and its inverse
+### Lorentz Transformation and its Inverse
 The Lorentz Transformation, like the Galilei Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
 
 For instance, if $S$ sees an object moving with $v_x$, $S'$ can 'translate' this information via the Lorentz Transform into $v'_{x'}$ and $v'_{y'}$ or so if applicable.
@@ -133,13 +133,11 @@ V = \frac{12}{13}c &\Leftrightarrow & \gamma = \frac{13}{5}
 \end{array}
 $$
 
-Note that this list goes on for ever: there is a simple rule to find the triplets. Think about it yourself. Hint: the first one uses $(3,4,5)$, the third one $(5,12,13)$. What is special about them?  
-$5^2 - 4^2 = 5+4 = 3^2$ and $13^2 - 12^2 = 13 + 12 = 5^2$.  
-Do you see the pattern? Can you derive the general rule? What is the next one? How about $(7,24,25)$?
+Note that this list goes on for ever: there is a simple rule to find the triplets. Think about it yourself. Hint: the first one uses (3,4,5), the third one (5,12,13). What is special about them? $5^2 - 4^2 = 5+4 = 3^2$ and $13^2 - 12^2 = 13 + 12 = 5^2$. Do you see the pattern? Can you derive the general rule? What is the next one? How about (7,24,25)?
 
 ### In the limit  
 
-In the **limit of low speeds** with respect to the speed of light $\frac{V}{c}\ll 1 \Rightarrow \gamma =1$. Practically, this happens for about $V< 0.1 c \sim 30.000 \mathrm{km/s}$. In this limit the Lorentz transformation also reduces to the Galileo transformation.
+In the **limit of low speeds** with respect to the speed of light $\frac{V}{c}\ll 1 \Rightarrow \gamma =1$. Practically, this happens for about $V< 0.1 c \sim 30.000$ km/s. In this limit the Lorentz transformation also reduces to the Galileo transformation.
 
 $$
 \begin{array}{rcl}
@@ -155,7 +153,7 @@ In the **limit of infinity speed of light** ($c\to\infty$) the $\gamma$-factor i
 It is always important to verify that an extension of the known theory reduces to the known theory that has proofed itself for most circumstances.
 
 
-````{intermezzo} Historical context
+### Historical context
 
 Lorentz did not derive the transformation that now has his name, based on Einstein's axioms. Lorentz, however, saw that Maxwell's equations were not GT invariant, therefore he tried to find a transformation under which they were invariant. He did so (with a bit of help from [ Poincar&eacute; ](https://www.google.com/search?client=firefox-b-d&q=poincare) afterwards). [FitzGerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) did also derive the transformation, but too did not understand its implications.
 
@@ -174,7 +172,7 @@ Hendrik Lorentz (1853-1928). From [commons wiki](https://commons.wikimedia.org/w
 :width: 50%
 :align: center
 
-George Fitzgerald (1851-1901). From [commons wiki](https://commons.wikimedia.org/wiki/File:George_Francis_FitzGerald.jpg), public domain
+George Fitzgerald (1851-1901). From [commons wiki]https://commons.wikimedia.org/wiki/File:George_Francis_FitzGerald.jpg), public domain
 ```
 
 
@@ -182,7 +180,6 @@ Before Einstein's idea spread, Lorentz thought about the transformation as a fix
 
 The electro-magnetic wave equation can be transformed from $S$ to $S'$. And indeed, if you would do that, you would find that the wave equation maintains its form with the same $c$, not a new $c'$. Lorentz had found this, but it was Einstein who underpinned and generalized the use of the Lorentz Transformation to all mechanics, replacing the Galilean Transformation.
 
-````
 
 ```{exercise}
 :label: 11.1
@@ -202,9 +199,9 @@ Note: we will frequently use high velocities and large distances. It is convenie
 
 $$ 1 \text{ lightsecond} = 1 \mathrm{ls} = c \cdot 1 \mathrm{sec} = 3.0 \cdot 10^8 \mathrm{m} $$
 
-For instance, it takes a photon about $8.3 \mathrm{minutes}$ to travel from the sun to the earth. Thus, the distance from the sun to the earth is $8.3 \mathrm{lmin} = 500 \mathrm{ls}$. That is equivalent to $150 \cdot 10^6 \mathrm{km}$.
+For instance, it takes a photon about 8.3 minutes to travel from the sun to the earth. Thus, the distance from the sun to the earth is $8.3 \mathrm{lmin} = 500 \mathrm{ls}$. That is equivalent to $150 \cdot 10^6 \mathrm{km}$.
 
-````{example} space ship
+````{example} 
 
 A space ship is flying at a velocity $0.8c$ passed earth in the direction of the moon. The moon is at a distance of $1.2 \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the earth.
 The clocks on earth and in the space ship are set to zero when the space ship passes the earth.
@@ -237,9 +234,9 @@ So, back to our example: we have our first event:
 
 $$ \text{ S observes 'comet hits moon' } E_1 = (ct_1,x_1,y_1,z_1) = (1.7, 0,0,0)$$
 
-What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7s$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is everything he observes is done at $(0,0,0)$.
+What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7s$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is everything he observes is done at (0,0,0).
 
-Now, we need to realize, that the actual impact of the comet took place earlier. By how much? Well, a photon that was generated at this moment of impact due to the impact will have to travel $1.2 \mathrm{s}$ to reach $S$. That requires $1.2\mathrm{ls}$, as photons travel with the speed of light. 
+Now, we need to realize, that the actual impact of the comet took place earlier. By how much? Well, a photon that was generated at this moment of impact due to the impact will have to travel 1.2 s to reach $S$. That requires $1.2ls$, as photons travel with the speed of light. 
 
 Thus, $S$ concludes that the actual impact -which is event $E_2$- took place at $ct_2 = 0.5ls$ and he writes down:
 
@@ -256,15 +253,15 @@ $$ \gamma = \frac{1}{\sqrt{ 1 -\frac{V^2}{c^2}} } = \frac{1}{\sqrt{1 - \frac{16}
 Now she computes her coordinates for the same event:
 
 $$ \begin{split}
-ct'_2 &= \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ) = \frac{5}{3} \left (0.5 - \frac{4}{5}1.2 \right ) = - 0.767 \mathrm{ls}\\
-x'_2 &= \gamma \left ( x_2 - \frac{V}{c} ct_2 \right ) = \frac{5}{3} \left (1.2 - \frac{4}{5}0.5 \right ) = 1.333 \mathrm{ls} \\
+ct'_2 &= \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ) = \frac{5}{3} \left (0.5 - \frac{4}{5}1.2 \right ) = - 0.767 ls\\
+x'_2 &= \gamma \left ( x_2 - \frac{V}{c} ct_2 \right ) = \frac{5}{3} \left (1.2 - \frac{4}{5}0.5 \right ) = 1.333 ls \\
 y'_2 &= y_2 = 0 \\
 z'_2 &= z_2 = 0
 \end{split} $$
 
 We will not further deal with the $y$ and $z$ coordinates as they are trivial.
 
-But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5s$ That is at a positive time. Then, Space Ship has passes the earth and is on its way to the moon. Actually, at $t=0.5\mathrm{s}$ the location of Space Ship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5s) = \frac{4}{5} 0.5 = 0.4 \mathrm{ls}$. Space ship is already at 1/3 of the distance to the moon. 
+But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5s$ That is at a positive time. Then, Space Ship has passes the earth and is on its way to the moon. Actually, at $t=0.5s$ the location of Space Ship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5s) = \frac{4}{5} 0.5 = 0.4 ls$. Space ship is already at 1/3 of the distance to the moon. 
 
 So far nothing strange.
 
@@ -277,15 +274,15 @@ Ok, let's be puzzled for a while: how can $S'$ at the same time be both at the l
 
 It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomena is not disputed at all. It happened. They don't agree that it took place at the same time according to their clocks. 
 
-But this is not all: according to $S$ at the moment of the impact Space Ship was at a distance of $1.2 - 0.4 = 0.8 \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33 \mathrm{ls}$ from the moon. One can not be at two different distance form the moon at the same time!
+But this is not all: according to $S$ at the moment of the impact Space Ship was at a distance of $1.2 - 0.4 = 0.8 ls$ from the moon. But $S'$ just calculated that she was $1.33 ls$ from the moon. One can not be at two different distance form the moon at the same time!
 
 Ok, let's push this somewhat further and see if we can get a contradiction.
 
-We do know, from $S$ that the event took place at $ct_2 = 0.5 \mathrm{ls}$. Then, definitely $S'$ has passed earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later then the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
+We do know, from $S$ that the event took place at $ct_2 = 0.5 ls$. Then, definitely $S'$ has passed earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later then the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
 
-That is remarkably easy: we know that according to $S'$ the event tokes place at $ct'_2, x_2') = (-0.767 \mathrm{ls}, 1.333 \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
+That is remarkably easy: we know that according to $S'$ the event tokes place at $ct'_2, x_2') = (-0.767 ls, 1.333 ls)$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
 
-Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567 \mathrm{ls}$. Thus we have our third event:
+Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567 ls$. Thus we have our third event:
 
 $$\text{Space Ship observes impacting comet: } E_3 = (ct'_3,x'_3) = (0.567, 0)$$
 
@@ -293,15 +290,24 @@ And as we by now kind of expected: indeed, then is Space Ship on the right side 
 What does $S$ say about this event? He receives the coordinates of $E3$ from $S'$ and plugs them in, in the inverse LT:
 
 $$ \begin{split}
-ct_3 &= \gamma \left ( ct'_3 + \frac{V}{c} x'_3 \right ) = \frac{5}{3} \left (0.567 + \frac{4}{5}0 \right ) = 0.945 \mathrm{ls}\\
-x_3 &= \gamma \left ( x'_3 + \frac{V}{c} ct'_3 \right ) = \frac{5}{3} \left (0 + \frac{4}{5}0.567 \right ) = 0.756 \mathrm{ls}
+ct_3 &= \gamma \left ( ct'_3 + \frac{V}{c} x'_3 \right ) = \frac{5}{3} \left (0.567 + \frac{4}{5}0 \right ) = 0.945 ls\\
+x_3 &= \gamma \left ( x'_3 + \frac{V}{c} ct'_3 \right ) = \frac{5}{3} \left (0 + \frac{4}{5}0.567 \right ) = 0.756 ls
 \end{split} $$
 
 Now does this make any sense? It does! If we concentrate on $S$ only and what he observes and knows:
 
-* $E_1$ - $S$ observes -comet hits moon: $(ct_1,x_1) = (1.2, 0) \mathrm{ls}$
-* $E_2$ - the comet actually hits the moon: $(ct_2,x_2) = (0.5, 1.2) \mathrm{ls}$
-* $E_3$ - $S'$ observes that the comet hits the moon: $(ct_3,x_3) = (0.945, 756) \mathrm{ls}$
+<ul>
+<li> 
+
+$E_1$ - $S$ observes -comet hits moon: $(ct_1,x_1) = (1.2, 0) ls$</li>
+<li>
+
+$E_2$ - the comet actually hits the moon: $(ct_2,x_2) = (0.5, 1.2) ls$</li>
+</li>
+<li>
+
+$E_3$ - $S'$ observes that the comet hits the moon: $(ct_3,x_3) = (0.945, 756) ls$</li>
+</ul>
 
 Obviously, if the actual impact is at positive $t$, then $S'$ will see it before $S$ does as for positive time $t$ $S'$ is closer the moon than $S$. And this is all reflected in the events. Moreover, if you would compute the events as $S$ will model things, you will find event $E_3$ just based on event $E_2$ and the motion of Space Ship according to $S$ (and when it will encounter a photon that was generated at the actual impact of the comet on the moon). Do the calculation yourself and see, that nothing strange happens.
 
@@ -317,17 +323,31 @@ In the animation below the whole scenery is shown from the perspective of $S$ on
 
 ```{figure} ../images/SSearth2_animation.gif
 :label: fig:SSearth2_animation.gif
-:width: 100%
+:width: 90%
 :align: center
 
 ```
 
 An animation is given above. 
+<ul>
+<li>the three squares represent the position of earth, moon and Space Ship according to 
 
-* the three squares represent the position of earth, moon and Space Ship according to $S$ at $ct=-1$ls. In the diagram for $S$, these three are, of course, on a horizontal line as they are at the same time according to $S$. However, $S'$ sees that differently: there are absolutely not at the same time!!!
-* Earth, moon and Space Ship do travel in the space-time diagrams. Their trajectories are shown by dashed lines. Their space-time location is represented by the (moving) dots. The diagrams are made such, that indeed both observers pass each other at $ct=ct'=0$ and $x=x'=0$. The dots represent, where according to $S$ (left diagram) and $S'$ (right diagram) earth, moon and Space Ship are at a certain time on the clock of that observer. Note that both position and time have really different values if you compare the diagrams of $S$ and $S'$.
-* In both diagrams, at some point in time the comet impacts the moon and a photon starts traveling in the negative $x$ and $x'$-direction. The photon is shown by the blue dot. Again nothing happens at the same time. But the order of events is the same: first the photon is emitted and only after that it is observed. That should of course hold!
-* Notice that the photon is emitted at $ct=0.5$ls according to $S$ and observed at $ct=1.7\mathrm{ls}$. So for $S$, the photon traveled for 1.2ls (and covered a distance of $1.2\mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30\mathrm{ls}$. It traveled for $3.6 \mathrm{seconds}$ on the clock of $S'$!!
+$S$ at
+$ct=-1$ls. In the diagram for 
+$S$, these three are, of course, on a horizontal line as they are at the same time according to $S$. 
+
+However, 
+$S'$ sees that differently: there are absolutely not at the same time!!!</li>
+<li>Earth, moon and Space Ship do travel in the space-time diagrams. Their trajectories are shown by dashed lines. Their space-time location is represented by the (moving) dots. The diagrams are made such, that indeed both observers pass each other at 
+
+$ct=ct'=0$ and $x=x'=0$. The dots represent, where according to $S$ (left diagram) and $S'$ (right diagram) earth, moon and Space Ship are at a certain time on the clock of that observer. Note that both position and time have really different values if you compare the diagrams of $S$ and $S'$.</li>
+<li> In both diagrams, at some point in time the comet impacts the moon and a photon starts traveling in the negative 
+
+$x$ and $x'$-direction. The photon is shown by the blue dot. Again nothing happens at the same time. But the order of events is the same: first the photon is emitted and only after that it is observed. That should of course hold!</li>
+<li>Notice that the photon is emitted at 
+
+$ct=0.5$ls according to $S$ and observed at $ct=1,7$ls. So for $S$, the photon traveled for 1.2ls (and covered a distance of 1.2ls: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30$ls. It traveled for 3.6 seconds on the clock of $S'$!!  </li>
+</ul>
 
 Puzzled by this all? Confused? Hard to believe?
 
@@ -336,9 +356,12 @@ Welcome the 'Magical World of Relativity'. And don't worry: you will get used to
 
 **Conclusions:** 
 
-* we need to be careful with interpreting distances and times, things are not what they seem at first glance.
-* within the framework of one observer nothing funny happens.
-* we better work with well defined events: they represent physical phenomena happening. Both observers will agree upon these and on the logic, e.g. first the impact than the observation of a photon - not the other way around!
+<ul>
+<li>we need to be careful with interpreting distances and times, things are not what they seem at first glance.</li>
+<li> within the framework of one observer nothing funny happens.</li>
+</li> we better work with well defined events: they represent physical phenomena happening. Both observers will agree upon these and on the logic, e.g. first the impact than the observation of a photon - not the other way around!</li>
+</ul>
+
 
 ### Time & Space
     
@@ -368,8 +391,10 @@ From the Lorentz transformation it is clear that time is not universal anymore (
 
 Let us consider 2 events in the reference frame of $S$; 
 
-* event A with coordinates $(ct_1,x_1)$
-* and event B with $(ct_2,x_2)$.
+<ul>
+<li>event A with coordinates $(ct_1,x_1)$</li>
+<li> and event B with ($ct_2,x_2)$.</li>
+</ul>
 
 If the two events in $S$ are simultaneous, i.e. $t_1=t_2 \rightarrow ct_1-ct_2=0$, then in $S'$ they are in general not! Simultaneity is relative!
 
@@ -390,7 +415,7 @@ In words: The events A and B that are simultaneous for $S$, are never simultaneo
 
 #### Time dilation
 
-We investigate how time intervals between a stationary and a moving observers are transformed. We can expect that these time intervals are not the same.
+We investigate how time intervals between a stationary and a moving  observers are transformed. We can expect that these time intervals are not the same.
 
 ```{figure} ../images/timedilation1.png
 :label: fig:timedilation1.png
@@ -400,9 +425,9 @@ We investigate how time intervals between a stationary and a moving observers ar
 Clock stationary according to $S'$ but moving for $S$.
 ```
 
-If you consider the sketch above, we see how time intervals are counted for a moving observer and for an observer in the rest frame. A light ray is traveling between 2 mirrors. This up and down traveling of the light is a counter for the time. If you have never thought how time is measured, think a bit how a clock actually does that. Today, the second is defined as a (very large) number of tiny energy transitions (vibrations) of the Caesium-133 atom (see e.g. [Atomic Clock](https://en.wikipedia.org/wiki/Atomic_clock)). 
+If you consider the sketch above, we see how time intervals are counted for a moving observer and for an observer in the rest frame. A light ray is traveling between 2 mirrors. This up and down traveling of the light is a counter for the time. If you have never thought how time is measured, think a bit how a clock actually does that. Today, the second is defined as a (very large) number of tiny energy transitions (vibrations) of the Caesium-133 atom (see e.g. [Atomic Clock](>https://en.wikipedia.org/wiki/Atomic_clock)). 
 
-Consider the time light travels for the observer $S$ who sees the clock moving with velocity $V$. The clock counts one unit of time, $t$ if the light has gone from the bottom mirror to the top one and back to the bottom mirror. Thus from bottom to top takes $t/2$. This means that the length of the light path from bottom mirror to top mirror is equal to $ct/2$ as light travels with velocity $c$. In that same period of time, the top mirror has moved a distance $Vt/2$, as the clock and thus the mirrors move with velocity $V$ with respect to observer $S$. Now, we can relate the length of the light path from the bottom to the top mirror to the size of the clock, $L$ and the displacement of the mirror, $Vt/2$: $L^2+\frac{V^2}{4}t^2=\frac{c^2}{4}t^2$ where we used Pythagoras, see {numref}`fig:timedilation2.png`. 
+Consider the time light travels for the observer $S$ who sees the clock moving with velocity $V$. The clock counts one unit of time, $t$ if the light has gone from the bottom mirror to the top one and back to the bottom mirror. Thus from bottom to top takes $t/2$. This means that the length of the light path from bottom mirror to top mirror is equal to $ct/2$ as light travels with velocity $c$. In that same period of time, the top mirror has moved a distance $Vt/2$, as the clock and thus the mirrors move with velocity $V$ with respect to observer $S$. Now, we can relate the length of the light path from the bottom to the top mirror to the size of the clock, $L$ and the displacement of the mirror, $Vt/2$: $L^2+\frac{V^2}{4}t^2=\frac{c^2}{4}t^2$ where we used Pythagoras, see figure below. 
 
 
 ```{figure} ../images/timedilation2.png
@@ -429,17 +454,15 @@ with $\gamma=\frac{1}{\sqrt{1-\frac{V^2}{c^2}}} >1$ and $T_0$ the ***proper time
 
 Note: a time interval is also the counting of your heart. That means the moving observer ages more slowly compared to the observer at rest. See the examples below for some experimental evidence of the time dilation.  
 
-**Conclusion: moving clocks run slower, time gets stretched**
+** Conclusion: moving clocks run slower, time gets stretched**
 
 #### Length contraction
 
 The length of moving objects becomes smaller/contracted for the observer at rest. To explain this effect, we consider a moving rod with velocity $V$ and with length $L_0$ in the rest frame. 
 
 Now that we have seen that time intervals are no longer universal, we need to think about:
-```{math}
-:enumerated: false
-\text{"what is it, measuring the length of an object?"}
-```
+
+"what is it, measuring the length of an object?" 
 
 Normally, we measure the length of an object by seeing how many times a measuring stick fits in the object. We obviously do this in the frame of reference in which the object doesn't move. There we don't need to worry about the moment we start at the left side of the object and arrive with our measuring stick on the right side. But if we would do so in a frame of reference in which the object is moving, that wouldn't work of course. By the time we would reach the right side of the object, it would no longer be at its starting position when we began our measurement and the number of times our ruler fits in the object is now influenced by the motion of the right side of the object.
 
@@ -449,19 +472,19 @@ Thus: the length is measured from the difference of two events in space-time of 
 
 Next, we transform the events $E_L$ and $E_R$ to $S'$:
 
-$$
-\begin{split}
+$$ \begin{split}
+
 x'_1 &= \gamma \left ( ct_1 - \frac{V}{c} x_1 \right ) \\
 x'_2 &= \gamma \left ( ct_2 - \frac{V}{c} x_1 \right ) \\
-\end{split}
-$$
+
+\end{split}$$
 
 For $S'$ the difference between $x'_2$ and $x'_1$ is of course the length of the rod. It doesn't matter for $S'$ whether or not the coordinates the left and right side of the rod are measured at the same time. The rod is not moving in the frame of $S'$.
 Thus $S'$ gets as length of the rod:
 
 $$ L_0=x'_2-x'_1$$
 
-with $L_0$ the **proper length** of the rod, i.e. the length according to an observer moving with the rod.
+with $L_0$ the ** proper length** of the rod, i.e. the length according to an observer moving with the rod.
 
 
 Now we invoke the Lorentz transformation for the two events $E_L$ and $E_R$ to find the relation between the coordinates used by the two observers:  
@@ -478,24 +501,25 @@ $$
 
 The length of the moving object observed by the stationary observer is not the same as the length in the rest frame.  The length observed by the stationary observer $S$ gets smaller/contracted by $\gamma>1$ compared to the length in the rest frame of $S'$: $L<L_0$.
 
-**Conclusion: moving rods are shorter, space shrinks**
+** Conclusion: moving rods are shorter, space shrinks**
 
 
 ### Paradox: twins and barns
 
+#### Barn & Ladder
+
 There are many variants of the following paradox. The word *paradox* already implies that there is only an apparent contradiction, not a real one. Here we will formulate the paradox with a ladder & barn and resolve it, but you can also think about it as a train & tunnel, or tank & trench etc. The resolution is always the same.
 
-````{example} Barn & Ladder
-Consider a ladder of rest length $L_l=26 \mathrm{m}$ and a barn of rest length $L_b = 10 \mathrm{m}$ . Obviously, the ladder does not fit in the barn, isn't it?
+As an example we consider a ladder of rest length $L_l=26$ m and a barn of rest length $L_b = 10$ m. Obviously, the ladder does not fit in the barn, isn't it?
 
 Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma =\frac{13}{5})$ towards the barn.
 
-- For an observer in the barn, the length of the ladder is contracted to $L_l/\gamma = 26\cdot\frac{5}{13}=10 \mathrm{m}$ exactly fitting in the barn which in her rest frame is $10 \mathrm{m}$. 
-- For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4 \mathrm{m}$, being much too small to fit in the ladder. The ladder in his rest frame is $26 \mathrm{m}$.
+- For an observer in the barn, the length of the ladder is contracted to $L_l/\gamma = 26\cdot\frac{5}{13}=10$ m exactly fitting in the barn which in her rest frame is 10 m. 
+- For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4$ m, being much too small to fit in the ladder. The ladder in his rest frame is 26 m.
 
 ```{figure} ../images/barnladder.png
 :label: fig:barnladder.png
-:width: 80%
+:width: 450px
 :align: center
 
 Ladder & Barn: perspective from two observers.
@@ -507,11 +531,9 @@ You can have the same paradox not with length contraction, but time dilation, th
 
 **Solution**
 
-The key to the resolution of the paradox is always the relativity of simultaneity. In this instance of the paradox with the barn and ladder: both observers are right but do not agree when the measurements are done.
+    The key to the resolution of the paradox is always the relativity of simultaneity. In this instance of the paradox with the barn and ladder: both observers are right but do not agree when the measurements are done.
 
-````
-
-Let's analyze the situation in detail using the Lorentz transformation. Later you can analyze it again qualitatively using a Minkowski-diagram which is quite insightful.
+Here we analyze the situation in detail using the Lorentz transformation. Later you can analyze it again qualitatively using a Minkowski-diagram which is quite insightful.
 
 Our above "analysis" was a bit short: using length contraction. It is also a bit 'dangerous' as length contraction assumes simultaneous events in one frame. 
 
@@ -526,7 +548,7 @@ The four events are sketched in the figure below
 
 ```{figure} ../images/BL_tot.png
 :label: fig:BL_tot.png
-:width: 100%
+:width: 550px
 :align: center
 
 Four events of the ladder & barn paradox
@@ -540,11 +562,15 @@ Let's analyze these events. We will denote the coordinates of observer $B$ as $(
 
 Next, we need to give the events their space-time coordinates, e.g. in the frame of $B$e and transform these coordinates according to the LT to the frame of $L$. This is done below, where we used: $L_{0B}$ = proper length of barn, i.e. in the rest frame of the barn and $L_{0L}$ = proper length of ladder, that is in the rest frame of the ladder. Note: $V/c = 12/13 \Rightarrow \gamma = 13/5$
 
+<div style="width: 300px; height: 120px; margin: 0 auto;">
+
 | Event | Barn $(ct,x)$ | Ladder $(ct',x')$ |
-| --- | --- | --- |
+| --- | :--- | :--- |
 | 1 | $(0, 0)$ | $(0, 0)$ |
 | 2 | $(\frac{c}{V}L_{0B}, L_{0B})$ | $(\frac{c}{V}\frac{L_{0B}}{\gamma}, 0)$ |
 | 3 | $(\frac{c}{V}L_{0B}, 0)$ | $(\gamma \frac{c}{V}\frac{L_{0B}}{\gamma}, -L_{0L})$ |
+
+</div>
 
 As we see, according to $B$, the left and right end of the ladder are exactly at the same moment at the left and right door of the barn, respectively (time coordinate of events 2 & 3 $ct_2=ct_3=\frac{c}{V}L_{0B}$). Consequently, observer $B$ measures that the ladder (just) fits into the barn as anticipated by us. So $B$ can close both doors and have the ladder inside the barn.
 
@@ -554,11 +580,11 @@ The paradox is, that both observers are right. Again we see demonstrated that si
 
 As you see both observers do not agree where the ladder is when the left door is closed. Where for the barn observer both doors closes at the same time, this does not happen for the ladder observer. 
 
-````{example} John Bell
+#### Worked Example
 
 This problem became known through [John Bell](https://en.wikipedia.org/wiki/John_Stewart_Bell).
 
-**Why you absolutely need to know John Bell**
+??? "Why you absolutely need to know John Bell"
 
 John Bell became famous by the [inequalities](https://en.wikipedia.org/wiki/Bell%27s_theorem) that have his name attached. Bell's theorem from 1964 started to end (post mortem) the twist between Einstein and Bohr about quantum mechanics in favor for Bohr. In 1935 Einstein, Polodsky and Rosen came up with a [paradox](https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox), named EPR paradox after their names, that seemed to show that quantum mechanics cannot be "complete" (.i.e *the real thing* describing reality). Bell's inequalities allowed to experimentally test who was right, and Einstein was fundamentally wrong. In 2022 the Nobel Prize in Physics was awarded to Clauser, Aspect and Zeilinger for their efforts to experimentally show that the Bell's inequalities are violated (and Bohr was right). In Delft Roland Hanson performed a *loophole-free Bell test* in 2015 which was big news. 
     
@@ -575,15 +601,13 @@ In this thought experiment we have two space ships $B$ and $C$ initially at rest
 Bell's paradox: accelerating space ships and a thin wire.
 ```
 
-**Question:** 
+Question: Will the string between $B$ and $C$ break eventually?
 
->    Will the string between $B$ and $C$ break eventually?
-
-**Answer**
+??? "Answer"
     
->    Yes.
+    Yes.
     
-**Explanation:**
+Explanation:
 
 One might think that the whole assembly of the two ships $B$ and $C$ and string undergo length contraction together, thus the string would not break, but that is incorrect.
     
@@ -594,4 +618,3 @@ If you got this wrong, do not worry, most people do (that is trained physicists)
 
 If you think about this example for a bit, it becomes clear that relativistic acceleration is very troublesome for the structural integrity of extended objects! Another problem for our hopes of space travel to far away places.
 
-````

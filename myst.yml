@@ -116,6 +116,7 @@ project:
         - file: content/howto/Howtostart.md
         - file: content/howto/Cheatsheet.md
         - file: content/howto/test.ipynb
+        - file: content/howto/test2.md
         
 #########################################################################
 site:
