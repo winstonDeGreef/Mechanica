@@ -127,8 +127,8 @@ Observer S' and source both moving with respect to S.
 
 We now consider the situation for $S$ as shown in the figure below. The position of the source $\vec{r}_0$ is indicated with the star $*$. 
 
-```{figure} ../images/doppler3.png
-:label: fig:doppler3.png
+```{figure} ../images/chx4_doppler3.svg
+:label: fig:chx4_doppler3.svg
 :width: 60%
 :align: center
  
