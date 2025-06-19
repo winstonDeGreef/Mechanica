@@ -52,7 +52,7 @@ $$\begin{split}
 &= \gamma \frac{dE/c}{dt} c - \gamma \vec{u} \cdot \frac{d \gamma m \vec{u}}{dt}
 \end{split}$$
 
-Thus we can divide $\gamma$ out of this equation and write $c E/c = E$:
+Thus we can divide $\,\!\gamma$ out of this equation and write $c E/c = E$:
 
 $$0 = \frac{dE}{dt} - \vec{u} \cdot \frac{d \gamma m \vec{u}}{dt} \Rightarrow \frac{dE}{dt} = \vec{u} \cdot \frac{d \gamma m \vec{u}}{dt}$$
 
@@ -240,7 +240,7 @@ P_{after}^\mu = &\left ( \frac{hf'}{c},\frac{hf'}{c} \cos\theta, \frac{hf'}{c} \
 & + \left ( m_e\gamma(u)c,\, m_e\gamma(u)u \cos\phi,\, -m_e \gamma(u) u\sin\phi,\,0 \right )
 \end{split}$$
 
-We have 3 equations, but 4 unknowns $(f', u, \phi, \theta)$. Therefore the outgoing frequency $f'$ is not uniquely determined, but dependent on the scattering angle $\theta$. We can eliminate 2 (here $u,\phi$) of the 4 unknowns, to remain with a relation for the other two.
+We have 3 equations, but 4 unknowns $(f', u, \phi, \theta)$. Therefore the outgoing frequency $f'$ is not uniquely determined, but dependent on the scattering angle $\,\!\theta$. We can eliminate 2 (here $u,\phi$) of the 4 unknowns, to remain with a relation for the other two.
 
 For the spatial momentum we have 
 
@@ -251,7 +251,7 @@ $$
  \end{array}
 $$
 
-We rewrite the equations slightly, before squaring them and then adding them to eliminate $\phi$
+We rewrite the equations slightly, before squaring them and then adding them to eliminate $\,\!\phi$
 
 $$
 \begin{array}{rcl}
@@ -260,7 +260,7 @@ $$
  \end{array}
 $$
 
-We indeed eliminate $\phi$ to
+We indeed eliminate $\,\!\phi$ to
 
 $$
 \frac{h^2f^2}{c^2}-2\frac{hfhf'}{c^2}\cos\theta + \frac{h^2 f'^2}{c^2}=m_e^2 \gamma^2(u)u^2 \quad (*)
@@ -284,7 +284,7 @@ h^2f^2-2hfhf'\cos\theta + h^2 f'^2=
 (hf-hf'+m_ec^2)^2 - (m_ec^2)^2
 $$
 
-Indeed we have removed the speed $u$ and angle $\phi$. We cannot do more, but remain with a relation for the frequency $f'$ after scattering as function of angle $\theta$. To this end we evaluate the square in the equation, cancel a few terms and rearrange to
+Indeed we have removed the speed $u$ and angle $\,\!\phi$. We cannot do more, but remain with a relation for the frequency $f'$ after scattering as function of angle $\,\!\theta$. To this end we evaluate the square in the equation, cancel a few terms and rearrange to
 
 $$
 \begin{array}{rcl}
