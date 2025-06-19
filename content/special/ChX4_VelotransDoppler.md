@@ -117,8 +117,8 @@ The origin of the observed frequency shift of a moving source is visible in the 
 
 For the relativistic effect we consider a moving source with velocity $\vec{u}$ moving with observer $S'$ relative to $S$. The frequency of the source is $f_0=\frac{1}{T_0}$ in the rest frame, with $T_0$ the period of the oscillation.
 
-```{figure} ../images/doppler2.png
-:label: fig:doppler2.png
+```{figure} ../images/chx4_doppler2.svg
+:label: fig:chx4_doppler2.svg
 :width: 60%
 :align: center
  
