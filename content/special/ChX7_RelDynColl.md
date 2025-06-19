@@ -64,7 +64,7 @@ In words: the inner product of 3-force and 3-velocity is the power $\mathcal{P}$
 
 ## Collisions
 
-We will now concentrate on collisions. From our earlier discussions, for collisions we assume that we can look 'over' the collision, that is: we applie conservation of momentum and -for elastic collisions- kinetic energy. The latter implies: no non-conservative forces that dissipate mechanical energy and the potential energy prior and after the collision is the same. 
+We will now concentrate on collisions. From our earlier discussions, for collisions we assume that we can look 'over' the collision, that is: we apply conservation of momentum and -for elastic collisions- kinetic energy. The latter implies: no non-conservative forces that dissipate mechanical energy and the potential energy prior and after the collision is the same. 
 
 We do that also for our relativistic collisions. But, we don't require that it only holds for perfectly elastic collisions. Instead, we apply it to cases where there is no possibility to turn some of the energy involved into heat. So, we focus on collisions of elementary particles that do not convert part to their energy to heat.
 
@@ -82,13 +82,13 @@ $$
 
 With $E=m\gamma(u)c^2$ and $\vec{p}=m\gamma(u)\vec{u}$.
 
-### Example: head on collision
+````{example} head on collision
 
 Two elementary particles collide head on, see the figure below.
 
 ```{figure} ../images/relbot.png
 :label: fig:relbot.png
-:width: 300px
+:width: 50%
 :align: center
 ```
 
@@ -107,8 +107,9 @@ $$
 with $\gamma(u)=\gamma(-u)$. The 4-momentum is conserved per component, from the space component we see $0=M\gamma(v)v\Rightarrow v=0$. With $\gamma(u)=5/3$ and $\gamma(v)=1$ we find for the time-component $2m\frac{5}{3}=M$. 
 
 This leads to $M=\frac{10}{3}m > 2m$. Thus, the energy prior to the collision was composed of energy associated with the masses themselves and with kinetic energy. After the collision, there is no kinetic energy but their is mass-energy and there is more of this than prior to the collision.
+````
 
-### Example: decay of a photon into an electron and positron
+```{example} decay of a photon into an electron and positron
 
 We discuss if a photon (of sufficient energy $E>1024$ keV) can decay into an electron $e^-$ and positron $e^+$.
 
@@ -120,7 +121,9 @@ $$
 \left ( \frac{hf}{c},\frac{hf}{c} \right )
 $$
 	
-### Example: Electron-positron annihilation
+```
+
+```{example} Electron-positron annihilation
 
 We consider an electron and positron annihilation, resulting in two photons (after the collision). Remember that the decay cannot happen into one photon as shown above (Remember: equations are invariant under time reversal).
 
@@ -158,13 +161,15 @@ Filling this into the first equation $hf = m_e \gamma(u)c^2 \approx m_e c^2 = 51
 
 NB: please observe that analysis in the CM frame is often a good idea.
 
-### Example: Compton scattering
+```
+
+````{example} Compton scattering
 
 [Compton scattering](https://en.wikipedia.org/wiki/Compton_scattering) describes the (elastic) scattering of an incoming photon by a (bound) charged particle, typical an electron. 
 
 ```{figure} ../images/compton.png
 :label: fig:compton.png
-:width: 450px
+:width: 90%
 :align: center
 ```
 
@@ -195,7 +200,7 @@ $$
 P_{e,b}^2 + P_{\gamma, b}^2 + P_{\gamma,a}^2 + 2P_{e,b}P_{\gamma, b} - 2P_{e,b}P_{\gamma,a} - 2P_{\gamma, b}P_{\gamma, a} = P^2_{e,a}
 $$
 
-where we know $P^2_{e,b}=P^2_{e,a} = m_e^2c^2$ (totally elastic collison) and $P_\gamma^2=0$ directly as [shown before](4impuls.md#lt-invariance-of-p). Evaluating the cross terms gives
+where we know $P^2_{e,b}=P^2_{e,a} = m_e^2c^2$ (totally elastic collision) and $P_\gamma^2=0$ directly as [shown before](ChX6_FourMomentum.md#lt-invariance-of-p). Evaluating the cross terms gives
 
 $$
 m_e^2c^2 +0+0+2m_eE'-2m_eE-2 \frac{EE'}{c^2}(1-\cos\theta)=m_e^2c^2
@@ -261,7 +266,7 @@ $$
 \frac{h^2f^2}{c^2}-2\frac{hfhf'}{c^2}\cos\theta + \frac{h^2 f'^2}{c^2}=m_e^2 \gamma^2(u)u^2 \quad (*)
 $$
 
-The right hand side of the equation is the space component squared of the momentum after: $p^2_{e'} = m_e^2\gamma^2(u)u^2$, but this can be related to the energy via the [momentum-energy relation](4impuls.md#energy-momentum-relation) for the moment after $(p_{e'}c)^2 = E^2_{e'}-(m_ec^2)^2$. We will use this to eliminate the unknown speed $u$.
+The right hand side of the equation is the space component squared of the momentum after: $p^2_{e'} = m_e^2\gamma^2(u)u^2$, but this can be related to the energy via the [momentum-energy relation](./ChX6_FourMomentum.md#energy-momentum-relation) for the moment after $(p_{e'}c)^2 = E^2_{e'}-(m_ec^2)^2$. We will use this to eliminate the unknown speed $u$.
 
 The energies can be related via the 0-component of the 4-momentum
 
@@ -304,3 +309,4 @@ To analyze the outcome we check for
 - $\theta=\pi$: backwards scattering, maximal $\Delta \lambda = \frac{2h}{m_ec}$ largest energy transfer
 
 
+````
