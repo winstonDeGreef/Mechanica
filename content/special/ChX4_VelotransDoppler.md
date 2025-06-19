@@ -5,8 +5,8 @@ Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as sh
 We should, first of all realize, that the information regarding the velocity of the two space ships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
 
 
-```{figure} ../images/addvel.png
-:label: fig:addvel.png
+```{figure} ../images/chx4_addvel.svg
+:label: fig:chx4_addvel.svg
 :width: 80%
 :align: center
  
