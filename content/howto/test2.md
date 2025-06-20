@@ -4,7 +4,7 @@
 
 ```
 
-$(\phi)$ vs $\,\!\phi$ vs \(\phi\) vs $\,\!\phi$
+$(\phi)$ vs $phi$ vs \(\phi\) vs $phi$
 
 
 ## Optie 1

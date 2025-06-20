@@ -205,7 +205,7 @@ The principles used in scattering can be illustrated by revisiting Rutherford's 
 Scattering of an incoming particle at a fixed source.
 ```
 
-Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a fixed second particle. The latter is fixed in the origin and act like a force-source. The force is central, i.e. works along the direction of the red line in fig.(7.7). In the drawing the forces is repelling and the incoming particle will deviate from its straight line. Eventually it will continue moving over a straight line, when the influence of the force is no longer felt. The angle of the new direction with the incoming one, is $\,\!\theta$, the scattering angle. We are looking for the relation between $b$, the distance at which the incoming particle would have passed by the origin if there was no force and the scattering angle $\,\!\theta$.
+Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a fixed second particle. The latter is fixed in the origin and act like a force-source. The force is central, i.e. works along the direction of the red line in fig.(7.7). In the drawing the forces is repelling and the incoming particle will deviate from its straight line. Eventually it will continue moving over a straight line, when the influence of the force is no longer felt. The angle of the new direction with the incoming one, is $theta$, the scattering angle. We are looking for the relation between $b$, the distance at which the incoming particle would have passed by the origin if there was no force and the scattering angle $theta$.
 
 
 ```{figure} ../images/Scattering2D3D.png
@@ -253,9 +253,9 @@ For ideal gases, we have the ideal gas law: $pV = nRT$ with $n$ the number of mo
 
 The ideal gas law helps in understanding how gases behave under changing conditions. For instance, if we compress a given amount of gas, we may expect that the pressure goes up. But we also see that this depends on whether or not the temperature changes. And in principle the temperature will change.
 
-If we would do a compression experiment with a fixed number of molecules, $N$, and we would compress the gas such that no heat can escape from the container, then the changes in temperature, volume and pressure are such that $p V^\gamma = const$. This is called adiabatic compression. The quantity $\,\!\gamma$ is the ratio of the specific heat at constant pressure over the specific heat at constant volume. Both these quantities are easily measured in experiments and, hence, $\,\!\gamma$ can be found for many gases.
+If we would do a compression experiment with a fixed number of molecules, $N$, and we would compress the gas such that no heat can escape from the container, then the changes in temperature, volume and pressure are such that $p V^\gamma = const$. This is called adiabatic compression. The quantity $gamma$ is the ratio of the specific heat at constant pressure over the specific heat at constant volume. Both these quantities are easily measured in experiments and, hence, $gamma$ can be found for many gases.
 
-The kinetic theory predicts $\,\!\gamma$ for various classes of gases. For instance, for monatomic gasses as Helium, it is $5/3 \approx 1.667$; for diatomic gases, such as Oxygen or Hydrogen, it should be $9/7 \approx 1.286$. And so on. Moreover, $\,\!\gamma$ does, according to the kinetic theory, not depend on temperature.
+The kinetic theory predicts $gamma$ for various classes of gases. For instance, for monatomic gasses as Helium, it is $5/3 \approx 1.667$; for diatomic gases, such as Oxygen or Hydrogen, it should be $9/7 \approx 1.286$. And so on. Moreover, $gamma$ does, according to the kinetic theory, not depend on temperature.
 
 In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a number of gasses.
 
@@ -273,7 +273,7 @@ In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a n
 
 As we see, for the noble gases it is quite ok (at $T=293\text{K}$ !), but not so for the diatomic gases.
 
-For really high temperatures (~2000K) for both $O_2$ and $H_2$, $\,\!\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\,\!\gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded, that the laws of classical mechanics could not be the final answer. 
+For really high temperatures (~2000K) for both $O_2$ and $H_2$, $gamma$ it is close to 1.286. But if we go to low temperature, their respective $gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded, that the laws of classical mechanics could not be the final answer. 
 
 As we have seen when discussing Rutherford's experiment, in the early twentieth century more cracks became visible. These led scientists to Quantum Mechanics.
 

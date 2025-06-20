@@ -43,7 +43,7 @@ $$
 \frac{d\tau^2}{dt^2}=1-\frac{u^2}{c^2} \Rightarrow dt = \gamma (u) d\tau
 $$
 
-The proper time interval relates to the frame time via the $\,\!\gamma$-factor for the velocity $u$.
+The proper time interval relates to the frame time via the $gamma$-factor for the velocity $u$.
 
 ## 4-velocity
 
@@ -335,7 +335,7 @@ Note that we didn't use the transformation of $P'^1_{photon}$ as this will give 
 
 ## Speed of light as limiting velocity
 
-The $\,\!\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot
+The $gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot
 
 ```{code-cell} python
 :tag: hide-input
@@ -364,10 +364,10 @@ plt.show()
 :label: fig:gamma_v.png
 :width: 80%
 
-The $\,\!\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$
+The $gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$
 ```
 
-For a massive particle this has strong consequences. In the limit $u\to c$ the factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $\,\!\gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
+For a massive particle this has strong consequences. In the limit $u\to c$ the factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
 
 NB: $c$ is the speed of light in vacuum. In matter the speed of light $v$ is smaller than $c$, characterized by the *refractive index*  $n$ as $n=c/v$. This leads e.g. to refraction by [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) at an interface. In matter the speed of massive particles can be larger than the speed of light there. This happens e.g. in a nuclear reactor when electrons move faster than the speed of light in water ($0.75c$). As water is a dielectric, the light waves generated from the response to the moving charge lag behind and a phenomena similar to a sonic boom is created. This phenomena is termed [Cherenkov radiation](https://en.wikipedia.org/wiki/Cherenkov_radiation). If you have the opportunity to see it in a nuclear reactor, we highly recommend to take it. The color is a very intense deep blue.
 
