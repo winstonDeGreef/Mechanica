@@ -5,8 +5,8 @@ Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as sh
 We should, first of all realize, that the information regarding the velocity of the two space ships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
 
 
-```{figure} ../images/addvel.png
-:label: fig:addvel.png
+```{figure} ../images/chx4_addvel.svg
+:label: fig:chx4_addvel.svg
 :width: 80%
 :align: center
  
@@ -117,8 +117,8 @@ The origin of the observed frequency shift of a moving source is visible in the 
 
 For the relativistic effect we consider a moving source with velocity $\vec{u}$ moving with observer $S'$ relative to $S$. The frequency of the source is $f_0=\frac{1}{T_0}$ in the rest frame, with $T_0$ the period of the oscillation.
 
-```{figure} ../images/doppler2.png
-:label: fig:doppler2.png
+```{figure} ../images/chx4_doppler2.svg
+:label: fig:chx4_doppler2.svg
 :width: 60%
 :align: center
  
@@ -127,8 +127,8 @@ Observer S' and source both moving with respect to S.
 
 We now consider the situation for $S$ as shown in the figure below. The position of the source $\vec{r}_0$ is indicated with the star $*$. 
 
-```{figure} ../images/doppler3.png
-:label: fig:doppler3.png
+```{figure} ../images/chx4_doppler3.svg
+:label: fig:chx4_doppler3.svg
 :width: 60%
 :align: center
  

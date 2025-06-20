@@ -74,8 +74,8 @@ $$ a^2 + b^2 = c^2$$
 
 Example: for a triangle with sides $(3,4,5)$ this would give the figure below.
 
-```{figure} ../images/PythagorasEuclidisch.png
-:label: fig:PythagorasEuclidisch.png
+```{figure} ../images/chx5_PythagorasEuclidisch.svg
+:label: fig:chx5_PythagorasEuclidisch.svg
 :width: 40%
 :align: center
 
@@ -94,8 +94,8 @@ Can we draw this? Sure, now we need an $(ct,x$) diagram. It is a convention to d
 
 The figure is going to look like this.
 
-```{figure} ../images/PythagorasMinkowski.png
-:label: fig:PythagorasMinkowski.png
+```{figure} ../images/chx5_PythagorasMinkowski.svg
+:label: fig:chx5_PythagorasMinkowski.svg
 :width: 40%
 :align: center
 
@@ -116,8 +116,8 @@ E2: (ct'_2, x'_2) &= \left ( \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ), \ga
 \end{split}
 $$
 
-```{figure} ../images/PythagorasMinkowskiPrime.png
-:label: fig:PythagorasMinkowskiPrime.png
+```{figure} ../images/chx5_PythagorasMinkowskiPrime.svg
+:label: fig:chx5_PythagorasMinkowskiPrime.svg
 :width: 40%
 :align: center
 
