@@ -392,8 +392,8 @@ The green dashed lines is the grid of $S'$ translated to the world of $S$. The p
 
 We have seen that the length interval $ds^2$ is a Lorentz invariant. Therefore we can use it to also indicate corresponding time and space units in a Minkowski diagram for two moving observers. If we fix $ds^2$ then the equation $ds^2=c^2 dt^2-dx^2$ describes a hyperbola in $(ct,x)$ of the Minkowski diagram.
 
-```{figure} ../images/invariantDs.png
-:label: fig:invariantDs.png
+```{figure} ../images/invariantDs.svg
+:label: fig:invariantDs.svg
 :width: 80%
 :align: center
 
