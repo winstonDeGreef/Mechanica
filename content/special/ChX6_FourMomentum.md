@@ -264,11 +264,11 @@ $$
 
 This converts back to $E=mc^2$ in the rest frame.
 
-```{figure} ../images/einsteintriangle.png
-:label: fig:einsteintriangle.png
+```{figure} ../images/einsteintriangle.svg
+:label: fig:einsteintriangle.svg
 :width: 70%
 
-.
+Einstein triangle.
 ```
 
 
