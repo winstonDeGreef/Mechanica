@@ -15,34 +15,31 @@ project:
   date: 2025-06-13
 
   numbering:
-    title: true
+    title:
+      continue: true
     headings: true
 
-  exports:
+  # exports:
   #   # - format: typst # typst 
   #   #   output: exports/document_typst.pdf
   #   #   template: lapreprint-typst
   #   #   id: output-typst
 
-  #   - format: pdf
-  #     template: ./template
-  #     output: exports/MechaRela.pdf
-  #     id: output-pdf
-    - format: pdf
-      template: curvenote
-      output: exports/MechaRela.pdf
-      id: output-pdf1
+    # - format: pdf
+    #   template: curvenote
+    #   output: exports/MechaRela.pdf
+    #   id: output-pdf1
 
-    - format: pdf
-      template: curvenote
-      output: exports/SpecialRel.pdf
-      id: output-pdf2
+    # - format: pdf
+    #   template: curvenote
+    #   output: exports/SpecialRel.pdf
+    #   id: output-pdf2
 
 
-  downloads:
-  #   # - id: output-typst
-    - id: output-pdf1
-    - id: output-pdf2
+  # downloads:
+  # #   # - id: output-typst
+  #   - id: output-pdf1
+  #   - id: output-pdf2
 
 
   jupyter: 
