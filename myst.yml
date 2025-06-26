@@ -12,11 +12,10 @@ project:
     - name: C. Freek. J. Pols    
   github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY 4.0
-  date: 2025-06-13
+  #date: 2025-06-26
 
   numbering:
-    title:
-      continue: true
+    title: true
     headings: true
 
   # exports:
@@ -50,8 +49,8 @@ project:
     - file: index.md
     - file: content/Credits.md      
       
-
-    - title: Mechanics
+    - file: content/classic/Mechanics.md
+    # - title: Mechanics
       children:    
         - file: content/classic/Ch0_Language.ipynb
           children:
@@ -87,7 +86,7 @@ project:
     
 
 #######################################################################
-    - title: Special Relativity
+    - file: content/special/SpecialRelativity.md
       children:        
         - file: content/special/ChX2_CracksInMecha.md
           children:
@@ -113,7 +112,7 @@ project:
     #   children:
     #     - file: content/project/Deeltjes.ipynb
 
-    - title: For developers
+    - file: content/howto/Fordevelopers.md
       children:
         - file: content/howto/Howtostart.md
         - file: content/howto/Cheatsheet.md
