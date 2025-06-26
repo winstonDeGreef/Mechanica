@@ -14,6 +14,10 @@ project:
   copyright: Delft University of Technology, CC BY 4.0
   date: 2025-06-13
 
+  numbering:
+    title: true
+    headings: true
+
   exports:
   #   # - format: typst # typst 
   #   #   output: exports/document_typst.pdf

@@ -2,7 +2,7 @@
 
 As the years progressed, Classical Mechanics developed further and further. So, in the first half of the nineteenths century it felt like classical mechanics was an all encompassing theory and that physics would become a discipline of working out problems based on a well-established, complete theory. But that wasn't going to be the case at all. Around 1850-1860 several cracks in the theory started to become visible. And they were fundamental!
 
-## Rutherford \& the atom
+## Rutherford & the atom
 
 ### Atomic theory
 The idea that matter is made of atoms is old. However, the notion of atoms as we have now is relatively young. 
@@ -24,7 +24,7 @@ Stable vortices have the shape of rings with no beginning or end. In air they ar
 ````{figure}
 ```{figure} ../images/VortexKnots.png
 :label: fig:VortexKnots.png
-:width: 30%
+:width: 50%
 :align: center
 
 Various vortex knots, each represents another element. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_for_unknot.svg), public domain.
@@ -47,7 +47,7 @@ At the end of the nineteenth century, in 1897, Joseph John Thomson discovered th
 
 ```{figure} ../images/PlumPuddingModel.png
 :label: fig:PlumPuddingModel.png
-:width: 30%
+:width: 50%
 :align: center
 
 Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
