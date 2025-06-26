@@ -1,4 +1,4 @@
-# 4-Momentum \& $E=mc^2$
+# 4-Momentum \& E=mc²
     
 ## Proper time
 We have seen that in Special Relativity events are described by four coordinates: $(ct,x,y,z)$. Moreover, distance is measured via a inner product $A^\mu \cdot B^\mu = A^0B^0 - A^1B^1 - A^2B^2 - A^3 B^3$. That opens the question: what about other quantities that we use in mechanics. 
@@ -26,15 +26,16 @@ $$
 
 We associate to a moving particle the 3-velocity $\vec{u}=(u_x,u_y,u_z)=(\frac{dx}{dt}, \frac{dy}{dt}, \frac{dz}{dt})$. This is the velocity that we normally use: it is distance as measured in our frame of reference over time as we see on our clocks. We can relate the proper time $d\tau$ to the frame/coordinate time $dt$:
 
-$$\begin{split}
+$$
+\begin{split}
 d\tau^2 &= dt^2-\frac{1}{c^2}(dx^2+dy^2+dz^2)\\  
-
 &=dt^2\left [ 1-\frac{1}{c^2} \left (
 \left (\frac{dx}{dt} \right )^2+
 \left (\frac{dy}{dt} \right )^2+
 \left (\frac{dz}{dt} \right )^2
 \right) \right ]
-\end{split}$$
+\end{split}
+$$
 
 Here we use the magnitude of the 3-velocity $u$. In other words
 
@@ -42,7 +43,7 @@ $$
 \frac{d\tau^2}{dt^2}=1-\frac{u^2}{c^2} \Rightarrow dt = \gamma (u) d\tau
 $$
 
-The proper time interval relates to the frame time via the $\gamma$-factor for the velocity $u$.
+The proper time interval relates to the frame time via the $gamma$-factor for the velocity $u$.
 
 ## 4-velocity
 
@@ -113,9 +114,10 @@ $$
 
 with the 3-momentum $\vec{p}=m\gamma(u)\vec{u}=m\frac{d\vec{x}}{d\tau}$.
 
-!!! warning "mass is a LT invariant"
-	The mass $m$ _does not_ change as a function of velocity $\vec{u}$. You still sometimes see $\tilde{m}\equiv\gamma(u)m$ and with this $\vec{P}=(\tilde{m}c,\tilde{m}\vec{u})$. That is not practical as it mixes kinetic energy with inertial mass.
-	
+```{warning} "mass is a LT invariant"
+The mass $m$ _does not_ change as a function of velocity $\vec{u}$. You still sometimes see $\tilde{m}\equiv\gamma(u)m$ and with this $\vec{P}=(\tilde{m}c,\tilde{m}\vec{u})$. That is not practical as it mixes kinetic energy with inertial mass.
+```
+
 ### Conservation of 4-momentum
 
 For collisions now the total 4-momentum is conserved (per component)
@@ -163,7 +165,7 @@ $$
 \end{array}
 $$
 
-??? "Integration by parts" 
+**Integration by parts**
 
 Easy to remember integration by parts formula, from the product rule
 	
@@ -208,17 +210,19 @@ $$
 \vec{P}=\left ( \frac{E}{c},\vec{p} \right )
 $$
 
-??? "4-momentum with a different energy?"
+**4-momentum with a different energy?**
 	
 With a different energy (addition of another constant to $E_{kin}$ than what we did above) the length of the 4-momentum would not be LT invariant and $\vec{P}$ not a 4-vector. If we would have used $E=mc^2(\gamma -1)$ then $P^2$ would not be LT invariant. You see this by computing $P^2=\frac{E^2_{kin}}{c^2}-p^2c^2=m^2c^2(2-2\gamma)$.
 
 And we have finally derived *the* most famous equation in physics. We will use, however, $E=m\gamma(u)c^2$ most of the time as we are not always in the rest frame. The equation says essentially that mass is the same as energy. They are different manifestations of the same thing. A particle has energy in itself at rest without being in any potential. 
 
-NB: As gravitation acts on mass, it should also act on energy if they are the same! This is indeed the case, also photons, massless particles, feel gravity. More about that in Einstein's theory of general relativity. 
+```{note}
+As gravitation acts on mass, it should also act on energy if they are the same! This is indeed the case, also photons, massless particles, feel gravity. More about that in Einstein's theory of general relativity. 
+```
 
 ### Mass in units of energy
 
-The mass of an electron $m_e = 9.13\cdot 10^{-31}$ kg is often given as $512$ keV, [kilo electron Volts]. Mass of all elementary particles is given actually in units of eV.
+The mass of an electron $m_e = 9.13\cdot 10^{-31} \mathrm{kg}$ is often given as $512 \mathrm{keV}, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
 
 One electron volt is 
 
@@ -229,7 +233,7 @@ $$
 The conversion to mass via $E=mc^2$
 
 $$
-m_e c^2 = 8.2 \cdot 10^{-14}J = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512 keV
+m_e c^2 = 8.2 \cdot 10^{-14}J = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512 \mathrm{keV}
 $$
 
 ### The fame
@@ -242,7 +246,7 @@ The origin of the fame is probably twofold.
 
 ## Energy-momentum relation
 
-The 4-momentum is, of course, a 4-vector and therefore [$P^2$ is LT invariant](4vector.md#lorentz-invariants). Let us have a look at the outcome with $\vec{P}=\left ( \frac{E}{c},\vec{p} \right )$
+The 4-momentum is, of course, a 4-vector and therefore [$P^2$ is LT invariant](./ChX5_FourVectors.md#lorentz-invariants). Let us have a look at the outcome with $\vec{P}=\left ( \frac{E}{c},\vec{p} \right )$
 
 $$
 \begin{array}{rcl}
@@ -260,9 +264,11 @@ $$
 
 This converts back to $E=mc^2$ in the rest frame.
 
-```{figure} ../images/einsteintriangle.png
-:label: fig:einsteintriangle.png
-:width: 450px
+```{figure} ../images/einsteintriangle.svg
+:label: fig:einsteintriangle.svg
+:width: 70%
+
+Einstein triangle.
 ```
 
 
@@ -276,7 +282,7 @@ $$
 P^2 = m^2c^2
 $$
 
-This is of course LT invariant, as $m$ and $c$ are LT invariants (and the momentum is a 4-vector), but more importantly we can use this for computations of relativistic [collisions](reldyn.md#example-compton-scattering). By the conservation of 4-momentum we can of course compute all collisions by equating the 4 components of the momentum before and after the collision. It is often, however, mathematically easier to write down the conservation of momentum and then square it. Because you can write down $P^2=m^2c^2$ directly, this saves often computations.
+This is of course LT invariant, as $m$ and $c$ are LT invariants (and the momentum is a 4-vector), but more importantly we can use this for computations of [relativistic collisions](./ChX7_RelDynColl.md#example-compton-scattering). By the conservation of 4-momentum we can of course compute all collisions by equating the 4 components of the momentum before and after the collision. It is often, however, mathematically easier to write down the conservation of momentum and then square it. Because you can write down $P^2=m^2c^2$ directly, this saves often computations.
 
 ## Photons
 
@@ -329,22 +335,39 @@ Note that we didn't use the transformation of $P'^1_{photon}$ as this will give 
 
 ## Speed of light as limiting velocity
 
-The $\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot
+The $gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot
 
 ```{code-cell} python
+:tag: hide-input
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-Hier code voor de plot
+c = 299792458 # speed of light in m/s
+x = np.linspace(0, c, 1000)
+y = 1 / np.sqrt(1 - (x / c)**2)
+
+plt.figure(figsize=(8, 6))
+plt.plot(x/c, y, 'b-')
+plt.vlines(1,0,20,color='red')
+plt.xlim(0,1.1)
+plt.ylim(0,20)
+plt.xlabel('$u/c$')
+plt.grid()
+plt.savefig('../gamma_v.svg')
+plt.show()
+
 ```
 
 
-```{figure} ../images/gamma_v.png
+```{figure} ../images/gamma_v.svg
 :label: fig:gamma_v.png
-:width: 450px
+:width: 80%
+
+The $gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$
 ```
 
-For a massive particle this has strong consequences. In the limit $u\to c$ the factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $\gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
+For a massive particle this has strong consequences. In the limit $u\to c$ the factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
 
 NB: $c$ is the speed of light in vacuum. In matter the speed of light $v$ is smaller than $c$, characterized by the *refractive index*  $n$ as $n=c/v$. This leads e.g. to refraction by [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) at an interface. In matter the speed of massive particles can be larger than the speed of light there. This happens e.g. in a nuclear reactor when electrons move faster than the speed of light in water ($0.75c$). As water is a dielectric, the light waves generated from the response to the moving charge lag behind and a phenomena similar to a sonic boom is created. This phenomena is termed [Cherenkov radiation](https://en.wikipedia.org/wiki/Cherenkov_radiation). If you have the opportunity to see it in a nuclear reactor, we highly recommend to take it. The color is a very intense deep blue.
 

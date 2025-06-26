@@ -5,9 +5,9 @@ Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as sh
 We should, first of all realize, that the information regarding the velocity of the two space ships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
 
 
-```{figure} ../images/addvel.png
-:label: fig:addvel.png
-:width: 350px
+```{figure} ../images/chx4_addvel.svg
+:label: fig:chx4_addvel.svg
+:width: 80%
 :align: center
  
 Two space ships approaching each other.
@@ -99,7 +99,7 @@ Here we investigate the effect of a moving source that is emitting light with $f
 
 ```{figure} ../images/Doppler_animation.gif
 :label: fig:Doppler_animation.gif
-:width: 550px
+:width: 80
 :align: center
  
 Effect on sound waves due to motion.
@@ -117,9 +117,9 @@ The origin of the observed frequency shift of a moving source is visible in the 
 
 For the relativistic effect we consider a moving source with velocity $\vec{u}$ moving with observer $S'$ relative to $S$. The frequency of the source is $f_0=\frac{1}{T_0}$ in the rest frame, with $T_0$ the period of the oscillation.
 
-```{figure} ../images/doppler2.png
-:label: fig:doppler2.png
-:width: 250px
+```{figure} ../images/chx4_doppler2.svg
+:label: fig:chx4_doppler2.svg
+:width: 60%
 :align: center
  
 Observer S' and source both moving with respect to S.
@@ -127,12 +127,12 @@ Observer S' and source both moving with respect to S.
 
 We now consider the situation for $S$ as shown in the figure below. The position of the source $\vec{r}_0$ is indicated with the star $*$. 
 
-```{figure} ../images/doppler3.png
-:label: fig:doppler3.png
-:width: 250px
+```{figure} ../images/chx4_doppler3.svg
+:label: fig:chx4_doppler3.svg
+:width: 60%
 :align: center
  
-
+.
 ```   
 
 We do know that according to $S'$, the proper frequency is $f_0$ and the proper period $T_0 = 1/f_0$. Thus if a maximum is send at $t'_0$ the next one will be at $t'_0 + \frac{1}{f_0}$.
@@ -168,7 +168,7 @@ $$
 \frac{f_0}{f} = \gamma \left (1+\frac{u_r}{c} \right ) = \frac{1+\frac{u_r}{c}}{\sqrt{1-\frac{u^2}{c^2}}}
 $$
 
-Please observe that the $\gamma$ factor is of $\gamma(u)$ that means even for only tangential movement $(u_r=0)$ there is a Doppler shit.
+Please observe that the $gamma$ factor is of $\gamma(u)$ that means even for only tangential movement $(u_r=0)$ there is a Doppler shit.
 
 ### Cosmic background radiation
 
@@ -180,7 +180,7 @@ At end of the 1920s [Georges Lemaître](https://en.wikipedia.org/wiki/Georges_Le
 
 The Big Bang theory was highly debated early on, in particular by Einstein, but is now fully accepted. The strongest experimental evidence was the discovery of the *cosmic background radiation* in 1965 (by accident).
 
-The whole cosmos is nearly uniformly filled by a background radiation of about 2.7 K (wavelength in the $\mu$m range) with small inhomogeneities as shown in the picture by the Planck satellite around 2013.
+The whole cosmos is nearly uniformly filled by a background radiation of about $2.7 \mathrm{K}$ (wavelength in the $\mu$m range) with small inhomogeneities as shown in the picture by the Planck satellite around 2013.
 
 
 ```{figure} ../images/1280px-WMAP_2012.png
@@ -196,7 +196,7 @@ This radiation is the red shifted radiation from around 380,000 years after the 
 
 The red-shift here is actually caused by the expansion of the universe itself (the universe expands causing the photons' wavelength to expand). NB: Time in cosmology is often given in units of red-shift (e.g. the red-shift for recombination is $z=1089$).
 
-<b>Wavelength temperature relation</b>
+**Wavelength temperature relation**
 
 How can we relate the wavelength of electro-magnetic radiation to temperature?
 	
@@ -210,5 +210,64 @@ Here for the first time $h$, Planck's constant, was introduced to quantize energ
 
 Phenomenologically, the relation between the peak of the spectrum and the temperature was found by <a herf="https://en.wikipedia.org/wiki/Wilhelm_Wien">Wien</a> already earlier to be $\lambda_{peak} = \frac{b}{T}$ with $b$ Wien's constant $b\sim 2900\ \mu m\cdot K$.
 	
-NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. 2700 K for "warm white", 4000 K for "cool white" to describe the light color. Quantum physics at your local super market.
+NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700 \mathrm{K}$ for "warm white", $4000 \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
 
+```{code-cell} python
+
+import numpy as np
+import matplotlib.pyplot as plt
+import ipywidgets
+from IPython.display import display
+
+# Constants
+h = 6.62607015e-34  # Planck constant, J*s
+c = 3.0e8  # Speed of light, m/s
+k = 1.380649e-23  # Boltzmann constant, J/K
+
+# Wavelength range (from 1 nm to 3000 nm)
+wavelengths = np.linspace(1e-9, 3000e-9, 1000)
+
+# Planck's Law function with overflow protection
+def planck(wavelength, T):
+    exp_term = (h * c) / (wavelength * k * T)
+    # Prevent overflow in the exponential function
+    with np.errstate(over='ignore'):
+        return (2.0 * h * c**2) / (wavelength**5) * np.where(exp_term < 700, 1/(np.exp(exp_term) - 1), 0)
+
+# Visible spectrum range in meters
+visible_start = 380e-9
+visible_end = 750e-9
+
+# Colors of the visible spectrum in the correct order from violet to red
+colors = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
+num_colors = len(colors)
+wavelength_visible = wavelengths[(wavelengths >= visible_start) & (wavelengths <= visible_end)]
+color_indices = np.linspace(0, len(wavelength_visible), num_colors + 1, dtype=int)
+
+# Function to plot the Planck curve
+def plot_planck_curve(T):
+    spectral_radiance = planck(wavelengths, T)
+    
+    plt.figure(figsize=(10, 6))
+    
+    # Plot the Planck curve
+    plt.plot(wavelengths * 1e9, spectral_radiance, label=f'T = {T} K')
+    
+    # Highlight the visible spectrum with rainbow bands
+    for i in range(num_colors):
+        plt.fill_between(wavelength_visible[color_indices[i]:color_indices[i+1]] * 1e9, 
+                         spectral_radiance[(wavelengths >= visible_start) & (wavelengths <= visible_end)][color_indices[i]:color_indices[i+1]], 
+                         color=colors[i])
+    
+    # Plot settings
+    plt.xlim(0, 3000)
+    plt.ylim(0, 1.1 * max(spectral_radiance))
+    plt.xlabel('Wavelength (nm)')
+    plt.ylabel('Spectral Radiance')
+    plt.title('Planck Curve')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+ipywidgets.interact(plot_planck_curve,T=(1,10000,100))
+```

@@ -3,13 +3,13 @@
 ## Worked Examples
 
 ```{example} Momentum of an accelerated electron
-Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300$ kV.
+Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300 \mathrm{kV}$.
 
 From $E^2=(mc^2)^2+(pc)^2$ we have $p=\frac{1}{c}\sqrt{E^2-(mc^2)^2}$ and using $E=mc^2+E_{kin}$ we have
 	
 $$
 	p=\frac{1}{c}\sqrt{2mc^2 E_{kin}+E^2_{kin}}
-	$$
+$$
 	
 With $E_{kin}=300$ keV and $m_e=511$ keV. The speed can be computed from rearranging $E_{kin} = mc^2(\gamma -1)$ to $\frac{v}{c} = \sqrt{1- \frac{(mc^2)^2}{(E_{kin}+mc^2)^2}}=\sqrt{1-\frac{511^2}{811^2}}=0.77$. Please observe how practical it is to use the units eV!      
 ```
