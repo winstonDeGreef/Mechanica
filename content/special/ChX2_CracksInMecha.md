@@ -17,7 +17,7 @@ In more recent history, the notion of atoms as elementary building blocks is gui
 
 Although the evidence from chemistry was clear, the notion of atoms as the building blocks remained controversial. The laws of definite proportion (e.g. water is decomposed in a fixed ratio in hydrogen and oxygen) were generally accepted, but the hypothesis that everything was made of atoms was not. As a consequence, the work of Ludwig Boltzmann (1844-1906) on statistical thermodynamics that is entirely based on an atomic (or molecular) view was not accepted during Boltzmann's life.
 
-In the second half of the nineteenth century William Thomson (1824-1907) -later Lord Kelvin- proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether. 
+In the second half of the nineteenth century William Thomson (1824-1907) -later Lord Kelvin- proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether (ether). 
 
 Stable vortices have the shape of rings with no beginning or end. In air they are easily made and made visible with smoke and are indeed surprisingly stable. According to the vortex theory, atoms are vortices in aether. The simplest one is a single ring, which was hydrogen. More complicated forms, called knots represented the other elements. 
 
@@ -68,7 +68,7 @@ The model did not hold very long as we will see in the next paragraph. Neverthel
 
 ### Rutherford's scattering experiment
 
-The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from X-rays. He called them 'alpha' and 'beta' rays. Later he proved that 'alpha' rays consist of He-nuclei. Rutherford, in cooperation with Frederick Soddy, was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. This idea thus countered the prior idea that an atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
+The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from X-rays. He called them 'alpha' ($\alpha$) and 'beta' ($\beta$) rays. Later he proved that 'alpha' rays consist of He-nuclei. Rutherford, in cooperation with Frederick Soddy, was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. This idea thus countered the prior idea that an atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
 
 
 ```{figure} ../images/Mariecurie.jpg
@@ -79,13 +79,13 @@ The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-
 Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
 ```
 
-Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the alpha particles. Moreover, he showed that the alpha particles were He-nuclei with a positive charge of $2e4$. In 1917, he showed that Nitrogen could become Oxygen by bombarding it with the alpha particles. This was the first time that someone succeeded in artificially changing one element into another.
+Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the $\alpha$-particles. Moreover, he showed that the $\alpha$-particles were He-nuclei with a positive charge of $2e4$. In 1917, he showed that Nitrogen could become Oxygen by bombarding it with the $\alpha$-particles. This was the first time that someone succeeded in artificially changing one element into another.
 
 #### Scattering at a gold 
 
 As mentioned, Rutherford is responsible for overthrowing the plum pudding model and replacing it by our modern view: an atom is made of a tiny, positively charged nucleus with the electrons orbiting around it. 
 
-The start of this paradigm-shift was formed by Rutherford's observation that some of the alpha-particles were deflected by a thin metal sheet in front of his alpha-counter. This puzzled him as the plum pudding model could not explain this: when using that model the particles were either colliding or passing straight. Rutherford, Geiger and Marsden thus set up an experiment in which they led the alpha particles scatter at a very thin gold foil to investigate further. 
+The start of this paradigm-shift was formed by Rutherford's observation that some of the $\alpha$-particles were deflected by a thin metal sheet in front of his $\alpha$-counter. This puzzled him as the plum pudding model could not explain this: when using that model the particles were either colliding or passing straight. Rutherford, Geiger and Marsden thus set up an experiment in which they led the $\alpha$-particles scatter at a very thin gold foil to investigate further. 
 
 In the experiment, the source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope and detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
 
@@ -327,7 +327,7 @@ Now we still need to find a transformation $E_z\to E'_{z'}$ (and $c'\to c)$ tryi
 
 ### Hypothesis of the aether
 
-As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether*. The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilei transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
+As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether* (ether). The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilei transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
 
 
 ## The Michelson-Morley experiment
@@ -369,7 +369,7 @@ NB: Back in the days, white light was used for the actual measurement and monoch
 
 ---
 
-Although the proposed hypothetical medium aether (or ether) does not exist, as proven a long time ago, the terminology did not drop from everyday language. 
+Although the proposed hypothetical medium aether does not exist, as proven a long time ago, the terminology did not drop from everyday language. 
 
 ## Einstein's axioms
 
@@ -394,13 +394,16 @@ Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVer
 ```{exercise}
 :label: 15.1
 
-Assume the Michelson-Morley experiment uses arms of length $L$ = 11 m and an aether wind speed $v$ due to the motion of the earth around the sun.  
-Distance earth-sun: $150 \cdot 10^6$km.  
-Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
+Assume the Michelson-Morley experiment uses arms of length $L = 11 \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
+Distance earth-sun: $150 \cdot 10^6 \mathrm{km}$.  
 
-The sun itself is orbiting the center of our Milky Way at an even higher speed: 250 km/s. What would this mean for the expected time difference in the Michelson and Morley experiment?
+1. Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
 
-Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors in their set up for each of the two light beam paths to make the traveling length of the light, from the splitter to the mirror and the edge of the table and back, much longer than only the radius of the table and back. This is how they achieved a path length of 11m. The table itself was of course not of a diameter of 22m. 
+The sun itself is orbiting the center of our Milky Way at an even higher speed: $250 \mathrm{km/s}$. 
+
+2. What would this mean for the expected time difference in the Michelson and Morley experiment?
+
+Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors in their set up for each of the two light beam paths to make the traveling length of the light, from the splitter to the mirror and the edge of the table and back, much longer than only the radius of the table and back. This is how they achieved a path length of $11 \mathrm{m}$. The table itself was of course not of a diameter of $22 \mathrm{m}$. 
 
 ```
 
@@ -408,7 +411,7 @@ Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors 
 ```{solution} 15.1
 :class: dropdown
 
-The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6$ km and $T$ = 1 year = 31.6 $10^6$ s. This gives $V$ = 30 km/s.
+The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \mathrm{km}$ and $T = 1 \mathrm{year} = 31.6 10^6 \mathrm{s}$. This gives $V = 30 \mathrm{km/s}$.
 
 We compute the traveling time from light leaving the beam splitter, reflecting at the mirror on the side of the table and reaching the beam splitter again. The rest of the path is identical for both light beams and does not lead to a time difference.
 
@@ -423,9 +426,9 @@ Time to travel perpendicular to $V$:
 
 $$t_\perp = \frac{L}{\sqrt{c^2 - V^2}} + \frac{L}{\sqrt{c^2 - V^2}} = \frac{2L}{c} \frac{1}{\sqrt{1-\frac{V^2}{c^2}}}$$
 
-Putting in the numbers, we find $ \Delta t = 3.67 \cdot 10^{-16}s$
+Putting in the numbers, we find $ \Delta t = 3.67 \cdot 10^{-16} \mathrm{s}$
 
-This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7}$m. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500 nm = 5 \cdot 10^{-7} m$.
+This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7} \mathrm{m}$. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500 \mathrm{nm} = 5 \cdot 10^{-7} \mathrm{m}$.
 Conclusion: the expected time difference is well in reach of interferometry.
 
 ```
@@ -439,13 +442,13 @@ Now that we have reduced a two-particle system to a single particle problem, the
 
 The answer is: no. There is no general strategy to reduce a three body problem two a two body-one. 
 
-The three body problem is an old one. Already Newton himself worked on it. Its importance stems e.g. from navigation on see. It would be of great help if the position of the moon could be predicted in advance with great accuracy. Then sailors in the 17$^{th}$, 18$^{th}$ and 19$^{th}$ could have found much better their position at full sea. But no one succeeded in providing a closed solution in basic functions. 
+The three body problem is an old one. Already Newton himself worked on it. Its importance stems e.g. from navigation on see. It would be of great help if the position of the moon could be predicted in advance with great accuracy. Then sailors in the 17$^{\text{th}}$, 18$^{\text{th}}$ and 19$^{\text{th}}$ could have found much better their position at full sea. But no one succeeded in providing a closed solution in basic functions. 
 
-The king of Sweden, Oscar II, announced, as celebration of his 60$^{th}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
+The king of Sweden, Oscar II, announced, as celebration of his 60$^{\text{th}}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
 
 ```{figure} ../images/HenriPoincare.jpg
 :label: fig:HenriPoincare.jpg
-:width: 250px
+:width: 40%
 :align: center
 
 [Click here for the Wikipedia page of Poincaré.](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9)
@@ -459,7 +462,7 @@ It doesn't mean that there are no known solutions of specific cases of the three
 
 ```{figure} ../images/20SolutionsThreeBodyProblem.gif
 :label: fig:20SolutionsThreeBodyProblem.gif
-:width: 350px
+:width: 80%
 :align: center
 
 [Click here to see some exact solutions of the three body problem](https://upload.wikimedia.org/wikipedia/commons/5/5a/5_4_800_36_downscaled.gif) (By Perosello - Uploaded by Author, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133294338).
@@ -476,7 +479,7 @@ First, we ignore Alpha Centauri C and used that A and B have about the same mass
 
 ```{figure} ../images/TwoBody_animation.gif
 :label: fig:TwoBody_animation.gif
-:width: 320px
+:width: 100%
 :align: center
  
 Alpha Centauri A and B circling each other.
@@ -488,7 +491,7 @@ $m_C$ tries to orbit its closest star, but at some point comes under the influen
 
 ```{figure} ../images/ThreeBody_animation_long.gif
 :label: fig:ThreeBody_animation_long.gif
-:width: 320px
+:width: 100%
 :align: center
  
 Alpha Centauri A and B circling each other with a third object.
@@ -498,7 +501,7 @@ If we let the simulations run for a much longer time, we see that at some point 
 
 ```{figure} ../images/ThreeBody_animation_long.png
 :label: fig:ThreeBody_animation_long.png
-:width: 320px
+:width: 100%
 :align: center
  
 Alpha Centauri A and B circling each other with a third object. The third 'planet' is finally escaping into space.
@@ -507,4 +510,11 @@ Alpha Centauri A and B circling each other with a third object. The third 'plane
 Note: this is a chaotic system and computations need great care. 
 
 ```{iframe} https://trinket.io/embed/glowscript/b541844f22
+:width: 100%
+
+A stable solution of the three body problem, but slightly change one of the parameters and the solution is not stable anymore!
+```
+
+```{tip} Three body problem
+NetFlix has a great tv series called [3 Body Problem](https://www.netflix.com/nl-en/title/81024821)
 ```
