@@ -1,3 +1,13 @@
+---
+numbering:
+  title:
+    enabled: true
+    offset: 1
+    #enumerator: S.%s
+    #start: 8
+
+---
+
 # Cracks in Classical Mechanics
 
 As the years progressed, Classical Mechanics developed further and further. So, in the first half of the nineteenths century it felt like classical mechanics was an all encompassing theory and that physics would become a discipline of working out problems based on a well-established, complete theory. But that wasn't going to be the case at all. Around 1850-1860 several cracks in the theory started to become visible. And they were fundamental!

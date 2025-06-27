@@ -4,6 +4,11 @@ site:
   hide_outline: true
   hide_toc: true
   hide_title_block: true
+  
+numbering:
+  title:
+    enabled: false
+
 ---
 
 <div style="text-align: center;">

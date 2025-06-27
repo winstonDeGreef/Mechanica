@@ -1,3 +1,9 @@
+---
+numbering:
+  title:
+    enabled: true
+    offset: 0
+---
 # Special Relativity - Lorentz Transformation
 
 As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the {abbr}`M&M (Michelson-Morley)` experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics under pinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
