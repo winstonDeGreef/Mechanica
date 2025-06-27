@@ -118,6 +118,7 @@ project:
         - file: content/howto/Cheatsheet.md
         - file: content/howto/test.ipynb
         - file: content/howto/test2.md
+        - file: content/howto/GHGL.md
         
 #########################################################################
 site:

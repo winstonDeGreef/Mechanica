@@ -2,7 +2,7 @@
 numbering:
   title:
     enabled: true
-    offset: 1
+    #offset: -1
     #enumerator: S.%s
     #start: 8
 

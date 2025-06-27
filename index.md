@@ -8,6 +8,11 @@ site:
 numbering:
   title:
     enabled: false
+<<<<<<< Updated upstream
+=======
+  heading:
+    enabled: false
+>>>>>>> Stashed changes
 ---
 
 <div style="text-align: center;">
