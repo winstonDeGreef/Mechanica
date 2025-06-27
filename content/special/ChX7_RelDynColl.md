@@ -1,3 +1,8 @@
+---
+numbering:
+  title:
+    offset: 0
+---
 #  Relativistic dynamics and collisions
     
 ## 4-force

@@ -1,3 +1,8 @@
+---
+numbering:
+  title:
+    offset: 0
+---
 # Spacetime and 4-vectors
    
 ## Space time

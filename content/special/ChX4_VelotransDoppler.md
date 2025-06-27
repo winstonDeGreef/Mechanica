@@ -1,3 +1,8 @@
+---
+numbering:
+  title:
+    offset: 0
+---
 # Velocity Transformation & Doppler shift
 
 Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow space ships sees for the other space ship speed?

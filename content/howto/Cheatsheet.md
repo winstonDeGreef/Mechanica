@@ -222,31 +222,38 @@ Hier hebben we gebruik gemaakt van figuren die op het internet staan, maar je ku
 
 Tabellen worden gemaakt met scheidingsteken `|`
 
-::::{tab-set}
-:::{tab-item} Tabellen
+:::::{tab-set}
+::::{tab-item} Tabellen
 
-```
+:::{table} 
+:label: tl_ sancties
+:align: center
+
 |Kop 1|Kop 2|Kop3|
 |---|---|---|
 |tekst 1|tekst 2|tekst 3|
 |tekst 4|tekst 5|tekst 6|
-```
-
 :::
 
-:::{tab-item} MyST Syntax
+::::
+
+::::{tab-item} MyST Syntax
 
 ````markdown
-```
+:::{table} 
+:label: tl_ sancties
+:align: center
+
 |Kop 1|Kop 2|Kop3|
 |---|---|---|
 |tekst 1|tekst 2|tekst 3|
 |tekst 4|tekst 5|tekst 6|
-```
+:::
+
 ````
 
-:::
 ::::
+:::::
 
 Of via ...
 
@@ -255,7 +262,7 @@ Of via ...
 
 ```{list-table} Overzicht van sancties bij bepaald gedrag
 :header-rows: 1
-:label: tl_ sancties
+
 * - Gedrag
     - Sanctie bij 1e keer
     - Sanctie bij 2e keer
@@ -271,7 +278,7 @@ Of via ...
 ````markdown
 ```{list-table} Overzicht van sancties bij bepaald gedrag
 :header-rows: 1
-:label: tl_sancties
+
 * - Gedrag
     - Sanctie bij 1e keer
     - Sanctie bij 2e keer

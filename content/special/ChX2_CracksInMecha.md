@@ -1,11 +1,7 @@
 ---
 numbering:
   title:
-    enabled: true
-    #offset: -1
-    #enumerator: S.%s
-    #start: 8
-
+    offset: 0
 ---
 
 # Cracks in Classical Mechanics

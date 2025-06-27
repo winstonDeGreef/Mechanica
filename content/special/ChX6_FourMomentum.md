@@ -1,3 +1,9 @@
+---
+numbering:
+  title:
+    offset: 0
+---
+
 # 4-Momentum \& E=mc²
     
 ## Proper time

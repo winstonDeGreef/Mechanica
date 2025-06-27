@@ -8,16 +8,11 @@ site:
 numbering:
   title:
     enabled: false
-<<<<<<< Updated upstream
-=======
-  heading:
-    enabled: false
->>>>>>> Stashed changes
 ---
 
-<div style="text-align: center;">
+<div style="text-align: center;  font-size: 24px; font-weight: bold;">
 
-## Introducing Classical Mechanics & Special Relativity
+Introducing Classical Mechanics & Special Relativity
 
 </div>
 
