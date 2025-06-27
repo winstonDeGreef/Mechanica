@@ -336,9 +336,9 @@ Welcome the 'Magical World of Relativity'. And don't worry: you will get used to
 
 **Conclusions:** 
 
-* we need to be careful with interpreting distances and times, things are not what they seem at first glance.
-* within the framework of one observer nothing funny happens.
-* we better work with well defined events: they represent physical phenomena happening. Both observers will agree upon these and on the logic, e.g. first the impact than the observation of a photon - not the other way around!
+* We need to be careful with interpreting distances and times, things are not what they seem at first glance.
+* Within the framework of one observer nothing funny happens.
+* We better work with well defined events: they represent physical phenomena happening. Both observers will agree upon these and on the logic, e.g. first the impact than the observation of a photon - not the other way around!
 
 ### Time & Space
     
