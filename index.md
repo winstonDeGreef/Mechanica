@@ -8,7 +8,6 @@ site:
 numbering:
   title:
     enabled: false
-
 ---
 
 <div style="text-align: center;">
