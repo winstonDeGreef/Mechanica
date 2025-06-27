@@ -204,7 +204,7 @@ $$ 1 \text{ lightsecond} = 1 \mathrm{ls} = c \cdot 1 \mathrm{sec} = 3.0 \cdot 10
 
 For instance, it takes a photon about $8.3 \mathrm{minutes}$ to travel from the sun to the earth. Thus, the distance from the sun to the earth is $8.3 \mathrm{lmin} = 500 \mathrm{ls}$. That is equivalent to $150 \cdot 10^6 \mathrm{km}$.
 
-````{example} space ship
+````{example} Space ship
 
 A space ship is flying at a velocity $0.8c$ passed earth in the direction of the moon. The moon is at a distance of $1.2 \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the earth.
 The clocks on earth and in the space ship are set to zero when the space ship passes the earth.
@@ -283,7 +283,7 @@ Ok, let's push this somewhat further and see if we can get a contradiction.
 
 We do know, from $S$ that the event took place at $ct_2 = 0.5 \mathrm{ls}$. Then, definitely $S'$ has passed earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later then the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
 
-That is remarkably easy: we know that according to $S'$ the event tokes place at $ct'_2, x_2') = (-0.767 \mathrm{ls}, 1.333 \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
+That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767 \mathrm{ls}, 1.333 \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
 
 Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567 \mathrm{ls}$. Thus we have our third event:
 
