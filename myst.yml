@@ -18,16 +18,16 @@ project:
     title: true
     headings: true
 
-  # exports:
+  exports:
   #   # - format: typst # typst 
   #   #   output: exports/document_typst.pdf
   #   #   template: lapreprint-typst
   #   #   id: output-typst
 
-    # - format: pdf
-    #   template: curvenote
-    #   output: exports/MechaRela.pdf
-    #   id: output-pdf1
+    - format: pdf
+      template: curvenote
+      output: exports/MechaRela.pdf
+      id: output-pdf1
 
     # - format: pdf
     #   template: curvenote
