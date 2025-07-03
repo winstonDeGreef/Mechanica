@@ -18,6 +18,7 @@ jobs:
       - name: Add GitLab remote and push
         run: |
           git remote add gitlab https://oauth2:${{ secrets.GLGH_PAT }}@gitlab.tudelft.nl/opentextbooks/MeRela.git
-#          git push --force --no-verify --thin gitlab main
           git push --thin gitlab main
+#          git push --force --no-verify --thin gitlab main
+          
 
