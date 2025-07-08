@@ -109,14 +109,14 @@ The bar on the right of this page opens [Hypothesis](https://web.hypothes.is/), 
 
 This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right.
 
-This book is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+This book is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) unless stated otherwise.
 
 
 ### Images, videos, apps 
 
 The cover image is inspired by the work of [3blue1brown](https://www.3blue1brown.com/) developer Grant Sanderson. 
 
-All vecor images have been made by Hanna den Hertog, and are available in vector format through the repository. For reuse, adapting and redistrution, adhere to the CC-BY-licences.
+All vector images have been made by Hanna den Hertog, and are available in vector format through the repository. For reuse, adapting and redistribution, adhere to the CC-BY-licences.
 
 We embedded several clips from [3blue1brown](https://www.3blue1brown.com/) in accord with their [licences requirements](https://www.3blue1brown.com/contact#licensing-inquiry).
 
@@ -128,4 +128,4 @@ At various places we use pictures which are in the public domain. We comply to t
 
 ### How to cite this book
 
-R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, <!--TU Delft Open, 2025, [LINK DOI]-->
+R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, CC BY<!--TU Delft Open, 2025, [LINK DOI]-->
