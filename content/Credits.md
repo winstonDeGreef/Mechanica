@@ -6,7 +6,7 @@ abstract: This book provides an introduction for freshman students into the worl
 numbering:
   title:
     enabled: false
-    
+
 ---
 
 ## About this book
@@ -52,10 +52,11 @@ We include in-browser python code, as well as downloadable .py files which can b
 
 New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hoover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
 
+The book can be read online. There is, however, the opportunity to download the materials and play with the code offline as well. We advise to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
 
 ### Feedback
 
-Do you see a mistake, do you have suggestions for exercises, are parts missing or abundant. Tell us! You can use the feedback button at the top right button. You will need a (free) GitHub account to report an issue!
+Do you see a mistake, do you have suggestions for exercises, are parts missing or abundant. Tell us! You can use the `Feedback` button at the top right button. You will need a (free) GitHub account to report an issue!
 
 
 ## Authors
@@ -96,22 +97,17 @@ Freek Pols is an assistant professor in the [Science \& Engineering Education](h
 
 ## Open Educational Resource
 
-This book is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). It is part of the collection of [Interactive Open Textbooks](https://textbooks.open.tudelft.nl/textbooks/catalog/category/interactive) of [TU Delft Open](https://textbooks.open.tudelft.nl/textbooks/index).
+This book is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) unless stated otherwise. It is part of the collection of [Interactive Open Textbooks](https://textbooks.open.tudelft.nl/textbooks/catalog/category/interactive) of [TU Delft Open](https://textbooks.open.tudelft.nl/textbooks/index).
 
-This website is a [Jupyter Book](https://jupyterbook.org/intro.html). MarkDown source files are available for download using the button on the top right.
+This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Source files are available for download using the button on the top right.
 
-The bar on the right of this page opens [Hypothesis](https://web.hypothes.is/), a service that allows you to add comments to pieces of text in this book.
+<!-- The bar on the right of this page opens [Hypothesis](https://web.hypothes.is/), a service that allows you to add comments to pieces of text in this book. -->
 
 <!-- ![](https://i.creativecommons.org/l/by/4.0/88x31.png) -->
 
 
 ### Software and license
-
-This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right.
-
-This book is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) unless stated otherwise.
-
-The book can be read online. There is, however, the opportunity to download the materials and play with the code offline as well. We advise to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
+This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right. All python codes / apps are freely reusable, adaptable and redistributable.
 
 
 ### Images, videos, apps 
