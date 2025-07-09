@@ -8,7 +8,6 @@ site:
   parts: 
     footer: |
       Copyrights checked by TU Delft
-      
 numbering:
   title:
     enabled: false
