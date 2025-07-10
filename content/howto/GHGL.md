@@ -18,27 +18,55 @@
 * Open de github workflow en voeg onderstaande script toe aan de workflow (onderaan)
 
 ```
-  sync:
+name: Sync Changed Files to GitLab
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync-changes:
     runs-on: ubuntu-latest
- 
+
     steps:
-      - name: Checkout GitHub Repository
+      - name: Checkout GitHub repo (source)
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Ensures all history is cloned
- 
-      - name: Push to GitLab
+
+      - name: Set up GitLab repo (destination)
+        env:
+          GITLAB_TOKEN: ${{ secrets.GLGH_PAT }}
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
- 
-          # Add GitLab as a remote (update URL for your repo)
-          git remote add gitlab https://oauth2:${{ secrets.GLPAT }}@gitlab.tudelft.nl//fpols/GHGL2.git
-          # Use force-with-lease for safety
-          git push gitlab
+          # Clone GitLab repo
+          git clone https://oauth2:${GITLAB_TOKEN}@gitlab.tudelft.nl/opentextbooks/TN_MechaRela.git gitlab-mirror
+          
+          # Set up Git config
+          cd gitlab-mirror
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          cd ..
+
+      - name: Copy only changed files
+        run: |
+          # Compare and copy only changed files from GitHub to GitLab clone
+          rsync -av --delete --exclude='.git' --exclude='gitlab-mirror/' ./ ./gitlab-mirror/
+
+      - name: Commit and push changes
+        env:
+          GITLAB_TOKEN: ${{ secrets.GLGH_PAT }}
+        run: |
+          cd gitlab-mirror
+          git add .
+          
+          # Only commit if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync changed files from GitHub"
+            git push https://oauth2:${GITLAB_TOKEN}@gitlab.tudelft.nl/opentextbooks/TN_MechaRela.git main
+          else
+            echo "No changes to commit"
+          fi
 ```
 
 * Let op, vervang de GL repo link en de naam van de repository secret (hier GLPAT).
 * De connectie tussen GH en GL is nu gemaakt. Elke commit naar GH wordt nu ook gecommit naar GL.
+* rsync vergelijkt bestanden op basis van wijzigingsdatum en bestandsgrootte. Dit zorgt ervoor dat alleen gewijzigde of nieuwe bestanden naar GitLab gekopieerd worden. 
 
-synced 10/07/2025
