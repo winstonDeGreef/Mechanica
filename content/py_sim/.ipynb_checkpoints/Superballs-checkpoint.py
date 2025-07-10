@@ -73,7 +73,7 @@ def update(frame):
     return fig, ax
 
 ani = FuncAnimation(fig, update, frames=range(1,N))
-#ani.save("Superball_animation.gif", fps=30)
+ani.save("Superball_animation.gif", fps=30)
 
 plt.figure()
 plt.plot(t,zb)
