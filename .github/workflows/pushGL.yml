@@ -1,23 +1,46 @@
-name: Push to GitLab
+name: Sync Changed Files to GitLab
+
 on:
   push:
     branches: [main]
 
 jobs:
-  push-to-gitlab:
+  sync-changes:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the repository
+      - name: Checkout GitHub repo (source)
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1 
 
-      - name: Set up Git user
+      - name: Set up GitLab repo (destination)
+        env:
+          GITLAB_TOKEN: ${{ secrets.GLGH_PAT }}
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          # Clone GitLab repo
+          git clone https://oauth2:${GITLAB_TOKEN}@gitlab.tudelft.nl/opentextbooks/TN_MechaRela.git gitlab-mirror
+          
+          # Set up Git config
+          cd gitlab-mirror
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          cd ..
 
-      - name: Add GitLab remote and push
+      - name: Copy only changed files
         run: |
-          git remote add gitlab https://oauth2:${{ secrets.GLGH_PAT }}@gitlab.tudelft.nl/opentextbooks/TN_MechaRela.git
-          git push --force gitlab main
+          # Compare and copy only changed files from GitHub to GitLab clone
+          rsync -av --delete --exclude='.git' ./ ./gitlab-mirror/
+
+      - name: Commit and push changes
+        env:
+          GITLAB_TOKEN: ${{ secrets.GLGH_PAT }}
+        run: |
+          cd gitlab-mirror
+          git add .
+          
+          # Only commit if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync changed files from GitHub"
+            git push https://oauth2:${GITLAB_TOKEN}@gitlab.tudelft.nl/opentextbooks/TN_MechaRela.git main
+          else
+            echo "No changes to commit"
+          fi
