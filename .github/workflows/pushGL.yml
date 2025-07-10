@@ -28,7 +28,7 @@ jobs:
       - name: Copy only changed files
         run: |
           # Compare and copy only changed files from GitHub to GitLab clone
-          rsync -av --delete --exclude='.git' ./ ./gitlab-mirror/
+          rsync -av --delete --exclude='.git' --exclude='gitlab-mirror/' ./ ./gitlab-mirror/
 
       - name: Commit and push changes
         env:
