@@ -40,3 +40,5 @@
 
 * Let op, vervang de GL repo link en de naam van de repository secret (hier GLPAT).
 * De connectie tussen GH en GL is nu gemaakt. Elke commit naar GH wordt nu ook gecommit naar GL.
+
+synced 10/07/2025
