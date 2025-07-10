@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1 
 
       - name: Set up Git user
         run: |
