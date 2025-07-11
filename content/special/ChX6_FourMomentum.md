@@ -7,7 +7,7 @@ numbering:
 # 4-Momentum \& E=mc²
     
 ## Proper time
-We have seen that in Special Relativity events are described by four coordinates: $(ct,x,y,z)$. Moreover, distance is measured via a inner product $A^\mu \cdot B^\mu = A^0B^0 - A^1B^1 - A^2B^2 - A^3 B^3$. That opens the question: what about other quantities that we use in mechanics. 
+We have seen that in Special Relativity events are described by four coordinates: $(ct,x,y,z)$. Moreover, distance is measured via a inner product $A^\mu \cdot B^\mu = A^0B^0 - A^1B^1 - A^2B^2 - A^3 B^3$. That opens the question: what about other quantities that we use in mechanics? 
 
 If position is $X^\mu = (ct,x,y,z)$ then what is velocity? Is $v^\mu \equiv \frac{dX^\mu}{dt}$ a good choice? It is what we are used to: velocity is change in position over time. However, we need to be careful. We require that our quantities are four-vectors, i.e. they transform according to the Lorentz Transformation. And the length, i.e. the inner product with itself, is the same for all inertial observes.
 
