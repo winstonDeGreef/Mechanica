@@ -163,7 +163,7 @@ After the decay, we have
 
 $$P^\mu_f = \left ( m\gamma(u) c + \frac{hf}{c}, m\gamma(u) u + \frac{hf}{c} \hat{f}\right ) $$
 
-with $\hat{f}$ a unit vector pointing in the $\pm x$-direction. We know $\frac{u}{c} = \frac{4}{5} \rightarrow \gamma(u) = \frac{5}{3}$. Conservation of 4-momentum now leads to::
+with $\hat{f}$ a unit vector pointing in the $\pm x$-direction. We know $\frac{u}{c} = \frac{4}{5} \rightarrow \gamma(u) = \frac{5}{3}$. Conservation of 4-momentum now leads to:
 
 $$\begin{split}
 \frac{5}{3}mc +\frac{hf}{c} &= \frac{13}{5}Mc \\
