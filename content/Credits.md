@@ -110,7 +110,7 @@ This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Source fil
 This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right. All python codes / apps are freely reusable, adaptable and redistributable.
 
 
-### Images, videos, apps 
+### Images, videos, apps, intermezzos 
 
 The cover image is inspired by the work of [3blue1brown](https://www.3blue1brown.com/) developer Grant Sanderson. 
 
@@ -123,6 +123,8 @@ The embedded vpython apps are made freely available from [trinket](https://trink
 Some videos from NASA are included, where we adhere to [their regulations](https://www.nasa.gov/nasa-brand-center/images-and-media/).
 
 At various places we use pictures which are in the public domain. We comply to the regulations with regard to references.
+
+The Intermezzos, which elaborate on the lives of various scientists and the efforts behind key physical discoveries, are composed by drawing from a range of different sources. Rather than directly reproducing any one account, these stories have been reworked into a narrative that fits the context and audience of this book. 
 
 ### How to cite this book
 
