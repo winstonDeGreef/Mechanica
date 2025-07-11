@@ -228,18 +228,18 @@ As gravitation acts on mass, it should also act on energy if they are the same! 
 
 ### Mass in units of energy
 
-The mass of an electron $m_e = 9.13\cdot 10^{-31} \mathrm{kg}$ is often given as $512 \mathrm{keV}, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
+The mass of an electron $m_e = 9.13\cdot 10^{-31} \mathrm{kg}$ is often given as $512 \mathrm{keV}$, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
 
 One electron volt is 
 
 $$
-1 eV = 1.6\cdot 10^{-19} C \cdot 1V =  1.6\cdot 10^{-19} J
+1 \mathrm{eV} = 1.6\cdot 10^{-19} \mathrm{C} \cdot 1\mathrm{V} =  1.6\cdot 10^{-19} \mathrm{J}
 $$
 
 The conversion to mass via $E=mc^2$
 
 $$
-m_e c^2 = 8.2 \cdot 10^{-14}J = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512 \mathrm{keV}
+m_e c^2 = 8.2 \cdot 10^{-14}\mathrm{J} = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512 \mathrm{keV}
 $$
 
 ### The fame
@@ -359,8 +359,9 @@ plt.vlines(1,0,20,color='red')
 plt.xlim(0,1.1)
 plt.ylim(0,20)
 plt.xlabel('$u/c$')
+plt.ylabel('$\gamma$')
 plt.grid()
-plt.savefig('../gamma_v.svg')
+plt.savefig('../images/gamma_v.svg')
 plt.show()
 
 ```
@@ -370,7 +371,7 @@ plt.show()
 :label: fig:gamma_v.png
 :width: 80%
 
-The $gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$
+The $\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$
 ```
 
 For a massive particle this has strong consequences. In the limit $u\to c$ the factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
