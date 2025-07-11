@@ -104,7 +104,7 @@ Here we investigate the effect of a moving source that is emitting light with $f
 
 ```{figure} ../images/Doppler_animation.gif
 :label: fig:Doppler_animation.gif
-:width: 80
+:width: 80%
 :align: center
  
 Effect on sound waves due to motion.
