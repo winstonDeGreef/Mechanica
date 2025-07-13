@@ -20,7 +20,7 @@ d. Answer the same questions, but now from the perspective of $S'$.
 
 In the frame of $S$ a laser is placed at $(x_1,y_1,z_1) = (4,0,0)$. A receiver is located at $(x_2,y_2,z_2) = (0,3,0)$. At $ct=0$ the laser fires a light puls towards the receiver.
 
-Find the events "pulse send" and "pulse received" and determine the distance between the two events.
+Find the events "pulse sent" and "pulse received" and determine the distance between the two events.
 
 Secondly, an observer $S'$ moves with $V/c = 4/5$ with respect to $S$. The velocity points in the positive $x$-direction. Both observers have their $x$ resp. $x'$ axis aligned and their clocks synchronized: $ct' = ct = 0$ when $x' = x = 0$.
 
