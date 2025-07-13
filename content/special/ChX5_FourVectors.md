@@ -485,7 +485,7 @@ Notice the similarity to the [rotation](../classic/Ch6_AngularMomentum.ipynb#tor
 
 
 
-With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\alpha$ is the rapidity), we identify the matrix as $L(\alpha)$. That the [hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations) appear should not be a surprise as they are equivalent to the sine and cosine for the circle, $(ct^2+x^2=1)$, for the hyperbola $(ct^2-x^2=1)$. Notice the relation to the inner products for standard and Minkowski space.
+With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\alpha$ is the rapidity), we identify the matrix as $l(\alpha)$. That the [hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations) appear should not be a surprise as they are equivalent to the sine and cosine for the circle, $(ct^2+x^2=1)$, for the hyperbola $(ct^2-x^2=1)$. Notice the relation to the inner products for standard and Minkowski space.
 
 Minkowski made the sketch below to show that the Lorentz transformation is a rotation over a hyperbola not a circle as we were used to. The asymptotes of the hyperbola are given by the light lines.
 
@@ -497,7 +497,7 @@ Minkowski made the sketch below to show that the Lorentz transformation is a rot
 Drawing by Minkowski
 ``` 
 
-The addition of velocities that we derived earlier is easy with this notation with rotations and rapidity $L(\alpha_1)L(\alpha_2)=L(\alpha_1+\alpha_2)$. In terms of speeds this reads
+The addition of velocities that we derived earlier is easy with this notation with rotations and rapidity $l(\alpha_1)l(\alpha_2)=l(\alpha_1+\alpha_2)$. In terms of speeds this reads
 
 $$
 \beta = \tanh (\alpha_1+\alpha_2)= \frac{\tanh \alpha_1 +\tanh \alpha_2}{1+\tanh \alpha_1 \tanh \alpha_2}=\frac{\beta_1 + \beta_2}{1+\beta_1\beta_2}
