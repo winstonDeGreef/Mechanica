@@ -31,7 +31,7 @@ Find the events for $S'$ and show that the same distance is found between the tw
 ```{exercise}
 :label: 15.3
 
-Observer $S'$ moves at a constant velocity of $V/c = 12/13$ with respect to $S$. They have aligned their axes and synchronized their clocks in the usually way.
+Observer $S'$ moves at a constant velocity of $V/c = 12/13$ with respect to $S$. They have aligned their axes and synchronized their clocks in the usual way.
 
 Consider the two events $E1: (ct_1,x_1) = (3,3)$ and $E2: (ct_2,x_2)= (4,5)$
 
