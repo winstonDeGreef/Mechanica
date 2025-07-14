@@ -151,7 +151,17 @@ We consider the 2 consecutive wave maxima that are emitted in $S'$ and received 
 - 1$^{st}$ maximum in $S'$ at $t'_0$, that is received in $S$ at $t_1=t_0 +\frac{r_0}{c}$. The additional time $\frac{r_0}{c}$ is needed for the light to travel from $\vec{r}_0$ to the observer at the origin of $S$.
 - 2$^{nd}$ maximum in $S'$ at $t'_0+\frac{1}{f_0}$, is received in $S$ at $t_2=(t_0+\frac{\gamma}{f_0})+\frac{r_1}{c}$.
 
-To move further we split the velocity of the source into a radial component (in line to the observer in $S$) and a tangential part perpendicular $\vec{u}=\vec{u}_r+\vec{u}_t =u_r \hat{r} +u_t \hat{t}$. If the distance $r_0 \gg \vec{u} \frac{\gamma}{f_0}$ then the distance $r_1 = r_0 + u_r \frac{\gamma}{f_0}$. 
+To move further we split the velocity of the source into a radial component (in line to the observer in $S$) and a tangential part perpendicular $\vec{u}=\vec{u}_r+\vec{u}_t =u_r \hat{r} +u_t \hat{t}$. See {numref}`fig:DopplerVelo.svg`.
+If the distance $r_0 \gg u \frac{\gamma}{f_0}$ then the distance $r_1 = r_0 + u_r \frac{\gamma}{f_0}$. 
+
+
+```{figure} ../images/DopplerVelo.svg
+:label: fig:DopplerVelo.svg
+:width: 100%
+:align: center
+ 
+.
+``` 
 
 Note that we could drop the vector notation here from the exact relation above. Classically only the radial component is relevant as only the distance matters.
 
