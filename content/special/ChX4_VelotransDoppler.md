@@ -118,7 +118,7 @@ $$
 
 where for the stationary observer and medium, we have $+/-$ and for the moving observer and stationary source $-/+$.
 
-The origin of the observed frequency shift of a moving source is visible in the picture. In the direction of motion, more wave maxima arrive per unit time, as the car is moving closer between two wave maxima.
+The origin of the observed frequency shift of a moving source is visible in the picture. In the direction of motion, more wave maxima arrive per unit time, as the car is moving closer between two wave maxima. Consequently, the observer in the car will count more maxima per unit time: the frequency is higher.
 
 For the relativistic effect we consider a moving source with velocity $\vec{u}$ moving with observer $S'$ relative to $S$. The frequency of the source is $f_0=\frac{1}{T_0}$ in the rest frame, with $T_0$ the period of the oscillation.
 
