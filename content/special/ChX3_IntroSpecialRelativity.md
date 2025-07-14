@@ -8,7 +8,7 @@ numbering:
 
 As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the {abbr}`M&M (Michelson-Morley)` experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics under pinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
 
-And as we have mentioned, it took the work of a single man to change this and underpin the Lorentz Transformation, making Classical Mechanics a valid limit of Relativity Theory, only applicable at velocities small compared to the speed of light and to small distances compared to those of interest in cosmology.
+And as we have mentioned, it took the work of a single man to change this and underpin the [Lorentz Transformation](https://www.youtube.com/watch?v=qdycfWfAtsM), making Classical Mechanics a valid limit of Relativity Theory, only applicable at velocities small compared to the speed of light and to small distances compared to those of interest in cosmology.
 
 ```{figure} ../images/AlbertEinstein.png
 :label: fig:AlbertEinstein.png
@@ -195,7 +195,7 @@ The electro-magnetic wave equation can be transformed from $S$ to $S'$. And inde
 
 Close your book, laptop. Shut down your screen, put aside your mobile, tablet. Put away you notes and put an empty clean sheet in front of you. All you have is that sheet of paper, one pen and your brain.
 * Write down the Lorentz Transformation and its inverse.
-* Repeat so you don't forget it (for the rest of your life: no one may call him/herself a physicist if he/she does not know the LT by heart ;-) ).
+* Repeat so you don't forget it (for the rest of your life: Every physicist ought to know the LT by heart ;-) ).
 
 ```
 

@@ -350,7 +350,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 c = 299792458 # speed of light in m/s
-x = np.linspace(0, c, 1000)
+x = np.linspace(0.01, c, 1000)
 y = 1 / np.sqrt(1 - (x / c)**2)
 
 plt.figure(figsize=(8, 6))
@@ -361,7 +361,7 @@ plt.ylim(0,20)
 plt.xlabel('$u/c$')
 plt.ylabel('$\gamma$')
 plt.grid()
-plt.savefig('../images/gamma_v.svg')
+#plt.savefig('../images/gamma_v.svg')
 plt.show()
 
 ```
