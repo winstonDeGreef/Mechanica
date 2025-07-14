@@ -2,6 +2,11 @@
 numbering:
   title:
     offset: 0
+
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
 ---
 # Velocity Transformation & Doppler shift
 
@@ -157,7 +162,7 @@ If the distance $r_0 \gg u \frac{\gamma}{f_0}$ then the distance $r_1 = r_0 + u_
 
 ```{figure} ../images/DopplerVelo.svg
 :label: fig:DopplerVelo.svg
-:width: 100%
+:width: 50%
 :align: center
  
 .

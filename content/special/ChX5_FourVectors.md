@@ -46,8 +46,9 @@ $$
 d s^2 = c^2d t^2 - d x^2 - d y^2 - d z^2 
 $$
 
-!!! important "Warning"
-	Notice directly that the distance $\Delta s^2$ can be negative! (And we are OK with that).
+```{warning}
+Notice directly that the distance $\Delta s^2$ can be negative! (And we are OK with that).
+```
 
 It is straightforward to show that the above distance $ds^2$ is indeed a Lorentz Invariant, i.e. $ds'^2 = ds^2$. Suppose we have two events: $E_1: (ct,x,y,z)$ and $E_2: (c(t+dt),x+dx,y+dy,z+dz)$. We can transform these to $S'$ via the standard Lorentz Transformation:
 
@@ -177,7 +178,7 @@ $$
 
 This property can be a *very* powerful tool (OK, we constructed it that way). If we know the value of the inner product in one frame of reference, it will be the same in all other inertial frames of reference! We will use that later often. It is also clear that the distance interval $ds^2$ is a Lorentz invariant.
 
-??? "Inner product LT invariant: the hard way"
+**Inner product LT invariant: the hard way**
 
 If you do not believe that the inner product is LT invariant you can write it out of course (with $\beta \equiv \frac{V}{c}$, a short hand notation that is frequently used).
 	
