@@ -85,27 +85,37 @@ The counter intuitive stuff happens of course due to the pseudo-Euclidean metric
 
 Earlier we transformed the velocity $u$ of a particle in $S$ to $S'$ which was moving with $V$. This was quite complicated and the formula is difficult to remember. However, there is no need to remember the formula, you can always derive it from the transformation of the 4-velocity.
 
-For the 4-velocity $\vec{U}=(\gamma(u)c,\gamma(u)\vec{u})$ we can write down the LT of a 4-vector between $S$ and $S'$.
+The 4-velocity of a particle moving at velocity $\vec{u} = (u_x, u_y, u_z)$ according to observer $S$ is as we have seen:
 
-$$
+$$ \vec{U}=(\gamma(u)c,\gamma(u)\vec{u})$$.
+
+Note that the gamma-factor here is a property of the particle, that is: it is the gamma-factor as $S$ would calculated based on the particle velocity that $S$ observes: $\gamma (u) \equiv \frac{1}{\sqrt{1 - \frac{u^2}{c^2}}}$. It has nothing to do with the gamma-factor that $S$ and $S'$ use in their Lorentz Transformation to exchange information. 
+
+As $we can write down the LT of a 4-vector between $S$ and $S'$.
+
+$$\vec{U}$$ is a four-vector it transforms from $S$ to $S'$ via the LT:
+
 \begin{array}{rcl}
 \gamma(u') c &=& \gamma(V) \left ( \gamma(u)c - \frac{V}{c}\gamma(u)u_x\right )\\
-\gamma(u') u'_x &=& \gamma(V) \left ( \gamma(u)u_x - \frac{V}{c}\gamma(u)c\right )\\
-\gamma(u') u'_y &=& \gamma(u)u_y\\
-\gamma(u') u'_z &=& \gamma(u)u_z
+\gamma(u') u'_x' &=& \gamma(V) \left ( \gamma(u)u_x - \frac{V}{c}\gamma(u)c\right )\\
+\gamma(u') u'_y' &=& \gamma(u)u_y\\
+\gamma(u') u'_z' &=& \gamma(u)u_z
 \end{array}
 $$
+
+Note: here $\gamma (V)$ is the gamma-factor corresponding to the relative velocity $V$ between $S$ and $S'$. And $\gamma (V)$ has nothing to do with $\gamma (u)$. On the other hand $\gamma (u')$ is the gamma-factor that $S'$ uses for the four-velocity of the particle that has, according to $S'$ three-velocity $\vec{u}'$.
+
 
 If we now divide the second of these equations by the first we obtain
 
 $$
-\frac{u'_x}{c} = \frac{\frac{u_x}{c}-\frac{V}{c}}{1-\frac{Vu_x}{c^2}}
+\frac{u'_x'}{c} = \frac{\frac{u_x}{c}-\frac{V}{c}}{1-\frac{Vu_x}{c^2}}
 $$
 
 and if we divide the third of these equations by the first we obtain
 
 $$
-\frac{u'_y}{c} =\frac{\frac{u_y}{c}}{\gamma(V) \left( 1-\frac{Vu_x}{c^2}\right )}
+\frac{u'_y'}{c} =\frac{\frac{u_y}{c}}{\gamma(V) \left( 1-\frac{Vu_x}{c^2}\right )}
 $$
 
 Just what we have derived before, but now in a way that you can always do this on the spot if you know the definition of the 4-velocity and the LT of a 4-vector.
