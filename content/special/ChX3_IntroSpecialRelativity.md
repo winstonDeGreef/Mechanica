@@ -45,16 +45,7 @@ z' &= z
 \end{split}$$
 
 
-**Lorentz Transformation**
-
-$$\begin{split}
-ct' &= \gamma \left ( ct - \frac{V}{c} x \right ) \\
-x' &= \gamma \left ( x - \frac{V}{c} ct \right ) \\
-y' &= y \\
-z' &= z
-\end{split}$$
-
-Now, with the Lorentz Transformation, that is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again. And so far: they firmly hold. And there is no other way then to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
+Now, if we compare GT to LT, we see that with the Lorentz Transformation this is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again. And so far: they firmly hold. And there is no other way then to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
 
 Do note, that the Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilei Transformation!
 Now, this should not come as a surprise (even if it for a moment did). After all, Classical Mechanics does an outstanding job in many, many physics problems and the agreement with experiments is excellent.
