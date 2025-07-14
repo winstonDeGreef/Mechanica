@@ -368,7 +368,7 @@ $$\gamma = \frac{1}{\sqrt{1 - \frac{V^2}{c^2}}}$$
 We will look at the consequences for time and space coordinates.
 
   
-#### Relativity of simultaneity
+**Relativity of simultaneity**
 
 From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo. Now the time coordinate is mixed somehow with the space coordinates depending on the speed $V$.
 
@@ -394,7 +394,7 @@ In words: The events A and B that are simultaneous for $S$, are never simultaneo
 *Relativit&auml;t der Gleichzeitigkeit* as Einstein called it, is the first very counterintuitive consequence by simple application of the Lorentz transformation. Our brains are not trained and build to cope with this aspect of nature. There is just no evolutionary advantage to it as all relevant speeds are much smaller than the speed of light.
 
 
-#### Time dilation
+**Time dilation**
 
 We investigate how time intervals between a stationary and a moving observers are transformed. We can expect that these time intervals are not the same.
 
@@ -413,7 +413,7 @@ Consider the time light travels for the observer $S$ who sees the clock moving w
 
 ```{figure} ../images/timedilation2.png
 :label: fig:timedilation2.png
-:width: 50%
+:width: 40%
 :align: center
 
 Light path in a moving clock.
@@ -435,9 +435,9 @@ with $\gamma=\frac{1}{\sqrt{1-\frac{V^2}{c^2}}} >1$ and $T_0$ the ***proper time
 
 Note: a time interval is also the counting of your heart. That means the moving observer ages more slowly compared to the observer at rest. See the examples below for some experimental evidence of the time dilation.  
 
-**Conclusion: moving clocks run slower, time gets stretched**
+*Conclusion: moving clocks run slower, time gets stretched*
 
-#### Length contraction
+**Length contraction**
 
 The length of moving objects becomes smaller/contracted for the observer at rest. To explain this effect, we consider a moving rod with velocity $V$ and with length $L_0$ in the rest frame. 
 
