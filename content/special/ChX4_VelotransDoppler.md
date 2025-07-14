@@ -233,7 +233,7 @@ Phenomenologically, the relation between the peak of the spectrum and the temper
 NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700 \mathrm{K}$ for "warm white", $4000 \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
 
 ```{code-cell} python
-
+%pip install ipywidgets
 import numpy as np
 import matplotlib.pyplot as plt
 import ipywidgets
