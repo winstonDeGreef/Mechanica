@@ -215,7 +215,11 @@ $$
 
 The limiting cases work out. Very reassuring.
 
-We can add a constant (provide it is LT invariant) to the kinetic energy $E=E_{kin}+mc^2 = m\gamma(u)c^2$. Adding constants to the energy/potential is always allowed as only the change of it is physically relevant (or the relative energies). The reason for *this* constant will be apparent below as this allows to include the energy in 4-momentum nicely.
+** 4-momentum **
+Now that we have the kinetic energy, $mc^2(\gamma(u)-1)$, we can compare that with the zeroth component of the 4-Momentum: $P^0 = m \gamma (u) c$. As we expected, the energy has a unit $c$ extra: momentum and energy differ unit wise by $m/s$.
+But we also see that the kinetic energy (even if we divide it by c, i.e. use $E_{kin}/c$ as the zeroth component) it is still not ok. The term $\gamma (u) -1$ should have been $\gamma (u)$.
+
+To cure this, we can add a constant (provide it is LT invariant) to the kinetic energy $E=E_{kin}+mc^2 = m\gamma(u)c^2$. Adding constants to the energy/potential is always allowed as only the change of it is physically relevant (or the relative energies). 
 
 We obtain
 
