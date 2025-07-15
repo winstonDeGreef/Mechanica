@@ -166,7 +166,16 @@ $$
 \end{array}
 $$
 
-This integration is more difficult than what we had before as the $\gamma(u)$ factor appears additional in the differential (for small velocities we have $\gamma(u)=1$ and  we just get $\frac{1}{2}mu^2$ as before). Now we apply integration by parts
+This integration is more difficult than what we had before as the $\gamma(u)$ factor appears additional in the differential (for small velocities we have $\gamma(u)=1$ and  we just get $\frac{1}{2}mu^2$ as before). So, we will first give the outcome and the look into the details:
+
+$$
+\begin{array}{rcl}
+\Delta E_{kin} &=& \displaystyle{m\int_0^{\tilde{u}} \vec{u}\cdot d\gamma(u)\vec{u}} \\
+&=& mc^2(\gamma(\tilde{u})-1)
+\end{array}
+$$
+
+How did we do this? We apply integration by parts. below is the full derivation. If you have difficulties following the math: don't worry, you will get this in your Calculus courses. For now, if you struggles with it: just skip the derivation and remember the outcome given above.
 
 $$
 \begin{array}{rcl}
@@ -206,7 +215,7 @@ $$
 
 The limiting cases work out. Very reassuring.
 
-We can add a constant (LT invariant) to the kinetic energy $E=E_{kin}+mc^2 = m\gamma(u)c^2$. Adding constants to the energy/potential is always allowed as only the change of it is physically relevant (or the relative energies). The reason for *this* constant will be apparent below as this allows to include the energy in 4-momentum nicely.
+We can add a constant (provide it is LT invariant) to the kinetic energy $E=E_{kin}+mc^2 = m\gamma(u)c^2$. Adding constants to the energy/potential is always allowed as only the change of it is physically relevant (or the relative energies). The reason for *this* constant will be apparent below as this allows to include the energy in 4-momentum nicely.
 
 We obtain
 
