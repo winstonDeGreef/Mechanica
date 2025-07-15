@@ -11,7 +11,7 @@ Due to the very long life time, the emission line is very sharp, i.e. it has a s
 
 ## Exercises
 
-```{exercise}
+```{exercise} &#127798;
 :label: 14.1
 
 Observers $S'$ is moving at $V/c = 3/5$ with respect to $S$. Both observers have their $x$ and $x'$ axis aligned. If they are at the same position ($x=x'=0$), they set their clocks to zero.
@@ -21,7 +21,7 @@ $S'$ observes an object traveling at $4/5$ of the speed of light in the negative
 Calculate the velocity according to $S$.
 ```
 
-```{exercise}
+```{exercise} &#127798;
 :label: 14.2
 
 Same situation as in {numref}`14.1`, but now $S'$ observes that the object is moving in the $y'$-direction with velocity $\frac{4}{5} c$.
@@ -29,7 +29,7 @@ Same situation as in {numref}`14.1`, but now $S'$ observes that the object is mo
 Show that the magnitude of the velocity of the object according to $S$ is smaller than $c$.
 ```
 
-```{exercise}
+```{exercise} &#127798;
 :label: 14.3
 
 In order to send information via electro-magnetic waves, people use amplitude modulation (AM) and frequency modulation (FM). AM means that the amplitude of the wave that is send out varies: the variations can be detected by the receiver and 'decoded' to the message. FM, on the other hand, means that the frequency of the wave is changing. This can also be detected and decoded to the message.
@@ -41,10 +41,10 @@ Captain Kirk on board of the starship USS Enterprise is traveling at a speed of 
 3. Enterprise moves tangentially to earth.
 ```
 
-```{exercise}
+```{exercise} &#127798; &#127798;
 :label: 14.4
 
-In the year 2525 a young Applied Physics student (who doesn't take his study to seriously) is caught ignoring a red traffic light and gets a fine. Trying to be a smarty, he refuses to pay and calls for a hearing in court. 
+In the year 2525 a young Applied Physics student (who doesn't take his study too seriously) is caught ignoring a red traffic light and gets a fine. Trying to be a smarty, he refuses to pay and calls for a hearing in court. 
 
 The judge asks the student why he doesn't want to pay: ignoring a red traffic light is dangerous and a fine is in place.
 
