@@ -1,6 +1,6 @@
 # Mechanics & Special Relativity - Interactive Textbook
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) (Unless stated otherwise)
+[![Creative Commons License](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cc_by-nc_icon.svg/1920px-Cc_by-nc_icon.svg.png)](http://creativecommons.org/licenses/by/4.0/) (Unless stated otherwise)
 
 An interactive, open-access Mechanics & Special Relativity textbook designed for physics students at the bachelor level. 
 
@@ -48,9 +48,9 @@ This repository contains the source files for building the interactive textbook 
 ## 📁 Repository Structure
 
 ```
-├── myst.yml             # Jupyter Book configuration & Table of contents
+├──┐ myst.yml             # Jupyter Book configuration & Table of contents
    ├── index.md          # landing page
-   ├── content/
+   ├──┐ content/
       ├── credits.md     # Book introduction
       ├──┐ classic/       
          ├── ...         # Chapters on classical mechanics
@@ -78,7 +78,7 @@ This book was created by a team of lecturers from the **Delft Institute of Appli
 - [Hanna den Hertog](https://www.linkedin.com/in/hanna-den-hertog/)
 - [Luuk Froling](https://www.linkedin.com/in/luuk-froling/)
 - [Dion Hoeksma](https://www.linkedin.com/in/dion-hoeksema-96205318a/)
-..
+
 
 ## 🤝 Contributing
 
