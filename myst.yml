@@ -42,10 +42,9 @@ project:
   #   - id: output-pdf2
 
 
-  jupyter: 
-    lite: true
-    dependencies:
-      - _binder/requirements.txt
+  jupyter:
+    binder:
+      repo: https://github.com/executablebooks/thebe-binder-base
     
   
 ########################################################################  
