@@ -1,0 +1,105 @@
+# Mechanics & Special Relativity - Interactive Textbook
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) (Unless stated otherwise)
+
+An interactive, open-access Mechanics & Special Relativity textbook designed for physics students at the bachelor level. 
+
+## 📖 Read the Book
+
+The complete interactive textbook is available at: [https://interactivetextbooks.tudelft.nl/mecharela](https://interactivetextbooks.tudelft.nl/mecharela)
+
+## 🎯 About This Textbook
+
+This textbook is suited for university level physics students with a basic prior knowledge on physics, often taught in secondary education.
+
+### Key Features
+
+- **Interactive Learning**: Embedded python applets and simulations provide hands-on experience with physics concepts
+- **Modern Design**: Built using Jupyter Book 2.0 for an engaging digital experience
+- **Open Access**: Freely available under Creative Commons Attribution 4.0 license (unless stated otherwise)
+
+### Topics Covered
+
+The book covers the following chapters:
+
+**Mechanics**
+1. **Newton's laws** 
+2. **Work & Energy** 
+3. **Angular Momentum, Torque & Central Forces** 
+4. **Conservation Laws & Galilean Transformations** 
+5. **Oscillations** 
+6. **Collisions** 
+**Special Relativity**
+7. **Lorentz Transformation** 
+8. **Velocity Transformation** 
+9. **Spacetime and 4vectors** 
+10. **4-Momentum**
+11. **Relativistic dynamics and collisions**
+
+## 🛠️ Building the Book
+
+This repository contains the source files for building the interactive textbook using Jupyter Book 2.0.
+
+### Prerequisites
+
+- Python 3.7+
+- Jupyter Book 2.0 or [MystMD](https://mystmd.org/guide)
+
+## 📁 Repository Structure
+
+```
+├── myst.yml             # Jupyter Book configuration & Table of contents
+   ├── index.md          # landing page
+   ├── content/
+      ├── credits.md     # Book introduction
+      ├──┐ classic/       
+         ├── ...         # Chapters on classical mechanics
+      ├──┐ special        
+         ├── ...         # Chapters on special relativity
+
+      ├──┐ images/
+         ├── ...         # images
+         ├── raw/        # svg and python 
+
+      ├──┐ pysim/        
+         ├── ...         # python simulations
+```
+
+## 👥 Authors and Contributors
+
+This book was created by a team of lecturers from the **Delft Institute of Applied Mathematics** at **TU Delft University of Technology**.
+
+### Principal Authors
+- [prof. dr. R.F. (Rob) Mudde](https://www.linkedin.com/in/robert-mudde-15307a13)
+- [prof. dr. B. (Bernd) Rieger](https://www.tudelft.nl/staff/b.rieger/)
+- [dr. ir. C.F.J. (Freek) Pols](https://www.tudelft.nl/tnw/over-faculteit/afdelingen/science-engineering-education-seed/medewerkers/staff-science-education/freek-pols)
+
+### Contributors
+- [Hanna den Hertog](https://www.linkedin.com/in/hanna-den-hertog/)
+- [Luuk Froling](https://www.linkedin.com/in/luuk-froling/)
+- [Dion Hoeksma](https://www.linkedin.com/in/dion-hoeksema-96205318a/)
+..
+
+## 🤝 Contributing
+
+We welcome contributions to improve this textbook! Please feel free to:
+
+- Report issues or suggest improvements
+- Provide feedback on the interactive elements
+
+## 📄 License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), CC-BY-NC unless stated otherwise.
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose
+
+## 📧 Contact
+
+For questions about this textbook, please contact Freek Pols.
+
+---
+
+**TU Delft** | **Faculty of Appled Sciences** 
+
