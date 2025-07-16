@@ -172,11 +172,17 @@ NB: please observe that analysis in the CM frame is often a good idea.
 
 [Compton scattering](https://en.wikipedia.org/wiki/Compton_scattering) describes the (elastic) scattering of an incoming photon by a (bound) charged particle, typical an electron. 
 
+Compton scattering was discovered in 1923 by Arthur Compton. He was investigating the interaction between X-rays (that is high energy photons) and some of the light elements. The classical theory of scattering of electro-magnetic waves with matter could not explain the observations. Compton had to combine quantum mechanics with special relativity to understand the interaction of a high-energy photon and a (loosely) bound electron in the outer shell of an atom. It earned him the Nobel Prize in Physics in 1927. 
+
+When a high-frequency photon scatters at an electron, it looses some of its energy. Consequently its frequency reduces and it s wave length increases. As energy is conserved, the lost energy shows up in the electron that is emitted, that is 'freed' from the atom.
+
 ```{figure} ../images/compton.png
 :label: fig:compton.png
 :width: 90%
 :align: center
 ```
+
+In its simplest form, we ignore the energy that is needed to free the electron from its nucleus. This is to a certain extend justified as the outer electron has a very small binding energy, that is small compared to the energy transferred between the photon and the electron.
 
 In the rest frame of the electron, we have for the 4 different 4-momenta:
 
