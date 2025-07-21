@@ -91,8 +91,8 @@ With $E=m\gamma(u)c^2$ and $\vec{p}=m\gamma(u)\vec{u}$.
 
 Two elementary particles collide head on, see the figure below.
 
-```{figure} ../images/relbot.png
-:label: fig:relbot.png
+```{figure} ../images/chx7_relbot.svg
+:label: fig:chx7_relbot.svg
 :width: 50%
 :align: center
 ```
@@ -176,8 +176,8 @@ Compton scattering was discovered in 1923 by Arthur Compton. He was investigatin
 
 When a high-frequency photon scatters at an electron, it looses some of its energy. Consequently its frequency reduces and it s wave length increases. As energy is conserved, the lost energy shows up in the electron that is emitted, that is 'freed' from the atom.
 
-```{figure} ../images/compton.png
-:label: fig:compton.png
+```{figure} ../images/chx7_compton.svg
+:label: fig:chx7_compton.svg
 :width: 90%
 :align: center
 ```
