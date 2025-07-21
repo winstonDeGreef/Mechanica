@@ -91,8 +91,8 @@ With $E=m\gamma(u)c^2$ and $\vec{p}=m\gamma(u)\vec{u}$.
 
 Two elementary particles collide head on, see the figure below.
 
-```{figure} ../images/relbot.png
-:label: fig:relbot.png
+```{figure} ../images/chx7_relbot.svg
+:label: fig:chx7_relbot.svg
 :width: 50%
 :align: center
 ```
