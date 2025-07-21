@@ -91,15 +91,16 @@ $$ \vec{U}=(\gamma(u)c,\gamma(u)\vec{u})$$.
 
 Note that the gamma-factor here is a property of the particle, that is: it is the gamma-factor as $S$ would calculated based on the particle velocity that $S$ observes: $\gamma (u) \equiv \frac{1}{\sqrt{1 - \frac{u^2}{c^2}}}$. It has nothing to do with the gamma-factor that $S$ and $S'$ use in their Lorentz Transformation to exchange information. 
 
-As $we can write down the LT of a 4-vector between $S$ and $S'$.
+As we can write down the LT of a 4-vector between $S$ and $S'$.
 
-$$\vec{U}$$ is a four-vector it transforms from $S$ to $S'$ via the LT:
+$\vec{U}$ is a four-vector it transforms from $S$ to $S'$ via the LT:
 
+$$
 \begin{array}{rcl}
 \gamma(u') c &=& \gamma(V) \left ( \gamma(u)c - \frac{V}{c}\gamma(u)u_x\right )\\
-\gamma(u') u'_x' &=& \gamma(V) \left ( \gamma(u)u_x - \frac{V}{c}\gamma(u)c\right )\\
-\gamma(u') u'_y' &=& \gamma(u)u_y\\
-\gamma(u') u'_z' &=& \gamma(u)u_z
+\gamma(u') u'_{x'} &=& \gamma(V) \left ( \gamma(u)u_x - \frac{V}{c}\gamma(u)c\right )\\
+\gamma(u') u'_{y'} &=& \gamma(u)u_y\\
+\gamma(u') u'_{z'} &=& \gamma(u)u_z
 \end{array}
 $$
 
@@ -130,7 +131,7 @@ $$
 
 with the 3-momentum $\vec{p}=m\gamma(u)\vec{u}=m\frac{d\vec{x}}{d\tau}$.
 
-```{warning} "mass is a LT invariant"
+```{warning} mass is an LT invariant
 The mass $m$ _does not_ change as a function of velocity $\vec{u}$. You still sometimes see $\tilde{m}\equiv\gamma(u)m$ and with this $\vec{P}=(\tilde{m}c,\tilde{m}\vec{u})$. That is not practical as it mixes kinetic energy with inertial mass.
 ```
 
@@ -364,7 +365,7 @@ Note that we didn't use the transformation of $P'^1_{photon}$ as this will give 
 
 ## Speed of light as limiting velocity
 
-The $gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot
+The $\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot
 
 ```{code-cell} python
 :tag: hide-input
