@@ -56,7 +56,7 @@ The book can be read online. There is, however, the opportunity to download the 
 
 ### Feedback
 
-Do you see a mistake, do you have suggestions for exercises, are parts missing or abundant. Tell us! You can use the `Feedback` button at the top right button. You will need a (free) GitHub account to report an issue!
+This is the first version of this book. Although many have work on it and several iterations have been made, there might still be issues. Do you see a mistake, do you have suggestions for exercises, are parts missing or abundant. Tell us! You can use the `Feedback` button at the top right button. You will need a (free) GitHub account to report an issue!
 
 
 ## Authors
