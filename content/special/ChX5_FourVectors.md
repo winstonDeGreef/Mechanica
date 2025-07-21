@@ -199,8 +199,8 @@ $$
 
 Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^3)$. For sake of simplicity we only consider one space like component here. In the sketch we have the space axis ($x$ or $x^1$) to the right and the time axis ($ct$ or $x^0$) up. We consider 3 events $A,B,C$ (points in space time) and their connection to the origin $O$
 
-```{figure} ../images/lightcone1.png
-:label: fig:lightcone1.png
+```{figure} ../images/chx5_lightcone1.svg
+:label: fig:chx5_lightcone1.svg
 :width: 300px
 :align: center
 
@@ -398,8 +398,8 @@ The green dashed lines is the grid of $S'$ translated to the world of $S$. The p
 
 We have seen that the length interval $ds^2$ is a Lorentz invariant. Therefore we can use it to also indicate corresponding time and space units in a Minkowski diagram for two moving observers. If we fix $ds^2$ then the equation $ds^2=c^2 dt^2-dx^2$ describes a hyperbola in $(ct,x)$ of the Minkowski diagram.
 
-```{figure} ../images/invariantDs.svg
-:label: fig:invariantDs.svg
+```{figure} ../images/chx5_invariantDs.svg
+:label: fig:chx5_invariantDs.svg
 :width: 80%
 :align: center
 
