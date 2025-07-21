@@ -136,3 +136,10 @@ aside.admonition-example > div:first-child > div:first-child {
 aside.admonition-example img {
 display: block;
 }
+
+
+/* dark mode white inverter */
+.dark img[src$=".svg"]:not(.no-invert) {
+  filter: invert(1) brightness(2);
+}
+
