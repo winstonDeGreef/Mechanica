@@ -1,6 +1,11 @@
 
 /* Code toegevoegd 17/05. Leuke kleurtjes zodat het makkelijk te zien is wat waar komt */
 
+/*Title color in dark mode*/
+.dark aside.admonition-experiment .dark\:text-white {
+   color: rgb(23 25 25); 
+}
+
 /* Parent */
 aside.admonition-experiment {
   border-color: rgb(255, 0, 0) !important; /* Important zorgt ervoor dat we over de oude stijl heen schrijven */
