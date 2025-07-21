@@ -325,8 +325,8 @@ This paradox has two issues:
 1. The principle of relativity is not applicable as Bob must *turn around*. This requires acceleration of his frame and breaks the symmetry of the problem.
 2. Bob will be younger than Alice, due to the relativity of simultaneity changing around the turning point. We can see this by looking at the Minkowski-diagram below. Just before Bob is turning around, his line of simultaneity is $x'$, but just after turning around his line of simultaneity is $x''$.  On the time line of Alice, Bob lines of simultaneity first is at point A, but then makes a jump around the turning point to B. Bob will be younger than Alice, by the length of this jump on her time line from A to B.
 
-```{figure} ../images/mink5.png
-:label: fig:mink45.png
+```{figure} ../images/chx5_mink45.svg
+:label: fig:chx5_mink45.svg
 :width: 80%
 :align: center
 
