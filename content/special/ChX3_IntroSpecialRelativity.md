@@ -317,6 +317,7 @@ In the animation below the whole scenery is shown from the perspective of $S$ on
 :width: 100%
 :align: center
 
+An animation of events as seen by different observers.
 ```
 
 An animation is given above. 
