@@ -28,7 +28,7 @@ In a standard Transmission Electron Microscope the electrons are accelerated via
 
 ## Exercises 
 
-```{exercise}
+```{exercise} Space expedition &#127798;
 :label: 13.1
 
 During their quest to find planets at other stars than our sun, ESA researcher discover a planet that shows striking similarities with earth. This planet orbits a star 40 lightyears from us. They start planning an expedition with astronauts. ESA requires that the astronauts upon arrival at the planet have aged no more than 30 years.
@@ -42,7 +42,7 @@ In this exercise, we ignore possible effects of acceleration. A lightyear is the
 ```
 
 
-```{exercise}
+```{exercise} &#127798;
 :label: 13.2
 
 An observer $S'$ is traveling in a fast train. According to $S'$, the train has a length $2L'$. The train is speeding with $V$ over a track that is along the $x$-axis. At $t'=0$ $S'$ passes the origin of the frame of reference of $S$, who is stationary with respect to the track. At the moment of passing, $S$ sets her clock to $t=0$.
@@ -57,12 +57,12 @@ $S'$ is in the middle of the train. He send at $t'=0$ two light pulses out. One 
 
 ```
 
-```{exercise}
+```{exercise} &#127798;
 :label: 13.3
 
-Observer $S'$ is traveling with velocity V with respect to observer $S$. Both observers have aligned their $x$, $x'$ axis and set their clocks to zero when their origins coincide.
+Observer $S'$ is traveling with velocity $V$ with respect to observer $S$. Both observers have aligned their $x$, $x'$ axis and set their clocks to zero when their origins coincide.
 
-According to $S'$, an object is approaching $S'$ at a velocity -V. At $ct'=0$, the object is a distance $L'$ from $S'$. At some moment in time it will collide with $S'$.
+According to $S'$, an object is approaching $S'$ at a velocity $-V$. At $ct'=0$, the object is a distance $L'$ from $S'$. At some moment in time it will collide with $S'$.
 
 1.  The initial time and position of the object at $ct'=0$ is marked as Event 1 by $S'$. Provide the coordinates of E1 according to $S'$ and according to $S$.
 2.  Determine the event "object collides with $S'$" (event E2) according to $S'$ and according to $S$.
@@ -70,7 +70,7 @@ According to $S'$, an object is approaching $S'$ at a velocity -V. At $ct'=0$, t
 
 ```
 
-```{exercise}
+```{exercise} &#127798; &#127798;
 :label: 13.4
 
 Observer $S'$ is traveling with velocity V/c=4/5 with respect to observer $S$. Both observers have aligned their $x$, $x'$ axis and set their clocks to zero when their origins coincide.
