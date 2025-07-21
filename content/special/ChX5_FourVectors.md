@@ -199,8 +199,8 @@ $$
 
 Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^3)$. For sake of simplicity we only consider one space like component here. In the sketch we have the space axis ($x$ or $x^1$) to the right and the time axis ($ct$ or $x^0$) up. We consider 3 events $A,B,C$ (points in space time) and their connection to the origin $O$
 
-```{figure} ../images/lightcone1.png
-:label: fig:lightcone1.png
+```{figure} ../images/chx5_lightcone1.svg
+:label: fig:chx5_lightcone1.svg
 :width: 300px
 :align: center
 
