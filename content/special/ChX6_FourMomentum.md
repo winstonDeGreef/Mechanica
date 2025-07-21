@@ -109,13 +109,13 @@ Note: here $\gamma (V)$ is the gamma-factor corresponding to the relative veloci
 If we now divide the second of these equations by the first we obtain
 
 $$
-\frac{u'_x'}{c} = \frac{\frac{u_x}{c}-\frac{V}{c}}{1-\frac{Vu_x}{c^2}}
+\frac{u'_{x'}}{c} = \frac{\frac{u_x}{c}-\frac{V}{c}}{1-\frac{Vu_x}{c^2}}
 $$
 
 and if we divide the third of these equations by the first we obtain
 
 $$
-\frac{u'_y'}{c} =\frac{\frac{u_y}{c}}{\gamma(V) \left( 1-\frac{Vu_x}{c^2}\right )}
+\frac{u'_{y'}}{c} =\frac{\frac{u_y}{c}}{\gamma(V) \left( 1-\frac{Vu_x}{c^2}\right )}
 $$
 
 Just what we have derived before, but now in a way that you can always do this on the spot if you know the definition of the 4-velocity and the LT of a 4-vector.
@@ -215,7 +215,7 @@ $$
 
 The limiting cases work out. Very reassuring.
 
-** 4-momentum **
+**4-momentum**  
 Now that we have the kinetic energy, $mc^2(\gamma(u)-1)$, we can compare that with the zeroth component of the 4-Momentum: $P^0 = m \gamma (u) c$. As we expected, the energy has a unit $c$ extra: momentum and energy differ unit wise by $m/s$.
 But we also see that the kinetic energy (even if we divide it by c, i.e. use $E_{kin}/c$ as the zeroth component) it is still not ok. The term $\gamma (u) -1$ should have been $\gamma (u)$.
 
