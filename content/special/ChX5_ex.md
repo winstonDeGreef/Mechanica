@@ -1,6 +1,6 @@
 # Exercises, examples \& solutions
 ## Exercises
-```{exercise}
+```{exercise} Connected events &#127798;
 :label: 15.1
 
 Consider the following pairs of events and determine whether they are time like, space like or light like connected.
