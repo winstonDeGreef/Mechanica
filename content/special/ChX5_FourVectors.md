@@ -212,8 +212,8 @@ Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^
 
 Here you visually can observe that the sign of the distance using the Minkowski inner product classifies parts of space time.
 
-```{figure} ../images/lightcone.png
-:label: fig:lightcone.png
+```{figure} ../images/chx5_lightcone.svg
+:label: fig:chx5_lightcone.svg
 :width: 80%
 :align: center
 
