@@ -15,7 +15,7 @@ d. Answer the same questions, but now from the perspective of $S'$.
 
 ```
 
-```{exercise}
+```{exercise} &#127798;
 :label: 15.2
 
 In the frame of $S$ a laser is placed at $(x_1,y_1,z_1) = (4,0,0)$. A receiver is located at $(x_2,y_2,z_2) = (0,3,0)$. At $ct=0$ the laser fires a light puls towards the receiver.
