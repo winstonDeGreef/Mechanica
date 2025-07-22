@@ -26,7 +26,7 @@ If the trajectories in the rest frame of the kaon are in one plane, then they ar
 
 ## Exercises
 
-```{exercise}
+```{exercise} &#127798; 
 :label: 17.1
 
 A particle of mass $M$ disintegrates into two fragments. In the rest frame of $M$, fragment $m_1$ has a mass of $\frac{1}{4}M$ and a velocity $u_1 /c = 3/5$.
@@ -37,7 +37,7 @@ Find the mass and velocity of the other fragment.
 
 ```
 
-```{exercise}
+```{exercise} &#127798;
 :label: 17.2
 
 A particle of mass $m$ is initially at rest (in frame $S$). A photon of frequency $f$ is traveling over the $x$-axis and will be absorbed by the particle. Another photon is emitted. This photon is also traveling over the $x$- axis but in the opposite direction as incoming photon.
@@ -48,7 +48,7 @@ The incoming photon energy equals $mc^2$, the emitted photon $\frac{1}{4}mc^2$. 
 ```
 
 
-```{exercise}
+```{exercise} &#127798; &#127798;
 :label: 17.3
 
 An elementary particle of mass $M$ moves in the frame of observer $S$ with a velocity $v/c = 12/13$. The particle is unstable and decays into a particle of mass $m$ and a photon. The particle $m$ has velocity $u/c = 4/5$. Both $M$ and $m$ move along the $x$-axis in the positive direction.
@@ -58,7 +58,7 @@ An elementary particle of mass $M$ moves in the frame of observer $S$ with a vel
 
 ```
 
-```{exercise}
+```{exercise} &#127798; &#127798;
 :label: 17.4
 
 A particle of mass $m$ moves with velocity $v_1 /c = 1/2$ in the positive direction over the $x$-axis. At the same time, an identical particle is moving with the same velocity in the positive $y$-direction over the $y$-axis. At some point in time the two particles collide and as a result a new particle of mass $M$ is formed.
@@ -67,7 +67,7 @@ Find the mass and velocity-vector of the new particle.
 
 ```
 
-```{exercise}
+```{exercise} &#127798; &#127798; &#127798;
 :label: 17.5
 
 A particle of mass $\frac{3}{5}m$ is moving at velocity $v_1/c = 4/5$ over the $x-axis$. From the other side a particle with mass $\frac{4}{5}m$ is approaching with velocity $v_2/c = 3/5$. The two particles will collide. After the collision, they maintained each their original mass. The collision is perfectly elastic.
