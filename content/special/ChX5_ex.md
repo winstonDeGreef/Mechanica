@@ -28,7 +28,7 @@ Find the events for $S'$ and show that the same distance is found between the tw
 
 ```
 
-```{exercise}
+```{exercise} &#127798; 
 :label: 15.3
 
 Observer $S'$ moves at a constant velocity of $V/c = 12/13$ with respect to $S$. They have aligned their axes and synchronized their clocks in the usual way.
@@ -41,7 +41,7 @@ c.  Compute $\Delta s'^2$ and convince yourself that this is of course equal to 
 
 ```
 
-```{exercise}
+```{exercise} &#127798; &#127798; 
 :label: 15.4
 
 Observer $S'$ moves at a constant velocity of $V/c = 3/5$ with respect to $S$. They have aligned their axes and synchronized their clocks in the usually way. In the world of $S'$ the following events happen:
@@ -59,7 +59,7 @@ Draw the events in two diagrams. The first one has both $ct$ and $ct'$ as the ve
 ```
 
 
-```{exercise}
+```{exercise} &#127798; &#127798; 
 :label: 15.5
 
 A Space Ship, with $S'$ on board, is moving at $V/c = 3/5$ with respect to Mission Control (where $S$ is located) on earth. Both $S$ and $S'$ have aligned their axes and synchronized their clocks in the usual way. 
