@@ -1,7 +1,7 @@
 # Exercises, examples \& solutions
 
 ## Exercises
-```{exercise}
+```{exercise} &#127798;
 :label: 16.1
 
 Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
@@ -20,7 +20,7 @@ Find, using the 4-velocity, the velocity of m according to $S$.
 
 ```
 
-```{exercise}
+```{exercise} &#127798; 
 :label: 16.2
 
 Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
@@ -39,7 +39,7 @@ Find, using the 4-velocity, the velocity of m according to $S$.
 
 ```
 
-```{exercise}
+```{exercise} &#127798; &#127798;
 :label: 16.3
 
 According to $S'$ a photon is emitted at $t'=0$ from position $L_0 = 1 ls$. It has a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
@@ -50,7 +50,7 @@ Find the frequency that $S$ measures.
 ```
 
 
-```{exercise}
+```{exercise} &#127798; &#127798; &#127798;
 :label: 16.4
 
 In this exercise, the photon is emitted to $S'$ a photon over the $y'$-axis. It has again a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
