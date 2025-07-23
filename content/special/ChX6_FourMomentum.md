@@ -294,8 +294,8 @@ $$
 
 This converts back to $E=mc^2$ in the rest frame.
 
-```{figure} ../images/einsteintriangle.svg
-:label: fig:einsteintriangle.svg
+```{figure} ../images/chx6_einsteintriangle.svg
+:label: fig:chx6_einsteintriangle.svg
 :width: 70%
 
 Einstein triangle.
@@ -385,13 +385,13 @@ plt.ylim(0,20)
 plt.xlabel('$u/c$')
 plt.ylabel('$\gamma$')
 plt.grid()
-#plt.savefig('../images/gamma_v.svg')
+#plt.savefig('../images/chx6_gamma_v.svg')
 plt.show()
 
 ```
 
 
-```{figure} ../images/gamma_v.svg
+```{figure} ../images/chx6_gamma_v.svg
 :label: fig:gamma_v.png
 :width: 80%
 
