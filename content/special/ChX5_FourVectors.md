@@ -357,8 +357,8 @@ We start by drawing the audience frame with $(ct,x)$ and an equal time line for 
 
 These intersections are also directly the events A and B.
 
-```{figure} ../images/RT_1.png
-:label: fig:RT_1.png
+```{figure} ../images/chx5_RT_1.svg
+:label: fig:chx5_RT_1.svg
 :width: 450px
 :align: center
 
@@ -366,8 +366,8 @@ These intersections are also directly the events A and B.
 
 For the events C and D, we first draw from A a line of constant time for $R$ (parallel to $x_R$) and then look at the intersection with the world line of $T$ and mark it with C. The same for the event D. We draw a line parallel to $x_T$ of constant time for $T$ through B to see where $R$ is when $T$ finishes and mark it with D.
 
-```{figure} ../images/RT_2.png
-:label: fig:RT_2.png
+```{figure} ../images/chx5_RT_2.svg
+:label: fig:chx5_RT_2.svg
 :width: 450px
 :align: center
 
