@@ -252,7 +252,7 @@ To further investigate how this plot can help us, let us consider lines of equal
 
 ```{figure} ../images/chx5_minkowski2.svg
 :label: fig:chx5_minkowski2.svg
-:width: 350px
+:width: 700px
 :align: center
 Left: lines of equal time (green) and equal space coordinate (red) in frame of reference $S$ (left) and $S'$ (right).
 ```
