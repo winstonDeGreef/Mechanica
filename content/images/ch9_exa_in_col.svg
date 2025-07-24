@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="100.30214mm"
-   height="93.072464mm"
-   viewBox="0 0 100.30214 93.072464"
+   width="149.99995mm"
+   height="139.18817mm"
+   viewBox="0 0 149.99995 139.18817"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -35,9 +35,9 @@
      inkscape:current-layer="layer1"
      showgrid="false"><inkscape:page
        x="0"
-       y="-1.645492e-12"
-       width="100.30214"
-       height="93.072456"
+       y="0"
+       width="149.99995"
+       height="139.18817"
        id="page2"
        margin="0"
        bleed="0" /></sodipodi:namedview><defs
@@ -71,33 +71,33 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-818.94951,-264.31892)"><path
+     transform="translate(-818.94954,-264.31895)"><path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 819.44958,356.89137 h 99.30213"
+       d="M 819.44955,403.00708 H 968.44954"
        id="path15-1"
-       inkscape:export-filename="ch9_collision2.svg"
+       inkscape:export-filename="ch9_exa_in_col.svg"
        inkscape:export-xdpi="379.70206"
        inkscape:export-ydpi="379.70206" /><ellipse
        style="fill:#00a6d6;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path12-7-5"
-       cx="869.10065"
-       cy="270.74326"
-       rx="6.4402189"
-       ry="6.4243412"
+       cx="893.94952"
+       cy="273.9436"
+       rx="9.6633635"
+       ry="9.6246777"
        inkscape:export-filename="collision.png"
        inkscape:export-xdpi="379.70206"
        inkscape:export-ydpi="379.70206" /><ellipse
        style="fill:#e03c31;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle15-7-7"
-       cx="-869.10065"
-       cy="350.1181"
+       cx="-893.94952"
+       cy="392.85965"
        transform="scale(-1,1)"
-       rx="6.4402189"
-       ry="6.4243412" /><g
+       rx="9.6633635"
+       ry="9.6246777" /><g
        data-mml-node="msub"
        id="g3-650"
        style="fill:#000000;stroke:#000000;stroke-width:0"
-       transform="matrix(0.00957671,0,0,-0.00957671,843.77494,312.9084)"><g
+       transform="matrix(0.00957671,0,0,-0.00957671,863.32718,335.87934)"><g
          data-mml-node="mi"
          id="g1-28"
          style="stroke-width:0"><use
@@ -115,7 +115,7 @@
            style="stroke-width:0" /></g></g><g
        id="g36"
        style="fill:#00a6d6"
-       transform="translate(71.345585,-35.777433)"><g
+       transform="translate(99.417606,-29.376749)"><g
          data-mml-node="mi"
          transform="matrix(0.00957671,0,0,-0.00957671,803.99417,317.17844)"
          id="g4-6"
@@ -141,5 +141,5 @@
            id="use5-1"
            style="fill:#00a6d6;stroke-width:0" /></g></g><path
        style="opacity:1;fill:#8dc6d6;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1;marker-start:url(#ArrowWide);marker-end:url(#ArrowWide)"
-       d="m 858.51731,271.23704 v 78.38728"
+       d="M 878.06955,274.68336 V 392.11989"
        id="path17" /></g></svg>
