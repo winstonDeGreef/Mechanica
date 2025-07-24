@@ -228,8 +228,8 @@ Now we can have a look at world lines of an observer $S'$ with respect to $S$ tr
 
 We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in the coordinate system of S (black). 
 
-```{figure} ../images/minkowski1.png
-:label: fig:minkowski1.png
+```{figure} ../images/chx5_minkowski1.svg
+:label: fig:chx5_minkowski1.svg
 :width: 70%
 :align: center
 
@@ -250,8 +250,8 @@ Both lines of $S'$ make the same angle $\alpha$ with the coordinates axis of $S$
 
 To further investigate how this plot can help us, let us consider lines of equal time in $S$. These are just the lines perpendicular to the $ct$-axis, and parallel to the $x$-axis, as you expect. And of course, lines parallel to $ct$, perpendicular to $x$ are lines of constant space coordinate.
 
-```{figure} ../images/minkowski2.png
-:label: fig:minkowski2.png
+```{figure} ../images/chx5_minkowski2.svg
+:label: fig:chx5_minkowski2.svg
 :width: 350px
 :align: center
 
@@ -278,8 +278,8 @@ In the animation below, we see the effect of different values of $V/c$ on the li
 
 We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10 \mathrm{m}$ wide and a ladder of $26 \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
 
-```{figure} ../images/mink1.png
-:label: fig:mink1.png
+```{figure} ../images/chx5_mink1.svg
+:label: fig:chx5_mink1.svg
 :width: 70%
 :align: center
 
@@ -288,8 +288,8 @@ We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecia
 Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of $26 \mathrm{m}$ and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
 
 
-```{figure} ../images/mink2.png
-:label: fig:mink2.png
+```{figure} ../images/chx5_mink2.svg
+:label: fig:chx5_mink2.svg
 :width: 70%
 :align: center
 
@@ -298,8 +298,8 @@ Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest le
 As the ladder moves (we move it parallel to $x'$ between the world lines) it will eventually enter the barn and hit the right door of the barn (dashed red line). This event is indicated by the space time point $A$. For $S'$ the other end of the ladder is then still outside the barn at space time point $C$. According to $S'$ the ladder does not fit into the barn.
 
 
-```{figure} ../images/mink3.png
-:label: fig:mink3.png
+```{figure} ../images/chx5_mink3.svg
+:label: fig:chx5_mink3.svg
 :width: 70%
 :align: center
 
@@ -307,8 +307,8 @@ As the ladder moves (we move it parallel to $x'$ between the world lines) it wil
 
 When the ladder hits the right door for $S$ at space time point $A$, he makes a measurement of the ladder. To this end we draw a line of constant time (dashed light blue, parallel to $x$) until it intersects the world line of the ladder at space time point $B$. Observer $S$ measures that the ladder fits into the barn.
 
-```{figure} ../images/mink4.png
-:label: fig:mink4.png
+```{figure} ../images/chx5_mink4.svg
+:label: fig:chx5_mink4.svg
 :width: 70%
 :align: center
 
