@@ -64,8 +64,8 @@ Note: $S$ is sitting in her origin $\mathcal{O}$ (with coordinates, according to
 
 The standard sketch is given in the figure below.
 
-```{figure} ../images/SSprime.png
-:label: fig:SSprime.png
+```{figure} ../images/chx3_SSprime.svg
+:label: fig:chx3_SSprime.svg
 :width: 350px
 :align: center
 
@@ -215,8 +215,8 @@ When does $S'$, who is on the space ship, see this happening?
 
 First we make a sketch.
 
-```{figure} ../images/EartMoonSpaceShip.png
-:label: fig:EartMoonSpaceShip.png
+```{figure} ../images/chx3_EartMoonSpaceShip.svg
+:label: fig:chx3_EartMoonSpaceShip.svg
 :width: 70%
 :align: center
 
@@ -390,8 +390,8 @@ In words: The events A and B that are simultaneous for $S$, are never simultaneo
 
 We investigate how time intervals between a stationary and a moving observers are transformed. We can expect that these time intervals are not the same.
 
-```{figure} ../images/timedilation1.png
-:label: fig:timedilation1.png
+```{figure} ../images/chx3_timedilation1.svg
+:label: fig:chx3_timedilation1.svg
 :width: 80%
 :align: center
 
@@ -400,11 +400,11 @@ Clock stationary according to $S'$ but moving for $S$.
 
 If you consider the sketch above, we see how time intervals are counted for a moving observer and for an observer in the rest frame. A light ray is traveling between 2 mirrors. This up and down traveling of the light is a counter for the time. If you have never thought how time is measured, think a bit how a clock actually does that. Today, the second is defined as a (very large) number of tiny energy transitions (vibrations) of the Caesium-133 atom (see e.g. [Atomic Clock](https://en.wikipedia.org/wiki/Atomic_clock)). 
 
-Consider the time light travels for the observer $S$ who sees the clock moving with velocity $V$. The clock counts one unit of time, $t$ if the light has gone from the bottom mirror to the top one and back to the bottom mirror. Thus from bottom to top takes $t/2$. This means that the length of the light path from bottom mirror to top mirror is equal to $ct/2$ as light travels with velocity $c$. In that same period of time, the top mirror has moved a distance $Vt/2$, as the clock and thus the mirrors move with velocity $V$ with respect to observer $S$. Now, we can relate the length of the light path from the bottom to the top mirror to the size of the clock, $L$ and the displacement of the mirror, $Vt/2$: $L^2+\frac{V^2}{4}t^2=\frac{c^2}{4}t^2$ where we used Pythagoras, see {numref}`fig:timedilation2.png`. 
+Consider the time light travels for the observer $S$ who sees the clock moving with velocity $V$. The clock counts one unit of time, $t$ if the light has gone from the bottom mirror to the top one and back to the bottom mirror. Thus from bottom to top takes $t/2$. This means that the length of the light path from bottom mirror to top mirror is equal to $ct/2$ as light travels with velocity $c$. In that same period of time, the top mirror has moved a distance $Vt/2$, as the clock and thus the mirrors move with velocity $V$ with respect to observer $S$. Now, we can relate the length of the light path from the bottom to the top mirror to the size of the clock, $L$ and the displacement of the mirror, $Vt/2$: $L^2+\frac{V^2}{4}t^2=\frac{c^2}{4}t^2$ where we used Pythagoras, see {numref}`fig:chx3_timedilation2.svg`. 
 
 
-```{figure} ../images/timedilation2.png
-:label: fig:timedilation2.png
+```{figure} ../images/chx3_timedilation2.svg
+:label: fig:chx3_timedilation2.svg
 :width: 40%
 :align: center
 
@@ -491,8 +491,8 @@ Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma 
 - For an observer in the barn, the length of the ladder is contracted to $L_l/\gamma = 26\cdot\frac{5}{13}=10 \mathrm{m}$ exactly fitting in the barn which in her rest frame is $10 \mathrm{m}$. 
 - For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4 \mathrm{m}$, being much too small to fit in the ladder. The ladder in his rest frame is $26 \mathrm{m}$.
 
-```{figure} ../images/barnladder.png
-:label: fig:barnladder.png
+```{figure} ../images/chx3_barnladder.svg
+:label: fig:chx3_barnladder.svg
 :width: 80%
 :align: center
 
@@ -522,8 +522,8 @@ We will consider how both observers would actually *measure* things in their res
 
 The four events are sketched in the figure below
 
-```{figure} ../images/BL_tot.png
-:label: fig:BL_tot.png
+```{figure} ../images/chx3_BL_tot.svg
+:label: fig:chx3_BL_tot.svg
 :width: 100%
 :align: center
 
@@ -565,8 +565,8 @@ Why is this so important? It touches the heart of what is reality, is it determi
 In this thought experiment we have two space ships $B$ and $C$ initially at rest and space ship $A$  as observer. $B$ and $C$ are connected by a tight but fragile string between them. $A$ simultaneously signals $B$ and $C$ to accelerate equally, and $B$ and $C$ will have the same velocity at every time from the start. 
 
 
-```{figure} ../images/Bell_paradox.png
-:label: fig:Bell_paradox.png
+```{figure} ../images/chx3_Bell_paradox.svg
+:label: fig:chx3_Bell_paradox.svg
 :width: 50%
 :align: center
 
