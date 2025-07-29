@@ -28,7 +28,8 @@ The book covers the following chapters:
 3. **Angular Momentum, Torque & Central Forces** 
 4. **Conservation Laws & Galilean Transformations** 
 5. **Oscillations** 
-6. **Collisions** 
+6. **Collisions**
+   
 **Special Relativity**
 7. **Lorentz Transformation** 
 8. **Velocity Transformation** 
