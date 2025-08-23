@@ -1,6 +1,6 @@
 # Mechanics & Special Relativity - Interactive Textbook
 
-[![Creative Commons License](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cc_by-nc_icon.svg/1920px-Cc_by-nc_icon.svg.png)](http://creativecommons.org/licenses/by/4.0/) (Unless stated otherwise)
+[![Creative Commons 4.0 Attribution-NonCommercial](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cc_by-nc_icon.svg/1920px-Cc_by-nc_icon.svg.png)](https://creativecommons.org/licenses/by-nc/4.0/) (Unless stated otherwise)
 
 An interactive, open-access Mechanics & Special Relativity textbook designed for physics students at the bachelor level. 
 
@@ -90,7 +90,7 @@ We welcome contributions to improve this textbook! Please feel free to:
 
 ## 📄 License
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), CC-BY-NC unless stated otherwise.
+This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/), unless stated otherwise.
 
 You are free to:
 - **Share** — copy and redistribute the material in any medium or format
