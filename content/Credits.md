@@ -35,7 +35,7 @@ To indicate the level of difficulty, each exercise is marked with 1, 2, or 3 &#1
 ```
 
 ```{intermezzo} Intermezzos
-Intermezzos contain background information on the topic, of the people working on the concepts.
+Intermezzos contain background information on the topic, such as information about people that developed relevant concepts.
 ```
 
 ```{experiment} Experiments
