@@ -47,16 +47,16 @@ We provide various examples showcasing, e.g., calculations.
 ```
 
 ```{tip} Python
-We include in-browser python code, as well as downloadable .py files which can be executed locally. If there is an in-browser, press the ON-button to 'enable compute'.
+We include in-browser python code, as well as downloadable .py files which can be executed locally. If there is in-browser code, press the ON-button to 'enable compute'.
 ```
 
-New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hoover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
+New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
 
 The book can be read online. There is, however, the opportunity to download the materials and play with the code offline as well. We advise to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
 
 ### Feedback
 
-This is the first version of this book. Although many have work on it and several iterations have been made, there might still be issues. Do you see a mistake, do you have suggestions for exercises, are parts missing or abundant. Tell us! You can use the `Feedback` button at the top right button. You will need a (free) GitHub account to report an issue!
+This is the first version of this book. Although many have work on it and several iterations have been made, there might still be issues. Do you see a mistake? Do you have suggestions for exercises? Are parts missing or abundant? Tell us! You can use the `Feedback` button at the top right button. You will need a (free) GitHub account to report an issue!
 
 
 ## Authors
@@ -88,11 +88,11 @@ Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fr√
 
 ```` 
 `````
-Robert Mudde is Distinguished Professor of Science Education at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+Robert Mudde is Distinguished Professor of Science Education at the faculty of Applied Sciences at [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
-Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences at [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
-Freek Pols is an assistant professor in the [Science \& Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+Freek Pols is an assistant professor in the [Science \& Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences at [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
 
 ## Open Educational Resource
