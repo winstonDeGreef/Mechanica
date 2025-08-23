@@ -26,7 +26,7 @@ This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft
 
 ### Special features
 
-In this book you will find some 'special' features. Some of these are emphasized by their own style:
+In this book you will find some 'special' features. Some of these are indicated by their own formatting:
 
 ```{exercise} &#127798;
 Each chapter includes a variety of exercises tailored to the material. We distinguish between exercises embedded within the instructional text and those presented on separate pages. The in-text exercises should be completed while reading, as they offer immediate feedback on whether the concepts and mathematics are understood. The separate exercise sets are intended for practice after reading the text and attending the lectures.
