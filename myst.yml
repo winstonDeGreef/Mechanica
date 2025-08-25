@@ -12,8 +12,8 @@ project:
     - name: Bernd Rieger
     - name: C. Freek. J. Pols    
   github: https://github.com/FreekPols/Mechanica
-  copyright: Delft University of Technology, CC BY 4.0
-  date: 2025-07-16 # YYYY/MM/DD
+  copyright: Delft University of Technology, CC BY NC 4.0
+  date: 2025-08-25 # YYYY/MM/DD
 
   numbering:
     title: true

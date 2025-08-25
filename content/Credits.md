@@ -21,7 +21,7 @@ With this e-book our aim is to provide learning material that is:
 * easy to modify and thus improve over the years
 * interactive, provide additional demos and exercises next to the lectures
 
-This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and pressumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Hence, this book should be considered a stand-alone new version, though good use has been made by open educational resources.
+This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and pressumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources.
 
 
 ### Special features
@@ -48,6 +48,10 @@ We provide various examples showcasing, e.g., calculations.
 
 ```{tip} Python
 We include in-browser python code, as well as downloadable .py files which can be executed locally. If there is an in-browser, press the ON-button to 'enable compute'.
+```
+
+```{code-cell} python
+print("The square root of 2 is: ", 2 ** 0.5)
 ```
 
 New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hoover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
@@ -107,14 +111,14 @@ This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Source fil
 
 
 ### Software and license
-This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right. All python codes / apps are freely reusable, adaptable and redistributable.
+This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right, licensed under CC-BY-NC (unless stated otherwise). All python codes / apps are freely reusable, adaptable and redistributable (CC0).
 
 
 ### Images, videos, apps, intermezzos 
 
 The cover image is inspired by the work of [3blue1brown](https://www.3blue1brown.com/) developer Grant Sanderson. 
 
-All vector images have been made by Hanna den Hertog, and are available in vector format through the repository. For reuse, adapting and redistribution, adhere to the CC-BY-licences.
+All vector images have been made by Hanna den Hertog, and are available in vector format through the repository. For reuse, adapting and redistribution, adhere to the CC-BY licences.
 
 We embedded several clips from [3blue1brown](https://www.3blue1brown.com/) in accord with their [licences requirements](https://www.3blue1brown.com/contact#licensing-inquiry).
 
@@ -128,4 +132,4 @@ The Intermezzos, which elaborate on the lives of various scientists and the effo
 
 ### How to cite this book
 
-R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, CC BY<!--TU Delft Open, 2025, [LINK DOI]-->
+R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, CC BY-NC<!--TU Delft Open, 2025, [LINK DOI]-->

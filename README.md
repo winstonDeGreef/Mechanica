@@ -71,11 +71,13 @@ This repository contains the source files for building the interactive textbook 
 This book was created by a team of lecturers from the **Delft Institute of Applied Mathematics** at **TU Delft University of Technology**.
 
 ### Principal Authors
+
 - [prof. dr. R.F. (Rob) Mudde](https://www.linkedin.com/in/robert-mudde-15307a13)
 - [prof. dr. B. (Bernd) Rieger](https://www.tudelft.nl/staff/b.rieger/)
 - [dr. ir. C.F.J. (Freek) Pols](https://www.tudelft.nl/tnw/over-faculteit/afdelingen/science-engineering-education-seed/medewerkers/staff-science-education/freek-pols)
 
 ### Contributors
+
 - [Hanna den Hertog](https://www.linkedin.com/in/hanna-den-hertog/)
 - [Luuk Froling](https://www.linkedin.com/in/luuk-froling/)
 - [Dion Hoeksma](https://www.linkedin.com/in/dion-hoeksema-96205318a/)
@@ -88,13 +90,15 @@ We welcome contributions to improve this textbook! Please feel free to:
 - Report issues or suggest improvements
 - Provide feedback on the interactive elements
 
-## 📄 License
+## 📄 Licenses
 
-This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/), unless stated otherwise.
+This book is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/), unless stated otherwise.
 
 You are free to:
 - **Share** — copy and redistribute the material in any medium or format
 - **Adapt** — remix, transform, and build upon the material for any non-commercial purpose provided proper attribution is given.
+
+All python simulations and scripts are licensed under [CC0](https://creativecommons.org/public-domain/cc0/), meaning these can be used without limitations and attribution.
 
 ## 📧 Contact
 
