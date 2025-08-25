@@ -7,6 +7,9 @@ numbering:
   title:
     enabled: false
 
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
 ---
 
 ## About this book
