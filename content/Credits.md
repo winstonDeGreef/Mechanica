@@ -81,15 +81,18 @@ Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fr√
 ````{figure}
 ```{figure} images/RFMudde.jpg
 :width: 40%
+:alt: Portrait photo of Robert Mudde, wearing glasses and a red tie.
 
 ``` 
 
 ```{figure} images/BRieger.png
 :width: 40%
+:alt: Portrait photo of Bernd Rieger, wearing glasses and a blue dress shirt.
 
 ``` 
 ```{figure} images/Freek.jpg
 :width: 40%
+:alt: Portrait photo of Freek Pols, wearing glasses and a gray Henley shirt.
 
 ``` 
 
